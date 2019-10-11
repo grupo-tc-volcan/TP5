@@ -1,0 +1,5 @@
+\babel@toc {spanish}{}
+\contentsline {section}{\numberline {1}Celda Sallen-Key}{3}{section.1}% 
+\contentsline {section}{\numberline {2}Celda Rauch (Deliyannis - Friend modificada)}{4}{section.2}% 
+\contentsline {section}{\numberline {3}Sedra-Ghorab-Martin}{5}{section.3}% 
+\contentsline {section}{\numberline {4}Celda Universal}{6}{section.4}% 
