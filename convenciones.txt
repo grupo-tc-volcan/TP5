@@ -8,8 +8,7 @@ para cargar automaticamente desde un .csv y se deja el estilo por defecto.
 Se cargan circuitos como imagenes hechas con draw.io
 
 # Uso del PREAMBLE
-Cada branch agrega al preamble (originalmente vacio solamente con el documentclass) los paquetes que vaya usando
-con algun orden para luego hacer un merge adecuado.
+Se debe usar el preámbulo que está inicialmente en master.
 
 -- MANEJO DE GITHUB --
 
