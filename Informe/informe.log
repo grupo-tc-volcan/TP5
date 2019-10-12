@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.5.29)  11 OCT 2019 18:26
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.5.29)  12 OCT 2019 00:28
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1387,28 +1387,48 @@ LaTeX Font Info:    Font shape `U/futm/m/n' will be
  [2] (./ej1.tex) [3] (./ej2.tex) [4] (./ej3.tex) [5] (./ej4.tex
 LaTeX Font Info:    Font shape `T1/futs/bx/n' in size <12> not available
 (Font)              Font shape `T1/futs/b/n' tried instead on input line 3.
-<../EJ4/kerwin.png, id=101, 794.97pt x 312.16624pt>
-File: ../EJ4/kerwin.png Graphic file (type png)
-<use ../EJ4/kerwin.png>
-Package pdftex.def Info: ../EJ4/kerwin.png  used on input line 9.
-(pdftex.def)             Requested size: 284.52713pt x 111.72719pt.
-<../EJ4/tow_thomas.png, id=103, 804.00375pt x 312.16624pt>
-File: ../EJ4/tow_thomas.png Graphic file (type png)
-<use ../EJ4/tow_thomas.png>
-Package pdftex.def Info: ../EJ4/tow_thomas.png  used on input line 18.
-(pdftex.def)             Requested size: 284.52162pt x 110.46968pt.
-<../EJ4/ackerberg.png, id=104, 934.49126pt x 402.50375pt>
-File: ../EJ4/ackerberg.png Graphic file (type png)
-<use ../EJ4/ackerberg.png>
-Package pdftex.def Info: ../EJ4/ackerberg.png  used on input line 27.
-(pdftex.def)             Requested size: 284.52748pt x 122.55157pt.
-<../EJ4/fleischer.png, id=105, 835.12pt x 473.77pt>
-File: ../EJ4/fleischer.png Graphic file (type png)
-<use ../EJ4/fleischer.png>
-Package pdftex.def Info: ../EJ4/fleischer.png  used on input line 36.
-(pdftex.def)             Requested size: 284.52321pt x 161.4122pt.
-) [6 <../EJ4/kerwin.png> <../EJ4/tow_thomas.png> <../EJ4/ackerberg.png>]
-[7 <../EJ4/fleischer.png>]
+<../EJ4/imagenes/kerwin.png, id=101, 794.97pt x 312.16624pt>
+File: ../EJ4/imagenes/kerwin.png Graphic file (type png)
+<use ../EJ4/imagenes/kerwin.png>
+Package pdftex.def Info: ../EJ4/imagenes/kerwin.png  used on input line 9.
+(pdftex.def)             Requested size: 341.44228pt x 134.07643pt.
+Package hyperref Info: bookmark level for unknown todo defaults to 0 on input l
+ine 14.
+
+Overfull \hbox (0.58315pt too wide) in paragraph at lines 14--14
+[][]\T1/futs/m/n/10 (-20) CHEQUEAR 
+ []
+
+
+Overfull \hbox (0.58315pt too wide) in paragraph at lines 14--14
+[][]\T1/futs/m/n/10 (-20) CHEQUEAR 
+ []
+
+<../EJ4/imagenes/sumador_extra.png, id=106, 392.46625pt x 201.75375pt>
+File: ../EJ4/imagenes/sumador_extra.png Graphic file (type png)
+<use ../EJ4/imagenes/sumador_extra.png>
+Package pdftex.def Info: ../EJ4/imagenes/sumador_extra.png  used on input line 
+20.
+(pdftex.def)             Requested size: 227.62457pt x 117.01418pt.
+<../EJ4/imagenes/tow_thomas.png, id=107, 804.00375pt x 312.16624pt>
+File: ../EJ4/imagenes/tow_thomas.png Graphic file (type png)
+<use ../EJ4/imagenes/tow_thomas.png>
+Package pdftex.def Info: ../EJ4/imagenes/tow_thomas.png  used on input line 29.
+
+(pdftex.def)             Requested size: 341.43332pt x 132.56648pt.
+[6 <../EJ4/imagenes/kerwin.png> <../EJ4/imagenes/sumador_extra.png> <../EJ4/ima
+genes/tow_thomas.png>]
+<../EJ4/imagenes/ackerberg.png, id=121, 934.49126pt x 402.50375pt>
+File: ../EJ4/imagenes/ackerberg.png Graphic file (type png)
+<use ../EJ4/imagenes/ackerberg.png>
+Package pdftex.def Info: ../EJ4/imagenes/ackerberg.png  used on input line 40.
+(pdftex.def)             Requested size: 341.43582pt x 147.06311pt.
+<../EJ4/imagenes/fleischer.png, id=122, 835.12pt x 473.77pt>
+File: ../EJ4/imagenes/fleischer.png Graphic file (type png)
+<use ../EJ4/imagenes/fleischer.png>
+Package pdftex.def Info: ../EJ4/imagenes/fleischer.png  used on input line 49.
+(pdftex.def)             Requested size: 341.43295pt x 193.69754pt.
+) [7 <../EJ4/imagenes/ackerberg.png> <../EJ4/imagenes/fleischer.png>]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 36.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 36.
  (./informe.aux
@@ -1418,24 +1438,25 @@ LaTeX Info: Redefining \% on input line 23.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 36.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 36.
 Package rerunfilecheck Info: File `informe.out' has not changed.
-(rerunfilecheck)             Checksum: 19A2A1D6EAAE0B6989659CAEB08AA9D5;610.
+(rerunfilecheck)             Checksum: 288E7687DE02F1F92A910571F4FF0FBE;648.
  ) 
 Here is how much of TeX's memory you used:
- 22670 strings out of 494060
- 417191 string characters out of 6163035
- 529681 words of memory out of 5000000
- 25784 multiletter control sequences out of 15000+600000
- 107723 words of font info for 130 fonts, out of 8000000 for 9000
+ 22824 strings out of 494060
+ 420410 string characters out of 6163035
+ 532913 words of memory out of 5000000
+ 25896 multiletter control sequences out of 15000+600000
+ 112132 words of font info for 162 fonts, out of 8000000 for 9000
  319 hyphenation exceptions out of 8191
- 63i,11n,81p,796b,392s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 63i,11n,81p,796b,973s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2019basic/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/lo
 cal/texlive/2019basic/texmf-dist/fonts/type1/public/fourier/fourier-ms.pfb></us
 r/local/texlive/2019basic/texmf-dist/fonts/type1/adobe/utopia/putb8a.pfb></usr/
-local/texlive/2019basic/texmf-dist/fonts/type1/adobe/utopia/putr8a.pfb>
-Output written on informe.pdf (7 pages, 107904 bytes).
+local/texlive/2019basic/texmf-dist/fonts/type1/adobe/utopia/putr8a.pfb></usr/lo
+cal/texlive/2019basic/texmf-dist/fonts/type1/adobe/utopia/putri8a.pfb>
+Output written on informe.pdf (7 pages, 125577 bytes).
 PDF statistics:
- 144 PDF objects out of 1000 (max. 8388607)
- 106 compressed objects within 2 object streams
- 22 named destinations out of 1000 (max. 500000)
- 31945 words of extra memory for PDF output out of 35830 (max. 10000000)
+ 156 PDF objects out of 1000 (max. 8388607)
+ 115 compressed objects within 2 object streams
+ 24 named destinations out of 1000 (max. 500000)
+ 31950 words of extra memory for PDF output out of 35830 (max. 10000000)
 
