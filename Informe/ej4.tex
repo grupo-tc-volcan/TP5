@@ -1,8 +1,72 @@
 \section{Celda Universal}
 
+En esta secci\'on se analizan celdas de configuraciones diferentes que est\'an compuestas por dos integradores, con la finalidad de realizar un filtro $rechaza$  $banda$ que cumpla las siguientes especificaciones:
+
+	\begin{table}[h!]
+	\centering
+	\begin{tabular}{c c}
+		\hline
+		$f_\infty$ & $51kHz$ \\ 
+		notch depth &  $\geq 50dB$\\
+		$\Delta f_a$ & $600Hz$\\
+		$\Delta f_p$ & $880Hz$\\
+		$A_a$ & $40dB$\\
+		$A_p$ & $6dB$\\
+		$G$ & $[-3:3]dB$\\
+		$|Zin(f)|$ & $\geq 50k\Omega$\\		
+		\hline
+	\end{tabular}
+	\caption{Especificaciones del filtro rechaza banda a realizar.}
+	\label{especificaciones}
+\end{table}
+
+\subsection{Introducci\'on te\'orica}
+
+Se comienza analizando el comportamiento de circuitos compuestos por dos integradores, representandolos mediante diagramas en bloques. El siguiente diagrama de la figura \ref{int1}\footnote{Adaptaci\'on de una imagen obtenida de: https://elxcompacme.files.wordpress.com/2014/03/filter-kendell-su.pdf} es una representaci\'on simple que permite entender lo que se desarrolla luego.
+
+\begin{figure}[H] %!ht
+	\centering
+	\includegraphics[width=12cm,height=12cm,keepaspectratio]{../EJ4/imagenes/int1.png}
+	\caption{Representaci\'on en bloques de un circuito simple de segundo orden formado por dos integradores.}
+	\label{int1}
+\end{figure}
+
+Del diagrama anterior, se obtienen las siguientes expresiones, a partir de las cuales se puede apreciar que se trata de un circuito de orden 2.
+
+\begin{equation}
+\begin{cases}
+	Vo_2 = -\frac{1}{2} \cdot Vo_1\\
+	Vo_3 = -\frac{1}{2} \cdot Vo_2\\
+	H(s) = \frac{Vo_3}{V_i} = G \cdot \frac{a_0}{s^2 + b_1 s + b_0}
+	\label{int2eq}
+\end{cases}
+\end{equation}
+
+Si ahora se suman a la salida las tensiones $Vo_1$ y $Vo_2$ como se muestra en el diagrama de la siguiente figura \ref{int2}:
+
+\begin{figure}[H] %!ht
+	\centering
+	\includegraphics[width=12cm,height=12cm,keepaspectratio]{../EJ4/imagenes/int2.png}
+	\caption{Misma representaci\'on en bloques que antes pero sumando las tensiones $Vo_1$ y $Vo_2$ a la salida.}
+	\label{int2}
+\end{figure}
+
+As\'i se obtiene:
+
+\begin{equation}
+	\frac{Vo_3}{Vi} = G \cdot \frac{a_2s^2+a_1s+a_0}{s^2+b_1s+b_0}
+	\label{int2eq}
+\end{equation}
+
+Las configuraciones que se analizan a continuaci\'on est\'an basadas en modificaciones sobre este \'ultimo diagrama de la figura \ref{int2} y su ecuaci\'on correspondiente \ref{int2eq}
+
 \subsection{Configuraciones correspondientes a distintas celdas universales}
 
-\subsubsection{Kerwin-Huelsman-Newcomb}
+\todo{citar la pagina esta de internet}
+\footnote{https://elxcompacme.files.wordpress.com/2014/03/filter-kendell-su.pdf}
+\subsubsection{Kerwin-Huelsman-Newcomb (KHN)}
+
+La siguiente es la celda Kerwin-Huelsman-Newcomb, tambi\'en llamada KHN por sus siglas. 
 
 \begin{figure}[H] %!ht
 	\centering
@@ -10,6 +74,26 @@
 	\caption{Circuito Kerwin-Huelsman-Newcomb}
 	\label{kerwin}
 \end{figure}
+
+Esta celda se representa con el primer diagrama de bloques presentado en la figura \ref, tomando los siguientes valores:
+
+\todo{chequear que la tabla est\'e bien}
+	\begin{table}[h!]
+	\centering
+	\begin{tabular}{c c}
+		\hline
+		Diagrama en bloques & Componentes del circuito\\
+		\hline
+		$ G $ & $\frac{1}{R_2}$ \\	
+		$a_0$ & $???????$\\
+		$b_0$ & $-\frac{1}{R_1}$\\
+		$b_1$ & $\frac{1}{R_5}$\\
+		\hline
+	\end{tabular}
+	\caption{Correspondencia entre circuito y diagrama en bloques}
+	\label{valoreskhn}
+\end{table}
+
 
 \todo{CHEQUEAR circuito porque en el palombo est\'a distinto!}
 
@@ -43,6 +127,9 @@ La celda Tow-Thomas var\'ia frente a la Kerwin-Huelsman-Newcomb al tener juntos 
 \end{figure}
 
 \subsubsection{Fleischer-Tow}
+
+Una caracter\'istica importante a remarcar de la selda Flesicher-Tow es que, a diferencia de las celdas anteriores, permite realizar cualquier tipo de filtro de segundo orden sin la necesidad de agregar otro amplificador operacional. Como se ha estudiado en trabajos pr\'acticos anteriores, el amplificador operacional tiene ciertas limitaciones para un circuito, debidas al slew rate, a la saturaci\'on, entre otras; por lo que es ventajoso el hecho de no tener que agregar un amplificador operacional para obtener un filtro rechaza banda.
+
 
 \begin{figure}[H] %!ht
 	\centering
