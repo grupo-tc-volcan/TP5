@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.5.29)  16 OCT 2019 23:11
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.5.29)  19 OCT 2019 18:16
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -652,6 +652,13 @@ Package: multicol 2018/12/27 v1.8v multicolumn formatting (FMi)
 \colbreak@box=\box56
 \mc@col@check@num=\count120
 )
+(/usr/local/texlive/2019basic/texmf-dist/tex/latex/multirow/multirow.sty
+Package: multirow 2019/05/31 v2.5 Span multiple rows of a table
+\multirow@colwidth=\skip56
+\multirow@cntb=\count121
+\multirow@dima=\skip57
+\bigstrutjot=\dimen138
+)
 (/usr/local/texlive/2019basic/texmf-dist/tex/latex/sectsty/sectsty.sty
 Package: sectsty 2002/02/25 v2.0.2 Commands to change all sectional heading sty
 les
@@ -659,19 +666,19 @@ les
 (/usr/local/texlive/2019basic/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
 Package: fancyhdr 2019/01/31 v3.10 Extensive control of page headers and footer
 s
-\f@nch@headwidth=\skip56
-\f@nch@O@elh=\skip57
-\f@nch@O@erh=\skip58
-\f@nch@O@olh=\skip59
-\f@nch@O@orh=\skip60
-\f@nch@O@elf=\skip61
-\f@nch@O@erf=\skip62
-\f@nch@O@olf=\skip63
-\f@nch@O@orf=\skip64
+\f@nch@headwidth=\skip58
+\f@nch@O@elh=\skip59
+\f@nch@O@erh=\skip60
+\f@nch@O@olh=\skip61
+\f@nch@O@orh=\skip62
+\f@nch@O@elf=\skip63
+\f@nch@O@erf=\skip64
+\f@nch@O@olf=\skip65
+\f@nch@O@orf=\skip66
 )
 (/usr/local/texlive/2019basic/texmf-dist/tex/latex/float/float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count121
+\c@float@type=\count122
 \float@exts=\toks36
 \float@box=\box57
 \@float@everytoks=\toks37
@@ -679,8 +686,8 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 )
 (/usr/local/texlive/2019basic/texmf-dist/tex/latex/changepage/changepage.sty
 Package: changepage 2009/10/20 v1.0c check page and change page layout
-\c@cp@cntr=\count122
-\cp@tempcnt=\count123
+\c@cp@cntr=\count123
+\cp@tempcnt=\count124
 )
 (/usr/local/texlive/2019basic/texmf-dist/tex/latex/moresize/moresize.sty
 Package: moresize 1999/07/26 v1.9 (more font sizes)
@@ -690,16 +697,16 @@ Package: pdfpages 2017/10/31 v0.5l Insert pages of external PDF documents (AM)
 
 (/usr/local/texlive/2019basic/texmf-dist/tex/latex/tools/calc.sty
 Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count124
-\calc@Bcount=\count125
-\calc@Adimen=\dimen138
-\calc@Bdimen=\dimen139
-\calc@Askip=\skip65
-\calc@Bskip=\skip66
+\calc@Acount=\count125
+\calc@Bcount=\count126
+\calc@Adimen=\dimen139
+\calc@Bdimen=\dimen140
+\calc@Askip=\skip67
+\calc@Bskip=\skip68
 LaTeX Info: Redefining \setlength on input line 80.
 LaTeX Info: Redefining \addtolength on input line 81.
-\calc@Ccount=\count126
-\calc@Cskip=\skip67
+\calc@Ccount=\count127
+\calc@Cskip=\skip69
 )
 (/usr/local/texlive/2019basic/texmf-dist/tex/latex/eso-pic/eso-pic.sty
 Package: eso-pic 2018/04/12 v2.0h eso-pic (RN)
@@ -713,8 +720,8 @@ Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
 (/usr/local/texlive/2019basic/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
 Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
 )))
-\AM@pagewidth=\dimen140
-\AM@pageheight=\dimen141
+\AM@pagewidth=\dimen141
+\AM@pageheight=\dimen142
 
 (/usr/local/texlive/2019basic/texmf-dist/tex/latex/pdfpages/pppdftex.def
 File: pppdftex.def 2017/10/31 v0.5l Pdfpages driver for pdfTeX (AM)
@@ -722,7 +729,7 @@ File: pppdftex.def 2017/10/31 v0.5l Pdfpages driver for pdfTeX (AM)
 \AM@pagebox=\box59
 \AM@global@opts=\toks38
 \AM@toc@title=\toks39
-\c@AM@survey=\count127
+\c@AM@survey=\count128
 \AM@templatesizebox=\box60
 )
 (/usr/local/texlive/2019basic/texmf-dist/tex/latex/todonotes/todonotes.sty
@@ -737,7 +744,7 @@ Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
 \XKV@toks=\toks40
 \XKV@tempa@toks=\toks41
 )
-\XKV@depth=\count128
+\XKV@depth=\count129
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 ))
 (/usr/local/texlive/2019basic/texmf-dist/tex/latex/xcolor/xcolor.sty
@@ -770,26 +777,26 @@ Package: pgfsys 2019/08/03 v3.1.4b (3.1.4b)
 
 (/usr/local/texlive/2019basic/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code
 .tex)
-\pgf@x=\dimen142
-\pgf@y=\dimen143
-\pgf@xa=\dimen144
-\pgf@ya=\dimen145
-\pgf@xb=\dimen146
-\pgf@yb=\dimen147
-\pgf@xc=\dimen148
-\pgf@yc=\dimen149
-\pgf@xd=\dimen150
-\pgf@yd=\dimen151
+\pgf@x=\dimen143
+\pgf@y=\dimen144
+\pgf@xa=\dimen145
+\pgf@ya=\dimen146
+\pgf@xb=\dimen147
+\pgf@yb=\dimen148
+\pgf@xc=\dimen149
+\pgf@yc=\dimen150
+\pgf@xd=\dimen151
+\pgf@yd=\dimen152
 \w@pgf@writea=\write4
 \r@pgf@reada=\read2
-\c@pgf@counta=\count129
-\c@pgf@countb=\count130
-\c@pgf@countc=\count131
-\c@pgf@countd=\count132
+\c@pgf@counta=\count130
+\c@pgf@countb=\count131
+\c@pgf@countc=\count132
+\c@pgf@countd=\count133
 \t@pgf@toka=\toks42
 \t@pgf@tokb=\toks43
 \t@pgf@tokc=\toks44
-\pgf@sys@id@count=\count133
+\pgf@sys@id@count=\count134
 
 (/usr/local/texlive/2019basic/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
 File: pgf.cfg 2019/08/03 v3.1.4b (3.1.4b)
@@ -807,8 +814,8 @@ File: pgfsys-common-pdf.def 2019/08/03 v3.1.4b (3.1.4b)
 (/usr/local/texlive/2019basic/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoft
 path.code.tex
 File: pgfsyssoftpath.code.tex 2019/08/03 v3.1.4b (3.1.4b)
-\pgfsyssoftpath@smallbuffer@items=\count134
-\pgfsyssoftpath@bigbuffer@items=\count135
+\pgfsyssoftpath@smallbuffer@items=\count135
+\pgfsyssoftpath@bigbuffer@items=\count136
 )
 (/usr/local/texlive/2019basic/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprot
 ocol.code.tex
@@ -825,8 +832,8 @@ tex
 tex)
 (/usr/local/texlive/2019basic/texmf-dist/tex/generic/pgf/math/pgfmathparser.cod
 e.tex
-\pgfmath@dimen=\dimen152
-\pgfmath@count=\count136
+\pgfmath@dimen=\dimen153
+\pgfmath@count=\count137
 \pgfmath@box=\box61
 \pgfmath@toks=\toks45
 \pgfmath@stack@operand=\toks46
@@ -852,38 +859,38 @@ misc.code.tex)
 integerarithmetics.code.tex)))
 (/usr/local/texlive/2019basic/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code
 .tex
-\c@pgfmathroundto@lastzeros=\count137
+\c@pgfmathroundto@lastzeros=\count138
 ))
 (/usr/local/texlive/2019basic/texmf-dist/tex/generic/pgf/math/pgfint.code.tex)
 (/usr/local/texlive/2019basic/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoin
 ts.code.tex
 File: pgfcorepoints.code.tex 2019/08/03 v3.1.4b (3.1.4b)
-\pgf@picminx=\dimen153
-\pgf@picmaxx=\dimen154
-\pgf@picminy=\dimen155
-\pgf@picmaxy=\dimen156
-\pgf@pathminx=\dimen157
-\pgf@pathmaxx=\dimen158
-\pgf@pathminy=\dimen159
-\pgf@pathmaxy=\dimen160
-\pgf@xx=\dimen161
-\pgf@xy=\dimen162
-\pgf@yx=\dimen163
-\pgf@yy=\dimen164
-\pgf@zx=\dimen165
-\pgf@zy=\dimen166
+\pgf@picminx=\dimen154
+\pgf@picmaxx=\dimen155
+\pgf@picminy=\dimen156
+\pgf@picmaxy=\dimen157
+\pgf@pathminx=\dimen158
+\pgf@pathmaxx=\dimen159
+\pgf@pathminy=\dimen160
+\pgf@pathmaxy=\dimen161
+\pgf@xx=\dimen162
+\pgf@xy=\dimen163
+\pgf@yx=\dimen164
+\pgf@yy=\dimen165
+\pgf@zx=\dimen166
+\pgf@zy=\dimen167
 )
 (/usr/local/texlive/2019basic/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepath
 construct.code.tex
 File: pgfcorepathconstruct.code.tex 2019/08/03 v3.1.4b (3.1.4b)
-\pgf@path@lastx=\dimen167
-\pgf@path@lasty=\dimen168
+\pgf@path@lastx=\dimen168
+\pgf@path@lasty=\dimen169
 )
 (/usr/local/texlive/2019basic/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepath
 usage.code.tex
 File: pgfcorepathusage.code.tex 2019/08/03 v3.1.4b (3.1.4b)
-\pgf@shorten@end@additional=\dimen169
-\pgf@shorten@start@additional=\dimen170
+\pgf@shorten@end@additional=\dimen170
+\pgf@shorten@start@additional=\dimen171
 )
 (/usr/local/texlive/2019basic/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescop
 es.code.tex
@@ -891,19 +898,19 @@ File: pgfcorescopes.code.tex 2019/08/03 v3.1.4b (3.1.4b)
 \pgfpic=\box62
 \pgf@hbox=\box63
 \pgf@layerbox@main=\box64
-\pgf@picture@serial@count=\count138
+\pgf@picture@serial@count=\count139
 )
 (/usr/local/texlive/2019basic/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregrap
 hicstate.code.tex
 File: pgfcoregraphicstate.code.tex 2019/08/03 v3.1.4b (3.1.4b)
-\pgflinewidth=\dimen171
+\pgflinewidth=\dimen172
 )
 (/usr/local/texlive/2019basic/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretran
 sformations.code.tex
 File: pgfcoretransformations.code.tex 2019/08/03 v3.1.4b (3.1.4b)
-\pgf@pt@x=\dimen172
-\pgf@pt@y=\dimen173
-\pgf@pt@temp=\dimen174
+\pgf@pt@x=\dimen173
+\pgf@pt@y=\dimen174
+\pgf@pt@temp=\dimen175
 )
 (/usr/local/texlive/2019basic/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequic
 k.code.tex
@@ -920,14 +927,14 @@ File: pgfcorepathprocessing.code.tex 2019/08/03 v3.1.4b (3.1.4b)
 (/usr/local/texlive/2019basic/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearro
 ws.code.tex
 File: pgfcorearrows.code.tex 2019/08/03 v3.1.4b (3.1.4b)
-\pgfarrowsep=\dimen175
+\pgfarrowsep=\dimen176
 )
 (/usr/local/texlive/2019basic/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshad
 e.code.tex
 File: pgfcoreshade.code.tex 2019/08/03 v3.1.4b (3.1.4b)
-\pgf@max=\dimen176
-\pgf@sys@shading@range@num=\count139
-\pgf@shadingcount=\count140
+\pgf@max=\dimen177
+\pgf@sys@shading@range@num=\count140
+\pgf@shadingcount=\count141
 )
 (/usr/local/texlive/2019basic/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimag
 e.code.tex
@@ -966,8 +973,8 @@ File: pgfmoduleplot.code.tex 2019/08/03 v3.1.4b (3.1.4b)
 (/usr/local/texlive/2019basic/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-ve
 rsion-0-65.sty
 Package: pgfcomp-version-0-65 2019/08/03 v3.1.4b (3.1.4b)
-\pgf@nodesepstart=\dimen177
-\pgf@nodesepend=\dimen178
+\pgf@nodesepstart=\dimen178
+\pgf@nodesepend=\dimen179
 )
 (/usr/local/texlive/2019basic/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-ve
 rsion-1-18.sty
@@ -982,8 +989,8 @@ tex
 Package: pgffor 2019/08/03 v3.1.4b (3.1.4b)
 
 (/usr/local/texlive/2019basic/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)
-\pgffor@iter=\dimen179
-\pgffor@skip=\dimen180
+\pgffor@iter=\dimen180
+\pgffor@skip=\dimen181
 \pgffor@stack=\toks48
 \pgffor@toks=\toks49
 ))
@@ -994,34 +1001,34 @@ Package: tikz 2019/08/03 v3.1.4b (3.1.4b)
 (/usr/local/texlive/2019basic/texmf-dist/tex/generic/pgf/libraries/pgflibrarypl
 othandlers.code.tex
 File: pgflibraryplothandlers.code.tex 2019/08/03 v3.1.4b (3.1.4b)
-\pgf@plot@mark@count=\count141
-\pgfplotmarksize=\dimen181
+\pgf@plot@mark@count=\count142
+\pgfplotmarksize=\dimen182
 )
-\tikz@lastx=\dimen182
-\tikz@lasty=\dimen183
-\tikz@lastxsaved=\dimen184
-\tikz@lastysaved=\dimen185
-\tikz@lastmovetox=\dimen186
-\tikz@lastmovetoy=\dimen187
-\tikzleveldistance=\dimen188
-\tikzsiblingdistance=\dimen189
+\tikz@lastx=\dimen183
+\tikz@lasty=\dimen184
+\tikz@lastxsaved=\dimen185
+\tikz@lastysaved=\dimen186
+\tikz@lastmovetox=\dimen187
+\tikz@lastmovetoy=\dimen188
+\tikzleveldistance=\dimen189
+\tikzsiblingdistance=\dimen190
 \tikz@figbox=\box67
 \tikz@figbox@bg=\box68
 \tikz@tempbox=\box69
 \tikz@tempbox@bg=\box70
-\tikztreelevel=\count142
-\tikznumberofchildren=\count143
-\tikznumberofcurrentchild=\count144
-\tikz@fig@count=\count145
+\tikztreelevel=\count143
+\tikznumberofchildren=\count144
+\tikznumberofcurrentchild=\count145
+\tikz@fig@count=\count146
 
 (/usr/local/texlive/2019basic/texmf-dist/tex/generic/pgf/modules/pgfmodulematri
 x.code.tex
 File: pgfmodulematrix.code.tex 2019/08/03 v3.1.4b (3.1.4b)
-\pgfmatrixcurrentrow=\count146
-\pgfmatrixcurrentcolumn=\count147
-\pgf@matrix@numberofcolumns=\count148
+\pgfmatrixcurrentrow=\count147
+\pgfmatrixcurrentcolumn=\count148
+\pgf@matrix@numberofcolumns=\count149
 )
-\tikz@expandcount=\count149
+\tikz@expandcount=\count150
 
 (/usr/local/texlive/2019basic/texmf-dist/tex/generic/pgf/frontendlayer/tikz/lib
 raries/tikzlibrarytopaths.code.tex
@@ -1043,14 +1050,14 @@ File: tikzlibraryfadings.code.tex 2019/08/03 v3.1.4b (3.1.4b)
 dings.code.tex
 File: pgflibraryfadings.code.tex 2019/08/03 v3.1.4b (3.1.4b)
 )))
-\c@@todonotes@numberoftodonotes=\count150
+\c@@todonotes@numberoftodonotes=\count151
 )
 (/usr/local/texlive/2019basic/texmf-dist/tex/latex/varwidth/varwidth.sty
 Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
 \@vwid@box=\box71
-\sift@deathcycles=\count151
-\@vwid@loff=\dimen190
-\@vwid@roff=\dimen191
+\sift@deathcycles=\count152
+\@vwid@loff=\dimen191
+\@vwid@roff=\dimen192
 )
 (/usr/local/texlive/2019basic/texmf-dist/tex/latex/hyperref/hyperref.sty
 Package: hyperref 2019/06/12 v6.88h Hypertext links for LaTeX
@@ -1100,16 +1107,16 @@ Package: auxhook 2016/05/16 v1.4 Hooks for auxiliary files (HO)
 (/usr/local/texlive/2019basic/texmf-dist/tex/latex/oberdiek/kvoptions.sty
 Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
 )
-\@linkdim=\dimen192
-\Hy@linkcounter=\count152
-\Hy@pagecounter=\count153
+\@linkdim=\dimen193
+\Hy@linkcounter=\count153
+\Hy@pagecounter=\count154
 
 (/usr/local/texlive/2019basic/texmf-dist/tex/latex/hyperref/pd1enc.def
 File: pd1enc.def 2019/06/12 v6.88h Hyperref: PDFDocEncoding definition (HO)
 Now handling font encoding PD1 ...
 ... no UTF-8 mapping file for font encoding PD1
 )
-\Hy@SavedSpaceFactor=\count154
+\Hy@SavedSpaceFactor=\count155
 
 (/usr/local/texlive/2019basic/texmf-dist/tex/latex/latexconfig/hyperref.cfg
 File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
@@ -1121,12 +1128,12 @@ Package hyperref Info: Plain pages OFF on input line 4565.
 Package hyperref Info: Backreferencing OFF on input line 4570.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4803.
-\c@Hy@tempcnt=\count155
+\c@Hy@tempcnt=\count156
 LaTeX Info: Redefining \url on input line 5156.
-\XeTeXLinkMargin=\dimen193
-\Fld@menulength=\count156
-\Field@Width=\dimen194
-\Fld@charsize=\dimen195
+\XeTeXLinkMargin=\dimen194
+\Fld@menulength=\count157
+\Field@Width=\dimen195
+\Fld@charsize=\dimen196
 Package hyperref Info: Hyper figures OFF on input line 6411.
 Package hyperref Info: Link nesting OFF on input line 6416.
 Package hyperref Info: Hyper index ON on input line 6419.
@@ -1136,31 +1143,37 @@ Package hyperref Info: Link coloring with OCG OFF on input line 6436.
 Package hyperref Info: PDF/A mode OFF on input line 6441.
 LaTeX Info: Redefining \ref on input line 6481.
 LaTeX Info: Redefining \pageref on input line 6485.
-\Hy@abspage=\count157
-\c@Item=\count158
-\c@Hfootnote=\count159
+\Hy@abspage=\count158
+\c@Item=\count159
+\c@Hfootnote=\count160
 )
 Package hyperref Info: Driver (autodetected): hpdftex.
 
 (/usr/local/texlive/2019basic/texmf-dist/tex/latex/hyperref/hpdftex.def
 File: hpdftex.def 2019/06/12 v6.88h Hyperref driver for pdfTeX
-\Fld@listcount=\count160
-\c@bookmark@seq@number=\count161
+\Fld@listcount=\count161
+\c@bookmark@seq@number=\count162
 
 (/usr/local/texlive/2019basic/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
 Package: rerunfilecheck 2016/05/16 v1.8 Rerun checks for auxiliary files (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 82.
 )
-\Hy@SectionHShift=\skip68
+\Hy@SectionHShift=\skip70
 )
-Package hyperref Info: Option `colorlinks' set `true' on input line 132.
+Package hyperref Info: Option `colorlinks' set `true' on input line 133.
 ) (./informe.aux
 LaTeX Info: Redefining \. on input line 23.
 LaTeX Info: Redefining \% on input line 23.
 
 
 LaTeX Warning: Label `int2eq' multiply defined.
+
+
+LaTeX Warning: Label `int2eq' multiply defined.
+
+
+LaTeX Warning: Label `hg_tt' multiply defined.
 
 )
 \openout1 = `informe.aux'.
@@ -1213,16 +1226,16 @@ File: t1futs.fd 2004/03/02 Fontinst v1.926 font definitions for T1/futs.
 )
 (/usr/local/texlive/2019basic/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count162
-\scratchdimen=\dimen196
+\scratchcounter=\count163
+\scratchdimen=\dimen197
 \scratchbox=\box72
-\nofMPsegments=\count163
-\nofMParguments=\count164
+\nofMPsegments=\count164
+\nofMParguments=\count165
 \everyMPshowfont=\toks50
-\MPscratchCnt=\count165
-\MPscratchDim=\dimen197
-\MPnumerator=\count166
-\makeMPintoPDFobject=\count167
+\MPscratchCnt=\count166
+\MPscratchDim=\dimen198
+\MPnumerator=\count167
+\makeMPintoPDFobject=\count168
 \everyMPtoPDFconversion=\toks51
 ) (/usr/local/texlive/2019basic/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
@@ -1308,7 +1321,7 @@ Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 y
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count168
+\c@section@level=\count169
 )
 LaTeX Info: Redefining \ref on input line 7.
 LaTeX Info: Redefining \pageref on input line 7.
@@ -1412,55 +1425,60 @@ Package pdftex.def Info: ../EJ4/imagenes/int2.png  used on input line 49.
 [6 <../EJ4/imagenes/int1.png>]
 Package hyperref Info: bookmark level for unknown todo defaults to 0 on input l
 ine 65.
-<../EJ4/imagenes/kerwin.png, id=128, 794.97pt x 312.16624pt>
-File: ../EJ4/imagenes/kerwin.png Graphic file (type png)
-<use ../EJ4/imagenes/kerwin.png>
-Package pdftex.def Info: ../EJ4/imagenes/kerwin.png  used on input line 73.
-(pdftex.def)             Requested size: 341.44228pt x 134.07643pt.
+<../EJ4/imagenes/KERWIN.png, id=128, 793.96625pt x 312.16624pt>
+File: ../EJ4/imagenes/KERWIN.png Graphic file (type png)
+<use ../EJ4/imagenes/KERWIN.png>
+Package pdftex.def Info: ../EJ4/imagenes/KERWIN.png  used on input line 73.
+(pdftex.def)             Requested size: 341.43518pt x 134.24315pt.
 
 
-LaTeX Warning: Reference `,' on page 7 undefined on input line 78.
+LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-Overfull \hbox (0.58315pt too wide) in paragraph at lines 98--98
+Overfull \hbox (0.58315pt too wide) in paragraph at lines 103--103
 [][]\T1/futs/m/n/10 (-20) CHEQUEAR 
  []
 
 
-Overfull \hbox (0.58315pt too wide) in paragraph at lines 98--98
+Overfull \hbox (0.58315pt too wide) in paragraph at lines 103--103
 [][]\T1/futs/m/n/10 (-20) CHEQUEAR 
  []
 
-[7 <../EJ4/imagenes/int2.png> <../EJ4/imagenes/kerwin.png>]
-<../EJ4/imagenes/sumador_extra.png, id=146, 392.46625pt x 201.75375pt>
+<../EJ4/imagenes/sumador_extra.png, id=132, 392.46625pt x 201.75375pt>
 File: ../EJ4/imagenes/sumador_extra.png Graphic file (type png)
 <use ../EJ4/imagenes/sumador_extra.png>
 Package pdftex.def Info: ../EJ4/imagenes/sumador_extra.png  used on input line 
-104.
+109.
 (pdftex.def)             Requested size: 227.62457pt x 117.01418pt.
-<../EJ4/imagenes/tow_thomas.png, id=147, 804.00375pt x 312.16624pt>
-File: ../EJ4/imagenes/tow_thomas.png Graphic file (type png)
-<use ../EJ4/imagenes/tow_thomas.png>
-Package pdftex.def Info: ../EJ4/imagenes/tow_thomas.png  used on input line 113
+[7 <../EJ4/imagenes/int2.png> <../EJ4/imagenes/KERWIN.png>]
+<../EJ4/imagenes/TOW-THOMAS.png, id=148, 804.00375pt x 312.16624pt>
+File: ../EJ4/imagenes/TOW-THOMAS.png Graphic file (type png)
+<use ../EJ4/imagenes/TOW-THOMAS.png>
+Package pdftex.def Info: ../EJ4/imagenes/TOW-THOMAS.png  used on input line 120
 .
 (pdftex.def)             Requested size: 341.43332pt x 132.56648pt.
-<../EJ4/imagenes/ackerberg.png, id=149, 934.49126pt x 402.50375pt>
-File: ../EJ4/imagenes/ackerberg.png Graphic file (type png)
-<use ../EJ4/imagenes/ackerberg.png>
-Package pdftex.def Info: ../EJ4/imagenes/ackerberg.png  used on input line 124.
 
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<../EJ4/imagenes/ACKBERG.png, id=149, 934.49126pt x 402.50375pt>
+File: ../EJ4/imagenes/ACKBERG.png Graphic file (type png)
+<use ../EJ4/imagenes/ACKBERG.png>
+Package pdftex.def Info: ../EJ4/imagenes/ACKBERG.png  used on input line 149.
 (pdftex.def)             Requested size: 341.43582pt x 147.06311pt.
- [8 <../EJ4/imagenes/sumador_extra.png> <../EJ4/imagenes/tow_thomas.png>]
-<../EJ4/imagenes/fleischer.png, id=158, 835.12pt x 473.77pt>
+[8 <../EJ4/imagenes/sumador_extra.png> <../EJ4/imagenes/TOW-THOMAS.png>]
+<../EJ4/imagenes/fleischer.png, id=159, 835.12pt x 473.77pt>
 File: ../EJ4/imagenes/fleischer.png Graphic file (type png)
 <use ../EJ4/imagenes/fleischer.png>
-Package pdftex.def Info: ../EJ4/imagenes/fleischer.png  used on input line 136.
+Package pdftex.def Info: ../EJ4/imagenes/fleischer.png  used on input line 175.
 
 (pdftex.def)             Requested size: 341.43295pt x 193.69754pt.
-) [9 <../EJ4/imagenes/ackerberg.png> <../EJ4/imagenes/fleischer.png>]
+)
+[9 <../EJ4/imagenes/ACKBERG.png>] [10 <../EJ4/imagenes/fleischer.png>]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 36.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 36.
- (./informe.aux
+
+(./informe.aux
 LaTeX Info: Redefining \. on input line 23.
 LaTeX Info: Redefining \% on input line 23.
 )
@@ -1470,32 +1488,30 @@ Package rerunfilecheck Info: File `informe.out' has not changed.
 (rerunfilecheck)             Checksum: 4B0523BF114673D86438E54E0A3E9E3F;732.
 
 
-LaTeX Warning: There were undefined references.
-
-
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 22937 strings out of 494060
- 422185 string characters out of 6163035
- 539677 words of memory out of 5000000
- 25962 multiletter control sequences out of 15000+600000
- 131446 words of font info for 204 fonts, out of 8000000 for 9000
+ 22983 strings out of 494060
+ 422842 string characters out of 6163035
+ 543192 words of memory out of 5000000
+ 26003 multiletter control sequences out of 15000+600000
+ 131593 words of font info for 203 fonts, out of 8000000 for 9000
  319 hyphenation exceptions out of 8191
- 63i,11n,81p,796b,973s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 63i,13n,81p,796b,973s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2019basic/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/lo
 cal/texlive/2019basic/texmf-dist/fonts/type1/public/fourier/fourier-mex.pfb></u
 sr/local/texlive/2019basic/texmf-dist/fonts/type1/public/fourier/fourier-ml.pfb
-></usr/local/texlive/2019basic/texmf-dist/fonts/type1/public/fourier/fourier-ms
-.pfb></usr/local/texlive/2019basic/texmf-dist/fonts/type1/adobe/utopia/putb8a.p
-fb></usr/local/texlive/2019basic/texmf-dist/fonts/type1/adobe/utopia/putr8a.pfb
-></usr/local/texlive/2019basic/texmf-dist/fonts/type1/adobe/utopia/putri8a.pfb>
-
-Output written on informe.pdf (9 pages, 604178 bytes).
+></usr/local/texlive/2019basic/texmf-dist/fonts/type1/public/fourier/fourier-ml
+it.pfb></usr/local/texlive/2019basic/texmf-dist/fonts/type1/public/fourier/four
+ier-ms.pfb></usr/local/texlive/2019basic/texmf-dist/fonts/type1/adobe/utopia/pu
+tb8a.pfb></usr/local/texlive/2019basic/texmf-dist/fonts/type1/adobe/utopia/putr
+8a.pfb></usr/local/texlive/2019basic/texmf-dist/fonts/type1/adobe/utopia/putri8
+a.pfb>
+Output written on informe.pdf (10 pages, 609042 bytes).
 PDF statistics:
- 202 PDF objects out of 1000 (max. 8388607)
- 153 compressed objects within 2 object streams
- 37 named destinations out of 1000 (max. 500000)
+ 212 PDF objects out of 1000 (max. 8388607)
+ 161 compressed objects within 2 object streams
+ 40 named destinations out of 1000 (max. 500000)
  34528 words of extra memory for PDF output out of 35830 (max. 10000000)
 
