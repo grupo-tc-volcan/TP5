@@ -7,5 +7,5 @@
 \contentsline {subsection}{\numberline {4.2}Configuraciones correspondientes a distintas celdas universales}{7}{subsection.4.2}% 
 \contentsline {subsubsection}{\numberline {4.2.1}Kerwin-Huelsman-Newcomb (KHN)}{7}{subsubsection.4.2.1}% 
 \contentsline {subsubsection}{\numberline {4.2.2}Tow-Thomas}{8}{subsubsection.4.2.2}% 
-\contentsline {subsubsection}{\numberline {4.2.3}Ackerberg-Mossberg}{9}{subsubsection.4.2.3}% 
-\contentsline {subsubsection}{\numberline {4.2.4}Fleischer-Tow}{9}{subsubsection.4.2.4}% 
+\contentsline {subsubsection}{\numberline {4.2.3}Ackerberg-Mossberg}{10}{subsubsection.4.2.3}% 
+\contentsline {subsubsection}{\numberline {4.2.4}Fleischer-Tow}{10}{subsubsection.4.2.4}% 

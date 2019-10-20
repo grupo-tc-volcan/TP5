@@ -109,6 +109,7 @@ La siguiente es la celda Kerwin-Huelsman-Newcomb, tambi\'en llamada KHN por sus 
 	\label{sens_k}
 \end{table}
 
+Esta celda tiene sensibilidades bajas.
 
 \begin{equation}
 \begin{cases}
@@ -158,7 +159,24 @@ Los par\'ametros correspondientes a la celda Tow-Thomas son los siguientes:
 	\label{hg_tt}
 \end{table}
 
-
+\begin{table}[h!]
+	\centering
+	\begin{tabular}{c c c c c }
+		& $\omega_0$ & $Q$ &$G_{LP}$ & $G_{BP}$\\
+		\hline \\
+		$R_1$ & $0$& $$ & $0$& $-\frac{1}{R_4}$\\ \\
+		$R_2$ & $-\frac{1}{2}\cdot R_5R_3C_1C_2$& $$ & $0$& $0$\\ \\
+		$R_3$ & $-\frac{1}{2}\cdot R_2R_5C_1C_2$& $$ & $-\frac{1}{R_4}$&$0$ \\ \\
+		$R_4$ & $0$& $$& $\frac{R_3}{R_4^2}$ &$\frac{R_1}{R_4^2}$ \\ \\
+		$R_5$ & $-\frac{1}{2}\cdot R_2R_3C_1C_2$&$$ & $0$&$0$ \\ \\
+		$R_6$ & $\frac{1}{2}$& $$ & $0$& $0$ \\ \\
+		$C_1$ & $-\frac{1}{2}\cdot R_2R_3R_5C_2$& $$ & $0$& $0$\\ \\
+		$C_2$ & $-\frac{1}{2}\cdot R_2R_3R_5C_1$& $$ & $0$ & $0$\\ \\
+		\hline
+	\end{tabular}
+	\caption{Sensibilidades de la celda Tow-Thomas.}
+	\label{sens_tt}
+\end{table}
 
 
 \subsubsection{Ackerberg-Mossberg}
