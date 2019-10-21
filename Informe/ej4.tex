@@ -239,7 +239,7 @@ Una caracter\'istica importante a remarcar de la selda Flesicher-Tow es que, a d
 	\begin{tabular}{c c c c}
 		$H(s)$ gen\'erica & $\omega_0$ & $Q$\\
 		\hline \\
-		 $-\frac{R_8}{R_6}\cdot \frac{s^2+\left(\frac{1}{R_1C_1}-\frac{R_6}{R_4R_7C_1}\right)s+\frac{R_6}{R_3R_5R_7C_1C_2}}{s^2+\frac{1}{R_1C_1}+\frac{R_8}{R_2R_3R_7C_1C_2}}$&$\sqrt{\frac{R_8}{R_2R_3R_7C_1C_2}}$&$R_1C_1\sqrt{\frac{R_8}{R_2R_3R_7C_1C_2}}$\\ \\
+		 $- \frac{\frac{R_8}{R_6}s^2+\left(\frac{R_8}{R_6R_1C_1}-\frac{R_8}{R_4R_7C_1}\right)s+\frac{R_8}{R_3R_5R_7C_1C_2}}{s^2+\frac{1}{R_1C_1}+\frac{R_8}{R_2R_3R_7C_1C_2}}$&$\sqrt{\frac{R_8}{R_2R_3R_7C_1C_2}}$&$R_1C_1\sqrt{\frac{R_8}{R_2R_3R_7C_1C_2}}$\\ \\
 		\hline
 	\end{tabular}
 	\caption{Expresiones gen\'ericas de la celda Fleischer-Tow.}
@@ -251,11 +251,13 @@ Una caracter\'istica importante a remarcar de la selda Flesicher-Tow es que, a d
 	\begin{tabular}{c c c c c c}
 		Salida & Condiciones & $H(s)$ & $G$ & $\omega_0$ & $Q$\\
 		\hline \\
-		LP & &$$& $$& \multirow{4}{*}{$$}&
+		LP&$R_6=R_4=\infty$ &$- \frac{\frac{R_8}{R_3R_5R_7C_1C_2}}{s^2+\frac{1}{R_1C_1}+\frac{R_8}{R_2R_3R_7C_1C_2}}$& $-\frac{R_2}{R_5}$& \multirow{4}{*}{$$}&
 		\multirow{4}{*}{$$}\\ \\
-		BP & &$$&$$& &\\ \\
+		BP &$R_6=R_5=\infty$  &$ \frac{\left(\frac{R_8}{R_4R_7C_1}\right)s}{s^2+\frac{1}{R_1C_1}+\frac{R_8}{R_2R_3R_7C_1C_2}}$&$\frac{R_1R_8}{R_4R_7}$& &\\ \\
+		HP & $R_5=\infty$ y $R_1R_6=R_4R_7$&$- \frac{\frac{R_8}{R_6}s^2}{s^2+\frac{1}{R_1C_1}+\frac{R_8}{R_2R_3R_7C_1C_2}}$&$-\frac{R_8}{R_6}$& &\\ \\
+		BR & &$- \frac{\frac{R_8}{R_6}s^2+\frac{R_8}{R_3R_5R_7C_1C_2}}{s^2+\frac{1}{R_1C_1}+\frac{R_8}{R_2R_3R_7C_1C_2}}$&$$& &\\ \\
 		\hline
 	\end{tabular}
-	\caption{Caracter\'isticas de la celda Ackerberg-Mossberg.}
+	\caption{Caracter\'isticas de la celda Fleischer-Tow.}
 	\label{f_cars}
 \end{table}
