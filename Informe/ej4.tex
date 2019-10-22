@@ -86,7 +86,7 @@ La siguiente es la celda Kerwin-Huelsman-Newcomb, tambi\'en llamada KHN por sus 
 		HP& $- \frac{\frac{R_4}{R_5}\cdot \frac{R_5+R_6}{R_3+R_4} S^2}{S^2+\frac{R_3}{R_5R_1C_1}\cdot \frac{R_5+R_6}{R_3+R_4}s+\frac{R_6}{R_5R_1R_2C_1C_2}}$& $\frac{R_4(R_5+R_6)}{R_5(R_3+R_4)}$& & \\ \\
 		\hline
 	\end{tabular}
-	\caption{Caracter\'sticas de la celda Kerwin-Huelsman-Newcomb.}
+	\caption{Caracter\'isticas de la celda Kerwin-Huelsman-Newcomb.}
 	\label{hg_tt}
 \end{table}
 
@@ -239,7 +239,7 @@ Una caracter\'istica importante a remarcar de la selda Flesicher-Tow es que, a d
 	\begin{tabular}{c c c c}
 		$H(s)$ gen\'erica & $\omega_0$ & $Q$\\
 		\hline \\
-		 $- \frac{\frac{R_8}{R_6}s^2+\left(\frac{R_8}{R_6R_1C_1}-\frac{R_8}{R_4R_7C_1}\right)s+\frac{R_8}{R_3R_5R_7C_1C_2}}{s^2+\frac{1}{R_1C_1}+\frac{R_8}{R_2R_3R_7C_1C_2}}$&$\sqrt{\frac{R_8}{R_2R_3R_7C_1C_2}}$&$R_1C_1\sqrt{\frac{R_8}{R_2R_3R_7C_1C_2}}$\\ \\
+		 $- \frac{\frac{R_8}{R_6}s^2+\left(\frac{R_8}{R_6R_1C_1}-\frac{R_8}{R_4R_7C_1}\right)s+\frac{R_8}{R_3R_5R_7C_1C_2}}{s^2+\frac{1}{R_1C_1}s+\frac{R_8}{R_2R_3R_7C_1C_2}}$&$\sqrt{\frac{R_8}{R_2R_3R_7C_1C_2}}$&$R_1C_1\sqrt{\frac{R_8}{R_2R_3R_7C_1C_2}}$\\ \\
 		\hline
 	\end{tabular}
 	\caption{Expresiones gen\'ericas de la celda Fleischer-Tow.}
@@ -251,13 +251,12 @@ Una caracter\'istica importante a remarcar de la selda Flesicher-Tow es que, a d
 	\begin{tabular}{c c c c c c}
 		Salida & Condiciones & $H(s)$ & $G$ & $\omega_0$ & $Q$\\
 		\hline \\
-		LP&$R_6=R_4=\infty$ &$- \frac{\frac{R_8}{R_3R_5R_7C_1C_2}}{s^2+\frac{1}{R_1C_1}+\frac{R_8}{R_2R_3R_7C_1C_2}}$& $-\frac{R_2}{R_5}$& \multirow{9}{*}{$\sqrt{\frac{R_8}{R_2R_3R_7C_1C_2}}$}&
+		LP&$R_6=R_4=\infty$ &$- \frac{\frac{R_8}{R_3R_5R_7C_1C_2}}{s^2+\frac{1}{R_1C_1}s+\frac{R_8}{R_2R_3R_7C_1C_2}}$& $-\frac{R_2}{R_5}$& \multirow{9}{*}{$\sqrt{\frac{R_8}{R_2R_3R_7C_1C_2}}$}&
 		\multirow{9}{*}{$R_1C_1\sqrt{\frac{R_8}{R_2R_3R_7C_1C_2}}$}\\ \\
-		BP &$R_6=R_5=\infty$  &$ \frac{\left(\frac{R_8}{R_4R_7C_1}\right)s}{s^2+\frac{1}{R_1C_1}+\frac{R_8}{R_2R_3R_7C_1C_2}}$&$\frac{R_1R_8}{R_4R_7}$& &\\ \\
-		HP & $R_5=\infty$&\multirow{2}{*}{$- \frac{\frac{R_8}{R_6}s^2}{s^2+\frac{1}{R_1C_1}+\frac{R_8}{R_2R_3R_7C_1C_2}}$}&\multirow{2}{*}{$-\frac{R_8}{R_6}$}& &\\ 
+		BP &$R_6=R_5=\infty$  &$ \frac{\left(\frac{R_8}{R_4R_7C_1}\right)s}{s^2+\frac{1}{R_1C_1}s+\frac{R_8}{R_2R_3R_7C_1C_2}}$&$\frac{R_1R_8}{R_4R_7}$& &\\ \\
+		HP & $R_5=\infty$&\multirow{2}{*}{$- \frac{\frac{R_8}{R_6}s^2}{s^2+\frac{1}{R_1C_1}s+\frac{R_8}{R_2R_3R_7C_1C_2}}$}&\multirow{2}{*}{$-\frac{R_8}{R_6}$}& &\\ 
 		&$R_1R_6=R_4R_7$ & & & &\\ \\
-		BR &$R_1R_6=R_4R_7$ &\multirow{2}{*}{$- \frac{\frac{R_8}{R_6}s^2+\frac{R_8}{R_3R_5R_7C_1C_2}}{s^2+\frac{1}{R_1C_1}+\frac{R_8}{R_2R_3R_7C_1C_2}}$}&\multirow{2}{*}{$-\frac{R_8}{R_6} = -\frac{R_5}{R_2}$}& &\\ 
-		& $R_5R_8=R_2R_6$ & & & & \\ \\
+		BR &$R_1R_6=R_4R_7$ &\multirow{2}{*}{$- \frac{\frac{R_8}{R_6}s^2+\frac{R_8}{R_3R_5R_7C_1C_2}}{s^2+\frac{1}{R_1C_1}s+\frac{R_8}{R_2R_3R_7C_1C_2}}$}&\multirow{2}{*}{$-\frac{R_2}{R_5}$}& &\\ \\ \\
 		\hline
 	\end{tabular}
 	\caption{Caracter\'isticas de la celda Fleischer-Tow.}
@@ -269,15 +268,15 @@ Una caracter\'istica importante a remarcar de la selda Flesicher-Tow es que, a d
 	\centering
 	\begin{tabular}{c c c c c c c}
 		& $\omega_0$ & $Q$ &$G_{LP}$ & $G_{BP}$& $G_{HP}$& $G_{BR}$\\
-		\hline \\
+		\hline \\ 
 		$R_1$ & $0$ & $1$ & $0$ & $1$ & $0$ & $0$\\ \\
-		$R_2$ & $-\frac{1}{2}$ & $-\frac{1}{2}$ & $1$ & $0$ & $0$ & $-1$\\ \\
+		$R_2$ & $-\frac{1}{2}$ & $-\frac{1}{2}$ & $1$ & $0$ & $0$ & $1$\\ \\
 		$R_3$ & $-\frac{1}{2}$ & $-\frac{1}{2}$ & $0$ & $0$ & $0$ & $0$\\ \\
 		$R_4$ & $0$ & $0$ & $0$ & $-1$ & $0$ & $0$\\ \\
-		$R_5$ & $0$ & $0$ & $-1$ & $0$ & $0$ & $1$\\ \\
-		$R_6$ & $0$ & $0$ & $0$ & $0$ & $-1$ & $-1$\\ \\
+		$R_5$ & $0$ & $0$ & $-1$ & $0$ & $0$ & $-1$\\ \\
+		$R_6$ & $0$ & $0$ & $0$ & $0$ & $-1$ & $0$\\ \\
 		$R_7$ & $-\frac{1}{2}$ & $-\frac{1}{2}$ & $0$ & $-1$ & $0$ & $0$\\ \\
-		$R_8$ & $\frac{1}{2}$ & $\frac{1}{2}$ & $0$ & $1$ & $1$ & $1$\\ \\
+		$R_8$ & $\frac{1}{2}$ & $\frac{1}{2}$ & $0$ & $1$ & $1$ & $0$\\ \\
 		$C_1$ & $-\frac{1}{2}$ & $\frac{1}{2}$ & $0$ & $0$ & $0$ & $0$\\ \\
 		$C_2$ & $-\frac{1}{2}$ & $-\frac{1}{2}$ & $0$ & $0$ & $0$ & $0$\\ \\
 		\hline
