@@ -9,6 +9,10 @@ que es la \'unica necesaria para la realizaci\'on de los filtros en cuesti\'on.
 En el siguiente an\'alisis se asume un comportamiento ideal del amplificador operacional, considerando una impedancia de entrada del mismo
 $Z_{IN} \rightarrow \infty$, corrientes de entrada e impedancia de salida nulas, y finalmente una ganancia tambi\'en $A_{VOL} \rightarrow \infty$.
 
+El an'alisis ideal consiste en determinar la funci\'on transferencia y los par\'ametros caracter\'isticos para configurar la celda, as\'i como tambi\'en un an\'alisis de las sensibilidades relativas
+respecto de los componentes a utilizar y un conjunto de estrategias propuestas para poder realizar el ajuste correcto de la celda. Por otro lado, es de inter\'es analizar las impedancias de entrada y salida de la celda,
+ya que las mismas son las que permiten determinar hasta qu\'e punto es v\'alido asumir que en la conexi\'on en cascada no se produce una carga de una etapa con otra y efectivamente se puede aproximar $H(s) = H_1(s) \cdot H_2(s) \cdot ... \cdot H_n(s)$.
+
 \begin{figure}[H]
     \centering
     \includegraphics[scale=0.45]{../EJ1/Recursos/circuito_sallen_key_pasabajos.png}
@@ -82,18 +86,20 @@ calcular $S^{y}_x = \frac{x_o}{y(x_o)} \cdot \frac{\delta y}{\delta x}$.
     \centering
     \begin{tabular}{c | c}
         \hline \\
-        $R_A$ & $0$ \\
+        $K$ & $K \cdot Q \cdot \sqrt{\frac{C_1 \cdot R_1}{C_2 \cdot R_2}}$ \\
         \\ \hline \\
-        $R_B$ & $0$ \\ 
+        $R_A$ & $-Q \cdot \frac{R_B}{R_A} \cdot \sqrt{\frac{R_1 \cdot C_1}{R_2 \cdot C_2}}$ \\
         \\ \hline \\
-        $R_1$ & $\frac{1}{2} - Q \cdot \frac{R_1 \cdot \left[ C_2 + C_1 \cdot (1 - K) \right]}{\sqrt{C_1 \cdot C_2 \cdot R_1 \cdot R_2}}$ \\
+        $R_B$ & $Q \cdot \frac{R_B}{R_A} \cdot \sqrt{\frac{R_1 \cdot C_1}{R_2 \cdot C_2}}$ \\
+        \\ \hline \\
+        $R_1$ & $\frac{-1}{2} + Q \cdot \sqrt{\frac{C_2 \cdot R_2}{C_1 \cdot R_1}}$ \\
         \\ \hline \\
         $R_2$ & $\frac{1}{2} - Q \cdot \sqrt{\frac{C_2 \cdot R_2}{C_1 \cdot R_1}}$ \\
         \\ \hline \\
-        $C_1$ & $\frac{1}{2} - Q \cdot \left[ \sqrt{\frac{C_1 \cdot R_1}{C_2 \cdot R_2}} + \sqrt{\frac{C_1 \cdot R_2}{C_2 \cdot R_1}} \right]$ \\
+        $C_1$ & $\frac{-1}{2} + Q \cdot \left[ \sqrt{\frac{C_1 \cdot R_1}{C_2 \cdot R_2}} + \sqrt{\frac{C_1 \cdot R_2}{C_2 \cdot R_1}} \right]$ \\
         \\ \hline \\
-        $C_2$ & $\frac{1}{2} - Q \cdot (1-K) \cdot \sqrt{\frac{R_1 \cdot C_2}{R_2 \cdot C_1}}$ \\
-        \\ \hline
+        $C_2$ & $\frac{1}{2} - Q \cdot \left[ \sqrt{\frac{C_1 \cdot R_1}{C_2 \cdot R_2}} + \sqrt{\frac{C_1 \cdot R_2}{C_2 \cdot R_1}} \right]$ \\
+        \\ \hline \\
     \end{tabular}
     \caption{Sensibilidades de $Q$}
 \end{table}
@@ -121,18 +127,20 @@ se propone $R = R_1 = R_2$ y luego $C = C_1 = C_2$. De esta imposici\'on se simp
     \centering
     \begin{tabular}{c | c}
         \hline \\
-        $R_A$ & $0$ \\
+        $K$ & $\frac{K}{3 - K}$ \\
         \\ \hline \\
-        $R_B$ & $0$ \\ 
+        $R_A$ & $-Q \cdot \frac{R_B}{R_A}$ \\
         \\ \hline \\
-        $R_1$ & $\frac{1}{2} - Q \cdot (2 - K)$ \\
+        $R_B$ & $Q \cdot \frac{R_B}{R_A}$ \\
+        \\ \hline \\
+        $R_1$ & $\frac{-1}{2} + Q$ \\
         \\ \hline \\
         $R_2$ & $\frac{1}{2} - Q$ \\
         \\ \hline \\
-        $C_1$ & $\frac{1}{2} - Q \cdot 2$ \\
+        $C_1$ & $\frac{-1}{2} + Q \cdot 2$ \\
         \\ \hline \\
-        $C_2$ & $\frac{1}{2} - Q \cdot (1 - K) $ \\
-        \\ \hline
+        $C_2$ & $\frac{1}{2} - Q \cdot 2$ \\
+        \\ \hline \\
     \end{tabular}
     \caption{Sensibilidades de $Q$}
 \end{table}
@@ -154,22 +162,25 @@ entre s\'i, para lo cual se definen dos constantes de proporcionalidad tomando c
     \label{eq:q_ajuste_componentes_proporcionales}
 \end{equation}
 
+
 \begin{table}[H]
     \centering
     \begin{tabular}{c | c}
         \hline \\
-        $R_A$ & $0$ \\
+        $K$ & $\frac{m \cdot n}{1 + m}$ \\
         \\ \hline \\
-        $R_B$ & $0$ \\ 
+        $R_A$ & $\frac{m \cdot n}{1 + m} \cdot \frac{R_B}{R_A}$ \\
         \\ \hline \\
-        $R_1$ & $\frac{1}{2} - \frac{m}{1 + m}$ \\
+        $R_B$ & $- \frac{m \cdot n}{1 + m} \cdot \frac{R_B}{R_A}$ \\
+        \\ \hline \\
+        $R_1$ & $\frac{-1}{2} + \frac{1}{1 + m}$ \\
         \\ \hline \\
         $R_2$ & $\frac{1}{2} - \frac{1}{1 + m}$ \\
         \\ \hline \\
-        $C_1$ & $\frac{1}{2} - n$ \\
+        $C_1$ & $\frac{-1}{2} + 2 \cdot \frac{m \cdot n}{1 + m}$ \\
         \\ \hline \\
-        $C_2$ & $\frac{1}{2}$ \\
-        \\ \hline
+        $C_2$ & $\frac{1}{2} - 2 \cdot \frac{m \cdot n}{1 + m}$ \\
+        \\ \hline \\
     \end{tabular}
     \caption{Sensibilidades de $Q$}
 \end{table}
@@ -205,15 +216,92 @@ una divisi\'on de tensi\'on, de forma tal que al aplicar el teorema de Thevenin,
     \label{eq:sallen_key_h_atenuada}
 \end{equation}
 
-\subsubsection{Rango din\'amico}
-
 \subsubsection{Impedancia de entrada}
+En la Fig. \ref{fig:circuito_sallen_key_impedancia_entrada_ideal} se puede observar que para calcular la impedancia de entrada se debe plantear un sistema de ecuaciones empleando 
+las leyes de Kirchhoff correspondientes.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale=0.5]{../EJ1/Recursos/circuito_sallen_key_impedancia.png}
+    \caption{Circuito Sallen-Key pasabajos para c\'alculo de $Z_{IN}(s)$}
+    \label{fig:circuito_sallen_key_impedancia_entrada_ideal}
+\end{figure}
+
+\begin{align*}
+    & \frac{V_i - V_A}{R_1} = \frac{V_A}{R_2 + \frac{1}{s \cdot C_2}} + \frac{V_A - V_o}{\frac{1}{s \cdot C_2}} \\
+    & V_o = V_A \cdot K \cdot \frac{\frac{1}{s \cdot C_2}}{R_2 + \frac{1}{s \cdot C_2}} \\
+    & I_2 = \frac{V_A}{R_2 + \frac{1}{s \cdot C_2}} \\
+    & I_1 = \frac{V_A - V_o}{\frac{1}{s \cdot C_1}}
+\end{align*}
+
+\begin{equation}
+    Z_{IN}(s) = \frac{C_1 \cdot C_2 \cdot R_1 \cdot R_2 \cdot s^{2} + s \cdot \left[ C_2 \cdot (R_1 + R_2) + C_1 \cdot R_1 \cdot (1 - K) \right] + 1}{s \cdot \left[C_2 + C_1 \cdot (1 - K) \right] \cdot \left[ 1 + \frac{s \cdot C_1 \cdot C_2 \cdot R_2}{C_2 + C_1 \cdot (1 - K)} \right]}
+    \label{eq:sallen_key_impedancia_entrada_ideal}
+\end{equation}
+
+A partir de la expresi\'on de la Ec. \ref{eq:sallen_key_impedancia_entrada_ideal}, en primer lugar se puede observar que la etapa como amplificador de transimpedancia es inestable y que para corriente continua la impedancia de entrada $Z_{IN} \rightarrow \infty$.
+No obstante, es de inter\'es realizar un an\'alisis sobre esta expresi\'on que permita estimar de cierta forma una condici\'on de dise\~no para garantizar que la conexi\'on en cascada de la etapa es viable sin producir mayores desviaciones en la funci\'on transferencia total.
+
+
+Se propone observar que la funci\'on $Z_{IN}(s)$ es de segundo orden, posee un polo en el origen y uno real, y luego dos ceros con frecuencia de corte ubicada en donde se encuentra la del filtro pasabajos que constituye esta celda. Asumiendo que el sistema se encuentra en todo caso cr\'iticamente amortiguado o subamortiguado y luego empleando las aproximaciones asint\'oticas
+utilizadas en un diagrama de bode, se puede asumir que para las frecuencias de la banda de paso de este filtro, los ceros no tienen mayor influencia. As\'i, se reduce la complejidad del an\'alisis ya que cuando se vuelva apreciable el efecto que estas tienen, se estar\'a en la banda de transici\'on o de rechazo.
+De esta forma, sea que el polo real se encuentra antes o despu\'es de dicha frecuencia de corte, para la banda de paso la impedancia de entrada es mon\'otona decreciente, con lo cual podemos estimar de manera aproximada que dentro de esta regi\'on de inter\'es el valor m\'inimo se encuentra sobre la frecuencia de corte,
+con lo cual $Z_{IN_{min}} \approx Z_{IN}(s=j \cdot \omega_o)$. En la Fig. \ref{fig:grafico_zin_ideal_arbitraria} se observa un gr\'afico con valores arbitrarios para apreciar lo explicado.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale=0.6]{../EJ1/Recursos/impedancia_entrada_arbitraria.png}
+    \caption{Gr\'afico de $|Z_{IN}(j \cdot \omega)|$ con valores arbitrarios}
+    \label{fig:grafico_zin_ideal_arbitraria}
+\end{figure}
+
+Entonces, reutilizando las expresiones presentadas y usando la definici\'on de la frecuencia de corte como se la encontr\'o en apartados anteriores, se llega a la siguiente expresi\'on de la impedancia de entrada
+m\'inima en toda la banda de paso.
+
+\begin{equation}
+    Z_{IN_{min}} = \frac{C_2 \cdot (R_1 + R_2) + C_1 \cdot R_1 \cdot (1 - K)}{C_1 \cdot (1 - K) + C_2 + j \cdot \sqrt{\frac{C_1 \cdot C_2 \cdot R_2}{R_1}}}
+\end{equation}
+
+Puesto que se han propuesto m\'etodos de ajuste apropiados para la celda estudiada, se simplifica esta expresi\'on en el marco de tales enfoques, para obtener una expresi\'on
+reducido en funci\'on de sus respectivos coeficientes o par\'ametros.
+
+Para el dise\~no con componentes iguales:
+
+\begin{equation}
+    |Z_{IN_{min}}| = \frac{R \cdot |3 - K|}{\sqrt{K^{2} - 4 \cdot K + 5}}
+    \label{eq:impedancia_minima_componentes_iguales}
+\end{equation}
+
+Para el dise\~no con componentes proporcionales:
+
+\begin{equation}
+    |Z_{IN_{min}}| = \frac{R \cdot (1 + m)}{\sqrt{1 + \frac{n}{m}}}
+    \label{eq:impedancia_minima_componentes_proporcionales}
+\end{equation}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale=0.45]{../EJ1/Recursos/impedancia_entrada_componentes_iguales.png}
+    \caption{Impedancia de entrada m\'inima con componentes iguales}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale=0.7]{../EJ1/Recursos/impedancia_entrada_componentes_proporcionales.png}
+    \caption{Impedancia de entrada m\'inima con componentes proporcionales}
+\end{figure}
+
+\subsubsection{Impedancia de salida}
+En el contexto de an\'alisis ideal, dado que la salida del circuito est\'a impuesta por un amplificador operacional con realimentaci\'on negativa,
+luego la impedancia de salida tiende a ser nula. Es decir, $Z_O = 0$ siempre y cuando sea considerado un amplificador operacional ideal.
+
+\subsubsection{Rango din\'amico}
 
 \subsection{An\'alisis real}
 
 \subsubsection{Funci\'on transferencia}
 
-\subsubsection{Impedancia de entrada}
+\subsubsection{Impedancia de entrada}x
 
 \subsubsection{Impedancia de salida}
 
