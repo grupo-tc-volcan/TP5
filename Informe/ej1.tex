@@ -470,20 +470,111 @@ de los componentes luego se cumple con la plantilla consignada en todo caso. Se 
     \caption{Verificaci\'on de la frecuencia de polo}
 \end{figure}
 
-\subsubsection{Dise\~no de PCB}
-
 \subsubsection{Resultados pr\'acticos}
 
 \subsection{Dise\~no de un filtro con Bessel}
+La funci\'on de aproximaci\'on de Bessel se obtiene a partir de considerar una funci\'on racional como transferencia del sistema, a partir de la cual se realizan aproximaciones sobre la fase de su respuesta en frecuencia
+buscando conseguir la modulaci\'on m\'as lineal posible, de esta forma por propiedades de la transformada de Fourier se puede garantizar que el retardo temporal que sufren las se\~nales que entran al sistema es constante
+para un rango dado de frecuencias. Esta \'ultima es la ventaja principal de la aproximaci\'on de Bessel, no obstante, como consecuencia de tal an\'alisis adem\'as permite implementar un filtro pasabajos con tales caracter\'isticas.
+
+Es importante mencionar que Bessel consigue la m\'axima planicie en el retardo de grupo, pero no existen expresiones cerradas para su c\'alculo, sino que dado un determinado orden de filtro se puede obtener la funci\'on transferencia
+a partir de un c\'alculo recursivo, y de ah\'i es necesario verificar si cumple con las exigencias de las especificaciones del filtro a dise\~nar.
+
+\begin{equation}
+    H(s_N) = \frac{B_n(0)}{B_n(s_N)}
+\end{equation}
+
+En esta expresi\'on se emplean los polinomios de Bessel obtenidos de la ecuaci\'on recursiva de Bessel.
 
 \subsubsection{Especificaciones y funci\'on aproximaci\'on}
+Se desea dise\~nar un filtro pasabajos implementado con una funci\'on de Bessel para bajas se\~nales que cumpla con las especificaciones ilustradas
+en la Tabla \ref{table:especificaciones_bessel}.
+
+\begin{table}[H]
+    \centering
+    \begin{tabular}{c | c}
+        \hline \\
+        $f_p$ & $550Hz$ \\
+        \\ \hline \\
+        $f_a$ & $2600Hz$ \\
+        \\ \hline \\
+        $A_p$ & $3 dB$ \\
+        \\ \hline \\
+        $A_a$ & $40 dB$ \\
+        \\ \hline \\
+        $|Z_{IN}(f)|$ & $\geq 50k \Omega$ \\ 
+        \\ \hline
+        $|\gamma(f_p)|$ & $\leq 5 \% $ \\ 
+        \\ \hline
+    \end{tabular}
+    \caption{Especificaciones de filtro con aproximaci\'on Bessel}
+    \label{table:especificaciones_bessel}
+\end{table}
+
+A partir de estas especificaciones se debe iterar el orden de la funci\'on de Bessel hasta encontrar la $H(s_N)$ cuya pendiente en banda de transici\'on sea suficiente para cumplir con la plantilla
+normalizada. Luego, es importante verificar que para dicho orden se cumple la m\'axima desviaci\'on admitida del retardo de grupo, que dicho sea de paso, no tiene restricci\'on alguna en su valor pero s\'i
+en su variaci\'on porcentual respecto del valor constante esperado.
+
+
+Finalmente, analizando la funci\'on de Bessel para cumplir con la plantilla de pasabajos y la m\'axima desviaci\'on del retardo de grupo, tomando cierto margen para evitar error por tolerancia de componentes,
+se elige una funci\'on de orden $n = 6$.
+
+\begin{table}[H]
+    \centering
+    \begin{tabular}{c | c}
+        Polo & Ubicaci\'on \\
+        \hline \\
+        Complejo conjugado & $f_o = 1275.48Hz$ y $Q = 1.02$ \\
+        Complejo conjugado & $f_o = 1131.14Hz$ y $Q = 0.61$\\
+        Complejo conjugado & $f_o = 1074.05Hz$ y $Q = 0.51$\\
+        \\ \hline
+    \end{tabular}
+    \caption{Polos desnomarlizados de la $H(s)$}
+\end{table}
 
 \subsubsection{Dise\~no de etapas}
+Para el dise\~no de este filtro se divide la funci\'on transferencia en tres diferentes etapas de segundo orden, donde se asume que se cumple la condici\'on necesaria para la conexi\'on en cascada,
+esto es, que no se carguen las etapas entre s\'i en funci\'on de que sus impedancias de entrada son lo suficientemente grandes para lograr este objetivo. Por otro lado, se impone como restricci\'on que la impedancia de entrada
+del circuito total sea $Z_{IN}(f) \geq 50k \Omega$, para esto \'ultimo se puede considerar la aproximaci\'on obtenida en el an\'alisis ideal, o suponiendo como peor caso considerar que para frecuencias muy grandes la impedancia m\'as chica
+depende directamente de las resistencia en la entrada, con lo cual eso determinar\'a el l\'imite inferior en la selecci\'on de sus valores. Finalmente, este filtro es para se\~nales bajas con lo cual se ordenan los filtros de forma tal que se encuentren ordenados
+de menor a mayor atenuaci\'on para evitar bajar la se\~nal a los niveles del ruido.
+
+\paragraph{$1^{\circ} etapa:$} Se dise\~na un filtro de segundo orden pasabajos con requisitos $f_0 = 1074.05Hz$ y $Q = 0.51$, empleando la celda Sallen-Key se llega a los valores $R_1 = R_2 = 120k \Omega + 1k\Omega$, $C_1 = 1.2nF$ y $C_2 = 1.2nF$
+\paragraph{$2^{\circ} etapa:$} Se dise\~na un filtro de segundo orden pasabajos con requisitos $f_0 = 1131.14Hz$ y $Q = 0.61$, empleando la celda Sallen-Key se llega a los valores $R_1 = R_2 = 75k \Omega + 1k8\Omega$, $C_1 = 2.2nF$ y $C_2 = 1.5nF$
+\paragraph{$3^{\circ} etapa:$} Se dise\~na un filtro de segundo orden pasabajos con requisitos $f_0 = 1275.48Hz$ y $Q = 1.02$, empleando la celda Sallen-Key se llega a los valores $R_1 = R_2 = 22k \Omega + 680\Omega$, $C_1 = 12nF$ y $C_2 = 2.7nF$.
+ 
+Al igual que para el filtro de Legendre, para maximizar el ancho de banda del circuito se emplea el operacional disponible con mayor producto de ganancia y ancho de banda, que adem\'as disponga de 4 operacionales y una gran impedancia de entrada, este es el TL084.
 
 \subsubsection{Simulaci\'on y verificaci\'on}
+Se realizan las simulaciones utilizando un an\'alisis de Monte Carlo para contemplar las variaciones respecto de los valores nominales de los componentes por sus tolerancias,
+se puede observar en la fase que el sistema es de sexto orden dado el cambio de fase correspondiente.
 
-\subsubsection{Dise\~no de PCB}
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale=0.6]{../EJ1/Recursos/bessel_verificacion_magnitud.png}
+    \caption{Verificaci\'on de la frecuencia de rechazo}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale=0.6]{../EJ1/Recursos/bessel_verificacion_fase.png}
+    \caption{Verificaci\'on de la frecuencia de rechazo}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale=0.6]{../EJ1/Recursos/bessel_verificacion_fp.png}
+    \caption{Verificaci\'on de la frecuencia de paso}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale=0.6]{../EJ1/Recursos/bessel_verificacion_fa.png}
+    \caption{Verificaci\'on de la frecuencia de rechazo}
+\end{figure}
 
 \subsubsection{Resultados pr\'acticos}
+
+\subsection{Dise\~no de PCB}
 
 \subsection{Conclusiones}
