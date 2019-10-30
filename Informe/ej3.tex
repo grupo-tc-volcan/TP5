@@ -1,1 +1,64 @@
-\section{Sedra-Ghorab-Martin}
+\section{Celda Sedra-Ghorab-Martin}
+
+\subsection{Introducci\'on}
+En este apartado se realiza un an\'alisis de la celda denominada Sedra-Ghorab-Martin, y posteriormente el dise\~no, s\'intesis y an\'alisis de un filtro activo empleando dicha celda. La principal fuente de informaci\'on ser\'a el paper denominado "\textit{Optimum configurations for Single-Amplifier Biquadratic Filters}"
+
+\subsection{La celda Sedra-Ghorab-Martin}
+
+La celda Sedra-Ghorab-Martin (en adelante, "celda SGB") es un circuito creado en el a\~no 1980 por los miembros de IEEE cuyos nombres se reflejan en el nombre de la celda. Dicho circuito se basa en el circuito pasabanda de Deliyannis, que se reproduce a continuaci\'on.
+
+\begin{figure}[H] \label{fig:EJ3_deliyannis}
+    \centering
+    \includegraphics[width=0.8\textwidth]{../EJ3/Resources/deliyannis_cell.png}
+    \caption{Pasabanda Deliyannis}
+\end{figure}
+
+Donde $k$ es una constante que es directamente proporcional a la cantidad de realimentaci\'on positiva del circuito.
+
+Este circuito es posteriormente generalizado por Friend para poder construir cualquier tipo de configuraci\'on de filtro. El mismo se caracteriza por poseer una alta selectividad, empleando tanto realimentaci\'on positiva como negativa. Sin embargo, para poder sintetizar cualquier tipo de filtro es necesario cargar la red RC que se observa en la realimientaci\'on negativa del circuito~\ref{fig:EJ3_deliyannis}, lo que hace poco realizable el dise\~no del mismo.\\
+
+
+Por otro lado, se encontr\'o que realizando una transformaci\'on complementaria sobre el circuito de Deliyannis (esto es, intercambiando la salida del amplificador operacional por masa, y procediendo an\'alogamente con la entrada inversora y no inversora del mismo) se deriva en el circuito de Sallen-Key manteniendo una realimentaci\'on positiva. Cabe destacar que esta transformaci\'on conserva la sensibilidad de los polos del circuito, pero no as\'i con los ceros de transmisi\'on del mismo. A\'un asi, se lleg\'o a la conclusi\'on de que es m\'as ventajoso implementar las configuraciones de filtros en una celda Sallen-Key con realimentaci\'on positiva (exceptuando el caso de un filtro pasabanda).\\
+
+
+En la figura de abajo se observa como aplicando transformaci\'on complementaria y cambios en la red RC se llega a distintos circuitos con la caracter\'istica de poseer una red de realimentaci\'on similares a un circuito Sallen-Key.
+
+\begin{figure}[H] \label{fig:EJ3_transformation_circuits}
+    \centering
+    \includegraphics[width=0.7\textwidth]{../EJ3/Resources/transformation_circuits.png}
+    \caption{Resultados de las transformaciones}
+\end{figure}
+
+Los circuitos \ref{fig:EJ3_transformation_circuits} b) y \ref{fig:EJ3_transformation_circuits} d) son llamados EPF (Enhanced positive feedback), y son la base de la celda SGB. Esta caracter\'istica esta dada por un coeficiente $K>1$. Para los cuatro circuitos de la figura se cumplen las siguientes ecuaciones que describen el comportamiento de los mismos.
+
+\begin{equation}\label{EJ3eq1}
+\frac{C}{G} = \frac{2Q_0}{\omega_0}
+\end{equation}
+
+\begin{equation}\label{EJ3eq2}
+K-1 = \frac{1}{2Q_0^2}\cdot \left( 1-\frac{Q_0}{Q} \right)
+\end{equation}
+
+Donde $Q_0$ es un par\'ametro de dise\~no que cumple $Q>Q_0$. De esta forma, los circuitos del tipo EPF permiten implementar filtros con la siguiente funci\'on transferencia de segundo orden
+
+\begin{equation}
+H(s)=\frac{n_2s^2+n_1s+n_0}{s^2+s\left(\frac{\omega_0}{Q}\right)+\omega_0^2}
+\end{equation}
+
+Donde los coeficientes $n_i$ determinan los ceros de transmisi\'on, y por ende el tipo de filtro implementado por el circuito. Para poder lograr esto sin afectar la ubicacion de los polos se necesita que aquellos componentes que se encuentren conectados a masa sean desconectados de la misma, total o parcialmente (dividi\'endolos). Asi, se obtienen los dos circuitos HPB (\textit{high-pass biquad}) y LPB (\textit{low-pass biquad})que se muestran en las figuras \ref{EJ3_HPB} y \ref{EJ3_LPB} respectivamente.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.7\textwidth]{../EJ3/Resources/HPB.png}
+    \caption{High-pass biquad}
+     \label{EJ3_HPB}
+\end{figure}
+
+\begin{figure}[H] 
+    \centering
+    \includegraphics[width=0.7\textwidth]{../EJ3/Resources/LPB.png}
+    \caption{Low-pass biquad}
+    \label{EJ3_LPB}
+\end{figure}
+
+Como sus nombres lo indican, ambos circuitos son empleados para la implementaci\'on de distintos tipos de filtros. El circuito a elegir en funci\'on de la aplicaci\'on elegida se muestra en la tabla a continuaci\'on.
