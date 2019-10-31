@@ -62,3 +62,58 @@ Donde los coeficientes $n_i$ determinan los ceros de transmisi\'on, y por ende e
 \end{figure}
 
 Como sus nombres lo indican, ambos circuitos son empleados para la implementaci\'on de distintos tipos de filtros. El circuito a elegir en funci\'on de la aplicaci\'on elegida se muestra en la tabla a continuaci\'on.
+
+\begin{table}[H]
+    \centering
+    \begin{tabular}{c c}
+        Tipo de Filtro & Circuito Recomendado \\
+        \hline
+        Pasabajos & LPB (fig.~\ref{EJ3_LPB}) \\
+        Pasaaltos & HPB (fig.~\ref{EJ3_HPB}) \\
+        Pasabanda & Deliyannis (fig.~\ref{fig:EJ3_deliyannis}) \\
+        Pasatodo & LPB o HPB \\
+        High pass notch & HPB \\
+        Low pass notch & LPB\\
+    \end{tabular}
+    \caption{Circuitos recomendados}
+    \label{tabla_circuitos}
+\end{table}
+
+\todo{Seguir con el desarrollo de la celda. Poner ecuaciones de equivalencias de coeficientes, y analizar sensibilidades (todo en forma gen\'erica y para HPB y LPB solamente)}
+
+\subsection{Implementaci\'on de filtro}
+Realizado el an\'alisis de la celda en cuesti\'on, se pide implementar un filtro pasaaltos activo con la misma, que cumpla con las condiciones fijadas en la tabla~\ref{tabla_filtro}.
+
+\begin{table}[H]
+    \centering
+    \begin{tabular}{c c c}
+        Par\'ametro & Valor indicado & Valor efectivo \\
+        \hline
+         $f_a$ & $\left( 10+1,1\cdot \frac{N}{2} \right) kHz$  & $10,55 kHz$  \\
+         $f_p$ & $2 \cdot f_a $ & $21,1kHz$  \\
+         $A_p$ & $2dB$ & $2dB$ \\
+         $A_a$ & $40dB$ & $40dB$  \\
+         $Z_{in}$ & $>50k\Omega$ & $>50k\Omega$  \\
+    \end{tabular}
+    \caption{Especificaciones del filtro}
+    \label{tabla_filtro}
+\end{table}
+
+El primer paso para el dise\~no del mismo es normalizar la plantilla a una de un pasabajos, con frecuencia angular pasante unitaria ($\omega_{pN} = 1$). Una vez hecho esto se procede a aplicar la aproximaci\'on de Cauer sobre dicha plantilla.
+
+
+Cabe destacar que la aproximaci\'on de Cauer es una aproximaci\'on por funciones el\'ipticas, con riple constante tanto en la banda de paso como la de atenuaci\'on. Asimismo, cuenta con el menor error de ponderaci\'on de Chebycheff, por lo que es la aproximaci\'on que tiene la menor banda de transici\'on para un orden dado. Por ende, ser\'a la que, dada una determinada plantilla de filtro, devuelva la funci\'on transferencia de menor orden, de la siguiente forma.
+
+\begin{equation}
+|H(j\omega)|^2 = \frac{1}{1+\epsilon_p^2 \cdot F_n^2(\omega)}
+\end{equation}
+
+Donde $\epsilon_p$ es el coeficiente de riple en banda de paso y $F_n(\omega)$ es una funci\'on determinada tal que se cumpla la condici\'on de equi-riple en las dos bandas.
+
+Finalmente se desnormaliza la funci\'on transferencia normalizada obtenida para llegar a una que describa un filtro pasaaltos con las caracter\'isticas detalladas anteriormente.
+
+\begin{equation}
+H(s) = k \cdot \frac{(s-z_1)(s-z_2)(s-z_3)(s-z_4)}{(s-p_1)(s-p_2)(s-p_3)(s-p_4)}
+\end{equation}
+
+Donde $z_1 = 

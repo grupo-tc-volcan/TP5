@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7140 64-bit) (preloaded format=pdflatex 2019.9.20)  30 OCT 2019 15:57
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7140 64-bit) (preloaded format=pdflatex 2019.9.20)  31 OCT 2019 16:52
 entering extended mode
 **./informe.tex
 (informe.tex
@@ -1471,7 +1471,7 @@ LaTeX Font Info:    Font shape `U/futm/m/n' will be
  [2] (ej1.tex) [3] (ej2.tex) [4] (ej3.tex
 LaTeX Font Info:    Font shape `T1/futs/bx/n' in size <12> not available
 (Font)              Font shape `T1/futs/b/n' tried instead on input line 3.
-<../EJ3/Resources/deliyannis_cell.png, id=81, 358.941pt x 292.09125pt>
+<../EJ3/Resources/deliyannis_cell.png, id=86, 358.941pt x 292.09125pt>
 File: ../EJ3/Resources/deliyannis_cell.png Graphic file (type png)
 <use ../EJ3/Resources/deliyannis_cell.png>
 Package pdftex.def Info: ../EJ3/Resources/deliyannis_cell.png  used on input li
@@ -1487,26 +1487,28 @@ Underfull \hbox (badness 10000) in paragraph at lines 21--22
 
  []
 
-<../EJ3/Resources/transformation_circuits.png, id=83, 361.35pt x 433.62pt>
+<../EJ3/Resources/transformation_circuits.png, id=88, 361.35pt x 433.62pt>
 File: ../EJ3/Resources/transformation_circuits.png Graphic file (type png)
 <use ../EJ3/Resources/transformation_circuits.png>
 Package pdftex.def Info: ../EJ3/Resources/transformation_circuits.png  used on 
 input line 28.
 (pdftex.def)             Requested size: 318.66948pt x 382.40723pt.
 [5 <../EJ3/Resources/deliyannis_cell.png>]
-<../EJ3/Resources/HPB.png, id=94, 340.27126pt x 209.583pt>
+<../EJ3/Resources/HPB.png, id=99, 340.27126pt x 209.583pt>
 File: ../EJ3/Resources/HPB.png Graphic file (type png)
 <use ../EJ3/Resources/HPB.png>
 Package pdftex.def Info: ../EJ3/Resources/HPB.png  used on input line 52.
 (pdftex.def)             Requested size: 318.66948pt x 196.28848pt.
  [6 <../EJ3/Resources/transformation_circuits.png>]
-<../EJ3/Resources/LPB.png, id=105, 319.79475pt x 213.1965pt>
+<../EJ3/Resources/LPB.png, id=110, 319.79475pt x 213.1965pt>
 File: ../EJ3/Resources/LPB.png Graphic file (type png)
 <use ../EJ3/Resources/LPB.png>
 Package pdftex.def Info: ../EJ3/Resources/LPB.png  used on input line 59.
 (pdftex.def)             Requested size: 318.66948pt x 212.45425pt.
-) [7 <../EJ3/Resources/HPB.png> <../EJ3/Resources/LPB.png>]
-(ej4.tex) [8]
+Package hyperref Info: bookmark level for unknown todo defaults to 0 on input l
+ine 82.
+ [7 <../EJ3/Resources/HPB.png> <../EJ3/Resources/LPB.png>])
+[8] (ej4.tex) [9]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 36.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 36.
  (informe.aux
@@ -1516,27 +1518,28 @@ LaTeX Info: Redefining \% on input line 23.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 36.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 36.
 Package rerunfilecheck Info: File `informe.out' has not changed.
-(rerunfilecheck)             Checksum: CDA9249F5A3CE339E1003F49EC4E2565;389.
+(rerunfilecheck)             Checksum: 8BEDE73852CA24255E8234D8BA12D6C3;466.
  ) 
 Here is how much of TeX's memory you used:
- 22782 strings out of 492895
- 422896 string characters out of 3123735
- 535727 words of memory out of 3000000
- 26017 multiletter control sequences out of 15000+200000
- 119939 words of font info for 196 fonts, out of 3000000 for 9000
+ 22909 strings out of 492895
+ 425588 string characters out of 3123735
+ 539967 words of memory out of 3000000
+ 26129 multiletter control sequences out of 15000+200000
+ 120479 words of font info for 202 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 63i,11n,81p,798b,398s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 63i,11n,81p,798b,971s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Users/Joaco/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc
 }<C:/Users/Joaco/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/fourier/f
 ourier-mex.pfb><C:/Users/Joaco/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/pu
-blic/fourier/fourier-mlit.pfb><C:/Users/Joaco/AppData/Local/Programs/MiKTeX 2.9
-/fonts/type1/public/fourier/fourier-ms.pfb><C:/Users/Joaco/AppData/Local/Progra
-ms/MiKTeX 2.9/fonts/type1/adobe/utopia/putb8a.pfb><C:/Users/Joaco/AppData/Local
-/Programs/MiKTeX 2.9/fonts/type1/adobe/utopia/putr8a.pfb><C:/Users/Joaco/AppDat
-a/Local/Programs/MiKTeX 2.9/fonts/type1/adobe/utopia/putri8a.pfb>
-Output written on informe.pdf (8 pages, 125797 bytes).
+blic/fourier/fourier-ml.pfb><C:/Users/Joaco/AppData/Local/Programs/MiKTeX 2.9/f
+onts/type1/public/fourier/fourier-mlit.pfb><C:/Users/Joaco/AppData/Local/Progra
+ms/MiKTeX 2.9/fonts/type1/public/fourier/fourier-ms.pfb><C:/Users/Joaco/AppData
+/Local/Programs/MiKTeX 2.9/fonts/type1/adobe/utopia/putb8a.pfb><C:/Users/Joaco/
+AppData/Local/Programs/MiKTeX 2.9/fonts/type1/adobe/utopia/putr8a.pfb><C:/Users
+/Joaco/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/adobe/utopia/putri8a.pfb>
+Output written on informe.pdf (9 pages, 136889 bytes).
 PDF statistics:
- 145 PDF objects out of 1000 (max. 8388607)
- 23 named destinations out of 1000 (max. 500000)
- 38065 words of extra memory for PDF output out of 42996 (max. 10000000)
+ 168 PDF objects out of 1000 (max. 8388607)
+ 30 named destinations out of 1000 (max. 500000)
+ 38073 words of extra memory for PDF output out of 42996 (max. 10000000)
 
