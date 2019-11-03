@@ -433,6 +433,53 @@ Es de gran importancia para garantizar el comportamiento esperado del filtro, qu
 lograr establecer que $H(s) \approx H_1(s) \cdot H_2(s)$.
 
 \subsubsection{Rango din\'amico}
+El rango din\'amico es una magnitud que se emplea para describir sistemas seg\'un su capacidad de operar con altas y peque\~nas se\~nales, es decir,
+se expresa seg\'un la relaci\'on entre la mayor y menor se\~nal de entrada que se permite. Esta definici\'on suele expresarse en decibeles como se muestra en la
+Ec. \ref{eq:rango_dinamico_sallen_key}.
+
+\begin{equation}
+    R_D = 20 \cdot \log(\frac{V_{max}}{V_{min}})
+    \label{eq:rango_dinamico_sallen_key}
+\end{equation}
+
+En primer lugar, el m\'aximo valor de amplitud de entrada de una celda est\'a limitado por dos aspectos del amplificador operacional,
+por un lado la m\'axima pendiente de cambio determinada por una limitaci\'on de corriente interna en la etapa de salida de dicho dispositivo,
+a lo cual se conoce como Slew Rate, y por otro lado la m\'axima tensi\'on de salida tal que que se produzca una distorsi\'on por salir del rango de operaci\'on lineal.
+Para poder determinar $V_{max}$ es necesario encontrar el m\'inimo entre estas dos limitaciones, es decir:
+
+\begin{equation}
+    V_{max} = min(V_{max_{sat}},V_{max_{SR}})
+\end{equation}
+
+Para determinar la m\'axima amplitud por saturaci\'on debe tenerse en cuenta cu\'al es la m\'axima ganancia de la etapa construida,
+para ello no s\'olo hay que contemplar la banda de paso y su ganancia, sino adem\'as el factor de calidad del sistema, dado que para casos
+de suboamortiguamiento se produce una frecuencia con sobrepico que limitar\'a este aspecto. Entonces, derivando el m\'odulo de la respuesta en frecuencia,
+encontrando el m\'aximo y evaluando, se encuentra que:
+
+\begin{equation}
+    \omega_{max} = \omega_o \cdot \sqrt{1 - \frac{1}{2 \cdot Q^{2}}}
+\end{equation}
+
+\begin{equation}
+    |H(j \cdot \omega_{max})| = \frac{K \cdot Q^{2}}{ \sqrt{Q^{2} + \frac{1}{2}}}
+\end{equation}
+
+Con lo cual a partir de esta expresi\'on es necesario determinar $V_{max_{sat}} = \frac{V_{cc}}{|H_{max}|}$.
+
+Por otro lado, para el caso de la limitaci\'on de Slew Rate, es necesario determinar el punto de m\'axima pendiente de la se\~nal de entrada que se asume senoidal,
+luego a partir de esta limitaci\'on se puede considerar que para la m\'axima frecuencia de paso est\'a el peor caso, y se puede tener una restricci\'on m\'axima sobre ello.
+
+\begin{equation}
+    V_{max_{SR}} = \frac{V_{CC}}{K \cdot 2 \pi \cdot f_p}
+\end{equation}
+
+Finalmente, para determinar la m\'inima tensi\'on de entrada de la celda, es necesario tener alguna estimaci\'on de la contribuci\'on en tal entrada del ruido,
+dado que lo m\'inimo de amplitud es aquello a partir de lo cual la se\~nal inyectada se confunde con el ruido. Es v\'alido estimar un valor de piso de ruido para obtener
+una estimaci\'on aproximada que determine el mejor caso de rango din\'amico, pues luego en la pr\'actica el ambiente y la interacci\'on con el mismo podr\'a empeorar las condiciones
+y afectar al verdadero valor de rango din\'amico.
+
+Para aquellos casos donde se realiza una conexi\'on en cascada de las etapas, es necesario realizar una propagaci\'on de estos valores para determinar el rango din\'amico total. Esto implica que,
+el valor de tensi\'on m\'inima de la siguiente etapa, estar\'a dada por el piso de ruido de la primera etapa, que puede ser estimado por la contribuci\'on en la salida de los elementos resistivos y el amplificador.
 
 \subsection{Celda 1er Orden pasabajos: An\'alisis ideal}
 En el dise\~no de los filtros, en los casos donde es necesario un orden de transferencia impar, se requiere el uso de celdas de primer orden.
