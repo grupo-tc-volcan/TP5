@@ -52,7 +52,17 @@ caracter\'isticos como $\omega_o$ y $Q$.
 \end{equation}
 
 A partir de estos resultados se puede observar que el par\'ametro definido $K$ corresponde a la ganancia de la banda de paso, o en continua. Por otro lado, es importante
-se\~nalar la influencia de tal ganancia, entre otras variables, sobre el valor de la selecitividad $Q$ del circuito. Esto \'ultimo deber\'a ser tenido en cuenta en el an\'alisis de sensibilidades.
+se\~nalar la influencia de tal ganancia, entre otras variables, sobre el valor del factor de calidad $Q$ del circuito. Esto \'ultimo deber\'a ser tenido en cuenta en el an\'alisis de sensibilidades.
+
+\paragraph{Estabilidad de la $H(s)$:} Si se toma la funci\'on transferencia ideal, y luego aplicando la teor\'ia de la transformada de Laplace, todo polo tal que $Re(polo) \geq 0$ har\'a que el sistema se vuelva inestable,
+por tanto la respuesta transitoria no logr\'a nunca estabilizarse y ante cualquier cambio brusco de excitaci\'on el sistema nunca puede converger a un estado estable. Para evitar que esto suceda, se impone una restricci\'on sobre el t\'ermino lineal,
+dado que controla la parte real del polo, y de ah\'i se obtiene que:
+
+\begin{equation}
+    K < 1 + \frac{C_2}{C_1} \cdot (1 + \frac{R_2}{R_1})
+\end{equation}
+
+De aqu\'i que la ganancia de una celda de este tipo nunca puede superar un determinado valor, impuesto por el propio dise\~no de la frecuencia de corte.
 
 \subsubsection{Sensibilidades}
 En el siguiente an\'alisis se emplea la definici\'on de sensibilidades relativas para cada una de las magnitudes o par\'ametros caracter\'isticos de la funci\'on transferencia. Esto es,
@@ -242,8 +252,8 @@ las leyes de Kirchhoff correspondientes.
 A partir de la expresi\'on de la Ec. \ref{eq:sallen_key_impedancia_entrada_ideal}, en primer lugar se puede observar que la etapa como amplificador de transimpedancia es inestable y que para corriente continua la impedancia de entrada $Z_{IN} \rightarrow \infty$.
 No obstante, es de inter\'es realizar un an\'alisis sobre esta expresi\'on que permita estimar de cierta forma una condici\'on de dise\~no para garantizar que la conexi\'on en cascada de la etapa es viable sin producir mayores desviaciones en la funci\'on transferencia total.
 
-
-Se propone observar que la funci\'on $Z_{IN}(s)$ es de segundo orden, posee un polo en el origen y uno real, y luego dos ceros con frecuencia de corte ubicada en donde se encuentra la del filtro pasabajos que constituye esta celda. Asumiendo que el sistema se encuentra en todo caso cr\'iticamente amortiguado o subamortiguado y luego empleando las aproximaciones asint\'oticas
+Se propone observar que la funci\'on $Z_{IN}(s)$ es de segundo orden, posee un polo en el origen y uno real, y luego dos ceros caracterizan un polinomio que es el mismo que el denominador de la funci\'on transferencia, lo cual tiene sentido
+dado que caracteriza el comportamiento natural del sistema. A partir de esta observaci\'on se concluye que los ceros no influyen significativamente, sino que, asumiendo que el sistema se encuentra en todo caso cr\'iticamente amortiguado o subamortiguado y luego empleando las aproximaciones asint\'oticas
 utilizadas en un diagrama de bode, se puede asumir que para las frecuencias de la banda de paso de este filtro, los ceros no tienen mayor influencia. As\'i, se reduce la complejidad del an\'alisis ya que cuando se vuelva apreciable el efecto que estas tienen, se estar\'a en la banda de transici\'on o de rechazo.
 De esta forma, sea que el polo real se encuentra antes o despu\'es de dicha frecuencia de corte, para la banda de paso la impedancia de entrada es mon\'otona decreciente, con lo cual podemos estimar de manera aproximada que dentro de esta regi\'on de inter\'es el valor m\'inimo se encuentra sobre la frecuencia de corte,
 con lo cual $Z_{IN_{min}} \approx Z_{IN}(s=j \cdot \omega_o)$. En la Fig. \ref{fig:grafico_zin_ideal_arbitraria} se observa un gr\'afico con valores arbitrarios para apreciar lo explicado.
@@ -296,7 +306,7 @@ En el contexto de an\'alisis ideal, dado que la salida del circuito est\'a impue
 luego la impedancia de salida tiende a ser nula. Es decir, $Z_O = 0$ siempre y cuando sea considerado un amplificador operacional ideal.
 
 \subsection{Celda 2do Orden Sallen-Key: An\'alisis real}
-A continuaci\'on se realiza un an\'alisis del comportamiento de la celda tomando consideraciones del amplificadores operacional que no sean ideales,
+A continuaci\'on se realiza un an\'alisis del comportamiento de la celda tomando consideraciones del amplificador operacional que no sean ideales,
 no obstante el objetivo principal es estudiar de forma simplificada las desviaciones te\'oricas causadas por variaciones en su $A_{VOL}$, entre otros aspectos.
 Es por esto que se sigue asumiendo una impedancia de entrada lo suficientemente grande en el amplificador para que las corrientes de entrada sean despreciables,
 luego asumiendo que su ganancia de tensi\'on es grande, pero finita, y que var\'ia en funci\'on de la frecuencia, se hallan expresiones para la funci\'on transferencia,
@@ -329,6 +339,14 @@ el t\'ermino adicional tiene un efecto o una contribuci\'on que puede demostrars
 En segundo lugar, el valor de Q se ve significativamente afectado por la presencia del $A_{vol}$ por ello es necesario tener en cuenta cu\'an sensible es a variaciones por cambiar de un integrado a otro integrado,
 para tener en cuenta durante los proceso de ajuste.
 
+Por otro lado, en los casos donde sea necesario contrastar los resultados, se har\'a uso de esta \'ultima expresi\'on, analizandola con el polo dominante,
+reemplazando por la expresi\'on de la Ec. \ref{eq:polo_dominante}, y luego reemplazando num\'ericamente para graficar.
+
+\begin{equation}
+    A_{vol} = \frac{GBP}{s + \omega_p}
+    \label{eq:polo_dominante}
+\end{equation}
+
 \subsubsection{Sensibilidades}
 Se resuelve algebraicamente la expresi\'on que define a la sensibilidad relativa, en este caso de Q, respecto del $A_{vol}$. Se hace de esta manera, ya que para todos los dem\'as par\'ametros
 se realizo en el an\'alisis ideal, y si bien podr\'ia cambiar ligeramente se busca asumir para el dise\~no que el comportamiento ideal es suficiente para imponer tales restricciones.
@@ -340,10 +358,79 @@ se realizo en el an\'alisis ideal, y si bien podr\'ia cambiar ligeramente se bus
 \end{equation}
 
 A modo de verificaci\'on, puede observarse que si se hace tender a infinito la ganancia $A_{vol} \rightarrow \infty \Rightarrow S^{Q}_{A_{vol}} = 0$.
+Lo cual denota que cuanto mayor sea su valor, luego m\'as invariante es el circuito ante sus variaciones.
 
 \subsubsection{Impedancia de entrada}
+Para estudiar la impedancia de entrada se reutilizan las expresiones y ecuaciones ya deducidas anteriormente, agregando
+el siguiente sistema para encontrar la corriente total de entrada, y a partir de ello determinar la impedancia de entrada te\'orica.
+
+\begin{align*}
+    & I_{R_2} = \frac{V_a}{R_2 + \frac{1}{s \cdot C_2}} \\
+    & I_{C_1} = \frac{V_a - V_o}{\frac{1}{s \cdot C_1}}
+\end{align*}
+
+\begin{equation}
+    Z_{in}(s) = \frac{V_i}{I_{R_2} + I_{C_1}}
+\end{equation}
+
+\begin{equation}
+    Z_{in}(s) = 
+    \frac{\left( \frac{s}{\omega_o} \right)^{2} + s \cdot \frac{K \cdot (C_2 \cdot R_2 + C_2 \cdot R_1 + C_1 \cdot R_1) + A_{vol} \cdot (R_2 \cdot C_2 + C_2 \cdot R_1 + C_1 \cdot R_1 \cdot (1 - K))}{A_{vol} + K} + 1}
+    {s \cdot \left[ s \cdot C_1 \cdot C_2 \cdot R_2 + \frac{(C_1 + C_2) \cdot K + A_{vol} \cdot (C_2 + C_1 \cdot(1 - K))}{A_{vol} + K} \right]}
+\end{equation}
 
 \subsubsection{Impedancia de salida}
+En primer lugar, es importante remarcar que una de las principales funciones en realimentaci\'on negativa de un amplificador operacional ideal,
+es la de mejorar la impedancia de salida disminuy\'endola en casos en donde dicha realimentaci\'on sea con salida de tensi\'on. En la pr\'actica este comportamiento
+no es tan alejado, ya que se logra una impedancia de salida muy baja, no obstante el objetivo del an\'alisis es estudiar su respuesta en frecuencia para concluir
+si en la conexi\'on en cascada, ante cambios bruscos en la excitaci\'on, existen inconvenientes.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale=0.6]{../EJ1/Recursos/circuito_sallen_key_impedancia_salida.png}
+    \caption{Circuito equivalente para impedancia de entrada}
+    \label{fig:sallen_key_impedancia_salidas}
+\end{figure}
+
+Empleando las correspondientes leyes de Kirchhoff se logra llegar a un sistema de ecuaciones del cual se puede despejar la impedancia de salida, no obstante,
+tal expresi\'on es demasiado extensa, y de su an\'alisis considerando los valores correspondientes al amplificador real usado, no pudo llegarse a una desviaci\'on
+notoria respecto del resultado ideal. Esto se debi\'o a que el TL084 que se utiliz\'o, tiene entrada diferencial con JFET, con lo cual la $R_{ID}$ es tan grande que puede 
+ser despreciada, luego $R_o$ es de aproximadamente $37 \Omega$, adem\'as luego la configuraci\'on empleada es de seguidor de tensi\'on por lo cual $R_B = 0\Omega$ y $R_A \rightarrow \infty$.
+Aplicando estas simplificaciones al desarrollo, se obtiene la Ec. \ref{eq:impedancia_salida_simplificada}.
+
+\begin{equation}
+    Z_o(s) = \frac{R_o}{A_{vol} + 1} \cdot
+    \frac{\left( \frac{s}{\omega_o} \right)^{2} + s \cdot (R_1 \cdot C_1 + R_1 \cdot C_2 + C_2 \cdot R_2) + 1}
+    {\left( \frac{s}{\omega_o} \right)^{2} \cdot \left[ 1 + \frac{\frac{R_o}{R_1 // R_2}}{A_{vol} + 1} \right] + s \cdot \left[ C_2 \cdot (R_1 + R_2) + \frac{C_1 \cdot (R_1 + R_o)}{A_{vol} + 1} \right] + 1}
+    \label{eq:impedancia_salida_simplificada}
+\end{equation}
+
+Es de inter\'es observar que, en primer lugar si se cumple que la ganancia es muy elevada, luego la $Z_o \approx 0$. En segundo lugar,
+nuevamente el numerador tiene la misma forma que el denominador de la $H(s)$ y con ello las mismas implicancias que lo que se mencion\'o para la impedancia de entrada.
+
+\subsubsection{Restricciones reales sobre impedancias}
+El dise\~no de un filtro mediante la separaci\'on del sistema total en sistemas de segundo o primer orden, es en primer lugar algo que se busca para reducir la sensibilidad
+de los par\'ametros del filtro frente a los valores de componentes empleados. En este proceso de separaci\'on, se busca la interconexi\'on de dichas etapas o celdas para lo cual
+es necesario que se cumpla como condici\'on que una etapa o celda no cargue a la anterior para poder buscar que el sistema total sea descrito por el producto de las funciones transferencia
+de las etapas.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale=0.65]{../EJ1/Recursos/celda_representacion.png}
+    \caption{Representaci\'on de una celda simplificada}
+    \label{fig:celda_representacion}
+\end{figure}
+
+En la Fig. \ref{fig:celda_representacion} se puede observar una simplificaci\'on del modelo de una celda,
+donde en particular es de inter\'es contemplar que para esta modelizaci\'on, la interconexi\'on de dos etapas $H_1(s)$ y $H_2(s)$
+implica un t\'ermino adicional resultante del divisor entre sus resistencias de salida y entrada respectivamente.
+
+\begin{equation}
+    H(s) = H_1(s) \cdot H_2(s) \cdot \frac{R_{i_2}}{R_{i_2} + R_{o_1}}
+\end{equation}
+
+Es de gran importancia para garantizar el comportamiento esperado del filtro, que $R_{i_2}$ sea mucho m\'as grande que $R_{o_1}$, y as\'i
+lograr establecer que $H(s) \approx H_1(s) \cdot H_2(s)$.
 
 \subsubsection{Rango din\'amico}
 
@@ -424,9 +511,9 @@ Los siguientes polos de la funci\'on aproximaci\'on fueron encontrados tomando u
     \begin{tabular}{c | c}
         Polo & Ubicaci\'on \\
         \hline \\
-        Complejo conjugado & $f_o = 27.153kHz$ y $Q = 2.99$ \\
-        Complejo conjugado & $f_o = 20.061kHz$ y $Q = 0.86$\\
-        Simple & $f_o = 14.137kHz$\\
+        Complejo conjugado & $f_o = 28.371kHz$ y $Q = 2.88$ \\
+        Complejo conjugado & $f_o = 21.313kHz$ y $Q = 0.84$\\
+        Simple & $f_o = 15.527kHz$\\
         \\ \hline
     \end{tabular}
     \caption{Polos desnomarlizados de la $H(s)$}
@@ -443,8 +530,30 @@ relativamente grande para garantizar un correcto acoplamiento.
 esa misma restricci\'on se impone sobre $R$. Luego iterando sobre valores comerciales se encuentra con menos desviaci\'on nominal, donde $R = 100k \Omega$ y $100pF$. Si bien es un valor sensible para realizar mediciones, deber\'a ser tenido en cuenta
 a la hora de escoger la punta de medici\'on, y contemplado al momento de observar los resultados siempre y cuando se mida sobre el capacitor.
 
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale=0.7]{../EJ1/Recursos/legendre_histogram_one.png}
+    \caption{Histograma para la primera etapa de Legendre}
+    \label{fig:legendre_histogram_one}
+\end{figure}
+
 \paragraph{$2^{\circ}$ etapa:} Se dise\~na una etapa de filtro pasabajo con los par\'ametros $\omega_o = 2 \pi \cdot 21.313kHz$ y $Q = 0.84$, obteniendo as\'i que se deb\'ia utilizar $R_1 = R_2 = 7.5k\Omega + 430 \Omega$ y $C_2 = 560pF$ y $C_1 = 1.5nF$.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale=0.4]{../EJ1/Recursos/legendre_histogram_two.png}
+    \caption{Histograma para la segunda etapa de Legendre}
+    \label{fig:legendre_histogram_two}
+\end{figure}
+
 \paragraph{$3^{\circ}$ etapa:} Se dise\~na una etapa de filtro pasabajo con los par\'ametros $\omega_o = 2 \pi \cdot 28.371kHz$ y $Q = 2.88$, obteniendo as\'i que se deb\'ia utilizar $R_1 = R_2 = 9.1k\Omega + 620 \Omega$ y $C_2 = 100pF$ y $C_1 = 3.3nF$.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale=0.4]{../EJ1/Recursos/legendre_histogram_three.png}
+    \caption{Histograma para la tercera etapa de Legendre}
+    \label{fig:legendre_histogram_three}
+\end{figure}
 
 Para el dise\~no de las etapas se utiliza como amplificador operacional TL084 por su alto producto de ganancia y ancho de banda, as\'i como su alto slew rate, para garantizar una mayor regi\'on dentro de la cual se puede operar bajo condiciones ideales o asumiendo que lo son.
 
@@ -471,6 +580,36 @@ de los componentes luego se cumple con la plantilla consignada en todo caso. Se 
 \end{figure}
 
 \subsubsection{Resultados pr\'acticos}
+
+\paragraph{Respuesta en frecuencia:} En las Figs. \ref{fig:legendre_bode_modulo} y \ref{fig:legendre_bode_fase} se pueden observar los resultados de la implementaci\'on
+pr\'actica del filtro de Legendre con las celdas Sallen Key. Se realiza la contrastaci\'on de los resultados te\'oricos, pr\'acticos y simulados, acotando el rango de frecuencias
+en donde se vuelvan apreciables las magnitudes medidas, ya que para mayores frecuencias la se\~nal de salida se encuentra atenuada por debajo del piso de ruido. Se puede observar que para
+la frecuencia $f_p = 27kHz$ la ca\'ida medida es de $-1.73dB$.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale=0.7]{../EJ1/Recursos/legendre_bode_modulo.png}
+    \caption{Diagrama de bode en m\'odulo}
+    \label{fig:legendre_bode_modulo}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale=0.7]{../EJ1/Recursos/legendre_bode_fase.png}
+    \caption{Diagrama de bode en fase}
+    \label{fig:legendre_bode_fase}
+\end{figure}
+
+\paragraph{Impedancia de entrada:} En la Fig. \ref{fig:legendre_impedancia_entrada} se puede observar la impedancia de entrada medida para el circuito que implementa
+el filtro de la aproximaci\'on de Legendre. Para menores frecuencias la impedancia era mayor, y para mayores frecuencias la impedancia se manten\'ia constante en un valor,
+como se puede observar, $Z_{in} \approx 100k\Omega$.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale=0.7]{../EJ1/Recursos/legendre_impedancia_entrada.png}
+    \caption{Impedancia de entrada medida}
+    \label{fig:legendre_impedancia_entrada}
+\end{figure}
 
 \subsection{Dise\~no de un filtro con Bessel}
 La funci\'on de aproximaci\'on de Bessel se obtiene a partir de considerar una funci\'on racional como transferencia del sistema, a partir de la cual se realizan aproximaciones sobre la fase de su respuesta en frecuencia
@@ -524,7 +663,7 @@ se elige una funci\'on de orden $n = 6$.
     \begin{tabular}{c | c}
         Polo & Ubicaci\'on \\
         \hline \\
-        Complejo conjugado & $f_o = 1275.48Hz$ y $Q = 1.02$ \\
+        Complejo conjugado & $f_o = 1275.48Hz$ y $Q = 1.02$\\
         Complejo conjugado & $f_o = 1131.14Hz$ y $Q = 0.61$\\
         Complejo conjugado & $f_o = 1074.05Hz$ y $Q = 0.51$\\
         \\ \hline
@@ -540,9 +679,32 @@ depende directamente de las resistencia en la entrada, con lo cual eso determina
 de menor a mayor atenuaci\'on para evitar bajar la se\~nal a los niveles del ruido.
 
 \paragraph{$1^{\circ} etapa:$} Se dise\~na un filtro de segundo orden pasabajos con requisitos $f_0 = 1074.05Hz$ y $Q = 0.51$, empleando la celda Sallen-Key se llega a los valores $R_1 = R_2 = 120k \Omega + 1k\Omega$, $C_1 = 1.2nF$ y $C_2 = 1.2nF$
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale=0.4]{../EJ1/Recursos/bessel_histogram_one.png}
+    \caption{Histograma para la primer etapa de Bessel}
+    \label{fig:bessel_histogram_one}
+\end{figure}
+
 \paragraph{$2^{\circ} etapa:$} Se dise\~na un filtro de segundo orden pasabajos con requisitos $f_0 = 1131.14Hz$ y $Q = 0.61$, empleando la celda Sallen-Key se llega a los valores $R_1 = R_2 = 75k \Omega + 1k8\Omega$, $C_1 = 2.2nF$ y $C_2 = 1.5nF$
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale=0.4]{../EJ1/Recursos/bessel_histogram_two.png}
+    \caption{Histograma para la segunda etapa de Bessel}
+    \label{fig:bessel_histogram_two}
+\end{figure}
+
 \paragraph{$3^{\circ} etapa:$} Se dise\~na un filtro de segundo orden pasabajos con requisitos $f_0 = 1275.48Hz$ y $Q = 1.02$, empleando la celda Sallen-Key se llega a los valores $R_1 = R_2 = 22k \Omega + 680\Omega$, $C_1 = 12nF$ y $C_2 = 2.7nF$.
- 
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale=0.4]{../EJ1/Recursos/bessel_histogram_three.png}
+    \caption{Histograma para la tercera etapa de Bessel}
+    \label{fig:bessel_histogram_three}
+\end{figure}
+
 Al igual que para el filtro de Legendre, para maximizar el ancho de banda del circuito se emplea el operacional disponible con mayor producto de ganancia y ancho de banda, que adem\'as disponga de 4 operacionales y una gran impedancia de entrada, este es el TL084.
 
 \subsubsection{Simulaci\'on y verificaci\'on}
@@ -575,6 +737,65 @@ se puede observar en la fase que el sistema es de sexto orden dado el cambio de 
 
 \subsubsection{Resultados pr\'acticos}
 
+\paragraph{Respuesta en frecuencia:} En las Figs. \ref{fig:bessel_bode_modulo} y \ref{fig:bessel_bode_fase} se pueden observar los resultados
+contrastados entre la teor\'ia, la pr\'actica y lo simulado, donde el rango de frecuencia se restringe dado que para mayores frecuencias la atenuaci\'on
+provocaba que la salida se encontrase por debajo del piso del ruido. Se puede observar que para $f_p = 550Hz$ la ca\'ida medida es de $-2.1dB$ y para $f_a = 2600Hz$ la ca\'ida
+medida es de $-44.4dB$.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale=0.7]{../EJ1/Recursos/bessel_bode_modula.png}
+    \caption{Diagrama de bode en m\'odulo}
+    \label{fig:bessel_bode_modulo}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale=0.7]{../EJ1/Recursos/bessel_bode_fase.png}
+    \caption{Diagrama de bode en fase}
+    \label{fig:bessel_bode_fase}
+\end{figure}
+
+\paragraph{Impedancia de entrada:} En la Fig. \ref{bessel_impedancia_entrada} se puede observar la impedancia de entrada del circuito, donde para menores frecuencias
+el valor era mayor, mientras que para mayores frecuencias se manten\'ia casi constante, siempre por encima del valor m\'inimo que puede observarse como $Z_{in} = 127k\Omega$.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale=0.1]{../EJ1/Recursos/bessel_impedancia_entrada.png}
+    \caption{Impedancia de entrada medida}
+    \label{bessel_impedancia_entrada}
+\end{figure}
+
+\paragraph{Retardo de grupo:} En la Fig. \ref{fig:bessel_group_delay} se puede observar el retardo de grupo del filtro, contrastando tanto los resultados medidos como te\'oricos de la aproximaci\'on.
+Es importante observar para la frecuencia $f_p = 550Hz$, efectivamente la desviaci\'on es menor al $5\%$ tal cual fue consignado..
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale=0.7]{../EJ1/Recursos/bessel_group_delay.png}
+    \caption{Retardo de grupo de Bessel}
+    \label{fig:bessel_group_delay}
+\end{figure}
+
 \subsection{Dise\~no de PCB}
+En la pr\'actico se reutiliz\'o el mismo dise\~no de PCB para ambos filtros, empleando una configuraci\'on de entrada Sallen Key,
+que sin conectar el capacitor de la realimentaci\'on se convierte en un filtro de primer orden RC con buffer, lo necesario para el caso
+de Legendre. Se pueden visualizar los resultados de PCB en la Fig. \ref{fig:pcb_altium_3d}.
+
+\begin{figure}[H]
+    \centering
+    \begin{tabular}{c c}
+        \includegraphics[scale=0.5]{../EJ1/Recursos/legendre_top_3d.PNG} & 
+        \includegraphics[scale=0.5]{../EJ1/Recursos/legendre_bottom_3d.PNG} \\
+        \includegraphics[scale=0.5]{../EJ1/Recursos/bessel_top_3d.PNG} & 
+        \includegraphics[scale=0.5]{../EJ1/Recursos/bessel_bottom_3d.PNG}
+    \end{tabular}
+    \caption{Dise\~nos de PCB en Altium Designer}
+    \label{fig:pcb_altium_3d}
+\end{figure}
 
 \subsection{Conclusiones}
+Las celdas de Sallen Key son \'utiles para implementar funciones de aproximaci\'on de segundo orden con muy baja sensibilidad, garantizando que ante plantillas un poco m\'as restrictivas, las variaciones
+pr\'acticas sean casi imperceptibles, sin necesidad de mayor ajuste que la definici\'on de los componentes a tolerancias del $1\%$ o al $10\%$ seg\'un el caso. Por otro lado, est\'a limitada a trabajar con valores
+bajos de factor de calidad, evitando utilizar mucha ganancia para no inestabilizar al sistema. En conclusi\'on, se recomienda el uso de esta celdas para aquellas etapas de bajo factor de calidad y ganancia moderada siempre
+que sea posible.
+
