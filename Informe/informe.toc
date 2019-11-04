@@ -2,10 +2,32 @@
 \contentsline {section}{\numberline {1}Celda Sallen-Key}{3}{section.1}% 
 \contentsline {section}{\numberline {2}Celda Rauch (Deliyannis - Friend modificada)}{4}{section.2}% 
 \contentsline {section}{\numberline {3}Sedra-Ghorab-Martin}{5}{section.3}% 
-\contentsline {section}{\numberline {4}Celda Universal}{6}{section.4}% 
+\contentsline {section}{\numberline {4}Celdas Universales}{6}{section.4}% 
 \contentsline {subsection}{\numberline {4.1}Introducci\'on te\'orica}{6}{subsection.4.1}% 
-\contentsline {subsection}{\numberline {4.2}Configuraciones correspondientes a distintas celdas universales}{7}{subsection.4.2}% 
-\contentsline {subsubsection}{\numberline {4.2.1}Kerwin-Huelsman-Newcomb (KHN)}{7}{subsubsection.4.2.1}% 
-\contentsline {subsubsection}{\numberline {4.2.2}Tow-Thomas}{8}{subsubsection.4.2.2}% 
-\contentsline {subsubsection}{\numberline {4.2.3}Ackerberg-Mossberg}{10}{subsubsection.4.2.3}% 
-\contentsline {subsubsection}{\numberline {4.2.4}Fleischer-Tow}{10}{subsubsection.4.2.4}% 
+\contentsline {subsection}{\numberline {4.2}Configuraciones correspondientes a distintas celdas universales: An\'alisis ideal}{7}{subsection.4.2}% 
+\contentsline {subsection}{\numberline {4.3}Celda 2do orden Kerwin-Huelsman-Newcomb (KHN): An\'alisis ideal}{7}{subsection.4.3}% 
+\contentsline {subsubsection}{\numberline {4.3.1}Funci\'on transferencia y par\'ametros}{8}{subsubsection.4.3.1}% 
+\contentsline {subsubsection}{\numberline {4.3.2}Sensibilidades}{8}{subsubsection.4.3.2}% 
+\contentsline {subsubsection}{\numberline {4.3.3}Impedancia de entrada}{8}{subsubsection.4.3.3}% 
+\contentsline {subsubsection}{\numberline {4.3.4}Impedancia de salida}{8}{subsubsection.4.3.4}% 
+\contentsline {subsection}{\numberline {4.4}Celda 2do orden Tow-Thomas:An\'alisis ideal}{9}{subsection.4.4}% 
+\contentsline {subsubsection}{\numberline {4.4.1}Funci\'on transferencia y par\'ametros}{9}{subsubsection.4.4.1}% 
+\contentsline {subsubsection}{\numberline {4.4.2}Sensibilidades}{10}{subsubsection.4.4.2}% 
+\contentsline {subsubsection}{\numberline {4.4.3}Impedancia de entrada}{10}{subsubsection.4.4.3}% 
+\contentsline {subsubsection}{\numberline {4.4.4}Impedancia de salida}{10}{subsubsection.4.4.4}% 
+\contentsline {subsection}{\numberline {4.5}Celda 2do orden Ackerberg-Mossberg: An\'alisis ideal}{10}{subsection.4.5}% 
+\contentsline {subsubsection}{\numberline {4.5.1}Funci\'on transferencia y par\'ametros}{11}{subsubsection.4.5.1}% 
+\contentsline {subsubsection}{\numberline {4.5.2}Sensibilidades}{11}{subsubsection.4.5.2}% 
+\contentsline {subsubsection}{\numberline {4.5.3}Impedancia de entrada}{11}{subsubsection.4.5.3}% 
+\contentsline {subsubsection}{\numberline {4.5.4}Impedancia de salida}{11}{subsubsection.4.5.4}% 
+\contentsline {subsubsection}{\numberline {4.5.5}Celda 2do orden Fleischer-Tow: An\'alisis ideal}{11}{subsubsection.4.5.5}% 
+\contentsline {subsubsection}{\numberline {4.5.6}Funci\'on transferencia y par\'ametros}{12}{subsubsection.4.5.6}% 
+\contentsline {subsubsection}{\numberline {4.5.7}Sensibilidades}{12}{subsubsection.4.5.7}% 
+\contentsline {subsection}{\numberline {4.6}Dise\~no de filtro rechaza banda mediante la aproximaci\'on Chebychev Inverso}{13}{subsection.4.6}% 
+\contentsline {subsubsection}{\numberline {4.6.1}Especificaciones del filtro y aproximaci\'on}{13}{subsubsection.4.6.1}% 
+\contentsline {subsubsection}{\numberline {4.6.2}Selecci\IeC {\'o}n de celda y dise\~no de etapas}{14}{subsubsection.4.6.2}% 
+\contentsline {subsubsection}{\numberline {4.6.3}Celda 2do orden Fleischer-Tow: An\'alisis real}{14}{subsubsection.4.6.3}% 
+\contentsline {subsubsection}{\numberline {4.6.4}Simulaci\'on y verificaci\'on}{14}{subsubsection.4.6.4}% 
+\contentsline {subsubsection}{\numberline {4.6.5}Dise\~o de PCB}{14}{subsubsection.4.6.5}% 
+\contentsline {subsubsection}{\numberline {4.6.6}An\'alisis Resultados obtenidos}{14}{subsubsection.4.6.6}% 
+\contentsline {subsection}{\numberline {4.7}Conclusiones}{14}{subsection.4.7}% 
