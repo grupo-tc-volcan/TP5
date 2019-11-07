@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.5.29)  4 NOV 2019 03:32
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.5.29)  7 NOV 2019 03:44
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1167,16 +1167,13 @@ LaTeX Info: Redefining \. on input line 23.
 LaTeX Info: Redefining \% on input line 23.
 
 
-LaTeX Warning: Label `int2eq' multiply defined.
-
-
-LaTeX Warning: Label `int2eq' multiply defined.
-
-
 LaTeX Warning: Label `hg_tt' multiply defined.
 
 
 LaTeX Warning: Label `sens_am' multiply defined.
+
+
+LaTeX Warning: Label `f_cars' multiply defined.
 
 )
 \openout1 = `informe.aux'.
@@ -1405,88 +1402,89 @@ LaTeX Font Info:    Font shape `U/futm/m/n' will be
 
  [2] (./ej1.tex) [3] (./ej2.tex) [4] (./ej3.tex) [5] (./ej4.tex
 Package hyperref Info: bookmark level for unknown todo defaults to 0 on input l
-ine 27.
+ine 11.
 LaTeX Font Info:    Font shape `T1/futs/bx/n' in size <12> not available
-(Font)              Font shape `T1/futs/b/n' tried instead on input line 28.
+(Font)              Font shape `T1/futs/b/n' tried instead on input line 39.
 LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 7.35999pt on input line 30.
+(Font)              scaled to size 7.35999pt on input line 55.
 LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 6.25598pt on input line 30.
+(Font)              scaled to size 6.25598pt on input line 55.
 LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 7.35999pt on input line 30.
+(Font)              scaled to size 7.35999pt on input line 55.
 LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 6.25598pt on input line 30.
-<../EJ4/imagenes/int1.png, id=219, 919.435pt x 300.12125pt>
-File: ../EJ4/imagenes/int1.png Graphic file (type png)
-<use ../EJ4/imagenes/int1.png>
-Package pdftex.def Info: ../EJ4/imagenes/int1.png  used on input line 34.
-(pdftex.def)             Requested size: 341.43423pt x 111.45068pt.
-<../EJ4/imagenes/int2.png, id=222, 921.4425pt x 381.425pt>
-File: ../EJ4/imagenes/int2.png Graphic file (type png)
-<use ../EJ4/imagenes/int2.png>
-Package pdftex.def Info: ../EJ4/imagenes/int2.png  used on input line 54.
-(pdftex.def)             Requested size: 341.42049pt x 141.32874pt.
-
-[6 <../EJ4/imagenes/int1.png>]
-<../EJ4/imagenes/KERWIN.png, id=240, 793.96625pt x 312.16624pt>
+(Font)              scaled to size 6.25598pt on input line 55.
+<../EJ4/imagenes/KERWIN.png, id=228, 793.96625pt x 312.16624pt>
 File: ../EJ4/imagenes/KERWIN.png Graphic file (type png)
 <use ../EJ4/imagenes/KERWIN.png>
-Package pdftex.def Info: ../EJ4/imagenes/KERWIN.png  used on input line 90.
+Package pdftex.def Info: ../EJ4/imagenes/KERWIN.png  used on input line 61.
 (pdftex.def)             Requested size: 341.43518pt x 134.24315pt.
- [7 <../EJ4/imagenes/int2.png> <../EJ4/imagenes/KERWIN.png>]
-Overfull \hbox (0.58315pt too wide) in paragraph at lines 151--151
-[][]\T1/futs/m/n/10 (-20) CHEQUEAR 
- []
 
-
-Overfull \hbox (0.58315pt too wide) in paragraph at lines 151--151
-[][]\T1/futs/m/n/10 (-20) CHEQUEAR 
- []
-
-[8]
-<../EJ4/imagenes/sumador_extra.png, id=266, 392.46625pt x 201.75375pt>
+[6] [7 <../EJ4/imagenes/KERWIN.png>]
+<../EJ4/imagenes/sumador_extra.png, id=254, 392.46625pt x 201.75375pt>
 File: ../EJ4/imagenes/sumador_extra.png Graphic file (type png)
 <use ../EJ4/imagenes/sumador_extra.png>
 Package pdftex.def Info: ../EJ4/imagenes/sumador_extra.png  used on input line 
-157.
+126.
 (pdftex.def)             Requested size: 227.62457pt x 117.01418pt.
-<../EJ4/imagenes/TOW-THOMAS.png, id=267, 804.00375pt x 312.16624pt>
+ [8 <../EJ4/imagenes/sumador_extra.png>]
+<../EJ4/imagenes/TOW-THOMAS.png, id=264, 804.00375pt x 312.16624pt>
 File: ../EJ4/imagenes/TOW-THOMAS.png Graphic file (type png)
 <use ../EJ4/imagenes/TOW-THOMAS.png>
-Package pdftex.def Info: ../EJ4/imagenes/TOW-THOMAS.png  used on input line 168
+Package pdftex.def Info: ../EJ4/imagenes/TOW-THOMAS.png  used on input line 137
 .
 (pdftex.def)             Requested size: 341.43332pt x 132.56648pt.
- [9 <../EJ4/imagenes/sumador_extra.png> <../EJ4/imagenes/TOW-THOMAS.png>]
-Overfull \hbox (5.04436pt too wide) in paragraph at lines 211--211
+
+[9 <../EJ4/imagenes/TOW-THOMAS.png>]
+Overfull \hbox (5.04436pt too wide) in paragraph at lines 180--180
 [][]\T1/futs/m/n/10 (-20) COMPLETAR  
  []
 
 
-Overfull \hbox (5.04436pt too wide) in paragraph at lines 211--211
+Overfull \hbox (5.04436pt too wide) in paragraph at lines 180--180
 [][]\T1/futs/m/n/10 (-20) COMPLETAR  
  []
 
-<../EJ4/imagenes/ACKBERG.png, id=277, 934.49126pt x 402.50375pt>
+<../EJ4/imagenes/ACKBERG.png, id=272, 934.49126pt x 402.50375pt>
 File: ../EJ4/imagenes/ACKBERG.png Graphic file (type png)
 <use ../EJ4/imagenes/ACKBERG.png>
-Package pdftex.def Info: ../EJ4/imagenes/ACKBERG.png  used on input line 220.
+Package pdftex.def Info: ../EJ4/imagenes/ACKBERG.png  used on input line 189.
 (pdftex.def)             Requested size: 341.43582pt x 147.06311pt.
 [10 <../EJ4/imagenes/ACKBERG.png>]
-<../EJ4/imagenes/FLEISCHER.png, id=286, 835.12pt x 473.77pt>
+<../EJ4/imagenes/FLEISCHER.png, id=281, 835.12pt x 473.77pt>
 File: ../EJ4/imagenes/FLEISCHER.png Graphic file (type png)
 <use ../EJ4/imagenes/FLEISCHER.png>
-Package pdftex.def Info: ../EJ4/imagenes/FLEISCHER.png  used on input line 276.
+Package pdftex.def Info: ../EJ4/imagenes/FLEISCHER.png  used on input line 244.
 
 (pdftex.def)             Requested size: 341.43295pt x 193.69754pt.
  [11]
-Overfull \vbox (2.17609pt too high) detected at line 303
+Overfull \vbox (2.17609pt too high) detected at line 271
  []
 
 
-Overfull \vbox (2.17609pt too high) detected at line 305
+Overfull \vbox (2.17609pt too high) detected at line 273
  []
 
-[12 <../EJ4/imagenes/FLEISCHER.png>] [13]) [14]
+[12 <../EJ4/imagenes/FLEISCHER.png>] [13] [14]
+Overfull \hbox (16.90024pt too wide) in paragraph at lines 422--430
+ [][] 
+ []
+
+[15]
+File: ../EJ4/imagenes/FLEISCHER.png Graphic file (type png)
+<use ../EJ4/imagenes/FLEISCHER.png>
+Package pdftex.def Info: ../EJ4/imagenes/FLEISCHER.png  used on input line 440.
+
+(pdftex.def)             Requested size: 341.43295pt x 193.69754pt.
+
+Overfull \vbox (2.17609pt too high) detected at line 450
+ []
+
+
+Overfull \hbox (5.08032pt too wide) in paragraph at lines 447--455
+ [][] 
+ []
+
+) [16]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 36.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 36.
  (./informe.aux
@@ -1495,27 +1493,21 @@ LaTeX Info: Redefining \% on input line 23.
 )
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 36.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 36.
+Package rerunfilecheck Info: File `informe.out' has not changed.
+(rerunfilecheck)             Checksum: 1EC938CA5D71791F1C0E9296FB9D703C;2926.
 
-
-Package rerunfilecheck Warning: File `informe.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `informe.out':
-(rerunfilecheck)             Before: 1F883CA1751DDBE5193FCBA9063CD446;2808
-(rerunfilecheck)             After:  CE06B2BBFF78D286BB26A3C3D17B1FF8;2806.
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 23162 strings out of 494060
- 425831 string characters out of 6163035
- 554744 words of memory out of 5000000
- 26096 multiletter control sequences out of 15000+600000
- 134557 words of font info for 237 fonts, out of 8000000 for 9000
+ 23189 strings out of 494060
+ 425678 string characters out of 6163035
+ 550332 words of memory out of 5000000
+ 26068 multiletter control sequences out of 15000+600000
+ 137739 words of font info for 274 fonts, out of 8000000 for 9000
  319 hyphenation exceptions out of 8191
- 63i,13n,81p,1066b,972s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 63i,13n,81p,1859b,975s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2019basic/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/lo
 cal/texlive/2019basic/texmf-dist/fonts/type1/public/fourier/fourier-mex.pfb></u
 sr/local/texlive/2019basic/texmf-dist/fonts/type1/public/fourier/fourier-ml.pfb
@@ -1525,10 +1517,10 @@ ier-ms.pfb></usr/local/texlive/2019basic/texmf-dist/fonts/type1/adobe/utopia/pu
 tb8a.pfb></usr/local/texlive/2019basic/texmf-dist/fonts/type1/adobe/utopia/putr
 8a.pfb></usr/local/texlive/2019basic/texmf-dist/fonts/type1/adobe/utopia/putri8
 a.pfb>
-Output written on informe.pdf (14 pages, 630100 bytes).
+Output written on informe.pdf (16 pages, 177989 bytes).
 PDF statistics:
- 365 PDF objects out of 1000 (max. 8388607)
- 308 compressed objects within 4 object streams
- 82 named destinations out of 1000 (max. 500000)
- 34704 words of extra memory for PDF output out of 35830 (max. 10000000)
+ 385 PDF objects out of 1000 (max. 8388607)
+ 330 compressed objects within 4 object streams
+ 91 named destinations out of 1000 (max. 500000)
+ 34710 words of extra memory for PDF output out of 35830 (max. 10000000)
 
