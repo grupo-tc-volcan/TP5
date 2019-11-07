@@ -604,6 +604,14 @@ a la hora de escoger la punta de medici\'on, y contemplado al momento de observa
 
 Para el dise\~no de las etapas se utiliza como amplificador operacional TL084 por su alto producto de ganancia y ancho de banda, as\'i como su alto slew rate, para garantizar una mayor regi\'on dentro de la cual se puede operar bajo condiciones ideales o asumiendo que lo son.
 
+\subsubsection{Rango din\'amico}
+Empleando el an\'alisis te\'orico previamente realizado para las celdas, luego en base a las especificaciones y los resultados de las aproximaciones, el valor m\'as grande de factor de calidad del sistema a dise\~nar
+es $Q_{max} = 2.88$ con lo cual dado que la ganancia de banda de paso es unitaria, entonces la ganancia m\'axima est\'a dada sobre el sobrepico que cae en banda de paso para una de las etapas. Por lo tanto,
+calculando esa ganancia como $G_{max} = 2.796$, luego la amplitud m\'axima $V_{max} = 4.47V$. Finalmente, si se quisiera realizar de forma correcta la estimaci\'on del rango din\'amico en el mejor de sus casos,
+deber\'ia calcularse la contribuci\'on de un posible ruido de entrada sobre las salidas de cada etapa, no obstante este resultado no es del todo representativo de la realidad, dado que el nivel del ruido var\'ia
+seg\'un m\'ultiples variables del entorno, por tanto se estima un valor $V_{min} = 10mV$ para obtener simplemente una referencia. Por lo tanto, el $R_D = 53.01dB$, y es una cota superior al rango din\'amico que se
+puede encontrar en la realidad.
+
 \subsubsection{Simulaci\'on y verificaci\'on}
 Se realizan las simulaciones del filtro conectado en cascada utilizando las 3 etapas correspondientes, utilizando un an\'alisis de Monte Carlo se puede apreciar que ante las variaciones por tolerancias
 de los componentes luego se cumple con la plantilla consignada en todo caso. Se puede observar que el orden del filtro es $n = 5$ en funci\'on del cambio de $450^{\circ}$ en la fase, $90^{\circ}$ por cada polo.
@@ -753,6 +761,10 @@ de menor a mayor atenuaci\'on para evitar bajar la se\~nal a los niveles del rui
 \end{figure}
 
 Al igual que para el filtro de Legendre, para maximizar el ancho de banda del circuito se emplea el operacional disponible con mayor producto de ganancia y ancho de banda, que adem\'as disponga de 4 operacionales y una gran impedancia de entrada, este es el TL084.
+
+\subsubsection{Rango din\'amico}
+Siguiendo el proceso de c\'alculo presentado anteriormente de forma te\'orica y en el filtro de Legendre, y dado que ninguno de los factores de calidad denota en las etapas alg\'un sobrepico sobre la banda de paso, luego
+considerando la ganancia de banda de paso unitaria, se establece el rango din\'amico como $R_D = 61.93dB$.
 
 \subsubsection{Simulaci\'on y verificaci\'on}
 Se realizan las simulaciones utilizando un an\'alisis de Monte Carlo para contemplar las variaciones respecto de los valores nominales de los componentes por sus tolerancias,
