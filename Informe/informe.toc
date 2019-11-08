@@ -31,6 +31,9 @@
 \contentsline {subsubsection}{\numberline {4.6.4}Dise\~no de etapas}{15}{subsubsection.4.6.4}% 
 \contentsline {paragraph}{M\'etodo de ajuste: Dise\~o por componentes iguales}{16}{section*.13}% 
 \contentsline {subsubsection}{\numberline {4.6.5}Simulaci\'on y verificaci\'on}{16}{subsubsection.4.6.5}% 
-\contentsline {subsubsection}{\numberline {4.6.6}Dise\~o de PCB}{16}{subsubsection.4.6.6}% 
-\contentsline {subsubsection}{\numberline {4.6.7}Resultados obtenidos}{16}{subsubsection.4.6.7}% 
-\contentsline {subsection}{\numberline {4.7}Conclusiones}{16}{subsection.4.7}% 
+\contentsline {paragraph}{Variaci\'on de R1 - Profundidad del pico de notch:}{17}{section*.15}% 
+\contentsline {paragraph}{Variaci\'on de R3 - Posici\'on del pico de notch:}{18}{section*.16}% 
+\contentsline {subsubsection}{\numberline {4.6.6}Dise\~o de PCB}{19}{subsubsection.4.6.6}% 
+\contentsline {subsubsection}{\numberline {4.6.7}Resultados obtenidos}{19}{subsubsection.4.6.7}% 
+\contentsline {paragraph}{Respuesta en frecuencia:}{19}{section*.17}% 
+\contentsline {subsection}{\numberline {4.7}Conclusiones}{21}{subsection.4.7}% 

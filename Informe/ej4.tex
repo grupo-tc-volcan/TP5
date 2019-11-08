@@ -462,8 +462,98 @@ En cuanto a las resistencias, se tuvo en cuenta la ganancia G, la frecuencia $\o
 
 \subsubsection{Simulaci\'on y verificaci\'on}
 
+Antes de dise\~nar la placa, se hicieron simulaciones Monte Carlo, teniendo en cuenta las tolerancias de los componentes que se emplear\'ian. Para disminuir el error, se decidi\'o que se usar\'ian resistencias SMD ya que tienen un error del 1\%. Se tom\'o un error del 10\% para los capacitores. A continuaci\'on se muestran los resultados de las simulaciones. 
+
+ \begin{figure}[H] %!ht
+	\centering	\includegraphics[width=12cm,height=12cm,keepaspectratio]{../EJ4/graficos/h_montecarlo_malo.png}
+	\caption{Simulaci\'on Monte Carlo: Diagrama de Bode.}
+	\label{sim_bode}
+\end{figure}
+
+ \begin{figure}[H] %!ht
+	\centering	\includegraphics[width=12cm,height=12cm,keepaspectratio]{../EJ4/graficos/h_montecarlo_caps.png}
+	\caption{Simulaci\'on Monte Carlo: Detalle del diagrama de Bode sobre el pico del notch.}
+	\label{sim_bode_caps}
+\end{figure}
+
+En el gr\'afico \ref{sim_bode_caps} se puede ver que hay mucha desviaci\'on tanto de la profundidad como de la frecuencia del pico del notch. Dado que los capacitores tienen error del 10\% y las ressitencias SMD del 1\%, se volvi\'o a simular considerando capacitores ideales, para ver si las resistencias tambi\'en cumplen un papel importante en semejantes desv\'ios. El siguiente gr\'afico se obtuvo al simular \'unicamente considerando el error de las resistencias.
+
+ \begin{figure}[H] %!ht
+	\centering	\includegraphics[width=12cm,height=12cm,keepaspectratio]{../EJ4/graficos/h_montecarlo_detalle.png}
+	\caption{Simulaci\'on Monte Carlo: Detalle del diagrama de Bode sobre el pico del notch, sin error de capacitores.}
+	\label{sim_bode_detalle}
+\end{figure}
+
+Al observar los gr\'aficos \ref{sim_bode_caps} y \ref{sim_bode_detalle}, se puede notar que en cuanto a la frecuencia del pico del notch los capacitores tienen gran influencia. Considerando el error de los mismos, el pico del notch en el Monte Carlo est\'a ubicado entre -48 y 55Hz; mientras que al considerarlos ideales el pico est\'a entre 50,5 y 51,5Hz aproximadamente. Por otro lado, algo importante que se observ\'o en estas simulaciones es que ning\'un pico llega a los 50dB de atenuaci\'on y la banda atenuante. Considerando la posibilidad de que un redondeo en los valores de componentes tenga tanta influencia, se dejaron fijos todos los valores de los componentes y se hizo, en cada celda, un barrido entre distintos valores para las resistencias R1 y R3 (variando una a la vez). Se eligi\'o estas ya que son las que se tomaron como valores de ajuste luego de haber fijado los valores del resto de los componentes. Al variar R1 cambia la profundidad del pico del notch y al variar R3 cambia la posici\'on en frecuencia. 
+
+\paragraph{Variaci\'on de R1 - Profundidad del pico de notch:} Los gr\'aficos \ref{celda1_r1}, \ref{celda2_r1} y \ref{celda3_r1} corresponden a la influencia de variaciones de R1 sobre la profundidad del pico de notch. Si bien ninguna de las etapas llega as\'i a 50dB de atenuaci\'on, se fue acotando en cada etapa el rango de valores de R1 hasta encontrar con mayor presici\'on la profundidad m\'axima en cada etapa y luego se simul\'o el circuito completo entre esos rangos y se lleg\'o a una atenuaci\'on un poco mayor a 80dB, para una combinaci\'on de valores muy precisa, lo cual implicar\'ia una gran dificultad al momento de ver el comportamiento real del circuito. Al notar que el cambio es muy grande al modificar levemente uno de estos valores, se decidi\'o colocar un preset en R1, para poder tener un ajuste fino al momento de medir. 
+
+ \begin{figure}[H] %!ht
+	\centering	\includegraphics[width=12cm,height=12cm,keepaspectratio]{../EJ4/graficos/etapa1_R1.png}
+	\caption{Simulaci\'on con barrido de valores de R1 en la celda 1.}
+	\label{celda1_r1}
+\end{figure}
+
+ \begin{figure}[H] %!ht
+	\centering	\includegraphics[width=12cm,height=12cm,keepaspectratio]{../EJ4/graficos/etapa2_R1cambiada.png}
+	\caption{Simulaci\'on con barrido de valores de R1 en la celda 2.}
+	\label{celda2_r1}
+\end{figure}
+
+ \begin{figure}[H] %!ht
+	\centering	\includegraphics[width=12cm,height=12cm,keepaspectratio]{../EJ4/graficos/etapa3_R1.png}
+	\caption{Simulaci\'on con barrido de valores de R1 en la celda 3.}
+	\label{celda3_r1}
+\end{figure}
+
+\paragraph{Variaci\'on de R3 - Posici\'on del pico de notch:} Los gr\'aficos \ref{celda1_r3}, \ref{celda2_r3} y \ref{celda3_r3} corresponden a la influencia de variaciones de R3 sobre la posici\'on del pico de notch. Puede verse que en las tres celdas la variaci\'on de R3 produce un desplazamiento de la frecuencia del pico de notch entre 49,5kHz y 52,5kHz aproximadamente. Dado que se desea que la ubicaci\'on de este pico para el circuito entero est\'e en 51kHz, el desplazamiento observado se considera grande. Al simular el circuito entero, surgi\'o que si las frecuencias de los picos de cada etapa no estaban lo suficientemente cerca, no habr\'ia una banda atenuante por debajo de la cual se econtraran los tres picos, ya que habr\'ia un pico, subir\'ia el m\'odulo a casi 0dB y luego bajar\'ia al siguiente pico. Por lo tanto, se acot\'o el rango de valores de R3 en cada etapa, para asegurarse que la primera estuviera centrada en 51kHz mientras que las dos restantes estuvieran una antes y la otra despu\'es de dicha frecuencia. Para decidir qu\'e tan cerca podr\'ian estar las \'ultimas dos etapas de la frecuencia de 51kHz, se tuvo en cuenta que no est\'en lo suficientemente alejadas tal que disminuyera notablemente la atenuaci\'on entre un pico y el siguiente. Para cumplir esto al momento de medir, se decidi\'o colocar aqu\'i tambi\'en un preset. Sin embargo, ya que solo deb\'iamos usar un preset por celda, se consider\'o m\'as importante poder tener un control fino sobre la profunidad del pico. Por lo tanto, los presets en R3 ser\'ian empleados para posicionar al pico de cada celda en su posici\'on indicada, luego sacarlos y medir el valor de la posici\'on del preset para ser reemplazado por la combinaci\'on serie o paralelo SMD que mejor se aproxime.
+
+ \begin{figure}[H] %!ht
+	\centering	\includegraphics[width=12cm,height=12cm,keepaspectratio]{../EJ4/graficos/etapa1_R3.png}
+	\caption{Simulaci\'on con barrido de valores de R3 en la celda 1.}
+	\label{celda1_r3}
+\end{figure}
+
+ \begin{figure}[H] %!ht
+	\centering	\includegraphics[width=12cm,height=12cm,keepaspectratio]{../EJ4/graficos/etapa2_R3.png}
+	\caption{Simulaci\'on con barrido de valores de R3 en la celda 2.}
+	\label{celda2_r3}
+\end{figure}
+
+ \begin{figure}[H] %!ht
+	\centering	\includegraphics[width=12cm,height=12cm,keepaspectratio]{../EJ4/graficos/etapa3_R3.png}
+	\caption{Simulaci\'on con barrido de valores de R3 en la celda 3.}
+	\label{celda3_r3}
+\end{figure}
+
+
 \subsubsection{Dise\~o de PCB}
 
 \subsubsection{Resultados obtenidos}
+
+ En los gr\'aficos \ref{bode_mod} y  \ref{bode_ph} se pueden ver los gr\'aficos de amplitud y fase correspondientes al diagrama de Bode del circuito completo.
+
+ \begin{figure}[H] %!ht
+	\centering	\includegraphics[width=12cm,height=12cm,keepaspectratio]{../EJ4/graficos/bode_medido_lindo_amplitud.png}
+	\caption{Diagrama de Bode: Amplitud.}
+	\label{bode_mod}
+\end{figure}
+
+
+ \begin{figure}[H] %!ht
+	\centering	\includegraphics[width=12cm,height=12cm,keepaspectratio]{../EJ4/graficos/phase_bode.png}
+	\caption{Diagrama de Bode: Fase.}
+	\label{bode_ph}
+\end{figure}
+
+ \begin{figure}[H] %!ht
+	\centering	\includegraphics[width=12cm,height=12cm,keepaspectratio]{../EJ4/graficos/bode_amplitud_zoom.png}
+	\caption{Diagrama de Bode: Amplitud - Detalle en el pico de notch.}
+	\label{bode_mod_zoom}
+\end{figure}
+
+
+
+
 
 \subsection{Conclusiones} 

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.5.29)  7 NOV 2019 03:44
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.5.29)  8 NOV 2019 17:41
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1484,7 +1484,88 @@ Overfull \hbox (5.08032pt too wide) in paragraph at lines 447--455
  [][] 
  []
 
-) [16]
+<../EJ4/graficos/h_montecarlo_malo.png, id=328, 925.65825pt x 317.988pt>
+File: ../EJ4/graficos/h_montecarlo_malo.png Graphic file (type png)
+<use ../EJ4/graficos/h_montecarlo_malo.png>
+Package pdftex.def Info: ../EJ4/graficos/h_montecarlo_malo.png  used on input l
+ine 468.
+(pdftex.def)             Requested size: 341.44298pt x 117.29465pt.
+[16]
+<../EJ4/graficos/h_montecarlo_caps.png, id=338, 1048.51724pt x 274.626pt>
+File: ../EJ4/graficos/h_montecarlo_caps.png Graphic file (type png)
+<use ../EJ4/graficos/h_montecarlo_caps.png>
+Package pdftex.def Info: ../EJ4/graficos/h_montecarlo_caps.png  used on input l
+ine 474.
+(pdftex.def)             Requested size: 341.43604pt x 89.42838pt.
+<../EJ4/graficos/h_montecarlo_detalle.png, id=340, 923.24925pt x 319.1925pt>
+File: ../EJ4/graficos/h_montecarlo_detalle.png Graphic file (type png)
+<use ../EJ4/graficos/h_montecarlo_detalle.png>
+Package pdftex.def Info: ../EJ4/graficos/h_montecarlo_detalle.png  used on inpu
+t line 482.
+(pdftex.def)             Requested size: 341.44191pt x 118.04579pt.
+ [17 <../EJ4/graficos/h_montecarlo_malo.png> <../EJ4/graficos/h_montecarlo_caps
+.png> <../EJ4/graficos/h_montecarlo_detalle.png>]
+<../EJ4/graficos/etapa1_R1.png, id=360, 979.86075pt x 251.13824pt>
+File: ../EJ4/graficos/etapa1_R1.png Graphic file (type png)
+<use ../EJ4/graficos/etapa1_R1.png>
+Package pdftex.def Info: ../EJ4/graficos/etapa1_R1.png  used on input line 492.
+
+(pdftex.def)             Requested size: 341.43135pt x 87.50883pt.
+<../EJ4/graficos/etapa2_R1cambiada.png, id=361, 976.24725pt x 251.7405pt>
+File: ../EJ4/graficos/etapa2_R1cambiada.png Graphic file (type png)
+<use ../EJ4/graficos/etapa2_R1cambiada.png>
+Package pdftex.def Info: ../EJ4/graficos/etapa2_R1cambiada.png  used on input l
+ine 498.
+(pdftex.def)             Requested size: 341.43842pt x 88.04518pt.
+<../EJ4/graficos/etapa3_R1.png, id=362, 980.463pt x 251.7405pt>
+File: ../EJ4/graficos/etapa3_R1.png Graphic file (type png)
+<use ../EJ4/graficos/etapa3_R1.png>
+Package pdftex.def Info: ../EJ4/graficos/etapa3_R1.png  used on input line 504.
+
+(pdftex.def)             Requested size: 341.43175pt x 87.6649pt.
+<../EJ4/graficos/etapa1_R3.png, id=366, 979.86075pt x 254.1495pt>
+File: ../EJ4/graficos/etapa1_R3.png Graphic file (type png)
+<use ../EJ4/graficos/etapa1_R3.png>
+Package pdftex.def Info: ../EJ4/graficos/etapa1_R3.png  used on input line 512.
+
+(pdftex.def)             Requested size: 341.43135pt x 88.55809pt.
+ [18 <../EJ4/graficos/etapa1_R1.png> <../EJ4/graficos/etapa2_R1cambiada.png> <.
+./EJ4/graficos/etapa3_R1.png>]
+<../EJ4/graficos/etapa2_R3.png, id=378, 1085.2545pt x 251.7405pt>
+File: ../EJ4/graficos/etapa2_R3.png Graphic file (type png)
+<use ../EJ4/graficos/etapa2_R3.png>
+Package pdftex.def Info: ../EJ4/graficos/etapa2_R3.png  used on input line 518.
+
+(pdftex.def)             Requested size: 341.42642pt x 79.19879pt.
+<../EJ4/graficos/etapa3_R3.png, id=379, 1087.06125pt x 253.54726pt>
+File: ../EJ4/graficos/etapa3_R3.png Graphic file (type png)
+<use ../EJ4/graficos/etapa3_R3.png>
+Package pdftex.def Info: ../EJ4/graficos/etapa3_R3.png  used on input line 524.
+
+(pdftex.def)             Requested size: 341.43088pt x 79.63567pt.
+<../EJ4/graficos/bode_medido_lindo_amplitud.png, id=382, 905.5431pt x 605.6226p
+t>
+File: ../EJ4/graficos/bode_medido_lindo_amplitud.png Graphic file (type png)
+<use ../EJ4/graficos/bode_medido_lindo_amplitud.png>
+Package pdftex.def Info: ../EJ4/graficos/bode_medido_lindo_amplitud.png  used o
+n input line 537.
+(pdftex.def)             Requested size: 341.42937pt x 228.3462pt.
+ [19 <../EJ4/graficos/etapa1_R3.png> <../EJ4/graficos/etapa2_R3.png> <../EJ4/gr
+aficos/etapa3_R3.png>]
+<../EJ4/graficos/phase_bode.png, id=394, 905.5431pt x 605.6226pt>
+File: ../EJ4/graficos/phase_bode.png Graphic file (type png)
+<use ../EJ4/graficos/phase_bode.png>
+Package pdftex.def Info: ../EJ4/graficos/phase_bode.png  used on input line 544
+.
+(pdftex.def)             Requested size: 341.42937pt x 228.3462pt.
+<../EJ4/graficos/bode_amplitud_zoom.png, id=395, 905.5431pt x 605.6226pt>
+File: ../EJ4/graficos/bode_amplitud_zoom.png Graphic file (type png)
+<use ../EJ4/graficos/bode_amplitud_zoom.png>
+Package pdftex.def Info: ../EJ4/graficos/bode_amplitud_zoom.png  used on input 
+line 550.
+(pdftex.def)             Requested size: 341.42937pt x 228.3462pt.
+ [20 <../EJ4/graficos/bode_medido_lindo_amplitud.png> <../EJ4/graficos/phase_bo
+de.png>]) [21 <../EJ4/graficos/bode_amplitud_zoom.png>]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 36.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 36.
  (./informe.aux
@@ -1501,11 +1582,11 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 23189 strings out of 494060
- 425678 string characters out of 6163035
- 550332 words of memory out of 5000000
- 26068 multiletter control sequences out of 15000+600000
- 137739 words of font info for 274 fonts, out of 8000000 for 9000
+ 23314 strings out of 494060
+ 428424 string characters out of 6163035
+ 551300 words of memory out of 5000000
+ 26128 multiletter control sequences out of 15000+600000
+ 139835 words of font info for 300 fonts, out of 8000000 for 9000
  319 hyphenation exceptions out of 8191
  63i,13n,81p,1859b,975s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2019basic/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/lo
@@ -1517,10 +1598,10 @@ ier-ms.pfb></usr/local/texlive/2019basic/texmf-dist/fonts/type1/adobe/utopia/pu
 tb8a.pfb></usr/local/texlive/2019basic/texmf-dist/fonts/type1/adobe/utopia/putr
 8a.pfb></usr/local/texlive/2019basic/texmf-dist/fonts/type1/adobe/utopia/putri8
 a.pfb>
-Output written on informe.pdf (16 pages, 177989 bytes).
+Output written on informe.pdf (21 pages, 2869780 bytes).
 PDF statistics:
- 385 PDF objects out of 1000 (max. 8388607)
- 330 compressed objects within 4 object streams
- 91 named destinations out of 1000 (max. 500000)
- 34710 words of extra memory for PDF output out of 35830 (max. 10000000)
+ 460 PDF objects out of 1000 (max. 8388607)
+ 376 compressed objects within 4 object streams
+ 111 named destinations out of 1000 (max. 500000)
+ 34770 words of extra memory for PDF output out of 35830 (max. 10000000)
 
