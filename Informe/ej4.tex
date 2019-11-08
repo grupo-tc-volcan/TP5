@@ -1,12 +1,5 @@
 \todo{
-zins
-avols para la fleischer
-simulaciones y mediciones
-histogramas (?????)
-eleccion de componentes
-aprox cheby
-RANGO DINAMICO
-limitaciones tension de entrada
+mediciones
 pcb
 }
 
@@ -457,8 +450,125 @@ Una vez determinada la composici\'on de polos y ceros de cada etapa, se sigue po
 \end{table}
 
 Para los capacitores se comenz\'o por definir $C_1 = C_2 = 100nF$ ya que tendr\'ian el mismo valor que los capacitores de desacople. Sin embargo, de esta forma se obten\'ia un valor de $R_3$ muy chico, y dado que $C_1$ y $C_2$ forman parte del denominador de la expresi\'on de $R_3$, se termin\'o modificando sus valores a $1nF$. De esta forma $R_3$ tendr\'ia un valor del orden de los $k\Omega$ y los capacitores seguir\'ian con valores iguales.
-En cuanto a las resistencias, se tuvo en cuenta la ganancia G, la frecuencia $\omega_0$ y el $Q$. Para ganancia unitaria, se eligi\'o: $R_2 = R_5 = 1k\Omega$.
-\todo{SEGUIIIIIIR}
+En cuanto a las resistencias, se tuvo en cuenta la ganancia G, la frecuencia $\omega_0$ y el $Q$. Para ganancia unitaria, se eligi\'o: $R_2 = R_5 = 1k\Omega$. Luego se pudo elegir tambi\'en $R_6 = R_7 = R_8 = 1K\Omega$. Teniendo todos estos valores, a partir de la expresi\'on de $\omega_z$, se obtuvo el valor de $R_3$ y a partir de la expresi\'on del Q se obtuvo $R_1$ y se tom\'o $R_4 = R_1$. As\'i es como quedaron los siguientes valores de componentes:
+
+\begin{table}[H] %estas son las del libro!
+	\centering
+	\begin{tabular}{c c c c}
+		 & Celda 1& Celda 2 & Celda 3 \\
+		\hline \\
+		$R_1 (\Omega)$ & 14,1k & 31,2k& 25,7k \\
+		$R_2 (\Omega)$ & 1k&1k &1k \\
+		$R_3 (\Omega)$ & 9,35k & 9,4k& 9,35k \\
+		$R_4 (\Omega)$ &14,1k  &31,2k & 25,7k\\
+		$R_5 (\Omega)$ &1k & 1k&1k \\
+		$R_6 (\Omega)$ & 1k& 1k&1k \\
+		$R_7 (\Omega)$ & 1k&1k &1k \\
+		$R_8 (\Omega)$ & 1k& 1k&1k \\
+		$C_1 (F)$ & 1n&1n &1n \\
+		$C_2 (F)$ & 1n&1n &1n \\
+		\hline
+	\end{tabular}
+	\caption{Valores elegidos para los componentes de cada celda.}
+	\label{componentes}
+\end{table}
+
+A continuaci\'on se muestran histogramas que permiten ver la desviaci\'on del valor del Q y de $f_0$ debida a las tolerancias de los componentes que se emplear\'an. Para el caso de resistencias SMD, la desviaci\'on respecto a los valores nominales es del 1\% mientras que la desviaci\'on para los capacitores through hole multicapa es del 10\%.
+
+ \begin{figure}[H] %!ht
+	\centering	\includegraphics[width=12cm,height=12cm,keepaspectratio]{../EJ4/graficos/histo_c1.png}
+	\caption{Histogramas para la celda de la primera etapa.}
+	\label{histo_c1}
+\end{figure}
+
+ \begin{figure}[H] %!ht
+	\centering	\includegraphics[width=12cm,height=12cm,keepaspectratio]{../EJ4/graficos/histo_c2.png}
+	\caption{Histogramas para la celda de la segunda etapa.}
+	\label{histo_c2}
+\end{figure}
+
+ \begin{figure}[H] %!ht
+	\centering	\includegraphics[width=12cm,height=12cm,keepaspectratio]{../EJ4/graficos/histo_c3.png}
+	\caption{Histogramas para la celda de la tercera etapa.}
+	\label{histo_c3}
+\end{figure}
+
+
+
+
+
+\subsection{Limitaciones}
+ La tensi\'on de entrada m\'axima est\'a limitada por el valor de slew rate del amplificador operacional y por la saturaci\'on. 
+\subsubsection*{Influenccia del slew rate en $V_{in_{max}}$}
+
+Partiendo de:
+\begin{equation}
+\begin{cases}
+SR = m\'ax\bigg\{\frac{ dV_{out}}{dt}\bigg\} \\
+V_{in} (f, t) = V_{in_{max}} \cdot sin(2\pi f t) \\
+V_{out} (f, t) = \rvert H(f)\rvert \cdot V_{in_{max}} \cdot sin(2 \pi f t)
+\end{cases}
+\label{srecs}
+\end{equation}
+
+Siendo $SR$ el slew rate, $V_{in}$ y $V_{out}$ las se\~nales de entrada y de salida respectivamente y $\rvert H(f)\rvert = V_{out}/V_{in}$ la ganancia del circuito.
+
+
+\begin{equation}
+\frac{dV_{out}}{dt} = \rvert H(f)\rvert V_{in_{max}} 2 \pi f cos(2 \pi f t)
+\label{deriv}
+\end{equation}
+
+Maximizando la ecuaci\'on \ref{deriv} se obtiene que:
+
+\begin{equation}
+SR = m\'ax\bigg\{\frac{dV_{out}}{dt}\bigg\} = \rvert H(f)\rvert 2 \pi f V_{in_{max}} 
+\label{max}
+\end{equation}
+
+Despejando de la ecuaci\'on \ref{max}:
+
+\begin{equation}
+V_{in_{max}}  = \frac{SR}{\rvert H(f)\rvert 2\pi f}
+\label{vinmax}
+\end{equation}
+
+El valor de SR, para el c\'alculo te\'orico, fue sacado de hojas de datos del amplificador operacional TL084 de Texas Instrument\footnote{Hoja de datos del operacional TL084: https://www.alldatasheet.com/view.jsp?Searchword=Tl084\&gclid=EAIaIQobChMIvtDP0tvb5QIVhYORCh3tDA\_\_EAAYASAAEgKpRPD\_BwE }. Se encontr\'o que $SR = 13 \frac{V}{\mu s}$. 
+ 
+ \subsubsection*{Influenccia de la saturaci\'on en $V_{in_{max}}$}
+La tensi\'on pico a pico m\'axima de salida del amplificador operacional es llamada 
+tensi\'on de saturasi\'on $V_{sat}$. Te\'oricamente, este valor es igual a $V_{CC}$. Dado que $V_{out} = \rvert H(s) \rvert V_{in}$:
+
+\begin{equation}
+V_{in_{max}} = \frac{V_{out_{max}}}{\rvert H(s) \rvert} = \frac{V_{sat}}{\rvert H(s) \rvert} = \frac{V_{CC}}{\rvert H(s) \rvert}
+\end{equation}
+
+Dado que en nuestro caso usamos $V_{CC} = \pm15V$, la expresi\'on que se obtiene es:
+
+\begin{equation}
+V_{in_{max}} = \frac{15V}{\rvert H(s) \rvert} 
+\end{equation}
+
+Considerando tanto la limitaci\'on de la tensi\'on de entrada por slew rate y por saturaci\'on, se obtiene lo siguiente, que coincide con el hecho de que se trate de un filtro notch y en la frecuencia del notch la tensi\'on de entrada puede ser mayor ya que la salida es atenuada.
+
+ \begin{figure}[H] %!ht
+	\centering	\includegraphics[width=12cm,height=12cm,keepaspectratio]{../EJ4/graficos/vinmax.png}
+	\caption{Tensi\'on de entrada m\'axima.}
+	\label{vimax}
+\end{figure}
+
+
+\subsubsection*{Rango din\'amico}
+
+El rango din\'amico est\'a definido por el rango de tensiones de entrada para las cuales el circuito funciona correctamente. 
+
+\begin{equation}
+R_D = 20 \cdot log\left( \frac{V_{max}}{V_{min}}\right)
+\end{equation}
+
+La tensi\'on m\'axima del circuito para el rango din\'amico es la m\'inima del gr\'afico \ref{vimax}, la cual se obtuvo nume\'ericamente y es de 5,87V. Para la tensi\'on de entrada m\'inima se toman 100mV considerandolo como el nivel del piso de ruido. Se obtiene entonces que $R_D=35,37dB$.
+
+
 
 \subsubsection{Simulaci\'on y verificaci\'on}
 
@@ -547,13 +657,13 @@ Al observar los gr\'aficos \ref{sim_bode_caps} y \ref{sim_bode_detalle}, se pued
 \end{figure}
 
  \begin{figure}[H] %!ht
-	\centering	\includegraphics[width=12cm,height=12cm,keepaspectratio]{../EJ4/graficos/bode_amplitud_zoom.png}
-	\caption{Diagrama de Bode: Amplitud - Detalle en el pico de notch.}
-	\label{bode_mod_zoom}
+	\centering	\includegraphics[width=12cm,height=12cm,keepaspectratio]{../EJ4/graficos/plantilla.png}
+	\caption{Comparaci\'on de medici\'on con simulaci\'on Monte Carlo y plantilla.}
+	\label{plantilla}
 \end{figure}
 
 
-
-
-
 \subsection{Conclusiones} 
+
+
+

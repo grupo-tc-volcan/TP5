@@ -30,10 +30,10 @@
 \contentsline {subsubsection}{\numberline {4.6.3}Celda 2do orden Fleischer-Tow: An\'alisis real}{15}{subsubsection.4.6.3}% 
 \contentsline {subsubsection}{\numberline {4.6.4}Dise\~no de etapas}{15}{subsubsection.4.6.4}% 
 \contentsline {paragraph}{M\'etodo de ajuste: Dise\~o por componentes iguales}{16}{section*.13}% 
-\contentsline {subsubsection}{\numberline {4.6.5}Simulaci\'on y verificaci\'on}{16}{subsubsection.4.6.5}% 
-\contentsline {paragraph}{Variaci\'on de R1 - Profundidad del pico de notch:}{17}{section*.15}% 
-\contentsline {paragraph}{Variaci\'on de R3 - Posici\'on del pico de notch:}{18}{section*.16}% 
-\contentsline {subsubsection}{\numberline {4.6.6}Dise\~o de PCB}{19}{subsubsection.4.6.6}% 
-\contentsline {subsubsection}{\numberline {4.6.7}Resultados obtenidos}{19}{subsubsection.4.6.7}% 
-\contentsline {paragraph}{Respuesta en frecuencia:}{19}{section*.17}% 
-\contentsline {subsection}{\numberline {4.7}Conclusiones}{21}{subsection.4.7}% 
+\contentsline {subsection}{\numberline {4.7}Limitaciones}{18}{subsection.4.7}% 
+\contentsline {subsubsection}{\numberline {4.7.1}Simulaci\'on y verificaci\'on}{19}{subsubsection.4.7.1}% 
+\contentsline {paragraph}{Variaci\'on de R1 - Profundidad del pico de notch:}{20}{section*.17}% 
+\contentsline {paragraph}{Variaci\'on de R3 - Posici\'on del pico de notch:}{21}{section*.18}% 
+\contentsline {subsubsection}{\numberline {4.7.2}Dise\~o de PCB}{22}{subsubsection.4.7.2}% 
+\contentsline {subsubsection}{\numberline {4.7.3}Resultados obtenidos}{22}{subsubsection.4.7.3}% 
+\contentsline {subsection}{\numberline {4.8}Conclusiones}{24}{subsection.4.8}% 
