@@ -47,32 +47,4 @@
 \BOOKMARK [3][-]{subsubsection.2.4.4}{Simulaciones en cascada}{subsection.2.4}% 47
 \BOOKMARK [3][-]{subsubsection.2.4.5}{Mediciones y comparaciones}{subsection.2.4}% 48
 \BOOKMARK [3][-]{subsubsection.2.4.6}{Rango din\341mico}{subsection.2.4}% 49
-\BOOKMARK [2][-]{subsection.2.5}{Conclusiones}{section.2}% 50
-\BOOKMARK [1][-]{section.3}{Sedra-Ghorab-Martin}{}% 51
-\BOOKMARK [1][-]{section.4}{Celdas Universales}{}% 52
-\BOOKMARK [2][-]{subsection.4.1}{Configuraciones correspondientes a distintas celdas universales: An\341lisis ideal}{section.4}% 53
-\BOOKMARK [2][-]{subsection.4.2}{Celda 2do orden Kerwin-Huelsman-Newcomb \(KHN\)}{section.4}% 54
-\BOOKMARK [3][-]{subsubsection.4.2.1}{Funci\363n transferencia y par\341metros}{subsection.4.2}% 55
-\BOOKMARK [3][-]{subsubsection.4.2.2}{Sensibilidades}{subsection.4.2}% 56
-\BOOKMARK [3][-]{subsubsection.4.2.3}{Impedancias}{subsection.4.2}% 57
-\BOOKMARK [2][-]{subsection.4.3}{Celda 2do orden Tow-Thomas}{section.4}% 58
-\BOOKMARK [3][-]{subsubsection.4.3.1}{Funci\363n transferencia y par\341metros}{subsection.4.3}% 59
-\BOOKMARK [3][-]{subsubsection.4.3.2}{Sensibilidades}{subsection.4.3}% 60
-\BOOKMARK [3][-]{subsubsection.4.3.3}{Impedancias}{subsection.4.3}% 61
-\BOOKMARK [2][-]{subsection.4.4}{Celda 2do orden Ackerberg-Mossberg}{section.4}% 62
-\BOOKMARK [3][-]{subsubsection.4.4.1}{Funci\363n transferencia y par\341metros}{subsection.4.4}% 63
-\BOOKMARK [3][-]{subsubsection.4.4.2}{Sensibilidades}{subsection.4.4}% 64
-\BOOKMARK [3][-]{subsubsection.4.4.3}{Impedancias}{subsection.4.4}% 65
-\BOOKMARK [2][-]{subsection.4.5}{Celda 2do orden Fleischer-Tow}{section.4}% 66
-\BOOKMARK [3][-]{subsubsection.4.5.1}{Funci\363n transferencia y par\341metros}{subsection.4.5}% 67
-\BOOKMARK [3][-]{subsubsection.4.5.2}{Sensibilidades}{subsection.4.5}% 68
-\BOOKMARK [3][-]{subsubsection.4.5.3}{Impedancia de entrada}{subsection.4.5}% 69
-\BOOKMARK [3][-]{subsubsection.4.5.4}{Impedancia de salida}{subsection.4.5}% 70
-\BOOKMARK [2][-]{subsection.4.6}{Dise\361o de filtro rechaza banda mediante la aproximaci\363n Chebychev Inverso}{section.4}% 71
-\BOOKMARK [3][-]{subsubsection.4.6.1}{Especificaciones del filtro y aproximaci\363n}{subsection.4.6}% 72
-\BOOKMARK [3][-]{subsubsection.4.6.2}{Selecci\363n de celda}{subsection.4.6}% 73
-\BOOKMARK [3][-]{subsubsection.4.6.3}{Dise\361o de etapas}{subsection.4.6}% 74
-\BOOKMARK [3][-]{subsubsection.4.6.4}{Limitaciones}{subsection.4.6}% 75
-\BOOKMARK [3][-]{subsubsection.4.6.5}{Simulaci\363n y verificaci\363n}{subsection.4.6}% 76
-\BOOKMARK [3][-]{subsubsection.4.6.6}{Resultados obtenidos}{subsection.4.6}% 77
-\BOOKMARK [2][-]{subsection.4.7}{Conclusiones}{section.4}% 78
+\BOOKMARK [2][-]{subsection.

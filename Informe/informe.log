@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.5.29)  9 NOV 2019 09:04
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.5.29)  9 NOV 2019 14:17
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1410,6 +1410,9 @@ LaTeX Warning: Label `eq:1_TRANFER' multiply defined.
 LaTeX Warning: Label `fig:FIRST_LT_VS_TEO' multiply defined.
 
 
+LaTeX Warning: Label `tabla_stageI' multiply defined.
+
+
 LaTeX Warning: Label `hg_tt' multiply defined.
 
 
@@ -1671,7 +1674,7 @@ LaTeX Font Info:    Font shape `T1/futs/bx/n' in size <10> not available
  [3] (./ej1.tex
 LaTeX Font Info:    Font shape `T1/futs/bx/n' in size <12> not available
 (Font)              Font shape `T1/futs/b/n' tried instead on input line 9.
-<../EJ1/Recursos/circuito_sallen_key_pasabajos.png, id=440, 759.83875pt x 444.6
+<../EJ1/Recursos/circuito_sallen_key_pasabajos.png, id=495, 759.83875pt x 444.6
 6125pt>
 File: ../EJ1/Recursos/circuito_sallen_key_pasabajos.png Graphic file (type png)
 
@@ -1680,7 +1683,7 @@ Package pdftex.def Info: ../EJ1/Recursos/circuito_sallen_key_pasabajos.png  use
 d on input line 19.
 (pdftex.def)             Requested size: 341.92427pt x 200.0957pt.
  [4 <../EJ1/Recursos/circuito_sallen_key_pasabajos.png>] [5] [6] [7]
-<../EJ1/Recursos/circuito_sallen_key_pasabajos_atenuado.png, id=480, 759.83875p
+<../EJ1/Recursos/circuito_sallen_key_pasabajos_atenuado.png, id=536, 759.83875p
 t x 444.66125pt>
 File: ../EJ1/Recursos/circuito_sallen_key_pasabajos_atenuado.png Graphic file (
 type png)
@@ -1689,7 +1692,7 @@ Package pdftex.def Info: ../EJ1/Recursos/circuito_sallen_key_pasabajos_atenuado
 .png  used on input line 216.
 (pdftex.def)             Requested size: 379.91844pt x 222.33008pt.
  [8]
-<../EJ1/Recursos/circuito_sallen_key_impedancia.png, id=488, 759.83875pt x 444.
+<../EJ1/Recursos/circuito_sallen_key_impedancia.png, id=544, 759.83875pt x 444.
 66125pt>
 File: ../EJ1/Recursos/circuito_sallen_key_impedancia.png Graphic file (type png
 )
@@ -1699,7 +1702,7 @@ ed on input line 236.
 (pdftex.def)             Requested size: 379.91844pt x 222.33008pt.
  [9 <../EJ1/Recursos/circuito_sallen_key_pasabajos_atenuado.png> <../EJ1/Recurs
 os/circuito_sallen_key_impedancia.png>]
-<../EJ1/Recursos/impedancia_entrada_arbitraria.png, id=502, 396.48125pt x 396.4
+<../EJ1/Recursos/impedancia_entrada_arbitraria.png, id=557, 396.48125pt x 396.4
 8125pt>
 File: ../EJ1/Recursos/impedancia_entrada_arbitraria.png Graphic file (type png)
 
@@ -1708,7 +1711,7 @@ Package pdftex.def Info: ../EJ1/Recursos/impedancia_entrada_arbitraria.png  use
 d on input line 264.
 (pdftex.def)             Requested size: 237.89058pt x 237.89058pt.
  [10 <../EJ1/Recursos/impedancia_entrada_arbitraria.png (PNG copy)>]
-<../EJ1/Recursos/impedancia_entrada_componentes_iguales.png, id=509, 913.4125pt
+<../EJ1/Recursos/impedancia_entrada_componentes_iguales.png, id=564, 913.4125pt
  x 801.99625pt>
 File: ../EJ1/Recursos/impedancia_entrada_componentes_iguales.png Graphic file (
 type png)
@@ -1716,7 +1719,7 @@ type png)
 Package pdftex.def Info: ../EJ1/Recursos/impedancia_entrada_componentes_iguales
 .png  used on input line 295.
 (pdftex.def)             Requested size: 411.03183pt x 360.89497pt.
-<../EJ1/Recursos/impedancia_entrada_componentes_proporcionales.png, id=510, 571
+<../EJ1/Recursos/impedancia_entrada_componentes_proporcionales.png, id=565, 571
 .13374pt x 571.13374pt>
 File: ../EJ1/Recursos/impedancia_entrada_componentes_proporcionales.png Graphic
  file (type png)
@@ -1727,7 +1730,7 @@ ionales.png  used on input line 301.
  [11 <../EJ1/Recursos/impedancia_entrada_componentes_iguales.png (PNG copy)>] [
 12 <../EJ1/Recursos/impedancia_entrada_componentes_proporcionales.png (PNG copy
 )>] [13]
-<../EJ1/Recursos/circuito_sallen_key_impedancia_salida.png, id=536, 688.5725pt 
+<../EJ1/Recursos/circuito_sallen_key_impedancia_salida.png, id=591, 688.5725pt 
 x 364.36125pt>
 File: ../EJ1/Recursos/circuito_sallen_key_impedancia_salida.png Graphic file (t
 ype png)
@@ -1735,7 +1738,7 @@ ype png)
 Package pdftex.def Info: ../EJ1/Recursos/circuito_sallen_key_impedancia_salida.
 png  used on input line 391.
 (pdftex.def)             Requested size: 413.14668pt x 218.61842pt.
-<../EJ1/Recursos/celda_representacion.png, id=538, 414.54875pt x 163.61125pt>
+<../EJ1/Recursos/celda_representacion.png, id=593, 414.54875pt x 163.61125pt>
 File: ../EJ1/Recursos/celda_representacion.png Graphic file (type png)
 <use ../EJ1/Recursos/celda_representacion.png>
 Package pdftex.def Info: ../EJ1/Recursos/celda_representacion.png  used on inpu
@@ -1743,7 +1746,7 @@ t line 420.
 (pdftex.def)             Requested size: 269.45349pt x 106.34604pt.
  [14 <../EJ1/Recursos/circuito_sallen_key_impedancia_salida.png>] [15 <../EJ1/R
 ecursos/celda_representacion.png>]
-<../EJ1/Recursos/circuito_celda_primer_orden.png, id=562, 500.87125pt x 329.23p
+<../EJ1/Recursos/circuito_celda_primer_orden.png, id=617, 500.87125pt x 329.23p
 t>
 File: ../EJ1/Recursos/circuito_celda_primer_orden.png Graphic file (type png)
 <use ../EJ1/Recursos/circuito_celda_primer_orden.png>
@@ -1752,20 +1755,20 @@ on input line 492.
 (pdftex.def)             Requested size: 350.60747pt x 230.45941pt.
  [16 <../EJ1/Recursos/circuito_celda_primer_orden.png>]
 [17]
-<../EJ1/Recursos/legendre_histogram_one.png, id=581, 462.528pt x 346.896pt>
+<../EJ1/Recursos/legendre_histogram_one.png, id=637, 462.528pt x 346.896pt>
 File: ../EJ1/Recursos/legendre_histogram_one.png Graphic file (type png)
 <use ../EJ1/Recursos/legendre_histogram_one.png>
 Package pdftex.def Info: ../EJ1/Recursos/legendre_histogram_one.png  used on in
 put line 583.
 (pdftex.def)             Requested size: 323.76738pt x 242.82553pt.
-<../EJ1/Recursos/legendre_histogram_two.png, id=582, 987.2082pt x 484.9317pt>
+<../EJ1/Recursos/legendre_histogram_two.png, id=638, 987.2082pt x 484.9317pt>
 File: ../EJ1/Recursos/legendre_histogram_two.png Graphic file (type png)
 <use ../EJ1/Recursos/legendre_histogram_two.png>
 Package pdftex.def Info: ../EJ1/Recursos/legendre_histogram_two.png  used on in
 put line 592.
 (pdftex.def)             Requested size: 394.87628pt x 193.96924pt.
  [18 <../EJ1/Recursos/legendre_histogram_one.png>]
-<../EJ1/Recursos/legendre_histogram_three.png, id=591, 987.2082pt x 484.9317pt>
+<../EJ1/Recursos/legendre_histogram_three.png, id=647, 987.2082pt x 484.9317pt>
 
 File: ../EJ1/Recursos/legendre_histogram_three.png Graphic file (type png)
 <use ../EJ1/Recursos/legendre_histogram_three.png>
@@ -1774,7 +1777,7 @@ input line 601.
 (pdftex.def)             Requested size: 394.87628pt x 193.96924pt.
  [19 <../EJ1/Recursos/legendre_histogram_two.png> <../EJ1/Recursos/legendre_his
 togram_three.png>]
-<../EJ1/Recursos/legendre_verificacion_magnitud.png, id=602, 642.14906pt x 347.
+<../EJ1/Recursos/legendre_verificacion_magnitud.png, id=658, 642.14906pt x 347.
 79938pt>
 File: ../EJ1/Recursos/legendre_verificacion_magnitud.png Graphic file (type png
 )
@@ -1782,14 +1785,14 @@ File: ../EJ1/Recursos/legendre_verificacion_magnitud.png Graphic file (type png
 Package pdftex.def Info: ../EJ1/Recursos/legendre_verificacion_magnitud.png  us
 ed on input line 622.
 (pdftex.def)             Requested size: 385.2924pt x 208.68123pt.
-<../EJ1/Recursos/legendre_verificacion_fase.png, id=603, 591.71063pt x 374.1478
+<../EJ1/Recursos/legendre_verificacion_fase.png, id=659, 591.71063pt x 374.1478
 1pt>
 File: ../EJ1/Recursos/legendre_verificacion_fase.png Graphic file (type png)
 <use ../EJ1/Recursos/legendre_verificacion_fase.png>
 Package pdftex.def Info: ../EJ1/Recursos/legendre_verificacion_fase.png  used o
 n input line 628.
 (pdftex.def)             Requested size: 355.02911pt x 224.4904pt.
-<../EJ1/Recursos/legendre_verificacion_fp.png, id=604, 642.14906pt x 347.79938p
+<../EJ1/Recursos/legendre_verificacion_fp.png, id=660, 642.14906pt x 347.79938p
 t>
 File: ../EJ1/Recursos/legendre_verificacion_fp.png Graphic file (type png)
 <use ../EJ1/Recursos/legendre_verificacion_fp.png>
@@ -1799,21 +1802,21 @@ input line 634.
 
 [20 <../EJ1/Recursos/legendre_verificacion_magnitud.png> <../EJ1/Recursos/legen
 dre_verificacion_fase.png>]
-<../EJ1/Recursos/legendre_bode_modulo.png, id=613, 534.0753pt x 478.4274pt>
+<../EJ1/Recursos/legendre_bode_modulo.png, id=669, 534.0753pt x 478.4274pt>
 File: ../EJ1/Recursos/legendre_bode_modulo.png Graphic file (type png)
 <use ../EJ1/Recursos/legendre_bode_modulo.png>
 Package pdftex.def Info: ../EJ1/Recursos/legendre_bode_modulo.png  used on inpu
 t line 647.
 (pdftex.def)             Requested size: 373.85016pt x 334.8969pt.
  [21 <../EJ1/Recursos/legendre_verificacion_fp.png>]
-<../EJ1/Recursos/legendre_bode_fase.png, id=623, 534.0753pt x 478.4274pt>
+<../EJ1/Recursos/legendre_bode_fase.png, id=678, 534.0753pt x 478.4274pt>
 File: ../EJ1/Recursos/legendre_bode_fase.png Graphic file (type png)
 <use ../EJ1/Recursos/legendre_bode_fase.png>
 Package pdftex.def Info: ../EJ1/Recursos/legendre_bode_fase.png  used on input 
 line 654.
 (pdftex.def)             Requested size: 373.85016pt x 334.8969pt.
 [22 <../EJ1/Recursos/legendre_bode_modulo.png>]
-<../EJ1/Recursos/legendre_impedancia_entrada.png, id=630, 534.0753pt x 478.4274
+<../EJ1/Recursos/legendre_impedancia_entrada.png, id=685, 534.0753pt x 478.4274
 pt>
 File: ../EJ1/Recursos/legendre_impedancia_entrada.png Graphic file (type png)
 <use ../EJ1/Recursos/legendre_impedancia_entrada.png>
@@ -1822,20 +1825,20 @@ on input line 665.
 (pdftex.def)             Requested size: 373.85016pt x 334.8969pt.
  [23 <../EJ1/Recursos/legendre_bode_fase.png>] [24 <../EJ1/Recursos/legendre_im
 pedancia_entrada.png>]
-<../EJ1/Recursos/bessel_histogram_one.png, id=646, 987.2082pt x 484.9317pt>
+<../EJ1/Recursos/bessel_histogram_one.png, id=701, 987.2082pt x 484.9317pt>
 File: ../EJ1/Recursos/bessel_histogram_one.png Graphic file (type png)
 <use ../EJ1/Recursos/bessel_histogram_one.png>
 Package pdftex.def Info: ../EJ1/Recursos/bessel_histogram_one.png  used on inpu
 t line 741.
 (pdftex.def)             Requested size: 394.87628pt x 193.96924pt.
  [25]
-<../EJ1/Recursos/bessel_histogram_two.png, id=654, 987.2082pt x 484.9317pt>
+<../EJ1/Recursos/bessel_histogram_two.png, id=709, 987.2082pt x 484.9317pt>
 File: ../EJ1/Recursos/bessel_histogram_two.png Graphic file (type png)
 <use ../EJ1/Recursos/bessel_histogram_two.png>
 Package pdftex.def Info: ../EJ1/Recursos/bessel_histogram_two.png  used on inpu
 t line 750.
 (pdftex.def)             Requested size: 394.87628pt x 193.96924pt.
-<../EJ1/Recursos/bessel_histogram_three.png, id=655, 987.2082pt x 484.9317pt>
+<../EJ1/Recursos/bessel_histogram_three.png, id=710, 987.2082pt x 484.9317pt>
 File: ../EJ1/Recursos/bessel_histogram_three.png Graphic file (type png)
 <use ../EJ1/Recursos/bessel_histogram_three.png>
 Package pdftex.def Info: ../EJ1/Recursos/bessel_histogram_three.png  used on in
@@ -1844,14 +1847,14 @@ put line 759.
 
 [26 <../EJ1/Recursos/bessel_histogram_one.png> <../EJ1/Recursos/bessel_histogra
 m_two.png>]
-<../EJ1/Recursos/bessel_verificacion_magnitud.png, id=666, 701.62125pt x 374.14
+<../EJ1/Recursos/bessel_verificacion_magnitud.png, id=721, 701.62125pt x 374.14
 781pt>
 File: ../EJ1/Recursos/bessel_verificacion_magnitud.png Graphic file (type png)
 <use ../EJ1/Recursos/bessel_verificacion_magnitud.png>
 Package pdftex.def Info: ../EJ1/Recursos/bessel_verificacion_magnitud.png  used
  on input line 776.
 (pdftex.def)             Requested size: 420.97598pt x 224.4904pt.
-<../EJ1/Recursos/bessel_verificacion_fase.png, id=667, 675.27281pt x 365.86688p
+<../EJ1/Recursos/bessel_verificacion_fase.png, id=722, 675.27281pt x 365.86688p
 t>
 File: ../EJ1/Recursos/bessel_verificacion_fase.png Graphic file (type png)
 <use ../EJ1/Recursos/bessel_verificacion_fase.png>
@@ -1860,14 +1863,14 @@ input line 782.
 (pdftex.def)             Requested size: 405.16681pt x 219.52182pt.
  [27 <../EJ1/Recursos/bessel_histogram_three.png> <../EJ1/Recursos/bessel_verif
 icacion_magnitud.png>]
-<../EJ1/Recursos/bessel_verificacion_fp.png, id=675, 480.29437pt x 302.63063pt>
+<../EJ1/Recursos/bessel_verificacion_fp.png, id=730, 480.29437pt x 302.63063pt>
 
 File: ../EJ1/Recursos/bessel_verificacion_fp.png Graphic file (type png)
 <use ../EJ1/Recursos/bessel_verificacion_fp.png>
 Package pdftex.def Info: ../EJ1/Recursos/bessel_verificacion_fp.png  used on in
 put line 788.
 (pdftex.def)             Requested size: 288.17883pt x 181.57977pt.
-<../EJ1/Recursos/bessel_verificacion_fa.png, id=676, 496.10344pt x 302.63063pt>
+<../EJ1/Recursos/bessel_verificacion_fa.png, id=731, 496.10344pt x 302.63063pt>
 
 File: ../EJ1/Recursos/bessel_verificacion_fa.png Graphic file (type png)
 <use ../EJ1/Recursos/bessel_verificacion_fa.png>
@@ -1876,13 +1879,13 @@ put line 794.
 (pdftex.def)             Requested size: 297.66435pt x 181.57977pt.
  [28 <../EJ1/Recursos/bessel_verificacion_fase.png> <../EJ1/Recursos/bessel_ver
 ificacion_fp.png>]
-<../EJ1/Recursos/bessel_bode_modula.png, id=685, 534.0753pt x 478.4274pt>
+<../EJ1/Recursos/bessel_bode_modula.png, id=740, 534.0753pt x 478.4274pt>
 File: ../EJ1/Recursos/bessel_bode_modula.png Graphic file (type png)
 <use ../EJ1/Recursos/bessel_bode_modula.png>
 Package pdftex.def Info: ../EJ1/Recursos/bessel_bode_modula.png  used on input 
 line 807.
 (pdftex.def)             Requested size: 373.85016pt x 334.8969pt.
-<../EJ1/Recursos/bessel_bode_fase.png, id=686, 534.0753pt x 478.4274pt>
+<../EJ1/Recursos/bessel_bode_fase.png, id=741, 534.0753pt x 478.4274pt>
 File: ../EJ1/Recursos/bessel_bode_fase.png Graphic file (type png)
 <use ../EJ1/Recursos/bessel_bode_fase.png>
 Package pdftex.def Info: ../EJ1/Recursos/bessel_bode_fase.png  used on input li
@@ -1890,7 +1893,7 @@ ne 814.
 (pdftex.def)             Requested size: 373.85016pt x 334.8969pt.
  [29 <../EJ1/Recursos/bessel_verificacion_fa.png> <../EJ1/Recursos/bessel_bode_
 modula.png>]
-<../EJ1/Recursos/bessel_impedancia_entrada.png, id=697, 3337.97063pt x 2990.171
+<../EJ1/Recursos/bessel_impedancia_entrada.png, id=752, 3337.97063pt x 2990.171
 25pt>
 File: ../EJ1/Recursos/bessel_impedancia_entrada.png Graphic file (type png)
 <use ../EJ1/Recursos/bessel_impedancia_entrada.png>
@@ -1898,32 +1901,32 @@ Package pdftex.def Info: ../EJ1/Recursos/bessel_impedancia_entrada.png  used on
  input line 824.
 (pdftex.def)             Requested size: 333.81662pt x 299.03464pt.
  [30 <../EJ1/Recursos/bessel_bode_fase.png>]
-<../EJ1/Recursos/bessel_group_delay.png, id=706, 534.0753pt x 478.4274pt>
+<../EJ1/Recursos/bessel_group_delay.png, id=761, 534.0753pt x 478.4274pt>
 File: ../EJ1/Recursos/bessel_group_delay.png Graphic file (type png)
 <use ../EJ1/Recursos/bessel_group_delay.png>
 Package pdftex.def Info: ../EJ1/Recursos/bessel_group_delay.png  used on input 
 line 834.
 (pdftex.def)             Requested size: 373.85016pt x 334.8969pt.
  [31 <../EJ1/Recursos/bessel_impedancia_entrada.png>]
-<../EJ1/Recursos/legendre_top_3d.PNG, id=716, 306.39468pt x 401.24907pt>
+<../EJ1/Recursos/legendre_top_3d.PNG, id=772, 306.39468pt x 401.24907pt>
 File: ../EJ1/Recursos/legendre_top_3d.PNG Graphic file (type png)
 <use ../EJ1/Recursos/legendre_top_3d.PNG>
 Package pdftex.def Info: ../EJ1/Recursos/legendre_top_3d.PNG  used on input lin
 e 847.
 (pdftex.def)             Requested size: 153.19696pt x 200.62404pt.
-<../EJ1/Recursos/legendre_bottom_3d.PNG, id=717, 306.39468pt x 404.26031pt>
+<../EJ1/Recursos/legendre_bottom_3d.PNG, id=773, 306.39468pt x 404.26031pt>
 File: ../EJ1/Recursos/legendre_bottom_3d.PNG Graphic file (type png)
 <use ../EJ1/Recursos/legendre_bottom_3d.PNG>
 Package pdftex.def Info: ../EJ1/Recursos/legendre_bottom_3d.PNG  used on input 
 line 848.
 (pdftex.def)             Requested size: 153.19696pt x 202.12965pt.
-<../EJ1/Recursos/bessel_top_3d.PNG, id=718, 303.38344pt x 400.49625pt>
+<../EJ1/Recursos/bessel_top_3d.PNG, id=774, 303.38344pt x 400.49625pt>
 File: ../EJ1/Recursos/bessel_top_3d.PNG Graphic file (type png)
 <use ../EJ1/Recursos/bessel_top_3d.PNG>
 Package pdftex.def Info: ../EJ1/Recursos/bessel_top_3d.PNG  used on input line 
 849.
 (pdftex.def)             Requested size: 151.69135pt x 200.24763pt.
-<../EJ1/Recursos/bessel_bottom_3d.PNG, id=719, 302.63063pt x 396.7322pt>
+<../EJ1/Recursos/bessel_bottom_3d.PNG, id=775, 302.63063pt x 396.7322pt>
 File: ../EJ1/Recursos/bessel_bottom_3d.PNG Graphic file (type png)
 <use ../EJ1/Recursos/bessel_bottom_3d.PNG>
 Package pdftex.def Info: ../EJ1/Recursos/bessel_bottom_3d.PNG  used on input li
@@ -1938,7 +1941,7 @@ duplicate ignored
                    \relax 
 l.18 ...s de diseño para el filtro a implementar}
                                                   
-<../EJ2/Recursos/RAUCH_SIMPLE.png, id=736, 602.25pt x 333.245pt>
+<../EJ2/Recursos/RAUCH_SIMPLE.png, id=792, 602.25pt x 333.245pt>
 File: ../EJ2/Recursos/RAUCH_SIMPLE.png Graphic file (type png)
 <use ../EJ2/Recursos/RAUCH_SIMPLE.png>
 Package pdftex.def Info: ../EJ2/Recursos/RAUCH_SIMPLE.png  used on input line 2
@@ -1958,7 +1961,7 @@ LaTeX Font Info:    Font shape `U/futm/m/n' will be
 (Font)              scaled to size 7.35999pt on input line 33.
 LaTeX Font Info:    Font shape `U/futm/m/n' will be
 (Font)              scaled to size 6.25598pt on input line 33.
-<../EJ2/Recursos/ENHANCED_RAUCH.png, id=739, 747.79375pt x 453.695pt>
+<../EJ2/Recursos/ENHANCED_RAUCH.png, id=795, 747.79375pt x 453.695pt>
 File: ../EJ2/Recursos/ENHANCED_RAUCH.png Graphic file (type png)
 <use ../EJ2/Recursos/ENHANCED_RAUCH.png>
 Package pdftex.def Info: ../EJ2/Recursos/ENHANCED_RAUCH.png  used on input line
@@ -1970,7 +1973,7 @@ s been already used, duplicate ignored
                    \relax 
 l.41     \caption{Celda Rauch mejorada}
                                         [34 <../EJ2/Recursos/RAUCH_SIMPLE.png>]
-<../EJ2/Recursos/RAUCH_VALUES.png, id=750, 747.79375pt x 453.695pt>
+<../EJ2/Recursos/RAUCH_VALUES.png, id=806, 747.79375pt x 453.695pt>
 File: ../EJ2/Recursos/RAUCH_VALUES.png Graphic file (type png)
 <use ../EJ2/Recursos/RAUCH_VALUES.png>
 Package pdftex.def Info: ../EJ2/Recursos/RAUCH_VALUES.png  used on input line 9
@@ -1983,7 +1986,7 @@ s been already used, duplicate ignored
 l.98     \caption{Criterio de dise\~no propuesto}
                                                   [35 <../EJ2/Recursos/ENHANCED
 _RAUCH.png>] [36 <../EJ2/Recursos/RAUCH_VALUES.png>]
-<../EJ2/Recursos/CIRC_SENS.png, id=773, 747.79375pt x 453.695pt>
+<../EJ2/Recursos/CIRC_SENS.png, id=828, 747.79375pt x 453.695pt>
 File: ../EJ2/Recursos/CIRC_SENS.png Graphic file (type png)
 <use ../EJ2/Recursos/CIRC_SENS.png>
 Package pdftex.def Info: ../EJ2/Recursos/CIRC_SENS.png  used on input line 154.
@@ -2017,7 +2020,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{table.4}) has
                    \relax 
 l.341     \caption{Plantilla del filtro}
                                         
-<../EJ2/Recursos/CHEBY_POLES.png, id=798, 575.9919pt x 441.5697pt>
+<../EJ2/Recursos/CHEBY_POLES.png, id=853, 575.9919pt x 441.5697pt>
 File: ../EJ2/Recursos/CHEBY_POLES.png Graphic file (type png)
 <use ../EJ2/Recursos/CHEBY_POLES.png>
 Package pdftex.def Info: ../EJ2/Recursos/CHEBY_POLES.png  used on input line 35
@@ -2029,13 +2032,13 @@ s been already used, duplicate ignored
                    \relax 
 l.355 ...aption{Polos y ceros de la transferencia}
                                                    [39]
-<../EJ2/Recursos/CHEBY_ATT.png, id=807, 575.9919pt x 441.5697pt>
+<../EJ2/Recursos/CHEBY_ATT.png, id=862, 575.9919pt x 441.5697pt>
 File: ../EJ2/Recursos/CHEBY_ATT.png Graphic file (type png)
 <use ../EJ2/Recursos/CHEBY_ATT.png>
 Package pdftex.def Info: ../EJ2/Recursos/CHEBY_ATT.png  used on input line 363.
 
 (pdftex.def)             Requested size: 172.79889pt x 132.47192pt.
-<../EJ2/Recursos/CHEBY_PHASE.png, id=808, 575.9919pt x 441.5697pt>
+<../EJ2/Recursos/CHEBY_PHASE.png, id=863, 575.9919pt x 441.5697pt>
 File: ../EJ2/Recursos/CHEBY_PHASE.png Graphic file (type png)
 <use ../EJ2/Recursos/CHEBY_PHASE.png>
 Package pdftex.def Info: ../EJ2/Recursos/CHEBY_PHASE.png  used on input line 36
@@ -2076,7 +2079,7 @@ ation with the same identifier (name{table.6}) has been already used, duplicate
                    \relax 
 l.416 ...res de componentes para la primera etapa}
                                                   
-<../EJ2/Recursos/HIST_FIRST.png, id=822, 759.5577pt x 388.0899pt>
+<../EJ2/Recursos/HIST_FIRST.png, id=877, 759.5577pt x 388.0899pt>
 File: ../EJ2/Recursos/HIST_FIRST.png Graphic file (type png)
 <use ../EJ2/Recursos/HIST_FIRST.png>
 Package pdftex.def Info: ../EJ2/Recursos/HIST_FIRST.png  used on input line 424
@@ -2088,7 +2091,7 @@ s been already used, duplicate ignored
                    \relax 
 l.425     \caption{Histograma de la primera etapa}
                                                   
-<../EJ2/Recursos/FIRST_LT_VS_TEO.png, id=824, 921.4425pt x 685.8423pt>
+<../EJ2/Recursos/FIRST_LT_VS_TEO.png, id=879, 921.4425pt x 685.8423pt>
 File: ../EJ2/Recursos/FIRST_LT_VS_TEO.png Graphic file (type png)
 <use ../EJ2/Recursos/FIRST_LT_VS_TEO.png>
 Package pdftex.def Info: ../EJ2/Recursos/FIRST_LT_VS_TEO.png  used on input lin
@@ -2133,7 +2136,7 @@ ation with the same identifier (name{table.8}) has been already used, duplicate
                    \relax 
 l.474 ...res de componentes para la segunda etapa}
                                                   
-<../EJ2/Recursos/HIST_SECOND.png, id=835, 745.8264pt x 430.7292pt>
+<../EJ2/Recursos/HIST_SECOND.png, id=890, 745.8264pt x 430.7292pt>
 File: ../EJ2/Recursos/HIST_SECOND.png Graphic file (type png)
 <use ../EJ2/Recursos/HIST_SECOND.png>
 Package pdftex.def Info: ../EJ2/Recursos/HIST_SECOND.png  used on input line 48
@@ -2146,7 +2149,7 @@ s been already used, duplicate ignored
 l.483     \caption{Histograma de la segunda etapa}
                                                    [42 <../EJ2/Recursos/FIRST_L
 T_VS_TEO.png>]
-<../EJ2/Recursos/SECOND_LT_VS_TEO.png, id=842, 921.4425pt x 685.8423pt>
+<../EJ2/Recursos/SECOND_LT_VS_TEO.png, id=898, 921.4425pt x 685.8423pt>
 File: ../EJ2/Recursos/SECOND_LT_VS_TEO.png Graphic file (type png)
 <use ../EJ2/Recursos/SECOND_LT_VS_TEO.png>
 Package pdftex.def Info: ../EJ2/Recursos/SECOND_LT_VS_TEO.png  used on input li
@@ -2159,7 +2162,7 @@ as been already used, duplicate ignored
 l.494 ...'on con simulaciones de la segunda etapa}
                                                    [43 <../EJ2/Recursos/HIST_SE
 COND.png> <../EJ2/Recursos/SECOND_LT_VS_TEO.png>]
-<../EJ2/Recursos/MC_MOD.png, id=852, 1109.94675pt x 393.8715pt>
+<../EJ2/Recursos/MC_MOD.png, id=908, 1109.94675pt x 393.8715pt>
 File: ../EJ2/Recursos/MC_MOD.png Graphic file (type png)
 <use ../EJ2/Recursos/MC_MOD.png>
 Package pdftex.def Info: ../EJ2/Recursos/MC_MOD.png  used on input line 506.
@@ -2170,7 +2173,7 @@ as been already used, duplicate ignored
                    \relax 
 l.507 ... m\'odulo de la transferencia del filtro}
                                                   
-<../EJ2/Recursos/MC_PHA.png, id=853, 1112.35574pt x 386.04225pt>
+<../EJ2/Recursos/MC_PHA.png, id=909, 1112.35574pt x 386.04225pt>
 File: ../EJ2/Recursos/MC_PHA.png Graphic file (type png)
 <use ../EJ2/Recursos/MC_PHA.png>
 Package pdftex.def Info: ../EJ2/Recursos/MC_PHA.png  used on input line 514.
@@ -2181,7 +2184,7 @@ as been already used, duplicate ignored
                    \relax 
 l.515 ... del fase de la transferencia del filtro}
                                                   
-<../EJ2/Recursos/MC_VER.png, id=855, 1124.40076pt x 396.88275pt>
+<../EJ2/Recursos/MC_VER.png, id=911, 1124.40076pt x 396.88275pt>
 File: ../EJ2/Recursos/MC_VER.png Graphic file (type png)
 <use ../EJ2/Recursos/MC_VER.png>
 Package pdftex.def Info: ../EJ2/Recursos/MC_VER.png  used on input line 523.
@@ -2193,7 +2196,7 @@ as been already used, duplicate ignored
 l.524 ...aci\'on de plantilla en la banda de paso}
                                                    [44 <../EJ2/Recursos/MC_MOD.
 png> <../EJ2/Recursos/MC_PHA.png> <../EJ2/Recursos/MC_VER.png>]
-<../EJ2/Recursos/ZIN.png, id=861, 1129.21875pt x 524.55975pt>
+<../EJ2/Recursos/ZIN.png, id=917, 1129.21875pt x 524.55975pt>
 File: ../EJ2/Recursos/ZIN.png Graphic file (type png)
 <use ../EJ2/Recursos/ZIN.png>
 Package pdftex.def Info: ../EJ2/Recursos/ZIN.png  used on input line 535.
@@ -2204,7 +2207,7 @@ as been already used, duplicate ignored
                    \relax 
 l.536 ... de la impedancia de entrada del sistema}
                                                   
-<../EJ2/Recursos/FIRST_LT_VS_TEO_VS_MED.png, id=866, 921.4425pt x 685.8423pt>
+<../EJ2/Recursos/FIRST_LT_VS_TEO_VS_MED.png, id=922, 921.4425pt x 685.8423pt>
 File: ../EJ2/Recursos/FIRST_LT_VS_TEO_VS_MED.png Graphic file (type png)
 <use ../EJ2/Recursos/FIRST_LT_VS_TEO_VS_MED.png>
 Package pdftex.def Info: ../EJ2/Recursos/FIRST_LT_VS_TEO_VS_MED.png  used on in
@@ -2216,7 +2219,7 @@ as been already used, duplicate ignored
                    \relax 
 l.547 ...raci\'on de curvas para la primera etapa}
                                                   
-<../EJ2/Recursos/SECOND_LT_VS_TEO_VS_MED.png, id=867, 921.4425pt x 685.8423pt>
+<../EJ2/Recursos/SECOND_LT_VS_TEO_VS_MED.png, id=923, 921.4425pt x 685.8423pt>
 File: ../EJ2/Recursos/SECOND_LT_VS_TEO_VS_MED.png Graphic file (type png)
 <use ../EJ2/Recursos/SECOND_LT_VS_TEO_VS_MED.png>
 Package pdftex.def Info: ../EJ2/Recursos/SECOND_LT_VS_TEO_VS_MED.png  used on i
@@ -2228,12 +2231,12 @@ as been already used, duplicate ignored
                    \relax 
 l.555 ...raci\'on de curvas para la segunda etapa}
                                                   
-<../EJ2/Recursos/COMP_MOD.png, id=868, 921.4425pt x 685.8423pt>
+<../EJ2/Recursos/COMP_MOD.png, id=924, 921.4425pt x 685.8423pt>
 File: ../EJ2/Recursos/COMP_MOD.png Graphic file (type png)
 <use ../EJ2/Recursos/COMP_MOD.png>
 Package pdftex.def Info: ../EJ2/Recursos/COMP_MOD.png  used on input line 565.
 (pdftex.def)             Requested size: 921.44026pt x 685.84062pt.
-<../EJ2/Recursos/COMP_PHA.png, id=869, 921.4425pt x 685.8423pt>
+<../EJ2/Recursos/COMP_PHA.png, id=925, 921.4425pt x 685.8423pt>
 File: ../EJ2/Recursos/COMP_PHA.png Graphic file (type png)
 <use ../EJ2/Recursos/COMP_PHA.png>
 Package pdftex.def Info: ../EJ2/Recursos/COMP_PHA.png  used on input line 565.
@@ -2245,7 +2248,7 @@ as been already used, duplicate ignored
 l.567     filtro}
                   [45 <../EJ2/Recursos/ZIN.png> <../EJ2/Recursos/FIRST_LT_VS_TE
 O_VS_MED.png>]
-<../EJ2/Recursos/COMP_ZIN.png, id=875, 921.4425pt x 685.8423pt>
+<../EJ2/Recursos/COMP_ZIN.png, id=931, 921.4425pt x 685.8423pt>
 File: ../EJ2/Recursos/COMP_ZIN.png Graphic file (type png)
 <use ../EJ2/Recursos/COMP_ZIN.png>
 Package pdftex.def Info: ../EJ2/Recursos/COMP_ZIN.png  used on input line 574.
@@ -2257,433 +2260,226 @@ as been already used, duplicate ignored
 l.575 ...n{Comparaci\'on de impedancia de entrada}
                                                    [46 <../EJ2/Recursos/SECOND_
 LT_VS_TEO_VS_MED.png> <../EJ2/Recursos/COMP_MOD.png> <../EJ2/Recursos/COMP_PHA.
-png>]) [47 <../EJ2/Recursos/COMP_ZIN.png>] [48] (./ej3.tex) [49] (./ej4.texpdfT
-eX warning (ext4): destination with the same identifier (name{table.1}) has bee
-n already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.21 ...ones del filtro rechaza banda a realizar.}
-                                                  
-<../EJ4/imagenes/KERWIN.png, id=902, 793.96625pt x 312.16624pt>
-File: ../EJ4/imagenes/KERWIN.png Graphic file (type png)
-<use ../EJ4/imagenes/KERWIN.png>
-Package pdftex.def Info: ../EJ4/imagenes/KERWIN.png  used on input line 50.
-(pdftex.def)             Requested size: 341.43518pt x 134.24315pt.
+png>]) [47 <../EJ2/Recursos/COMP_ZIN.png>] [48] (./ej3.tex
+<../EJ3/Resources/deliyannis_cell.png, id=951, 358.941pt x 292.09125pt>
+File: ../EJ3/Resources/deliyannis_cell.png Graphic file (type png)
+<use ../EJ3/Resources/deliyannis_cell.png>
+Package pdftex.def Info: ../EJ3/Resources/deliyannis_cell.png  used on input li
+ne 12.
+(pdftex.def)             Requested size: 364.19667pt x 296.36917pt.
 pdfTeX warning (ext4): destination with the same identifier (name{figure.1}) ha
 s been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.51 	\caption{Circuito Kerwin-Huelsman-Newcomb}
-                                                 [50]pdfTeX warning (ext4): des
-tination with the same identifier (name{table.2}) has been already used, duplic
-ate ignored
-<to be read again> 
-                   \relax 
-l.67 ...icas de la celda Kerwin-Huelsman-Newcomb.}
-                                                  pdfTeX warning (ext4): destin
-ation with the same identifier (name{table.3}) has been already used, duplicate
- ignored
-<to be read again> 
-                   \relax 
-l.88 ...ades de la celda Kerwin-Huelsman-Newcomb.}
-                                                   [51 <../EJ4/imagenes/KERWIN.
-png>]
-<../EJ4/imagenes/sumador_extra.png, id=917, 392.46625pt x 201.75375pt>
-File: ../EJ4/imagenes/sumador_extra.png Graphic file (type png)
-<use ../EJ4/imagenes/sumador_extra.png>
-Package pdftex.def Info: ../EJ4/imagenes/sumador_extra.png  used on input line 
-112.
-(pdftex.def)             Requested size: 227.62457pt x 117.01418pt.
+l.13     \caption{Pasabanda Deliyannis}
+                                       
+Underfull \hbox (badness 10000) in paragraph at lines 18--19
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 21--22
+
+ []
+
+<../EJ3/Resources/transformation_circuits.png, id=953, 361.35pt x 433.62pt>
+File: ../EJ3/Resources/transformation_circuits.png Graphic file (type png)
+<use ../EJ3/Resources/transformation_circuits.png>
+Package pdftex.def Info: ../EJ3/Resources/transformation_circuits.png  used on 
+input line 28.
+(pdftex.def)             Requested size: 318.66948pt x 382.40723pt.
 pdfTeX warning (ext4): destination with the same identifier (name{figure.2}) ha
 s been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.113 ... la selda para obtener un rechaza banda.}
-                                                   [52 <../EJ4/imagenes/sumador
-_extra.png>]
-<../EJ4/imagenes/TOW-THOMAS.png, id=924, 804.00375pt x 312.16624pt>
-File: ../EJ4/imagenes/TOW-THOMAS.png Graphic file (type png)
-<use ../EJ4/imagenes/TOW-THOMAS.png>
-Package pdftex.def Info: ../EJ4/imagenes/TOW-THOMAS.png  used on input line 123
-.
-(pdftex.def)             Requested size: 341.43332pt x 132.56648pt.
+l.29 ...aption{Resultados de las transformaciones}
+                                                   [49 <../EJ3/Resources/deliya
+nnis_cell.png>]
+<../EJ3/Resources/HPB.png, id=963, 340.27126pt x 209.583pt>
+File: ../EJ3/Resources/HPB.png Graphic file (type png)
+<use ../EJ3/Resources/HPB.png>
+Package pdftex.def Info: ../EJ3/Resources/HPB.png  used on input line 53.
+(pdftex.def)             Requested size: 318.66948pt x 196.28848pt.
 pdfTeX warning (ext4): destination with the same identifier (name{figure.3}) ha
 s been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.124 	\caption{Celda Tow-Thomas}
-                                 pdfTeX warning (ext4): destination with the sa
-me identifier (name{table.4}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.141 ...aracter\'isticas de la celda Tow-Thomas.}
-                                                  pdfTeX warning (ext4): destin
-ation with the same identifier (name{table.5}) has been already used, duplicate
- ignored
-<to be read again> 
-                   \relax 
-l.161 ...n{Sensibilidades de la celda Tow-Thomas.}
-                                                   [53 <../EJ4/imagenes/TOW-THO
-MAS.png>]
-<../EJ4/imagenes/ACKBERG.png, id=930, 934.49126pt x 402.50375pt>
-File: ../EJ4/imagenes/ACKBERG.png Graphic file (type png)
-<use ../EJ4/imagenes/ACKBERG.png>
-Package pdftex.def Info: ../EJ4/imagenes/ACKBERG.png  used on input line 173.
-(pdftex.def)             Requested size: 341.43582pt x 147.06311pt.
+l.54     \caption{High-pass biquad}
+                                    [50 <../EJ3/Resources/transformation_circui
+ts.png>]
+<../EJ3/Resources/LPB.png, id=971, 319.79475pt x 213.1965pt>
+File: ../EJ3/Resources/LPB.png Graphic file (type png)
+<use ../EJ3/Resources/LPB.png>
+Package pdftex.def Info: ../EJ3/Resources/LPB.png  used on input line 60.
+(pdftex.def)             Requested size: 318.66948pt x 212.45425pt.
 pdfTeX warning (ext4): destination with the same identifier (name{figure.4}) ha
 s been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.174 	\caption{Celda Ackerberg-Mossberg}
-                                         pdfTeX warning (ext4): destination wit
-h the same identifier (name{table.6}) has been already used, duplicate ignored
+l.61     \caption{Low-pass biquad}
+                                  pdfTeX warning (ext4): destination with the s
+ame identifier (name{table.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.190 ...'isticas de la celda Ackerberg-Mossberg.}
-                                                  pdfTeX warning (ext4): destin
-ation with the same identifier (name{table.7}) has been already used, duplicate
- ignored
+l.79     \caption{Circuitos recomendados}
+                                          [51 <../EJ3/Resources/HPB.png> <../EJ
+3/Resources/LPB.png>]pdfTeX warning (ext4): destination with the same identifie
+r (name{table.2}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.211 ...ilidades de la celda Ackerberg-Mossberg.}
-                                                   [54 <../EJ4/imagenes/ACKBERG
-.png>]
-<../EJ4/imagenes/FLEISCHER.png, id=936, 835.12pt x 473.77pt>
-File: ../EJ4/imagenes/FLEISCHER.png Graphic file (type png)
-<use ../EJ4/imagenes/FLEISCHER.png>
-Package pdftex.def Info: ../EJ4/imagenes/FLEISCHER.png  used on input line 226.
-
-(pdftex.def)             Requested size: 341.43295pt x 193.69754pt.
+l.171 ...caption{Sensibilidades pasivas de un HPB}
+                                                   [52]pdfTeX warning (ext4): d
+estination with the same identifier (name{table.3}) has been already used, dupl
+icate ignored
+<to be read again> 
+                   \relax 
+l.214     \caption{Especificaciones del filtro}
+                                               
+<../EJ3/Resources/highpass_template.png, id=998, 267.399pt x 149.358pt>
+File: ../EJ3/Resources/highpass_template.png Graphic file (type png)
+<use ../EJ3/Resources/highpass_template.png>
+Package pdftex.def Info: ../EJ3/Resources/highpass_template.png  used on input 
+line 224.
+(pdftex.def)             Requested size: 227.62206pt x 127.14175pt.
 pdfTeX warning (ext4): destination with the same identifier (name{figure.5}) ha
 s been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.227 	\caption{Celda Fleischer-Tow}
-                                    pdfTeX warning (ext4): destination with the
- same identifier (name{table.8}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.241 ...s gen\'ericas de la celda Fleischer-Tow.}
-                                                   [55 <../EJ4/imagenes/FLEISCH
-ER.png>]
-Overfull \vbox (2.17609pt too high) detected at line 253
- []
-
-
-Overfull \vbox (2.17609pt too high) detected at line 255
- []
-
-pdfTeX warning (ext4): destination with the same identifier (name{table.9}) has
- been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.258 ...cter\'isticas de la celda Fleischer-Tow.}
-                                                   [56] [57] [58]
-Overfull \hbox (16.9003pt too wide) in paragraph at lines 391--399
- [][] 
- []
-
-File: ../EJ4/imagenes/FLEISCHER.png Graphic file (type png)
-<use ../EJ4/imagenes/FLEISCHER.png>
-Package pdftex.def Info: ../EJ4/imagenes/FLEISCHER.png  used on input line 409.
-
-(pdftex.def)             Requested size: 341.43295pt x 193.69754pt.
+l.225     \caption{Plantilla de pasaaltos}
+                                           [53]
+<../EJ3/Resources/polezero_stagei.png, id=1007, 357.7365pt x 342.68025pt>
+File: ../EJ3/Resources/polezero_stagei.png Graphic file (type png)
+<use ../EJ3/Resources/polezero_stagei.png>
+Package pdftex.def Info: ../EJ3/Resources/polezero_stagei.png  used on input li
+ne 255.
+(pdftex.def)             Requested size: 227.62206pt x 218.03876pt.
 pdfTeX warning (ext4): destination with the same identifier (name{figure.6}) ha
 s been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.410 	\caption{Celda Fleischer-Tow}
-                                    
-Overfull \vbox (2.17609pt too high) detected at line 419
- []
-
-
-Overfull \hbox (5.08043pt too wide) in paragraph at lines 416--424
- [][] 
- []
-
-[59]
-<../EJ4/graficos/histo_c1.png, id=972, 817.3737pt x 346.896pt>
-File: ../EJ4/graficos/histo_c1.png Graphic file (type png)
-<use ../EJ4/graficos/histo_c1.png>
-Package pdftex.def Info: ../EJ4/graficos/histo_c1.png  used on input line 455.
-(pdftex.def)             Requested size: 341.43626pt x 144.90663pt.
+l.256     \caption{Polos y ceros de la etapa I}
+                                                [54 <../EJ3/Resources/highpass_
+template.png>]
+<../EJ3/Resources/polezero_stageii.png, id=1016, 357.7365pt x 342.68025pt>
+File: ../EJ3/Resources/polezero_stageii.png Graphic file (type png)
+<use ../EJ3/Resources/polezero_stageii.png>
+Package pdftex.def Info: ../EJ3/Resources/polezero_stageii.png  used on input l
+ine 267.
+(pdftex.def)             Requested size: 227.62206pt x 218.03876pt.
 pdfTeX warning (ext4): destination with the same identifier (name{figure.7}) ha
 s been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.456 ...ramas para la celda de la primera etapa.}
-                                                  
-<../EJ4/graficos/histo_c2.png, id=973, 839.7774pt x 346.896pt>
-File: ../EJ4/graficos/histo_c2.png Graphic file (type png)
-<use ../EJ4/graficos/histo_c2.png>
-Package pdftex.def Info: ../EJ4/graficos/histo_c2.png  used on input line 461.
-(pdftex.def)             Requested size: 341.44064pt x 141.04259pt.
+l.268     \caption{Polos y ceros de la etapa II}
+                                                pdfTeX warning (ext4): destinat
+ion with the same identifier (name{table.4}) has been already used, duplicate i
+gnored
+<to be read again> 
+                   \relax 
+l.289     \caption{Especificaciones de etapa I}
+                                                [55 <../EJ3/Resources/polezero_
+stagei.png> <../EJ3/Resources/polezero_stageii.png>]pdfTeX warning (ext4): dest
+ination with the same identifier (name{table.5}) has been already used, duplica
+te ignored
+<to be read again> 
+                   \relax 
+l.329     \caption{Constantes de etapa I}
+                                         pdfTeX warning (ext4): destination wit
+h the same identifier (name{table.6}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.386     \caption{Componentes de etapa I}
+                                           [56]
+<../EJ3/Resources/histograma_stagei.png, id=1047, 462.528pt x 346.896pt>
+File: ../EJ3/Resources/histograma_stagei.png Graphic file (type png)
+<use ../EJ3/Resources/histograma_stagei.png>
+Package pdftex.def Info: ../EJ3/Resources/histograma_stagei.png  used on input 
+line 392.
+(pdftex.def)             Requested size: 273.14923pt x 204.87329pt.
 pdfTeX warning (ext4): destination with the same identifier (name{figure.8}) ha
 s been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.462 ...ramas para la celda de la segunda etapa.}
-                                                   [60 <../EJ4/graficos/histo_c
-1.png>]
-<../EJ4/graficos/histo_c3.png, id=981, 829.6596pt x 346.896pt>
-File: ../EJ4/graficos/histo_c3.png Graphic file (type png)
-<use ../EJ4/graficos/histo_c3.png>
-Package pdftex.def Info: ../EJ4/graficos/histo_c3.png  used on input line 467.
-(pdftex.def)             Requested size: 341.42859pt x 142.75758pt.
+l.393     \caption{Histograma de etapa I}
+                                         
+<../EJ3/Resources/stageI_ampbode.png, id=1048, 921.4425pt x 685.8423pt>
+File: ../EJ3/Resources/stageI_ampbode.png Graphic file (type png)
+<use ../EJ3/Resources/stageI_ampbode.png>
+Package pdftex.def Info: ../EJ3/Resources/stageI_ampbode.png  used on input lin
+e 402.
+(pdftex.def)             Requested size: 409.71692pt x 304.95293pt.
 pdfTeX warning (ext4): destination with the same identifier (name{figure.9}) ha
 s been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.468 ...ramas para la celda de la tercera etapa.}
-                                                  
-
-LaTeX Warning: Command \' invalid in math mode on input line 484.
-
-
-LaTeX Warning: Command \' invalid in math mode on input line 502.
-
-
-Overfull \hbox (126.83008pt too wide) in paragraph at lines 513--513
-[][][]\T1/futs/m/n/8 (-20) Hoja de da-tos del ope-ra-cio-nal TL084: https://www
-.alldatasheet.com/view.jsp?Searchword=Tl084&gclid=EAIaIQobChMIvtDP0tvb5QIVhYORC
-h3tDA__EAAYASAAEgKpRPD_BwE| 
- []
-
-[61 <../EJ4/graficos/histo_c2.png> <../EJ4/graficos/histo_c3.png>]
-<../EJ4/graficos/vinmax.png, id=998, 462.528pt x 346.896pt>
-File: ../EJ4/graficos/vinmax.png Graphic file (type png)
-<use ../EJ4/graficos/vinmax.png>
-Package pdftex.def Info: ../EJ4/graficos/vinmax.png  used on input line 532.
-(pdftex.def)             Requested size: 341.44667pt x 256.08499pt.
+l.403 ...tion{Etapa I - Diagrama BODE de m\'odulo}
+                                                   [57 <../EJ3/Resources/histog
+rama_stagei.png>]
+<../EJ3/Resources/stageI_phabode.png, id=1054, 921.4425pt x 685.8423pt>
+File: ../EJ3/Resources/stageI_phabode.png Graphic file (type png)
+<use ../EJ3/Resources/stageI_phabode.png>
+Package pdftex.def Info: ../EJ3/Resources/stageI_phabode.png  used on input lin
+e 409.
+(pdftex.def)             Requested size: 409.71692pt x 304.95293pt.
 pdfTeX warning (ext4): destination with the same identifier (name{figure.10}) h
 as been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.533 	\caption{Tensi\'on de entrada m\'axima.}
-                                                [62 <../EJ4/graficos/vinmax.png
->]
-<../EJ4/graficos/h_montecarlo_malo.png, id=1011, 925.65825pt x 317.988pt>
-File: ../EJ4/graficos/h_montecarlo_malo.png Graphic file (type png)
-<use ../EJ4/graficos/h_montecarlo_malo.png>
-Package pdftex.def Info: ../EJ4/graficos/h_montecarlo_malo.png  used on input l
-ine 555.
-(pdftex.def)             Requested size: 341.44298pt x 117.29465pt.
+l.410 ...\caption{Etapa I - Diagrama BODE de fase}
+                                                   [58 <../EJ3/Resources/stageI
+_ampbode.png>]pdfTeX warning (ext4): destination with the same identifier (name
+{table.7}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.428 ...aption{Sensibilidades pasivas de etapa I}
+                                                  pdfTeX warning (ext4): destin
+ation with the same identifier (name{table.8}) has been already used, duplicate
+ ignored
+<to be read again> 
+                   \relax 
+l.445     \caption{Especificaciones de etapa II}
+                                                pdfTeX warning (ext4): destinat
+ion with the same identifier (name{table.9}) has been already used, duplicate i
+gnored
+<to be read again> 
+                   \relax 
+l.461     \caption{Constantes de etapa II}
+                                           [59 <../EJ3/Resources/stageI_phabode
+.png>]
+<../EJ3/Resources/histograma_stageii.png, id=1066, 462.528pt x 346.896pt>
+File: ../EJ3/Resources/histograma_stageii.png Graphic file (type png)
+<use ../EJ3/Resources/histograma_stageii.png>
+Package pdftex.def Info: ../EJ3/Resources/histograma_stageii.png  used on input
+ line 489.
+(pdftex.def)             Requested size: 273.14923pt x 204.87329pt.
 pdfTeX warning (ext4): destination with the same identifier (name{figure.11}) h
 as been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.556 ...ulaci\'on Monte Carlo: Diagrama de Bode.}
-                                                  
-<../EJ4/graficos/h_montecarlo_caps.png, id=1012, 1048.51724pt x 274.626pt>
-File: ../EJ4/graficos/h_montecarlo_caps.png Graphic file (type png)
-<use ../EJ4/graficos/h_montecarlo_caps.png>
-Package pdftex.def Info: ../EJ4/graficos/h_montecarlo_caps.png  used on input l
-ine 561.
-(pdftex.def)             Requested size: 341.43604pt x 89.42838pt.
+l.490     \caption{Histograma de etapa II}
+                                          
+<../EJ3/Resources/stageII_ampbode.png, id=1067, 921.4425pt x 685.8423pt>
+File: ../EJ3/Resources/stageII_ampbode.png Graphic file (type png)
+<use ../EJ3/Resources/stageII_ampbode.png>
+Package pdftex.def Info: ../EJ3/Resources/stageII_ampbode.png  used on input li
+ne 498.
+(pdftex.def)             Requested size: 409.71692pt x 304.95293pt.
 pdfTeX warning (ext4): destination with the same identifier (name{figure.12}) h
 as been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.562 ...iagrama de Bode sobre el pico del notch.}
-                                                  
-<../EJ4/graficos/h_montecarlo_detalle.png, id=1014, 923.24925pt x 319.1925pt>
-File: ../EJ4/graficos/h_montecarlo_detalle.png Graphic file (type png)
-<use ../EJ4/graficos/h_montecarlo_detalle.png>
-Package pdftex.def Info: ../EJ4/graficos/h_montecarlo_detalle.png  used on inpu
-t line 569.
-(pdftex.def)             Requested size: 341.44191pt x 118.04579pt.
+l.499 ...ion{Etapa II - Diagrama BODE de m\'odulo}
+                                                   [60 <../EJ3/Resources/histog
+rama_stageii.png>]
+<../EJ3/Resources/stageII_phabode.png, id=1074, 921.4425pt x 685.8423pt>
+File: ../EJ3/Resources/stageII_phabode.png Graphic file (type png)
+<use ../EJ3/Resources/stageII_phabode.png>
+Package pdftex.def Info: ../EJ3/Resources/stageII_phabode.png  used on input li
+ne 505.
+(pdftex.def)             Requested size: 409.71692pt x 304.95293pt.
 pdfTeX warning (ext4): destination with the same identifier (name{figure.13}) h
 as been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.570 ...ico del notch, sin error de capacitores.}
-                                                  pdfTeX warning (ext4): destin
-ation with the same identifier (name{figure.13}) has been already used, duplica
-te ignored
-<to be read again> 
-                   \relax 
-l.570 ...ico del notch, sin error de capacitores.}
-                                                   [63 <../EJ4/graficos/h_monte
-carlo_malo.png> <../EJ4/graficos/h_montecarlo_caps.png> <../EJ4/graficos/h_mont
-ecarlo_detalle.png>]
-<../EJ4/graficos/etapa1_R1.png, id=1028, 979.86075pt x 251.13824pt>
-File: ../EJ4/graficos/etapa1_R1.png Graphic file (type png)
-<use ../EJ4/graficos/etapa1_R1.png>
-Package pdftex.def Info: ../EJ4/graficos/etapa1_R1.png  used on input line 579.
-
-(pdftex.def)             Requested size: 341.43135pt x 87.50883pt.
-pdfTeX warning (ext4): destination with the same identifier (name{figure.14}) h
-as been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.580 ... barrido de valores de R1 en la celda 1.}
-                                                  
-<../EJ4/graficos/etapa2_R1cambiada.png, id=1029, 976.24725pt x 251.7405pt>
-File: ../EJ4/graficos/etapa2_R1cambiada.png Graphic file (type png)
-<use ../EJ4/graficos/etapa2_R1cambiada.png>
-Package pdftex.def Info: ../EJ4/graficos/etapa2_R1cambiada.png  used on input l
-ine 585.
-(pdftex.def)             Requested size: 341.43842pt x 88.04518pt.
-pdfTeX warning (ext4): destination with the same identifier (name{figure.15}) h
-as been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.586 ... barrido de valores de R1 en la celda 2.}
-                                                  
-<../EJ4/graficos/etapa3_R1.png, id=1030, 980.463pt x 251.7405pt>
-File: ../EJ4/graficos/etapa3_R1.png Graphic file (type png)
-<use ../EJ4/graficos/etapa3_R1.png>
-Package pdftex.def Info: ../EJ4/graficos/etapa3_R1.png  used on input line 591.
-
-(pdftex.def)             Requested size: 341.43175pt x 87.6649pt.
-pdfTeX warning (ext4): destination with the same identifier (name{figure.16}) h
-as been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.592 ... barrido de valores de R1 en la celda 3.}
-                                                   [64 <../EJ4/graficos/etapa1_
-R1.png> <../EJ4/graficos/etapa2_R1cambiada.png> <../EJ4/graficos/etapa3_R1.png>
-]
-<../EJ4/graficos/etapa1_R3.png, id=1043, 979.86075pt x 254.1495pt>
-File: ../EJ4/graficos/etapa1_R3.png Graphic file (type png)
-<use ../EJ4/graficos/etapa1_R3.png>
-Package pdftex.def Info: ../EJ4/graficos/etapa1_R3.png  used on input line 599.
-
-(pdftex.def)             Requested size: 341.43135pt x 88.55809pt.
-pdfTeX warning (ext4): destination with the same identifier (name{figure.17}) h
-as been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.600 ... barrido de valores de R3 en la celda 1.}
-                                                  
-<../EJ4/graficos/etapa2_R3.png, id=1044, 1085.2545pt x 251.7405pt>
-File: ../EJ4/graficos/etapa2_R3.png Graphic file (type png)
-<use ../EJ4/graficos/etapa2_R3.png>
-Package pdftex.def Info: ../EJ4/graficos/etapa2_R3.png  used on input line 605.
-
-(pdftex.def)             Requested size: 341.42642pt x 79.19879pt.
-pdfTeX warning (ext4): destination with the same identifier (name{figure.18}) h
-as been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.606 ... barrido de valores de R3 en la celda 2.}
-                                                  
-<../EJ4/graficos/etapa3_R3.png, id=1045, 1087.06125pt x 253.54726pt>
-File: ../EJ4/graficos/etapa3_R3.png Graphic file (type png)
-<use ../EJ4/graficos/etapa3_R3.png>
-Package pdftex.def Info: ../EJ4/graficos/etapa3_R3.png  used on input line 611.
-
-(pdftex.def)             Requested size: 341.43088pt x 79.63567pt.
-pdfTeX warning (ext4): destination with the same identifier (name{figure.19}) h
-as been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.612 ... barrido de valores de R3 en la celda 3.}
-                                                  
-<../EJ4/graficos/ATENUACION.png, id=1048, 1046.10825pt x 231.86626pt>
-File: ../EJ4/graficos/ATENUACION.png Graphic file (type png)
-<use ../EJ4/graficos/ATENUACION.png>
-Package pdftex.def Info: ../EJ4/graficos/ATENUACION.png  used on input line 620
-.
-(pdftex.def)             Requested size: 341.43372pt x 75.67758pt.
-pdfTeX warning (ext4): destination with the same identifier (name{figure.20}) h
-as been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.621 ...on presici\'on de R1 y R3 de cada etapa.}
-                                                  
-<../EJ4/graficos/ATENUACION_ZOOM.png, id=1049, 1043.097pt x 228.855pt>
-File: ../EJ4/graficos/ATENUACION_ZOOM.png Graphic file (type png)
-<use ../EJ4/graficos/ATENUACION_ZOOM.png>
-Package pdftex.def Info: ../EJ4/graficos/ATENUACION_ZOOM.png  used on input lin
-e 626.
-(pdftex.def)             Requested size: 341.4218pt x 74.90778pt.
-pdfTeX warning (ext4): destination with the same identifier (name{figure.21}) h
-as been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.627 ...on presici\'on de R1 y R3 de cada etapa.}
-                                                   [65 <../EJ4/graficos/etapa1_
-R3.png> <../EJ4/graficos/etapa2_R3.png> <../EJ4/graficos/etapa3_R3.png> <../EJ4
-/graficos/ATENUACION.png>]
-<../EJ4/graficos/BODE_BIEN.png, id=1061, 921.4425pt x 772.5663pt>
-File: ../EJ4/graficos/BODE_BIEN.png Graphic file (type png)
-<use ../EJ4/graficos/BODE_BIEN.png>
-Package pdftex.def Info: ../EJ4/graficos/BODE_BIEN.png  used on input line 637.
-
-(pdftex.def)             Requested size: 341.42049pt x 286.25764pt.
-pdfTeX warning (ext4): destination with the same identifier (name{figure.22}) h
-as been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.638 	\caption{Diagrama de Bode: Amplitud.}
-                                            
-<../EJ4/graficos/phase_bode.png, id=1062, 905.5431pt x 605.6226pt>
-File: ../EJ4/graficos/phase_bode.png Graphic file (type png)
-<use ../EJ4/graficos/phase_bode.png>
-Package pdftex.def Info: ../EJ4/graficos/phase_bode.png  used on input line 644
-.
-(pdftex.def)             Requested size: 341.42937pt x 228.3462pt.
-pdfTeX warning (ext4): destination with the same identifier (name{figure.23}) h
-as been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.645 	\caption{Diagrama de Bode: Fase.}
-                                         [66 <../EJ4/graficos/ATENUACION_ZOOM.p
-ng> <../EJ4/graficos/BODE_BIEN.png>]
-<../EJ4/graficos/PLANTILLA_BIEN.png, id=1069, 537.00626pt x 440.64626pt>
-File: ../EJ4/graficos/PLANTILLA_BIEN.png Graphic file (type png)
-<use ../EJ4/graficos/PLANTILLA_BIEN.png>
-Package pdftex.def Info: ../EJ4/graficos/PLANTILLA_BIEN.png  used on input line
- 650.
-(pdftex.def)             Requested size: 341.42947pt x 280.16362pt.
-pdfTeX warning (ext4): destination with the same identifier (name{figure.24}) h
-as been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.651 ...on simulaci\'on Monte Carlo y plantilla.}
-                                                   [67 <../EJ4/graficos/phase_b
-ode.png> <../EJ4/graficos/PLANTILLA_BIEN.png>]) [68]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 36.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 36.
- (./informe.aux
-LaTeX Info: Redefining \. on input line 23.
-LaTeX Info: Redefining \% on input line 23.
-)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 36.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 36.
-Package rerunfilecheck Info: File `informe.out' has not changed.
-(rerunfilecheck)             Checksum: 0F80B6C49B11E7FF9407952E5D8A3C27;6476.
-
-
-LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: There were multiply-defined labels.
-
- ) 
-Here is how much of TeX's memory you used:
- 36402 strings out of 494060
- 712337 string characters out of 6163035
- 765973 words of memory out of 5000000
- 38850 multiletter control sequences out of 15000+600000
- 787719 words of font info for 433 fonts, out of 8000000 for 9000
- 319 hyphenation exceptions out of 8191
- 63i,18n,81p,1859b,1080s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2019basic/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/lo
-cal/texlive/2019basic/texmf-dist/fonts/type1/public/fourier/fourier-mex.pfb></u
-sr/local/texlive/2019basic/texmf-dist/fonts/type1/public/fourier/fourier-ml.pfb
-></usr/local/texlive/2019basic/texmf-dist/fonts/type1/public/fourier/fourier-ml
-it.pfb></usr/local/texlive/2019basic/texmf-dist/fonts/type1/public/fourier/four
-ier-ms.pfb></usr/local/texlive/2019basic/texmf-dist/fonts/type1/adobe/utopia/pu
-tb8a.pfb></usr/local/texlive/2019basic/texmf-dist/fonts/type1/adobe/utopia/putr
-8a.pfb></usr/local/texlive/2019basic/texmf-dist/fonts/type1/adobe/utopia/putri8
-a.pfb>
-Output written on informe.pdf (68 pages, 13998191 bytes).
-PDF statistics:
- 1171 PDF objects out of 1200 (max. 8388607)
- 930 compressed objects within 10 object streams
- 280 named destinations out of 1000 (max. 500000)
- 70233 words of extra memory for PDF output out of 74296 (max. 10000000)
-
+l.506 ...caption{Etapa II - Diagrama BODE de fase}
+                        
