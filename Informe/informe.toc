@@ -25,11 +25,11 @@
 \contentsline {subsubsection}{\numberline {4.6.1}Especificaciones del filtro y aproximaci\'on}{13}{subsubsection.4.6.1}% 
 \contentsline {subsubsection}{\numberline {4.6.2}Selecci\IeC {\'o}n de celda}{14}{subsubsection.4.6.2}% 
 \contentsline {subsubsection}{\numberline {4.6.3}Dise\~no de etapas}{14}{subsubsection.4.6.3}% 
-\contentsline {paragraph}{M\'etodo de ajuste: Dise\~o por componentes iguales}{15}{section*.4}% 
+\contentsline {paragraph}{M\'etodo de ajuste: Dise\~o por componentes iguales}{15}{section*.2}% 
 \contentsline {subsubsection}{\numberline {4.6.4}Limitaciones}{17}{subsubsection.4.6.4}% 
 \contentsline {subsubsection}{\numberline {4.6.5}Simulaci\'on y verificaci\'on}{19}{subsubsection.4.6.5}% 
-\contentsline {paragraph}{Variaci\'on de R1 - Profundidad del pico de notch:}{20}{section*.8}% 
-\contentsline {paragraph}{Variaci\'on de R3 - Posici\'on del pico de notch:}{20}{section*.9}% 
-\contentsline {paragraph}{Simulaci\'on con presici\'on}{21}{section*.10}% 
+\contentsline {paragraph}{Variaci\'on de R1 - Profundidad del pico de notch:}{20}{section*.6}% 
+\contentsline {paragraph}{Variaci\'on de R3 - Posici\'on del pico de notch:}{20}{section*.7}% 
+\contentsline {paragraph}{Simulaci\'on con presici\'on:}{21}{section*.8}% 
 \contentsline {subsubsection}{\numberline {4.6.6}Resultados obtenidos}{22}{subsubsection.4.6.6}% 
 \contentsline {subsection}{\numberline {4.7}Conclusiones}{24}{subsection.4.7}% 
