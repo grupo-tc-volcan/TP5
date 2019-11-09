@@ -1,0 +1,23 @@
+\babel@toc {spanish}{}
+\contentsline {section}{\numberline {1}Celda Sallen-Key}{3}{section.1}% 
+\contentsline {section}{\numberline {2}Celda Rauch (Deliyannis - Friend modificada)}{4}{section.2}% 
+\contentsline {subsection}{\numberline {2.1}Celda a utilizar y justificaci\'on}{4}{subsection.2.1}% 
+\contentsline {subsection}{\numberline {2.2}Celda Rauch pasabanda: An\'alsis ideal}{5}{subsection.2.2}% 
+\contentsline {subsubsection}{\numberline {2.2.1}Tranferencia y caracter\'isticas}{5}{subsubsection.2.2.1}% 
+\contentsline {subsubsection}{\numberline {2.2.2}Caracter\'isticas de dise\~no}{5}{subsubsection.2.2.2}% 
+\contentsline {subsubsection}{\numberline {2.2.3}Impedancia de entrada}{6}{subsubsection.2.2.3}% 
+\contentsline {subsubsection}{\numberline {2.2.4}Impedancia de salida}{7}{subsubsection.2.2.4}% 
+\contentsline {subsubsection}{\numberline {2.2.5}Sensibilidades}{7}{subsubsection.2.2.5}% 
+\contentsline {subsection}{\numberline {2.3}Celda Rauch pasabanda: An\'alsis real}{8}{subsection.2.3}% 
+\contentsline {subsubsection}{\numberline {2.3.1}Tranferencia y caracter\'isticas}{8}{subsubsection.2.3.1}% 
+\contentsline {subsubsection}{\numberline {2.3.2}Impedancia de entrada}{9}{subsubsection.2.3.2}% 
+\contentsline {subsection}{\numberline {2.4}Dise\~no del filtro con Chebyshev}{9}{subsection.2.4}% 
+\contentsline {subsubsection}{\numberline {2.4.1}Plantilla y transferencia}{9}{subsubsection.2.4.1}% 
+\contentsline {subsubsection}{\numberline {2.4.2}$1^\circ $ etapa}{10}{subsubsection.2.4.2}% 
+\contentsline {subsubsection}{\numberline {2.4.3}$2^\circ $ etapa}{12}{subsubsection.2.4.3}% 
+\contentsline {subsubsection}{\numberline {2.4.4}Simulaciones en cascada}{14}{subsubsection.2.4.4}% 
+\contentsline {subsubsection}{\numberline {2.4.5}Mediciones y comparaciones}{15}{subsubsection.2.4.5}% 
+\contentsline {subsubsection}{\numberline {2.4.6}Rango din\'amico}{17}{subsubsection.2.4.6}% 
+\contentsline {subsection}{\numberline {2.5}Conclusiones}{18}{subsection.2.5}% 
+\contentsline {section}{\numberline {3}Sedra-Ghorab-Martin}{19}{section.3}% 
+\contentsline {section}{\numberline {4}Celda Universal}{20}{section.4}% 

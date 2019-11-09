@@ -322,6 +322,12 @@ INPUT C:\Users\Carlos\AppData\Local\Programs\MiKTeX 2.9\tex\latex\hyperref\namer
 INPUT C:\Users\Carlos\AppData\Local\Programs\MiKTeX 2.9\tex\latex\hyperref\nameref.sty
 INPUT C:\Users\Carlos\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\gettitlestring.sty
 INPUT C:\Users\Carlos\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\gettitlestring.sty
+INPUT c:\Users\Carlos\Desktop\ITBA\3er año\1er cuatri\TC\TP5\TP5\Informe\informe.out
+INPUT c:\Users\Carlos\Desktop\ITBA\3er año\1er cuatri\TC\TP5\TP5\Informe\informe.out
+INPUT c:\Users\Carlos\Desktop\ITBA\3er año\1er cuatri\TC\TP5\TP5\Informe\informe.out
+INPUT c:\Users\Carlos\Desktop\ITBA\3er año\1er cuatri\TC\TP5\TP5\Informe\informe.out
+INPUT c:\Users\Carlos\Desktop\ITBA\3er año\1er cuatri\TC\TP5\TP5\Informe\informe.out
+INPUT c:\Users\Carlos\Desktop\ITBA\3er año\1er cuatri\TC\TP5\TP5\Informe\informe.out
 OUTPUT c:\Users\Carlos\Desktop\ITBA\3er año\1er cuatri\TC\TP5\TP5\Informe\informe.out
 INPUT C:\Users\Carlos\AppData\Local\Programs\MiKTeX 2.9\tex\latex\translator\translator-basic-dictionary-English.dict
 INPUT C:\Users\Carlos\AppData\Local\Programs\MiKTeX 2.9\tex\latex\translator\translator-basic-dictionary-English.dict
@@ -441,16 +447,25 @@ INPUT C:\Users\Carlos\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\fourier
 INPUT C:\Users\Carlos\AppData\Local\Programs\MiKTeX 2.9\fonts\vf\public\fourier\futr8t.vf
 INPUT C:\Users\Carlos\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\fourier\futb8t.tfm
 INPUT C:\Users\Carlos\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\fourier\futrc8t.tfm
+INPUT c:\Users\Carlos\Desktop\ITBA\3er año\1er cuatri\TC\TP5\TP5\Informe\informe.toc
+INPUT c:\Users\Carlos\Desktop\ITBA\3er año\1er cuatri\TC\TP5\TP5\Informe\informe.toc
+INPUT C:\Users\Carlos\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\fourier\futb8t.tfm
 OUTPUT c:\Users\Carlos\Desktop\ITBA\3er año\1er cuatri\TC\TP5\TP5\Informe\informe.toc
 INPUT C:\Users\Carlos\AppData\Local\Programs\MiKTeX 2.9\fonts\vf\public\fourier\futrc8t.vf
 INPUT C:\Users\Carlos\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\fourier\futr8r.tfm
 INPUT C:\Users\Carlos\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\fourier\fourier-alt.tfm
 INPUT C:\Users\Carlos\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\fourier\fourier-alt.tfm
+INPUT C:\Users\Carlos\AppData\Local\Programs\MiKTeX 2.9\fonts\vf\public\fourier\futb8t.vf
+INPUT C:\Users\Carlos\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\fourier\futb8r.tfm
+INPUT C:\Users\Carlos\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\fourier\fourier-alt-bold.tfm
+INPUT C:\Users\Carlos\AppData\Local\Programs\MiKTeX 2.9\fonts\vf\public\fourier\futsy.vf
+INPUT C:\Users\Carlos\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\fourier\fourier-ms.tfm
+INPUT C:\Users\Carlos\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\fourier\fourier-mcl.tfm
+INPUT C:\Users\Carlos\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\fourier\futr8r.tfm
 INPUT ej1.tex
 INPUT ej1.tex
 INPUT ej2.tex
 INPUT ej2.tex
-INPUT C:\Users\Carlos\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\fourier\futb8t.tfm
 INPUT C:\Users\Carlos\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\fourier\futb8t.tfm
 INPUT C:\Users\Carlos\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\fourier\futrc8t.tfm
 INPUT ..\EJ2\Recursos\RAUCH_SIMPLE.png
@@ -483,9 +498,6 @@ INPUT ..\EJ2\Recursos\ENHANCED_RAUCH.png
 INPUT ..\EJ2\Recursos\ENHANCED_RAUCH.png
 INPUT ..\EJ2\Recursos\ENHANCED_RAUCH.png
 INPUT ..\EJ2\Recursos\ENHANCED_RAUCH.png
-INPUT C:\Users\Carlos\AppData\Local\Programs\MiKTeX 2.9\fonts\vf\public\fourier\futb8t.vf
-INPUT C:\Users\Carlos\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\fourier\futb8r.tfm
-INPUT C:\Users\Carlos\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\fourier\fourier-alt-bold.tfm
 INPUT C:\Users\Carlos\AppData\Local\Programs\MiKTeX 2.9\fonts\vf\public\fourier\futmii.vf
 INPUT C:\Users\Carlos\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\fourier\fourier-mlit.tfm
 INPUT C:\Users\Carlos\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\fourier\fourier-ml.tfm
@@ -493,7 +505,6 @@ INPUT C:\Users\Carlos\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\fourier
 INPUT C:\Users\Carlos\AppData\Local\Programs\MiKTeX 2.9\fonts\vf\public\fourier\futmii.vf
 INPUT C:\Users\Carlos\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\fourier\fourier-mlit.tfm
 INPUT C:\Users\Carlos\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\fourier\fourier-ml.tfm
-INPUT C:\Users\Carlos\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\fourier\futr8r.tfm
 INPUT C:\Users\Carlos\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\fourier\futri8r.tfm
 INPUT C:\Users\Carlos\AppData\Local\Programs\MiKTeX 2.9\fonts\vf\public\fourier\futsy.vf
 INPUT C:\Users\Carlos\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\fourier\fourier-ms.tfm
@@ -511,8 +522,6 @@ INPUT C:\Users\Carlos\AppData\Local\Programs\MiKTeX 2.9\fonts\vf\public\fourier\
 INPUT C:\Users\Carlos\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\fourier\futri8t.tfm
 INPUT C:\Users\Carlos\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\fourier\futri8t.tfm
 INPUT C:\Users\Carlos\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\fourier\futri8t.tfm
-INPUT C:\Users\Carlos\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\fourier\futb8t.tfm
-INPUT C:\Users\Carlos\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\fourier\futb8t.tfm
 INPUT ..\EJ2\Recursos\RAUCH_VALUES.png
 INPUT ..\EJ2\Recursos\RAUCH_VALUES.png
 INPUT ..\EJ2\Recursos\RAUCH_VALUES.png
@@ -522,12 +531,6 @@ INPUT C:\Users\Carlos\AppData\Local\Programs\MiKTeX 2.9\fonts\vf\public\fourier\
 INPUT C:\Users\Carlos\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\fourier\fourier-alt-ita.tfm
 INPUT C:\Users\Carlos\AppData\Local\Programs\MiKTeX 2.9\fonts\vf\public\fourier\futri8t.vf
 INPUT C:\Users\Carlos\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\fourier\fourier-alt-ita.tfm
-INPUT C:\Users\Carlos\AppData\Local\Programs\MiKTeX 2.9\fonts\vf\public\fourier\futsy.vf
-INPUT C:\Users\Carlos\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\fourier\fourier-ms.tfm
-INPUT C:\Users\Carlos\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\fourier\fourier-mcl.tfm
-INPUT C:\Users\Carlos\AppData\Local\Programs\MiKTeX 2.9\fonts\vf\public\fourier\futb8t.vf
-INPUT C:\Users\Carlos\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\fourier\futb8r.tfm
-INPUT C:\Users\Carlos\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\fourier\fourier-alt-bold.tfm
 INPUT C:\Users\Carlos\AppData\Local\Programs\MiKTeX 2.9\fonts\vf\public\fourier\futr8t.vf
 INPUT C:\Users\Carlos\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\fourier\futr8r.tfm
 INPUT C:\Users\Carlos\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\fourier\fourier-alt.tfm
