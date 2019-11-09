@@ -46,7 +46,7 @@ A continuaci\'on se detallan las configuraciones de las cuatro celdas universale
 
 \todo{citar la pagina esta de internet}
 \footnote{https://elxcompacme.files.wordpress.com/2014/03/filter-kendell-su.pdf}
-\subsection{Celda 2do orden Kerwin-Huelsman-Newcomb (KHN): An\'alisis ideal}
+\subsection{Celda 2do orden Kerwin-Huelsman-Newcomb (KHN)}
 
 
 \begin{figure}[H] %!ht
@@ -96,11 +96,8 @@ A continuaci\'on se detallan las configuraciones de las cuatro celdas universale
 
 Esta celda tiene sensibilidades bajas.
 
-\subsubsection{Impedancia de entrada}
-\todo{completar}
 
-
-\subsubsection{Impedancia de salida}
+\subsubsection{Impedancias}
 La salida del circuito se encuentra a la salida de un amplificador operacional con realimentaci\'on negativa.  Se indic\'o previamente que la impedancia de salida de un amplificador operacional ideal es $Z_{out} \to 0$, lo que implica que la impedancia de salida del circuito tambi\'en tienda a cero.
 
 \begin{equation}
@@ -121,7 +118,7 @@ Dependiendo de d\'onde se tome la salida del circuito \ref{kerwin}, se puede obt
 	\label{sumador_extra}
 \end{figure}
 
-\subsection{Celda 2do orden Tow-Thomas:An\'alisis ideal}
+\subsection{Celda 2do orden Tow-Thomas}
 
 La celda Tow-Thomas var\'ia frente a la Kerwin-Huelsman-Newcomb al tener juntos a la entrada el sumador y el primer integrador, agregando luego un inversor y una resistencia en la realimentación que va de la salida $V_{LP}$ a la entrada del circuito. Esta nueva configuraci\'on, al igual que en la Kerwin-Huelsman-Newcomb sigue teniendo una salida de pasa bajos y una de pasa banda, pero ya no tiene una de pasa altos. 
 
@@ -169,13 +166,11 @@ Los par\'ametros correspondientes a la celda Tow-Thomas son los siguientes:
 	\label{sens_tt}
 \end{table}
 
-\subsubsection{Impedancia de entrada}
-\todo{COMPLETAR}
 
-\subsubsection{Impedancia de salida}
+\subsubsection{Impedancias}
 Al igual que para la celda anterior, como la impedancia de salida del circuito es tomada a la salida de un amplificador operacional y dado que este es considerado ideal, la impedancia de salida del circuito tiende a cero.
 
-\subsection{Celda 2do orden Ackerberg-Mossberg: An\'alisis ideal}
+\subsection{Celda 2do orden Ackerberg-Mossberg}
 
 \begin{figure}[H] %!ht
 	\centering
@@ -221,13 +216,11 @@ Al igual que para la celda anterior, como la impedancia de salida del circuito e
 	\label{sens_am}
 \end{table}
 
-\subsubsection{Impedancia de entrada}
-\todo{completar}
 
-\subsubsection{Impedancia de salida}
+\subsubsection{Impedancias}
 Esta celda tambi\'en presenta una impedancia de salida igual a cero al considerar los amplificadores operacionales como ideales, debido a que la salida del circuito es tomada a la salida de un amplificador operacional.
 
-\subsection{Celda 2do orden Fleischer-Tow: An\'alisis ideal}
+\subsection{Celda 2do orden Fleischer-Tow}
 
 Una caracter\'istica importante a remarcar de la selda Flesicher-Tow es que, a diferencia de las celdas anteriores, permite realizar cualquier tipo de filtro de segundo orden sin la necesidad de agregar otro amplificador operacional. Como se ha estudiado en trabajos pr\'acticos anteriores, el amplificador operacional tiene ciertas limitaciones para un circuito, debidas al slew rate, a la saturaci\'on, entre otras; por lo que es ventajoso el hecho de no tener que agregar un amplificador operacional para obtener un filtro rechaza banda.
 
@@ -484,7 +477,8 @@ A continuaci\'on se muestran histogramas que permiten ver la desviaci\'on del va
 
 
 
-\subsection{Limitaciones}
+\subsubsection{Limitaciones}
+
  La tensi\'on de entrada m\'axima est\'a limitada por el valor de slew rate del amplificador operacional y por la saturaci\'on. 
 \subsubsection*{Influenccia del slew rate en $V_{in_{max}}$}
 

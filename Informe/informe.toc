@@ -4,35 +4,32 @@
 \contentsline {section}{\numberline {3}Sedra-Ghorab-Martin}{5}{section.3}% 
 \contentsline {section}{\numberline {4}Celdas Universales}{6}{section.4}% 
 \contentsline {subsection}{\numberline {4.1}Configuraciones correspondientes a distintas celdas universales: An\'alisis ideal}{6}{subsection.4.1}% 
-\contentsline {subsection}{\numberline {4.2}Celda 2do orden Kerwin-Huelsman-Newcomb (KHN): An\'alisis ideal}{7}{subsection.4.2}% 
+\contentsline {subsection}{\numberline {4.2}Celda 2do orden Kerwin-Huelsman-Newcomb (KHN)}{7}{subsection.4.2}% 
 \contentsline {subsubsection}{\numberline {4.2.1}Funci\'on transferencia y par\'ametros}{7}{subsubsection.4.2.1}% 
 \contentsline {subsubsection}{\numberline {4.2.2}Sensibilidades}{8}{subsubsection.4.2.2}% 
-\contentsline {subsubsection}{\numberline {4.2.3}Impedancia de entrada}{8}{subsubsection.4.2.3}% 
-\contentsline {subsubsection}{\numberline {4.2.4}Impedancia de salida}{8}{subsubsection.4.2.4}% 
-\contentsline {subsection}{\numberline {4.3}Celda 2do orden Tow-Thomas:An\'alisis ideal}{9}{subsection.4.3}% 
+\contentsline {subsubsection}{\numberline {4.2.3}Impedancias}{8}{subsubsection.4.2.3}% 
+\contentsline {subsection}{\numberline {4.3}Celda 2do orden Tow-Thomas}{8}{subsection.4.3}% 
 \contentsline {subsubsection}{\numberline {4.3.1}Funci\'on transferencia y par\'ametros}{9}{subsubsection.4.3.1}% 
-\contentsline {subsubsection}{\numberline {4.3.2}Sensibilidades}{10}{subsubsection.4.3.2}% 
-\contentsline {subsubsection}{\numberline {4.3.3}Impedancia de entrada}{10}{subsubsection.4.3.3}% 
-\contentsline {subsubsection}{\numberline {4.3.4}Impedancia de salida}{10}{subsubsection.4.3.4}% 
-\contentsline {subsection}{\numberline {4.4}Celda 2do orden Ackerberg-Mossberg: An\'alisis ideal}{10}{subsection.4.4}% 
-\contentsline {subsubsection}{\numberline {4.4.1}Funci\'on transferencia y par\'ametros}{11}{subsubsection.4.4.1}% 
+\contentsline {subsubsection}{\numberline {4.3.2}Sensibilidades}{9}{subsubsection.4.3.2}% 
+\contentsline {subsubsection}{\numberline {4.3.3}Impedancias}{10}{subsubsection.4.3.3}% 
+\contentsline {subsection}{\numberline {4.4}Celda 2do orden Ackerberg-Mossberg}{10}{subsection.4.4}% 
+\contentsline {subsubsection}{\numberline {4.4.1}Funci\'on transferencia y par\'ametros}{10}{subsubsection.4.4.1}% 
 \contentsline {subsubsection}{\numberline {4.4.2}Sensibilidades}{11}{subsubsection.4.4.2}% 
-\contentsline {subsubsection}{\numberline {4.4.3}Impedancia de entrada}{11}{subsubsection.4.4.3}% 
-\contentsline {subsubsection}{\numberline {4.4.4}Impedancia de salida}{11}{subsubsection.4.4.4}% 
-\contentsline {subsection}{\numberline {4.5}Celda 2do orden Fleischer-Tow: An\'alisis ideal}{11}{subsection.4.5}% 
+\contentsline {subsubsection}{\numberline {4.4.3}Impedancias}{11}{subsubsection.4.4.3}% 
+\contentsline {subsection}{\numberline {4.5}Celda 2do orden Fleischer-Tow}{11}{subsection.4.5}% 
 \contentsline {subsubsection}{\numberline {4.5.1}Funci\'on transferencia y par\'ametros}{12}{subsubsection.4.5.1}% 
-\contentsline {subsubsection}{\numberline {4.5.2}Sensibilidades}{13}{subsubsection.4.5.2}% 
+\contentsline {subsubsection}{\numberline {4.5.2}Sensibilidades}{12}{subsubsection.4.5.2}% 
 \contentsline {subsubsection}{\numberline {4.5.3}Impedancia de entrada}{13}{subsubsection.4.5.3}% 
 \contentsline {subsubsection}{\numberline {4.5.4}Impedancia de salida}{13}{subsubsection.4.5.4}% 
 \contentsline {subsection}{\numberline {4.6}Dise\~no de filtro rechaza banda mediante la aproximaci\'on Chebychev Inverso}{13}{subsection.4.6}% 
 \contentsline {subsubsection}{\numberline {4.6.1}Especificaciones del filtro y aproximaci\'on}{13}{subsubsection.4.6.1}% 
 \contentsline {subsubsection}{\numberline {4.6.2}Selecci\IeC {\'o}n de celda}{14}{subsubsection.4.6.2}% 
-\contentsline {subsubsection}{\numberline {4.6.3}Dise\~no de etapas}{15}{subsubsection.4.6.3}% 
-\contentsline {paragraph}{M\'etodo de ajuste: Dise\~o por componentes iguales}{15}{section*.7}% 
-\contentsline {subsection}{\numberline {4.7}Limitaciones}{17}{subsection.4.7}% 
-\contentsline {subsubsection}{\numberline {4.7.1}Simulaci\'on y verificaci\'on}{19}{subsubsection.4.7.1}% 
-\contentsline {paragraph}{Variaci\'on de R1 - Profundidad del pico de notch:}{20}{section*.11}% 
-\contentsline {paragraph}{Variaci\'on de R3 - Posici\'on del pico de notch:}{21}{section*.12}% 
-\contentsline {paragraph}{Simulaci\'on con presici\'on}{22}{section*.13}% 
-\contentsline {subsubsection}{\numberline {4.7.2}Resultados obtenidos}{23}{subsubsection.4.7.2}% 
-\contentsline {subsection}{\numberline {4.8}Conclusiones}{24}{subsection.4.8}% 
+\contentsline {subsubsection}{\numberline {4.6.3}Dise\~no de etapas}{14}{subsubsection.4.6.3}% 
+\contentsline {paragraph}{M\'etodo de ajuste: Dise\~o por componentes iguales}{15}{section*.4}% 
+\contentsline {subsubsection}{\numberline {4.6.4}Limitaciones}{17}{subsubsection.4.6.4}% 
+\contentsline {subsubsection}{\numberline {4.6.5}Simulaci\'on y verificaci\'on}{19}{subsubsection.4.6.5}% 
+\contentsline {paragraph}{Variaci\'on de R1 - Profundidad del pico de notch:}{20}{section*.8}% 
+\contentsline {paragraph}{Variaci\'on de R3 - Posici\'on del pico de notch:}{20}{section*.9}% 
+\contentsline {paragraph}{Simulaci\'on con presici\'on}{21}{section*.10}% 
+\contentsline {subsubsection}{\numberline {4.6.6}Resultados obtenidos}{22}{subsubsection.4.6.6}% 
+\contentsline {subsection}{\numberline {4.7}Conclusiones}{24}{subsection.4.7}% 
