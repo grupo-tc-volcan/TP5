@@ -1,0 +1,240 @@
+Added Component: Designator=C1(CAP100)
+Add component. Clean all parameters for all variants
+Added Component: Designator=C2(CAP100)
+Add component. Clean all parameters for all variants
+Added Component: Designator=C3(CAP100)
+Add component. Clean all parameters for all variants
+Added Component: Designator=C4(CAP100)
+Add component. Clean all parameters for all variants
+Added Component: Designator=C?(0805)
+Add component. Clean all parameters for all variants
+Added Component: Designator=C?(0805)
+Add component. Clean all parameters for all variants
+Added Component: Designator=C?(0805)
+Add component. Clean all parameters for all variants
+Added Component: Designator=C?(0805)
+Add component. Clean all parameters for all variants
+Added Component: Designator=J?(JUMPER2)
+Add component. Clean all parameters for all variants
+Added Component: Designator=J?(BORNERA2)
+Add component. Clean all parameters for all variants
+Added Component: Designator=J?(BORNERA2)
+Add component. Clean all parameters for all variants
+Added Component: Designator=J?(BORNERA3)
+Add component. Clean all parameters for all variants
+Added Component: Designator=R1(0805)
+Add component. Clean all parameters for all variants
+Added Component: Designator=R2(0805)
+Add component. Clean all parameters for all variants
+Added Component: Designator=R3(0805)
+Add component. Clean all parameters for all variants
+Added Component: Designator=R4(0805)
+Add component. Clean all parameters for all variants
+Added Component: Designator=R5(0805)
+Add component. Clean all parameters for all variants
+Added Component: Designator=R6(0805)
+Add component. Clean all parameters for all variants
+Added Component: Designator=R7(0805)
+Add component. Clean all parameters for all variants
+Added Component: Designator=R9(0805)
+Add component. Clean all parameters for all variants
+Added Component: Designator=R10(0805)
+Add component. Clean all parameters for all variants
+Added Component: Designator=R12(0805)
+Add component. Clean all parameters for all variants
+Added Component: Designator=R13(0805)
+Add component. Clean all parameters for all variants
+Added Component: Designator=R16(0805)
+Add component. Clean all parameters for all variants
+Added Component: Designator=R19(0805)
+Add component. Clean all parameters for all variants
+Added Component: Designator=R20(0805)
+Add component. Clean all parameters for all variants
+Added Component: Designator=R22(0805)
+Add component. Clean all parameters for all variants
+Added Component: Designator=R23(0805)
+Add component. Clean all parameters for all variants
+Added Component: Designator=R24(0805)
+Add component. Clean all parameters for all variants
+Added Component: Designator=R26(0805)
+Add component. Clean all parameters for all variants
+Added Component: Designator=R27(0805)
+Add component. Clean all parameters for all variants
+Added Component: Designator=R29(0805)
+Add component. Clean all parameters for all variants
+Added Component: Designator=R31(0805)
+Add component. Clean all parameters for all variants
+Added Component: Designator=R?(0805)
+Add component. Clean all parameters for all variants
+Added Component: Designator=R?(0805)
+Add component. Clean all parameters for all variants
+Added Component: Designator=R?(0805)
+Add component. Clean all parameters for all variants
+Added Component: Designator=R?(0805)
+Add component. Clean all parameters for all variants
+Added Component: Designator=R?(0805)
+Add component. Clean all parameters for all variants
+Added Component: Designator=R?(0805)
+Add component. Clean all parameters for all variants
+Added Component: Designator=R?(0805)
+Add component. Clean all parameters for all variants
+Added Component: Designator=R?(0805)
+Add component. Clean all parameters for all variants
+Added Component: Designator=R?(0805)
+Add component. Clean all parameters for all variants
+Added Component: Designator=R?(0805)
+Add component. Clean all parameters for all variants
+Added Component: Designator=U1(TI-P8)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "CMRR(Min)(dB)"; Value = "75"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Code_JEDEC"; Value = "MS-001"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Manufacturer URL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.ti.com/"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "http://www.ti.com/lit/ds/symlink/tl082a.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink3Description"; Value = "Package Specification"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink3URL"; Value = "http://www.ti.com/litv/pdf/mpdi001b"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DatasheetVersion"; Value = "SLOS081G"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Eco-Plan"; Value = "Pb-Free (RoHS)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "GBW(Typ)(MHz)"; Value = "3"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "IIB(Max)(pA)"; Value = "200"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Iq per channel(Max)(mA)"; Value = "2.8"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Texas Instruments"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Technology"; Value = "Through Hole"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Number of Channels"; Value = "2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Offset Drift(Typ)(uV/C)"; Value = "18"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageDescription"; Value = "8-Pin Plastic In-Line, Body 9.59 x 6.35 mm, Pitch 2.54 mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = "P8"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageVersion"; Value = "4040082/E, 04/2010"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = "TL082ACPE4"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Rating"; Value = "Catalog"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Slew Rate(Typ)(V/us)"; Value = "13"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Sub Family"; Value = "General Purpose Amplifier, High Supply Voltage Amplifier (>=30V)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 2"; Value = "Newark"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 3"; Value = "Mouser"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "TL082ACPE4-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 2"; Value = "37K4392"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 3"; Value = "595-TL082ACPE4"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Total Supply Voltage(Max)(+5V is 5, +/-5V is 10)"; Value = "36"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Total Supply Voltage(Min)(+5V is 5, +/-5V is 10)"; Value = "7"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Vio (25C)(Max)(mV)"; Value = "6"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Vn at 1kHz(Typ)(nV/rtHz)"; Value = "18"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=+VCC Pin=C?-2
+Added Pin To Net: NetName=+VCC Pin=C?-2
+Added Pin To Net: NetName=+VCC Pin=J?-3
+Added Pin To Net: NetName=+VCC Pin=U1-8
+Added Net: Name=+VCC
+Added Pin To Net: NetName=-VCC Pin=C?-1
+Added Pin To Net: NetName=-VCC Pin=C?-1
+Added Pin To Net: NetName=-VCC Pin=J?-1
+Added Pin To Net: NetName=-VCC Pin=U1-4
+Added Net: Name=-VCC
+Added Pin To Net: NetName=GND Pin=C?-1
+Added Pin To Net: NetName=GND Pin=C?-1
+Added Pin To Net: NetName=GND Pin=C?-2
+Added Pin To Net: NetName=GND Pin=C?-2
+Added Pin To Net: NetName=GND Pin=J?-2
+Added Pin To Net: NetName=GND Pin=J?-2
+Added Pin To Net: NetName=GND Pin=J?-2
+Added Pin To Net: NetName=GND Pin=R22-2
+Added Pin To Net: NetName=GND Pin=R26-2
+Added Pin To Net: NetName=GND Pin=R31-1
+Added Pin To Net: NetName=GND Pin=R?-1
+Added Pin To Net: NetName=GND Pin=R?-1
+Added Pin To Net: NetName=GND Pin=R?-1
+Added Net: Name=GND
+Added Pin To Net: NetName=NetC1_1 Pin=C1-1
+Added Pin To Net: NetName=NetC1_1 Pin=C3-1
+Added Pin To Net: NetName=NetC1_1 Pin=R?-2
+Added Pin To Net: NetName=NetC1_1 Pin=R?-2
+Added Pin To Net: NetName=NetC1_1 Pin=R?-2
+Added Pin To Net: NetName=NetC1_1 Pin=R?-2
+Added Net: Name=NetC1_1
+Added Pin To Net: NetName=NetC2_1 Pin=C2-1
+Added Pin To Net: NetName=NetC2_1 Pin=C4-1
+Added Pin To Net: NetName=NetC2_1 Pin=R9-1
+Added Pin To Net: NetName=NetC2_1 Pin=R13-1
+Added Pin To Net: NetName=NetC2_1 Pin=R16-1
+Added Pin To Net: NetName=NetC2_1 Pin=R22-1
+Added Net: Name=NetC2_1
+Added Pin To Net: NetName=NetC2_2 Pin=C2-2
+Added Pin To Net: NetName=NetC2_2 Pin=R3-1
+Added Pin To Net: NetName=NetC2_2 Pin=R6-1
+Added Pin To Net: NetName=NetC2_2 Pin=R20-1
+Added Pin To Net: NetName=NetC2_2 Pin=R24-1
+Added Pin To Net: NetName=NetC2_2 Pin=U1-7
+Added Net: Name=NetC2_2
+Added Pin To Net: NetName=NetC3_2 Pin=C3-2
+Added Pin To Net: NetName=NetC3_2 Pin=R4-1
+Added Pin To Net: NetName=NetC3_2 Pin=R5-1
+Added Pin To Net: NetName=NetC3_2 Pin=U1-2
+Added Net: Name=NetC3_2
+Added Pin To Net: NetName=NetC4_2 Pin=C4-2
+Added Pin To Net: NetName=NetC4_2 Pin=R6-2
+Added Pin To Net: NetName=NetC4_2 Pin=R7-2
+Added Pin To Net: NetName=NetC4_2 Pin=U1-6
+Added Net: Name=NetC4_2
+Added Pin To Net: NetName=NetJ?_2 Pin=J?-2
+Added Pin To Net: NetName=NetJ?_2 Pin=R9-2
+Added Pin To Net: NetName=NetJ?_2 Pin=R12-2
+Added Net: Name=NetJ?_2
+Added Pin To Net: NetName=NetR1_1 Pin=R1-1
+Added Pin To Net: NetName=NetR1_1 Pin=R4-2
+Added Net: Name=NetR1_1
+Added Pin To Net: NetName=NetR2_1 Pin=R2-1
+Added Pin To Net: NetName=NetR2_1 Pin=R5-2
+Added Net: Name=NetR2_1
+Added Pin To Net: NetName=NetR3_2 Pin=R3-2
+Added Pin To Net: NetName=NetR3_2 Pin=R7-1
+Added Net: Name=NetR3_2
+Added Pin To Net: NetName=NetR10_2 Pin=R10-2
+Added Pin To Net: NetName=NetR10_2 Pin=R?-1
+Added Net: Name=NetR10_2
+Added Pin To Net: NetName=NetR12_1 Pin=R12-1
+Added Pin To Net: NetName=NetR12_1 Pin=R13-2
+Added Net: Name=NetR12_1
+Added Pin To Net: NetName=NetR16_2 Pin=R16-2
+Added Pin To Net: NetName=NetR16_2 Pin=R26-1
+Added Net: Name=NetR16_2
+Added Pin To Net: NetName=NetR19_2 Pin=R19-2
+Added Pin To Net: NetName=NetR19_2 Pin=R?-1
+Added Net: Name=NetR19_2
+Added Pin To Net: NetName=NetR20_2 Pin=R20-2
+Added Pin To Net: NetName=NetR20_2 Pin=R23-2
+Added Pin To Net: NetName=NetR20_2 Pin=R27-2
+Added Pin To Net: NetName=NetR20_2 Pin=U1-5
+Added Net: Name=NetR20_2
+Added Pin To Net: NetName=NetR23_1 Pin=R23-1
+Added Pin To Net: NetName=NetR23_1 Pin=R24-2
+Added Net: Name=NetR23_1
+Added Pin To Net: NetName=NetR27_1 Pin=R27-1
+Added Pin To Net: NetName=NetR27_1 Pin=R29-2
+Added Net: Name=NetR27_1
+Added Pin To Net: NetName=NetR29_1 Pin=R29-1
+Added Pin To Net: NetName=NetR29_1 Pin=R31-2
+Added Net: Name=NetR29_1
+Added Pin To Net: NetName=NetR?_1 Pin=R?-1
+Added Pin To Net: NetName=NetR?_1 Pin=R?-2
+Added Net: Name=NetR?_1
+Added Pin To Net: NetName=NetR?_2 Pin=R?-2
+Added Pin To Net: NetName=NetR?_2 Pin=R?-2
+Added Pin To Net: NetName=NetR?_2 Pin=R?-2
+Added Pin To Net: NetName=NetR?_2 Pin=U1-3
+Added Net: Name=NetR?_2
+Added Pin To Net: NetName=OUT1 Pin=C1-2
+Added Pin To Net: NetName=OUT1 Pin=J?-1
+Added Pin To Net: NetName=OUT1 Pin=R1-2
+Added Pin To Net: NetName=OUT1 Pin=R2-2
+Added Pin To Net: NetName=OUT1 Pin=R19-1
+Added Pin To Net: NetName=OUT1 Pin=R?-1
+Added Pin To Net: NetName=OUT1 Pin=U1-1
+Added Net: Name=OUT1
+Added Pin To Net: NetName=VIN Pin=J?-1
+Added Pin To Net: NetName=VIN Pin=R10-1
+Added Pin To Net: NetName=VIN Pin=R?-1
+Added Net: Name=VIN
+Added Pin To Net: NetName=VOUT Pin=J?-1
+Added Net: Name=VOUT
+Added Class: Name=RAUCH_SCH
+Added Room: Name=RAUCH_SCH

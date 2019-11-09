@@ -1,0 +1,6 @@
+Removed Pin From Net: NetName=-VCC Pin=J1-1
+Removed Pin From Net: NetName=+VCC Pin=J1-3
+Added Pin To Net: NetName=+VCC Pin=J1-1
+Added Pin To Net: NetName=-VCC Pin=J1-3
+Added Member To Class: ClassName=RAUCH_SCH Member=Component R1 68
+Added Member To Class: ClassName=RAUCH_SCH Member=Component R4 56k

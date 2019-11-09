@@ -1,0 +1,21 @@
+Removed Pin From Net: NetName=+VCC Pin=J1-1
+Removed Pin From Net: NetName=-VCC Pin=J1-3
+Change Component Comment : Designator=R101 Old Comment=4K7 New Comment=6k8
+Change Component Comment : Designator=R10 Old Comment=10K New Comment=33k
+Change Component Comment : Designator=R201 Old Comment=39K New Comment=68k
+Change Component Comment : Designator=R102 Old Comment=68K New Comment=18k
+Change Component Comment : Designator=R200 Old Comment=220k New Comment=560k
+Change Component Comment : Designator=R100 Old Comment=680 New Comment=270
+Added Component: Designator=C31(0805)
+Add component. Clean all parameters for all variants
+Added Component: Designator=C33(0805)
+Add component. Clean all parameters for all variants
+Added Pin To Net: NetName=GND Pin=C31-1
+Added Pin To Net: NetName=+VCC Pin=C31-2
+Added Pin To Net: NetName=-VCC Pin=C33-1
+Added Pin To Net: NetName=GND Pin=C33-2
+Added Pin To Net: NetName=-VCC Pin=J1-1
+Added Pin To Net: NetName=+VCC Pin=J1-3
+Added Member To Class: ClassName=RAUCH_SCH Member=Component C31 100n
+Added Member To Class: ClassName=RAUCH_SCH Member=Component C33 100n
+Added Room: Name=RAUCH_SCH

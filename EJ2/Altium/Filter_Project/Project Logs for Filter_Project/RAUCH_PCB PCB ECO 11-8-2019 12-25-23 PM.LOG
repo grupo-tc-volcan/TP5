@@ -1,0 +1,7 @@
+Removed Pin From Net: NetName=GND Pin=C31-1
+Removed Pin From Net: NetName=+VCC Pin=C31-2
+Removed Pin From Net: NetName=-VCC Pin=C33-1
+Removed Pin From Net: NetName=GND Pin=C33-2
+Removed Member From Class: ClassName=RAUCH_SCH Member=C31
+Removed Member From Class: ClassName=RAUCH_SCH Member=C33
+Added Room: Name=RAUCH_SCH
