@@ -315,6 +315,7 @@ Y as\'i se obtuvo que:
 
 \subsubsection{Impedancia de salida}
 Al igual que para las celdas anteriores, como la salida se encuentra en la salida de un amplificador operacional, la impedancia de salida ideal es $ Z_O = 0\Omega$.
+
 \subsection{Dise\~no de filtro rechaza banda mediante la aproximaci\'on  Chebychev Inverso}
 
 \subsubsection{Especificaciones del filtro y aproximaci\'on}
@@ -342,7 +343,7 @@ A continuaci\'on se transcribe la tabla que cuenta con las especificaciones del 
 La finalidad de implementar un filtro a partir de una aproximaci\'on es adquirir presici\'on y selectividad, como lo son las especificaciones de la tabla \ref{especificaciones2}. Al aumentar la selectividad de un filtro, el mismo deja de poder ser realizado con un solo filtro de orden 1 \'o 2, y es as\'i como surge la necesidad de usar un filtro de un orden mayor. Para esto, existen distintas aproximaciones que permiten no solo realizar un filtro de orden mayor, si no que adem\'as brindan la posibildiad de realizar un filtro de orden mayor a dos a partir de la conexi\'on en cascada de varios filtros de orden 2 \'o 1, cuya cantidad depende del orden del circuito completo. Se pidi\'o que el filtro fuera obtenido con la aproximaci\'on de Chebychev Inverso (Chebychev II) y que el filtro tuviera por lo menos dos ceros de transmisi\'on. La arpoximaci\'on de Chevychev Inverso exige la presencia de ceros de transmisi\'on, es decir, ceros ubicados sobre el eje imaginario (el eje $j\omega$) de la frecuencia.
 
 
-\todo{PONER todo lo de cheby. formulas y resultados obtenidos, los q, orden, polos etc.}
+
 
 Con la finalidad de cumplir la plantilla a partir de los valores de la tabla \ref{especificaciones2}, se tom\'o un margen en el momento de utilizar la aproximaci\'on de Chebychev II. Es as\'i como se obtuvo que el filtro deb\'ia ser de orden 6 con los siguientes ceros, polos y sus respectivos Q:
 
@@ -371,20 +372,6 @@ Se obtuvieron tres ceros de transmisi\'on, como era de esperarse al emplear la a
 En la tabla \ref{pyc}, se ve que habr\'an tres polos y tres ceros de transmisi\'on. En cuanto a los polos, al ser tres pares complejos conjugados, implican que habr\'an por lo menos tres etapas, de las cuales cada una tendr\'a un par complejo conjugado de dichos polos. Dado que ninguna celda universal brinda una funci\'on transferencia que contenga \'unicamente ceros de transmisi\'on,
  habr\'ia que distribuir los tres ceros obtenidos en las tres etapas reci\'en mencionadas, y es as\'i como resultan tres etapas rechaza banda (o notch). Esto se debe a que la posibilidad de usar, por ejemplo, una celda doble T para los ceros de transmisi\'on, queda descartada ya que la consigna est\'a acotada al uso de celdas universales.\\
 Previamente fueron mostradas las caracter\'isticas de cada celda. Para obtener un notch, es necesario emplear una celda que tenga una salida de notch, o bien utilizar una salida pasa bajos sumada con una pasa altos. Ya que la celda Tow-Thomas y la Ackerberg-Mossberg presentan únicamente salida pasabajos y pasabanda, no se emplearán dichas celdsa al no tener la posibilidad de formar un notch, debido a que no tienen una salida pasa altos que pueda ser sumada a la pasa bajos. Por lo tanto las opciones son la celda Kerwin-Huelsman-Newcomb y la celda Fleischer-Tow. Como se mencion\'o previamente junto a las caracter\'istucas de la Kerwin-Huelsman-Newcomb, la misma tiene una salida pasa bajos y una pasa altos y al sumarlas se obtendr\'ia la rechaza banda. Todas las celdas constan de tres amplificadores operacionales. Entonces emplear la celda Kerwin-Huelsman-Newcomb implicar\'ia agregar un cuarto amplificador operacional, lo cual no es conveniente debido a los inconvenientes que el mismo podr\'ia traer, como el slew rate, saturaci\'on, y otras limitaciones estudiadas en trabajos pr\'acticos anteriores, agregado al costo de usar m\'as integrados(ya que se agregar\'ia un amplificador operacional por celda: en total 3) y tener entonces una realimentaci\'on m\'as por celda, lo cual no es conveniente si llegara a oscilar la misma, y ser\'ia una realimentaci\'on m\'as a ser chequeada. A diferencia de esta celda, dado que la Fleischer-Tow presenta una salida gen\'erica, permite elegir los componentes de forma que la misma se comporte como rechaza banda. De esta forma se usar\'ian \'unicamente tres amplificadores operacionales por celda. Por lo tanto, luego de este an\'alisis, se decidi\'o emplear tres veces la celda Fleischer-Tow con el comportamiento de notch, para luego ser conectadas en cascada.
-
-\subsubsection{Celda 2do orden Fleischer-Tow: An\'alisis real}
-
-\subsubsection*{Funci\'on transferencia y par\'ametros con $A_{vol}$ finito}
-
-\subsubsection*{Sensibilidades}
-
-\subsubsection*{Impedancia de entrada con $A_{vol}$ finito}
-
-\subsubsection*{Impedancia de salida con $A_{vol}$ finito}
-
-\subsubsection*{Rango din\'amico}
-
-
 
 
  \subsubsection{Dise\~no de etapas}
@@ -596,7 +583,7 @@ En el gr\'afico \ref{sim_bode_caps} se puede ver que hay mucha desviaci\'on tant
 
 Al observar los gr\'aficos \ref{sim_bode_caps} y \ref{sim_bode_detalle}, se puede notar que en cuanto a la frecuencia del pico del notch los capacitores tienen gran influencia. Considerando el error de los mismos, el pico del notch en el Monte Carlo est\'a ubicado entre -48 y 55Hz; mientras que al considerarlos ideales el pico est\'a entre 50,5 y 51,5Hz aproximadamente. Por otro lado, algo importante que se observ\'o en estas simulaciones es que ning\'un pico llega a los 50dB de atenuaci\'on y la banda atenuante. Considerando la posibilidad de que un redondeo en los valores de componentes tenga tanta influencia, se dejaron fijos todos los valores de los componentes y se hizo, en cada celda, un barrido entre distintos valores para las resistencias R1 y R3 (variando una a la vez). Se eligi\'o estas ya que son las que se tomaron como valores de ajuste luego de haber fijado los valores del resto de los componentes. Al variar R1 cambia la profundidad del pico del notch y al variar R3 cambia la posici\'on en frecuencia. 
 
-\paragraph{Variaci\'on de R1 - Profundidad del pico de notch:} Los gr\'aficos \ref{celda1_r1}, \ref{celda2_r1} y \ref{celda3_r1} corresponden a la influencia de variaciones de R1 sobre la profundidad del pico de notch. Si bien ninguna de las etapas llega as\'i a 50dB de atenuaci\'on, se fue acotando en cada etapa el rango de valores de R1 hasta encontrar con mayor presici\'on la profundidad m\'axima en cada etapa y luego se simul\'o el circuito completo entre esos rangos y se lleg\'o a una atenuaci\'on un poco mayor a 80dB, para una combinaci\'on de valores muy precisa, lo cual implicar\'ia una gran dificultad al momento de ver el comportamiento real del circuito. Al notar que el cambio es muy grande al modificar levemente uno de estos valores, se decidi\'o colocar un preset en R1, para poder tener un ajuste fino al momento de medir. 
+\paragraph{Variaci\'on de R1 - Profundidad del pico de notch:} Los gr\'aficos \ref{celda1_r1}, \ref{celda2_r1} y \ref{celda3_r1} corresponden a la influencia de variaciones de R1 sobre la profundidad del pico de notch. Si bien ninguna de las etapas llega as\'i a 50dB de atenuaci\'on, se fue acotando en cada etapa el rango de valores de R1 hasta encontrar con mayor presici\'on la profundidad m\'axima en cada etapa y luego se simul\'o el circuito completo entre esos rangos y se lleg\'o a una atenuaci\'on un poco mayor a 60dB (gr\'afico \ref{sim_total}), para una combinaci\'on de valores muy precisa, lo cual implicar\'ia una gran dificultad al momento de ver el comportamiento real del circuito. Al notar que el cambio es muy grande al modificar levemente uno de estos valores, se decidi\'o colocar un preset en R1, para poder tener un ajuste fino al momento de medir. 
 
  \begin{figure}[H] %!ht
 	\centering	\includegraphics[width=12cm,height=12cm,keepaspectratio]{../EJ4/graficos/etapa1_R1.png}
@@ -636,15 +623,28 @@ Al observar los gr\'aficos \ref{sim_bode_caps} y \ref{sim_bode_detalle}, se pued
 	\label{celda3_r3}
 \end{figure}
 
+\paragraph{Simulaci\'on con presici\'on}
+Como sr mencion\'o, luego de las simulaciones previas se simul\'o el circuito completo, acotando el rango de variaci\'on de valores de R1 y R3 en cada etapa para obtener presici\'on de los valores que cumplir\'ian con la plantilla. En el gr\'afico \ref{sim_total} se puede ver esto (\ref{sim_total_detalle} muestra esto mismo pero ampliado sobre el pico del notch).
 
-\subsubsection{Dise\~o de PCB}
+ \begin{figure}[H] %!ht
+	\centering	\includegraphics[width=12cm,height=12cm,keepaspectratio]{../EJ4/graficos/ATENUACION.png}
+	\caption{Simulaci\'on con presici\'on de R1 y R3 de cada etapa.}
+	\label{sim_total}
+\end{figure}
+
+ \begin{figure}[H] %!ht
+	\centering	\includegraphics[width=12cm,height=12cm,keepaspectratio]{../EJ4/graficos/ATENUACION_ZOOM.png}
+	\caption{Detalle de la simulaci\'on con presici\'on de R1 y R3 de cada etapa.}
+	\label{sim_total_detalle}
+\end{figure}
+
 
 \subsubsection{Resultados obtenidos}
 
  En los gr\'aficos \ref{bode_mod} y  \ref{bode_ph} se pueden ver los gr\'aficos de amplitud y fase correspondientes al diagrama de Bode del circuito completo.
 
  \begin{figure}[H] %!ht
-	\centering	\includegraphics[width=12cm,height=12cm,keepaspectratio]{../EJ4/graficos/bode_medido_lindo_amplitud.png}
+	\centering	\includegraphics[width=12cm,height=12cm,keepaspectratio]{../EJ4/graficos/BODE_BIEN.png}
 	\caption{Diagrama de Bode: Amplitud.}
 	\label{bode_mod}
 \end{figure}
@@ -657,13 +657,15 @@ Al observar los gr\'aficos \ref{sim_bode_caps} y \ref{sim_bode_detalle}, se pued
 \end{figure}
 
  \begin{figure}[H] %!ht
-	\centering	\includegraphics[width=12cm,height=12cm,keepaspectratio]{../EJ4/graficos/plantilla.png}
+	\centering	\includegraphics[width=12cm,height=12cm,keepaspectratio]{../EJ4/graficos/PLANTILLA_BIEN.png}
 	\caption{Comparaci\'on de medici\'on con simulaci\'on Monte Carlo y plantilla.}
 	\label{plantilla}
 \end{figure}
 
+Al observar el gr\'afico \ref{plantilla}, se puede ver que la plantilla se cumple. Sin embargo, la comparaci\'on con la simulaci\'on entre la medici\'on y la simulaci\'on se hizo respecto a aquella que fue obtenida al probar el rango acotado de valores de R1 y R3 en cada celda (simulaci\'on). Es decir, se est\'a comparando con la simulaci\'on hecha con precisi\'on dado que las realizadas anterior a esa presentaban mucha desviaci\'on respecto a lo esperado.
+
 
 \subsection{Conclusiones} 
-
+Se estudi\'o hizo un an\'alisis sobre cuatro celdas universales diferentes y se not\'o que para realizar un filtro notch solo es posible emplear la Kerwin-Huelsman-Newcomb o la Fleischer-Tow. Debido a la cantidad de amplificadores operacionales que implicar\'ia cada implementaci\'on se decidi\'o utilizar la Fleischer-Tow, tres veces en cascada, para lograr cumplir con la plantilla especificada. Para eso se tom\'o un margen en la aproximaci\'on de Chebychev II dado que variaba mucho el comportamiento con cambios chicos de valores de ciertos componentes. La conclusi\'on importante que se obtiene es que la celda Fleischer-Tow, a pesar de tener sensibilidades relativas de sus par\'ametros respecto a los componentes son fijas, la celda es muy sensible frente a variaciones chicas de componentes. Principalmente, Q var\'ia mucho al cambiar poco R1 y la frecuencia del pico del notch var\'ia mucho al cambiar levemente R3. Fue muy dif\'icil ajustar el circuito completo para que cumpliera la plantilla y se not\'o que aparec\'ian cambios entre mediciones consecutivas. Esto se debe a que se trata de un circuito muy sensible, y puede atribuirse a los Q altos de 9,8. Debido a sus grandes variaciones, se considera que no es una celda cuyo comportamiento sea confiable, y sobre todo al haber m\'as de una de este tipo conectadas en cascada. 
 
 

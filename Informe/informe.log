@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.5.29)  8 NOV 2019 20:40
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.5.29)  9 NOV 2019 04:51
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1413,21 +1413,21 @@ LaTeX Font Info:    Font shape `U/futm/m/n' will be
 (Font)              scaled to size 7.35999pt on input line 48.
 LaTeX Font Info:    Font shape `U/futm/m/n' will be
 (Font)              scaled to size 6.25598pt on input line 48.
-<../EJ4/imagenes/KERWIN.png, id=233, 793.96625pt x 312.16624pt>
+<../EJ4/imagenes/KERWIN.png, id=223, 793.96625pt x 312.16624pt>
 File: ../EJ4/imagenes/KERWIN.png Graphic file (type png)
 <use ../EJ4/imagenes/KERWIN.png>
 Package pdftex.def Info: ../EJ4/imagenes/KERWIN.png  used on input line 54.
 (pdftex.def)             Requested size: 341.43518pt x 134.24315pt.
 
 [6] [7 <../EJ4/imagenes/KERWIN.png>]
-<../EJ4/imagenes/sumador_extra.png, id=259, 392.46625pt x 201.75375pt>
+<../EJ4/imagenes/sumador_extra.png, id=249, 392.46625pt x 201.75375pt>
 File: ../EJ4/imagenes/sumador_extra.png Graphic file (type png)
 <use ../EJ4/imagenes/sumador_extra.png>
 Package pdftex.def Info: ../EJ4/imagenes/sumador_extra.png  used on input line 
 119.
 (pdftex.def)             Requested size: 227.62457pt x 117.01418pt.
  [8 <../EJ4/imagenes/sumador_extra.png>]
-<../EJ4/imagenes/TOW-THOMAS.png, id=269, 804.00375pt x 312.16624pt>
+<../EJ4/imagenes/TOW-THOMAS.png, id=259, 804.00375pt x 312.16624pt>
 File: ../EJ4/imagenes/TOW-THOMAS.png Graphic file (type png)
 <use ../EJ4/imagenes/TOW-THOMAS.png>
 Package pdftex.def Info: ../EJ4/imagenes/TOW-THOMAS.png  used on input line 130
@@ -1444,13 +1444,13 @@ Overfull \hbox (5.04436pt too wide) in paragraph at lines 173--173
 [][]\T1/futs/m/n/10 (-20) COMPLETAR  
  []
 
-<../EJ4/imagenes/ACKBERG.png, id=277, 934.49126pt x 402.50375pt>
+<../EJ4/imagenes/ACKBERG.png, id=267, 934.49126pt x 402.50375pt>
 File: ../EJ4/imagenes/ACKBERG.png Graphic file (type png)
 <use ../EJ4/imagenes/ACKBERG.png>
 Package pdftex.def Info: ../EJ4/imagenes/ACKBERG.png  used on input line 182.
 (pdftex.def)             Requested size: 341.43582pt x 147.06311pt.
 [10 <../EJ4/imagenes/ACKBERG.png>]
-<../EJ4/imagenes/FLEISCHER.png, id=286, 835.12pt x 473.77pt>
+<../EJ4/imagenes/FLEISCHER.png, id=276, 835.12pt x 473.77pt>
 File: ../EJ4/imagenes/FLEISCHER.png Graphic file (type png)
 <use ../EJ4/imagenes/FLEISCHER.png>
 Package pdftex.def Info: ../EJ4/imagenes/FLEISCHER.png  used on input line 237.
@@ -1465,143 +1465,157 @@ Overfull \vbox (2.17609pt too high) detected at line 266
  []
 
 [12 <../EJ4/imagenes/FLEISCHER.png>] [13] [14]
-Overfull \hbox (16.90024pt too wide) in paragraph at lines 415--423
+Overfull \hbox (16.90024pt too wide) in paragraph at lines 402--410
  [][] 
  []
 
-[15]
 File: ../EJ4/imagenes/FLEISCHER.png Graphic file (type png)
 <use ../EJ4/imagenes/FLEISCHER.png>
-Package pdftex.def Info: ../EJ4/imagenes/FLEISCHER.png  used on input line 433.
+Package pdftex.def Info: ../EJ4/imagenes/FLEISCHER.png  used on input line 420.
 
 (pdftex.def)             Requested size: 341.43295pt x 193.69754pt.
-
-Overfull \vbox (2.17609pt too high) detected at line 443
+[15]
+Overfull \vbox (2.17609pt too high) detected at line 430
  []
 
 
-Overfull \hbox (5.08032pt too wide) in paragraph at lines 440--448
+Overfull \hbox (5.08032pt too wide) in paragraph at lines 427--435
  [][] 
  []
 
-[16]
-<../EJ4/graficos/histo_c1.png, id=341, 817.3737pt x 346.896pt>
+<../EJ4/graficos/histo_c1.png, id=319, 817.3737pt x 346.896pt>
 File: ../EJ4/graficos/histo_c1.png Graphic file (type png)
 <use ../EJ4/graficos/histo_c1.png>
-Package pdftex.def Info: ../EJ4/graficos/histo_c1.png  used on input line 479.
+Package pdftex.def Info: ../EJ4/graficos/histo_c1.png  used on input line 466.
 (pdftex.def)             Requested size: 341.43626pt x 144.90663pt.
-<../EJ4/graficos/histo_c2.png, id=342, 839.7774pt x 346.896pt>
+[16]
+<../EJ4/graficos/histo_c2.png, id=327, 839.7774pt x 346.896pt>
 File: ../EJ4/graficos/histo_c2.png Graphic file (type png)
 <use ../EJ4/graficos/histo_c2.png>
-Package pdftex.def Info: ../EJ4/graficos/histo_c2.png  used on input line 485.
+Package pdftex.def Info: ../EJ4/graficos/histo_c2.png  used on input line 472.
 (pdftex.def)             Requested size: 341.44064pt x 141.04259pt.
-<../EJ4/graficos/histo_c3.png, id=343, 829.6596pt x 346.896pt>
+<../EJ4/graficos/histo_c3.png, id=328, 829.6596pt x 346.896pt>
 File: ../EJ4/graficos/histo_c3.png Graphic file (type png)
 <use ../EJ4/graficos/histo_c3.png>
-Package pdftex.def Info: ../EJ4/graficos/histo_c3.png  used on input line 491.
+Package pdftex.def Info: ../EJ4/graficos/histo_c3.png  used on input line 478.
 (pdftex.def)             Requested size: 341.42859pt x 142.75758pt.
- [17 <../EJ4/graficos/histo_c1.png> <../EJ4/graficos/histo_c2.png>]
-
-LaTeX Warning: Command \' invalid in math mode on input line 507.
 
 
-LaTeX Warning: Command \' invalid in math mode on input line 525.
+LaTeX Warning: Command \' invalid in math mode on input line 494.
+
+[17 <../EJ4/graficos/histo_c1.png> <../EJ4/graficos/histo_c2.png> <../EJ4/grafi
+cos/histo_c3.png>]
+
+LaTeX Warning: Command \' invalid in math mode on input line 512.
 
 
-Overfull \hbox (126.83008pt too wide) in paragraph at lines 536--536
+Overfull \hbox (126.83008pt too wide) in paragraph at lines 523--523
 [][][]\T1/futs/m/n/8 (-20) Hoja de da-tos del ope-ra-cio-nal TL084: https://www
 .alldatasheet.com/view.jsp?Searchword=Tl084&gclid=EAIaIQobChMIvtDP0tvb5QIVhYORC
 h3tDA__EAAYASAAEgKpRPD_BwE| 
  []
 
-<../EJ4/graficos/vinmax.png, id=356, 462.528pt x 346.896pt>
+<../EJ4/graficos/vinmax.png, id=342, 462.528pt x 346.896pt>
 File: ../EJ4/graficos/vinmax.png Graphic file (type png)
 <use ../EJ4/graficos/vinmax.png>
-Package pdftex.def Info: ../EJ4/graficos/vinmax.png  used on input line 555.
+Package pdftex.def Info: ../EJ4/graficos/vinmax.png  used on input line 542.
 (pdftex.def)             Requested size: 341.44667pt x 256.08499pt.
-[18 <../EJ4/graficos/histo_c3.png>]
-<../EJ4/graficos/h_montecarlo_malo.png, id=373, 925.65825pt x 317.988pt>
+[18]
+<../EJ4/graficos/h_montecarlo_malo.png, id=357, 925.65825pt x 317.988pt>
 File: ../EJ4/graficos/h_montecarlo_malo.png Graphic file (type png)
 <use ../EJ4/graficos/h_montecarlo_malo.png>
 Package pdftex.def Info: ../EJ4/graficos/h_montecarlo_malo.png  used on input l
-ine 578.
+ine 565.
 (pdftex.def)             Requested size: 341.44298pt x 117.29465pt.
- [19 <../EJ4/graficos/vinmax.png>]
-<../EJ4/graficos/h_montecarlo_caps.png, id=383, 1048.51724pt x 274.626pt>
+<../EJ4/graficos/h_montecarlo_caps.png, id=358, 1048.51724pt x 274.626pt>
 File: ../EJ4/graficos/h_montecarlo_caps.png Graphic file (type png)
 <use ../EJ4/graficos/h_montecarlo_caps.png>
 Package pdftex.def Info: ../EJ4/graficos/h_montecarlo_caps.png  used on input l
-ine 584.
+ine 571.
 (pdftex.def)             Requested size: 341.43604pt x 89.42838pt.
-<../EJ4/graficos/h_montecarlo_detalle.png, id=385, 923.24925pt x 319.1925pt>
+ [19 <../EJ4/graficos/vinmax.png> <../EJ4/graficos/h_montecarlo_malo.png>]
+<../EJ4/graficos/h_montecarlo_detalle.png, id=371, 923.24925pt x 319.1925pt>
 File: ../EJ4/graficos/h_montecarlo_detalle.png Graphic file (type png)
 <use ../EJ4/graficos/h_montecarlo_detalle.png>
 Package pdftex.def Info: ../EJ4/graficos/h_montecarlo_detalle.png  used on inpu
-t line 592.
+t line 579.
 (pdftex.def)             Requested size: 341.44191pt x 118.04579pt.
- [20 <../EJ4/graficos/h_montecarlo_malo.png> <../EJ4/graficos/h_montecarlo_caps
-.png> <../EJ4/graficos/h_montecarlo_detalle.png>]
-<../EJ4/graficos/etapa1_R1.png, id=405, 979.86075pt x 251.13824pt>
+<../EJ4/graficos/etapa1_R1.png, id=378, 979.86075pt x 251.13824pt>
 File: ../EJ4/graficos/etapa1_R1.png Graphic file (type png)
 <use ../EJ4/graficos/etapa1_R1.png>
-Package pdftex.def Info: ../EJ4/graficos/etapa1_R1.png  used on input line 602.
+Package pdftex.def Info: ../EJ4/graficos/etapa1_R1.png  used on input line 589.
 
 (pdftex.def)             Requested size: 341.43135pt x 87.50883pt.
-<../EJ4/graficos/etapa2_R1cambiada.png, id=406, 976.24725pt x 251.7405pt>
+
+[20 <../EJ4/graficos/h_montecarlo_caps.png> <../EJ4/graficos/h_montecarlo_detal
+le.png>]
+<../EJ4/graficos/etapa2_R1cambiada.png, id=392, 976.24725pt x 251.7405pt>
 File: ../EJ4/graficos/etapa2_R1cambiada.png Graphic file (type png)
 <use ../EJ4/graficos/etapa2_R1cambiada.png>
 Package pdftex.def Info: ../EJ4/graficos/etapa2_R1cambiada.png  used on input l
-ine 608.
+ine 595.
 (pdftex.def)             Requested size: 341.43842pt x 88.04518pt.
-<../EJ4/graficos/etapa3_R1.png, id=407, 980.463pt x 251.7405pt>
+<../EJ4/graficos/etapa3_R1.png, id=393, 980.463pt x 251.7405pt>
 File: ../EJ4/graficos/etapa3_R1.png Graphic file (type png)
 <use ../EJ4/graficos/etapa3_R1.png>
-Package pdftex.def Info: ../EJ4/graficos/etapa3_R1.png  used on input line 614.
+Package pdftex.def Info: ../EJ4/graficos/etapa3_R1.png  used on input line 601.
 
 (pdftex.def)             Requested size: 341.43175pt x 87.6649pt.
-<../EJ4/graficos/etapa1_R3.png, id=411, 979.86075pt x 254.1495pt>
+<../EJ4/graficos/etapa1_R3.png, id=397, 979.86075pt x 254.1495pt>
 File: ../EJ4/graficos/etapa1_R3.png Graphic file (type png)
 <use ../EJ4/graficos/etapa1_R3.png>
-Package pdftex.def Info: ../EJ4/graficos/etapa1_R3.png  used on input line 622.
+Package pdftex.def Info: ../EJ4/graficos/etapa1_R3.png  used on input line 609.
 
 (pdftex.def)             Requested size: 341.43135pt x 88.55809pt.
  [21 <../EJ4/graficos/etapa1_R1.png> <../EJ4/graficos/etapa2_R1cambiada.png> <.
 ./EJ4/graficos/etapa3_R1.png>]
-<../EJ4/graficos/etapa2_R3.png, id=423, 1085.2545pt x 251.7405pt>
+<../EJ4/graficos/etapa2_R3.png, id=409, 1085.2545pt x 251.7405pt>
 File: ../EJ4/graficos/etapa2_R3.png Graphic file (type png)
 <use ../EJ4/graficos/etapa2_R3.png>
-Package pdftex.def Info: ../EJ4/graficos/etapa2_R3.png  used on input line 628.
+Package pdftex.def Info: ../EJ4/graficos/etapa2_R3.png  used on input line 615.
 
 (pdftex.def)             Requested size: 341.42642pt x 79.19879pt.
-<../EJ4/graficos/etapa3_R3.png, id=424, 1087.06125pt x 253.54726pt>
+<../EJ4/graficos/etapa3_R3.png, id=410, 1087.06125pt x 253.54726pt>
 File: ../EJ4/graficos/etapa3_R3.png Graphic file (type png)
 <use ../EJ4/graficos/etapa3_R3.png>
-Package pdftex.def Info: ../EJ4/graficos/etapa3_R3.png  used on input line 634.
+Package pdftex.def Info: ../EJ4/graficos/etapa3_R3.png  used on input line 621.
 
 (pdftex.def)             Requested size: 341.43088pt x 79.63567pt.
-<../EJ4/graficos/bode_medido_lindo_amplitud.png, id=427, 905.5431pt x 605.6226p
-t>
-File: ../EJ4/graficos/bode_medido_lindo_amplitud.png Graphic file (type png)
-<use ../EJ4/graficos/bode_medido_lindo_amplitud.png>
-Package pdftex.def Info: ../EJ4/graficos/bode_medido_lindo_amplitud.png  used o
-n input line 647.
-(pdftex.def)             Requested size: 341.42937pt x 228.3462pt.
+<../EJ4/graficos/ATENUACION.png, id=413, 1046.10825pt x 231.86626pt>
+File: ../EJ4/graficos/ATENUACION.png Graphic file (type png)
+<use ../EJ4/graficos/ATENUACION.png>
+Package pdftex.def Info: ../EJ4/graficos/ATENUACION.png  used on input line 630
+.
+(pdftex.def)             Requested size: 341.43372pt x 75.67758pt.
+<../EJ4/graficos/ATENUACION_ZOOM.png, id=414, 1043.097pt x 228.855pt>
+File: ../EJ4/graficos/ATENUACION_ZOOM.png Graphic file (type png)
+<use ../EJ4/graficos/ATENUACION_ZOOM.png>
+Package pdftex.def Info: ../EJ4/graficos/ATENUACION_ZOOM.png  used on input lin
+e 636.
+(pdftex.def)             Requested size: 341.4218pt x 74.90778pt.
+<../EJ4/graficos/BODE_BIEN.png, id=417, 921.4425pt x 772.5663pt>
+File: ../EJ4/graficos/BODE_BIEN.png Graphic file (type png)
+<use ../EJ4/graficos/BODE_BIEN.png>
+Package pdftex.def Info: ../EJ4/graficos/BODE_BIEN.png  used on input line 647.
+
+(pdftex.def)             Requested size: 341.42049pt x 286.25764pt.
  [22 <../EJ4/graficos/etapa1_R3.png> <../EJ4/graficos/etapa2_R3.png> <../EJ4/gr
-aficos/etapa3_R3.png>]
-<../EJ4/graficos/phase_bode.png, id=438, 905.5431pt x 605.6226pt>
+aficos/etapa3_R3.png> <../EJ4/graficos/ATENUACION.png> <../EJ4/graficos/ATENUAC
+ION_ZOOM.png>]
+<../EJ4/graficos/phase_bode.png, id=429, 905.5431pt x 605.6226pt>
 File: ../EJ4/graficos/phase_bode.png Graphic file (type png)
 <use ../EJ4/graficos/phase_bode.png>
 Package pdftex.def Info: ../EJ4/graficos/phase_bode.png  used on input line 654
 .
 (pdftex.def)             Requested size: 341.42937pt x 228.3462pt.
-<../EJ4/graficos/plantilla.png, id=439, 539.01375pt x 362.35374pt>
-File: ../EJ4/graficos/plantilla.png Graphic file (type png)
-<use ../EJ4/graficos/plantilla.png>
-Package pdftex.def Info: ../EJ4/graficos/plantilla.png  used on input line 660.
-
-(pdftex.def)             Requested size: 341.43922pt x 229.53363pt.
- [23 <../EJ4/graficos/bode_medido_lindo_amplitud.png> <../EJ4/graficos/phase_bo
-de.png>]) [24 <../EJ4/graficos/plantilla.png>]
+<../EJ4/graficos/PLANTILLA_BIEN.png, id=430, 537.00626pt x 440.64626pt>
+File: ../EJ4/graficos/PLANTILLA_BIEN.png Graphic file (type png)
+<use ../EJ4/graficos/PLANTILLA_BIEN.png>
+Package pdftex.def Info: ../EJ4/graficos/PLANTILLA_BIEN.png  used on input line
+ 660.
+(pdftex.def)             Requested size: 341.42947pt x 280.16362pt.
+ [23 <../EJ4/graficos/BODE_BIEN.png> <../EJ4/graficos/phase_bode.png>]) [24 <..
+/EJ4/graficos/PLANTILLA_BIEN.png>]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 36.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 36.
  (./informe.aux
@@ -1611,18 +1625,18 @@ LaTeX Info: Redefining \% on input line 23.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 36.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 36.
 Package rerunfilecheck Info: File `informe.out' has not changed.
-(rerunfilecheck)             Checksum: 7461A0F813230041A376BF98BCB66B19;2988.
+(rerunfilecheck)             Checksum: BC9161270974CD5CCE27D23803B5EF22;2806.
 
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 23350 strings out of 494060
- 428989 string characters out of 6163035
- 551797 words of memory out of 5000000
+ 23359 strings out of 494060
+ 429103 string characters out of 6163035
+ 551821 words of memory out of 5000000
  26146 multiletter control sequences out of 15000+600000
- 139539 words of font info for 297 fonts, out of 8000000 for 9000
+ 140349 words of font info for 306 fonts, out of 8000000 for 9000
  319 hyphenation exceptions out of 8191
  63i,13n,81p,1859b,972s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2019basic/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/lo
@@ -1634,10 +1648,10 @@ ier-ms.pfb></usr/local/texlive/2019basic/texmf-dist/fonts/type1/adobe/utopia/pu
 tb8a.pfb></usr/local/texlive/2019basic/texmf-dist/fonts/type1/adobe/utopia/putr
 8a.pfb></usr/local/texlive/2019basic/texmf-dist/fonts/type1/adobe/utopia/putri8
 a.pfb>
-Output written on informe.pdf (24 pages, 2125139 bytes).
+Output written on informe.pdf (24 pages, 2211640 bytes).
 PDF statistics:
- 507 PDF objects out of 1000 (max. 8388607)
- 411 compressed objects within 5 object streams
- 129 named destinations out of 1000 (max. 500000)
- 34798 words of extra memory for PDF output out of 35830 (max. 10000000)
+ 501 PDF objects out of 1000 (max. 8388607)
+ 401 compressed objects within 5 object streams
+ 124 named destinations out of 1000 (max. 500000)
+ 34792 words of extra memory for PDF output out of 35830 (max. 10000000)
 
