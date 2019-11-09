@@ -1,1 +1,661 @@
-\section{Celda Universal}
+
+\section{Celdas Universales}
+
+En esta secci\'on se analizan distintas celdas universales, es decir, celdas de configuraciones diferentes que est\'an compuestas por dos integradores. Las celdas en estudio son la Kerwin-Huelsman-Newcomb, la Tow-Thomas, la Ackerberg-Mossberg y la Fleischer-Tow. La finalidad de dicho an\'alisis es luego realizar un filtro rechaza banda a partir de una aproximaci\'on de Chebychev Inverso que cumpla las siguientes especificaciones:
+
+\begin{table}[H]
+	\centering
+	\begin{tabular}{c c}
+		\hline
+		$f_\infty$ & $51kHz$ \\ 
+		notch depth &  $\geq 50dB$\\
+		$\Delta f_a$ & $600Hz$\\
+		$\Delta f_p$ & $10kHz$\\
+		$A_a$ & $40dB$\\
+		$A_p$ & $6dB$\\
+		$G$ & $[-3:3]dB$\\
+		$|Zin(f)|$ & $\geq 50k\Omega$\\	
+		Cantidad de ceros de transmisi\'on & $\geq 2$\\
+		\hline
+	\end{tabular}
+	\caption{Especificaciones del filtro rechaza banda a realizar.}
+	\label{especificaciones}
+\end{table}
+
+El an\'alisis que se llevar\'a a cabo para cada celda es tanto ideal como real, para poder comprender las caracter\'isticas que determinar\'an si es posible o no implementar cada celda para lograr el filtro especificado. Una vez determinadas las ventajas y desventajas de cada celda frente al filtro que se desea realizar, se har\'a un mayor enfoque en la celda elegida para llevar el filtro a la pr\'actica.
+
+
+\subsection{Configuraciones correspondientes a distintas celdas universales: An\'alisis ideal}
+
+A continuaci\'on se detallan las configuraciones de las cuatro celdas universales previamente enunciadas. Junto a la configuraci\'on circuital de cada una de estas celdas, se presenta su funci\'on transferencia, la ganancia $G$, los par\'ametros $Q$ y $\omega_0$; y sus sensibilidades relativas respecto a cada componente que conforma el circuito. Para esto, se hace un an\'alisis en el que los amplificadores operacionales son considerados ideales. Es decir, se considera que cada amplificador operacional cuenta con las siguientes caracter\'isticas:
+
+\begin{equation}
+\begin{cases}
+Z_{in} \to \infty\\
+A_{VOL} \to \infty\\
+Z_{out} \to 0\Omega\\
+I_{in+} = I_{in-} = 0A
+
+\end{cases}
+\end{equation}
+
+
+
+\footnote{https://elxcompacme.files.wordpress.com/2014/03/filter-kendell-su.pdf}
+\subsection{Celda 2do orden Kerwin-Huelsman-Newcomb (KHN)}
+
+
+\begin{figure}[H] %!ht
+	\centering
+	\includegraphics[width=12cm,height=12cm,keepaspectratio]{../EJ4/imagenes/KERWIN.png}
+	\caption{Circuito Kerwin-Huelsman-Newcomb}
+	\label{kerwin}
+\end{figure}
+
+\subsubsection{Funci\'on transferencia y par\'ametros}
+\begin{table}[h!]
+	\centering
+	\begin{tabular}{c c c c c}
+		Salida & $H(s)$ & $G$ & $\omega_0$ & $Q$\\
+		\hline \\
+		LP & $\frac{\frac{R_4}{R_5R_1R_2C_1C_2}\cdot \frac{R_5+R_6}{R_3+R_4}}{S^2+\frac{R_3}{R_5R_1C_1}\cdot \frac{R_5+R_6}{R_3+R_4}s+\frac{R_6}{R_5R_1R_2C_1C_2}}$& $\frac{R_4 (R_5+R_6)}{R_6(R_3+R_4)}$& \multirow{7}{*}{$\sqrt{\frac{R_4 (R_5+R_6)}{R_6(R_3+R_4)}}$}&
+		\multirow{7}{*}{$\frac{R_5(R_3+R_4)}{R_3(R_5+R_6)}\cdot \sqrt{\frac{R_6R_1C_1}{R_5R_2C_2}}$}\\ \\
+		BP & $- \frac{\frac{R_4}{R_5R_1C_1}\cdot \frac{R_5+R_6}{R_3+R_4} s}{S^2+\frac{R_3}{R_5R_1C_1}\cdot \frac{R_5+R_6}{R_3+R_4}s+\frac{R_6}{R_5R_1R_2C_1C_2}}$&$-\frac{R_4}{R_3}$& &\\ \\
+		HP& $- \frac{\frac{R_4}{R_5}\cdot \frac{R_5+R_6}{R_3+R_4} S^2}{S^2+\frac{R_3}{R_5R_1C_1}\cdot \frac{R_5+R_6}{R_3+R_4}s+\frac{R_6}{R_5R_1R_2C_1C_2}}$& $\frac{R_4(R_5+R_6)}{R_5(R_3+R_4)}$& & \\ \\
+		\hline
+	\end{tabular}
+	\caption{Caracter\'isticas de la celda Kerwin-Huelsman-Newcomb.}
+	\label{hg_tt}
+\end{table}
+
+\subsubsection{Sensibilidades}
+
+\begin{table}[H]
+	\centering
+	\begin{tabular}{c c c c c c}
+		& $\omega_0$ & $Q$ &$G_{LP}$ & $G_{BP}$& $G_{HP}$\\
+		\hline \\
+		$R_1$ & $-\frac{1}{2}$& $\frac{1}{2}$ & $0$& $0$&$0$\\ \\
+		$R_2$ & $-\frac{1}{2}$& $-\frac{1}{2}$ & $0$& $0$& $0$\\ \\
+		$R_3$ & $0$& $-\frac{R_4}{R_3+R_4}$ & $-\frac{R_3}{R_3+R_4}$&$-1$ & $-\frac{R_3}{R_3+R_4}$\\ \\
+		$R_4$ & $0$& $\frac{R_4}{R_3+R_4}$& $\frac{R_3}{R_3+R_4}$ &$1$ & $\frac{R_3}{R_3+R_4}$\\ \\
+		$R_5$ & $-\frac{1}{2}$&$\frac{R_6-R_5}{2(R_5+R_6)}$ & $\frac{R_5}{R_5+R_6}$&$0$ & $-\frac{R_6}{R_5+R_6}$\\ \\
+		$R_6$ & $\frac{1}{2}$& $-\frac{R_6-R_5}{2(R_5+R_6)}$ & $-\frac{R_5}{R_5+R_6}$& $0$&$\frac{R_6}{R_5+R_6}$ \\ \\
+		$C_1$ & $-\frac{1}{2}$& $\frac{1}{2}$ & $0$& $0$&$0$ \\ \\
+		$C_2$ & $-\frac{1}{2}$& $-\frac{1}{2}$ & $0$ & $0$&$0$\\ \\
+		\hline
+	\end{tabular}
+	\caption{Sensibilidades de la celda Kerwin-Huelsman-Newcomb.}
+	\label{sens_k}
+\end{table}
+
+
+Esta celda tiene sensibilidades bajas.
+
+
+\subsubsection{Impedancias}
+La salida del circuito se encuentra a la salida de un amplificador operacional con realimentaci\'on negativa.  Se indic\'o previamente que la impedancia de salida de un amplificador operacional ideal es $Z_{out} \to 0$, lo que implica que la impedancia de salida del circuito tambi\'en tienda a cero.
+
+\begin{equation}
+\begin{cases}
+Vo_2 = -\frac{1}{2} \cdot Vo_1\\
+Vo_3 = -\frac{1}{2} \cdot Vo_2\\
+H(s) = \frac{Vo_3}{V_i} = G \cdot \frac{a_0}{s^2 + b_1 s + b_0}
+\label{int2eq}
+\end{cases}
+\end{equation}
+
+Dependiendo de d\'onde se tome la salida del circuito \ref{kerwin}, se puede obtener un filtro pasa altos, un pasa banda o un pasabajos. Lo que sucede con Kerwin-Huelsman-Newcomb es que no brinda una salida rechaza banda. La misma puede igual lograrse agregandole al circuito \ref{kerwin} un sumador, como se muestra en la figura \ref{sumador_extra}:
+
+\begin{figure}[H] %!ht
+	\centering
+	\includegraphics[width=8cm,height=8cm,keepaspectratio]{../EJ4/imagenes/sumador_extra.png}
+	\caption{Sumador que se le agrega a la selda para obtener un rechaza banda.}
+	\label{sumador_extra}
+\end{figure}
+
+\subsection{Celda 2do orden Tow-Thomas}
+
+La celda Tow-Thomas var\'ia frente a la Kerwin-Huelsman-Newcomb al tener juntos a la entrada el sumador y el primer integrador, agregando luego un inversor y una resistencia en la realimentación que va de la salida $V_{LP}$ a la entrada del circuito. Esta nueva configuraci\'on, al igual que en la Kerwin-Huelsman-Newcomb sigue teniendo una salida de pasa bajos y una de pasa banda, pero ya no tiene una de pasa altos. 
+
+\begin{figure}[H] %!ht
+	\centering
+	\includegraphics[width=12cm,height=12cm,keepaspectratio]{../EJ4/imagenes/TOW-THOMAS.png}
+	\caption{Celda Tow-Thomas}
+	\label{tow_thomas}
+\end{figure}
+
+\subsubsection{Funci\'on transferencia y par\'ametros}
+Los par\'ametros correspondientes a la celda Tow-Thomas son los siguientes:
+
+\begin{table}[H]
+	\centering
+	\begin{tabular}{c c c c c}
+		Salida & $H(s)$ & $G$ & $\omega_0$ & $Q$\\
+		\hline \\
+		LP & $-\frac{\frac{R_6/R_5}{R_2R_4C_1C_2}}{s^2+\frac{1}{R_1C_1}+\frac{R_6/R_5}{R_2R_3C_1C_2}}$& $- \frac{R_3}{R_4}$& \multirow{4}{*}{$\sqrt{\frac{R_6/R_5}{R_2R_3C_1C_2}}$}&
+		\multirow{4}{*}{$\frac{R_1}{\sqrt{R_2R_3}}\sqrt{\frac{R_6C_1}{R_5C_2}}$}\\ \\
+		BP & $-\frac{\frac{1}{R_4 C_1}s}{s^2+\frac{1}{R_1C_1}+\frac{R_6/R_5}{R_2R_3C_1C_2}}$&$-\frac{R_1}{R_4}$& &\\ \\
+		\hline
+	\end{tabular}
+	\caption{Caracter\'isticas de la celda Tow-Thomas.}
+	\label{hg_tt}
+\end{table}
+
+\subsubsection{Sensibilidades}
+\begin{table}[H]
+	\centering
+	\begin{tabular}{c c c c c }
+		& $\omega_0$ & $Q$ &$G_{LP}$ & $G_{BP}$\\
+		\hline \\
+		$R_1$ & $0$& $1$ & $0$& $1$\\ \\
+		$R_2$ & $-\frac{1}{2}$& $-\frac{1}{2}$ & $0$& $0$\\ \\
+		$R_3$ & $-\frac{1}{2}$& $-\frac{1}{2}$ & $1$&$0$ \\ \\
+		$R_4$ & $0$& $0$& $-1$ &$-1$ \\ \\
+		$R_5$ & $-\frac{1}{2}$&$-\frac{1}{2}$ & $0$&$0$ \\ \\
+		$R_6$ & $\frac{1}{2}$& $\frac{1}{2}$ & $0$& $0$ \\ \\
+		$C_1$ & $-\frac{1}{2}$& $\frac{1}{2}$ & $0$& $0$\\ \\
+		$C_2$ & $-\frac{1}{2}$& $-\frac{1}{2}$ & $0$ & $0$\\ \\
+		\hline
+	\end{tabular}
+	\caption{Sensibilidades de la celda Tow-Thomas.}
+	\label{sens_tt}
+\end{table}
+
+
+\subsubsection{Impedancias}
+Al igual que para la celda anterior, como la impedancia de salida del circuito es tomada a la salida de un amplificador operacional y dado que este es considerado ideal, la impedancia de salida del circuito tiende a cero.
+
+\subsection{Celda 2do orden Ackerberg-Mossberg}
+
+\begin{figure}[H] %!ht
+	\centering
+	\includegraphics[width=12cm,height=12cm,keepaspectratio]{../EJ4/imagenes/ACKBERG.png}
+	\caption{Celda Ackerberg-Mossberg}
+	\label{ackerberg}
+\end{figure}
+
+\subsubsection{Funci\'on transferencia y par\'ametros}
+
+\begin{table}[H] %estas son las del libro!
+	\centering
+	\begin{tabular}{c c c c c}
+		Salida & $H(s)$ & $G$ & $\omega_0$ & $Q$\\
+		\hline \\
+		LP & $- \frac{\frac{R_5}{C_1C_2R_2R_4R_6}}{s^2+\frac{1}{C_1R_1}s+\frac{R_5}{C_1C_2R_2R_3R_6}}$& $-\frac{R_3}{R_4}$& \multirow{4}{*}{$\sqrt{\frac{R_5}{C_1C_2R_2R_3R_6}}$}&
+		\multirow{4}{*}{$C_1R_1\sqrt{\frac{R_5}{C_1C_2R_2R_3R_6}}$}\\ \\
+		BP & $-\frac{\frac{1}{C_1R_4}s}{s^2+\frac{1}{C_1R_1}s + \frac{R_5}{C_1C_2R_2R_3R_6}}$&$-\frac{R_1}{R_4}$& &\\ \\
+		\hline
+	\end{tabular}
+	\caption{Caracter\'isticas de la celda Ackerberg-Mossberg.}
+	\label{am_tt}
+\end{table}
+
+\subsubsection{Sensibilidades}
+
+\begin{table}[H]
+	\centering
+	\begin{tabular}{c c c c c }
+		& $\omega_0$ & $Q$ &$G_{LP}$ & $G_{BP}$\\
+		\hline \\
+		$R_1$ & $0$ & $1$ & $0$ & $1$\\ \\
+		$R_2$ & $-\frac{1}{2}$ & $-\frac{1}{2}$ & $0$ & $0$\\ \\
+		$R_3$ & $-\frac{1}{2}$ & $-\frac{1}{2}$ & $1$ & $0$ \\ \\
+		$R_4$ & $0$ & $0$ & $-1$ & $-1$ \\ \\
+		$R_5$ & $\frac{1}{2}$ & $\frac{1}{2}$ & $0$ & $0$ \\ \\
+		$R_6$ & $-\frac{1}{2}$ & $-\frac{1}{2}$ & $0$ & $0$ \\ \\
+		$C_1$ & $-\frac{1}{2} $ & $\frac{1}{2}$ & $0$ & $0$\\ \\
+		$C_2$ & $-\frac{1}{2}$ & $-\frac{1}{2}$ & $0$ & $0$\\ \\
+		\hline
+	\end{tabular}
+	\caption{Sensibilidades de la celda Ackerberg-Mossberg.}
+	\label{sens_am}
+\end{table}
+
+
+\subsubsection{Impedancias}
+Esta celda tambi\'en presenta una impedancia de salida igual a cero al considerar los amplificadores operacionales como ideales, debido a que la salida del circuito es tomada a la salida de un amplificador operacional.
+
+\subsection{Celda 2do orden Fleischer-Tow}
+
+Una caracter\'istica importante a remarcar de la selda Flesicher-Tow es que, a diferencia de las celdas anteriores, permite realizar cualquier tipo de filtro de segundo orden sin la necesidad de agregar otro amplificador operacional. Como se ha estudiado en trabajos pr\'acticos anteriores, el amplificador operacional tiene ciertas limitaciones para un circuito, debidas al slew rate, a la saturaci\'on, entre otras; por lo que es ventajoso el hecho de no tener que agregar un amplificador operacional para obtener un filtro rechaza banda.
+
+
+\begin{figure}[H] %!ht
+	\centering
+	\includegraphics[width=12cm,height=12cm,keepaspectratio]{../EJ4/imagenes/FLEISCHER.png}
+	\caption{Celda Fleischer-Tow}
+	\label{fleischer}
+\end{figure}
+
+\subsubsection{Funci\'on transferencia y par\'ametros}
+
+\begin{table}[H] %estas son las del libro!
+	\centering
+	\begin{tabular}{c c c c}
+		$H(s)$ gen\'erica & $\omega_0$ & $Q$\\
+		\hline \\
+		$- \frac{\frac{R_8}{R_6}s^2+\left(\frac{R_8}{R_6R_1C_1}-\frac{R_8}{R_4R_7C_1}\right)s+\frac{R_8}{R_3R_5R_7C_1C_2}}{s^2+\frac{1}{R_1C_1}s+\frac{R_8}{R_2R_3R_7C_1C_2}}$&$\sqrt{\frac{R_8}{R_2R_3R_7C_1C_2}}$&$R_1C_1\sqrt{\frac{R_8}{R_2R_3R_7C_1C_2}}$\\ \\
+		\hline
+	\end{tabular}
+	\caption{Expresiones gen\'ericas de la celda Fleischer-Tow.}
+	\label{f_generica}
+\end{table}
+
+\begin{table}[H] %estas son las del libro!
+	\centering
+	\begin{tabular}{c c c c c c c}
+		Salida & Condiciones & $H(s)$ & $G$ & $\omega_p$ & $Q$ & $\omega_z$\\
+		\hline \\
+		LP&$R_6=R_4=\infty$ &$- \frac{\frac{R_8}{R_3R_5R_7C_1C_2}}{s^2+\frac{1}{R_1C_1}s+\frac{R_8}{R_2R_3R_7C_1C_2}}$& $-\frac{R_2}{R_5}$& \multirow{9}{*}{$\sqrt{\frac{R_8}{R_2R_3R_7C_1C_2}}$}&
+		\multirow{9}{*}{$R_1C_1\sqrt{\frac{R_8}{R_2R_3R_7C_1C_2}}$} &\multirow{9}{*}{$\sqrt{\frac{R_6}{R_3 R_5 R_7 C_1 C_2}}$}\\ \\
+		BP &$R_6=R_5=\infty$  &$ \frac{\left(\frac{R_8}{R_4R_7C_1}\right)s}{s^2+\frac{1}{R_1C_1}s+\frac{R_8}{R_2R_3R_7C_1C_2}}$&$\frac{R_1R_8}{R_4R_7}$& & &\\ \\
+		HP & $R_5=\infty$&\multirow{2}{*}{$- \frac{\frac{R_8}{R_6}s^2}{s^2+\frac{1}{R_1C_1}s+\frac{R_8}{R_2R_3R_7C_1C_2}}$}&\multirow{2}{*}{$-\frac{R_8}{R_6}$}& & &\\ 
+		&$R_1R_6=R_4R_7$ & & & & &\\ \\
+		BR &$R_1R_6=R_4R_7$ &\multirow{2}{*}{$- \frac{\frac{R_8}{R_6}s^2+\frac{R_8}{R_3R_5R_7C_1C_2}}{s^2+\frac{1}{R_1C_1}s+\frac{R_8}{R_2R_3R_7C_1C_2}}$}&\multirow{2}{*}{$-\frac{R_2}{R_5}$}& & & \\ \\ \\
+		\hline
+	\end{tabular}
+	\caption{Caracter\'isticas de la celda Fleischer-Tow.}
+	\label{f_cars}
+\end{table}
+
+\subsubsection{Sensibilidades}
+
+\begin{table}[H]
+	\centering
+	\begin{tabular}{c c c c c c c}
+		& $\omega_0$ & $Q$ &$G_{LP}$ & $G_{BP}$& $G_{HP}$& $G_{BR}$\\
+		\hline \\ 
+		$R_1$ & $0$ & $1$ & $0$ & $1$ & $0$ & $0$\\ \\
+		$R_2$ & $-\frac{1}{2}$ & $-\frac{1}{2}$ & $1$ & $0$ & $0$ & $1$\\ \\
+		$R_3$ & $-\frac{1}{2}$ & $-\frac{1}{2}$ & $0$ & $0$ & $0$ & $0$\\ \\
+		$R_4$ & $0$ & $0$ & $0$ & $-1$ & $0$ & $0$\\ \\
+		$R_5$ & $0$ & $0$ & $-1$ & $0$ & $0$ & $-1$\\ \\
+		$R_6$ & $0$ & $0$ & $0$ & $0$ & $-1$ & $0$\\ \\
+		$R_7$ & $-\frac{1}{2}$ & $-\frac{1}{2}$ & $0$ & $-1$ & $0$ & $0$\\ \\
+		$R_8$ & $\frac{1}{2}$ & $\frac{1}{2}$ & $0$ & $1$ & $1$ & $0$\\ \\
+		$C_1$ & $-\frac{1}{2}$ & $\frac{1}{2}$ & $0$ & $0$ & $0$ & $0$\\ \\
+		$C_2$ & $-\frac{1}{2}$ & $-\frac{1}{2}$ & $0$ & $0$ & $0$ & $0$\\ \\
+		\hline
+	\end{tabular}
+	\caption{Sensibilidades de la celda Fleischer-Tow}
+	\label{sens_am}
+\end{table}
+
+\subsubsection{Impedancia de entrada}
+Al considerar los amplificadores operacionales como ideales, la impedancia de entrada a los mismos es infinita mientras que su impedancia de salida es cero. Tambi\'en se toma como masa virtual a la terminal de entrada negativa del amplificador operacional ideal ya que sigue a la de la entrada positiva, la cual es Tierra. Para calcular la impedancia de entrada de la celda, se tomaron las siguientes relaciones:
+
+\begin{equation}
+\begin{cases}
+Z_in = \frac{V_i}{I_i}\\
+I_i = I_4 + I_5 + I_6\\
+I_4 = \frac{V_i}{R_4}
+I_5 = \frac{V_i}{R_5}
+I_6 = \frac{V_i}{R_6}
+\end{cases}
+\end{equation}
+
+Y as\'i se obtuvo que:
+
+\begin{equation}
+Z_in = \frac{R_4 R_5 R_6}{R_5 R_6+R_4 R_5 + R_4 R_6}
+\end{equation}
+
+
+\subsubsection{Impedancia de salida}
+Al igual que para las celdas anteriores, como la salida se encuentra en la salida de un amplificador operacional, la impedancia de salida ideal es $ Z_O = 0\Omega$.
+
+\subsection{Dise\~no de filtro rechaza banda mediante la aproximaci\'on  Chebychev Inverso}
+
+\subsubsection{Especificaciones del filtro y aproximaci\'on}
+A continuaci\'on se transcribe la tabla que cuenta con las especificaciones del filtro a realizar, que fue introducida al inicio de esta secci\'on, para facilitar la lectura y la comprensi\'on del an\'alisis que sigue.
+
+\begin{table}[H]
+	\centering
+	\begin{tabular}{c c}
+		\hline
+		$f_\infty$ & $51kHz$ \\ 
+		notch depth &  $\geq 50dB$\\
+		$\Delta f_a$ & $600Hz$\\
+		$\Delta f_p$ & $10kHz$\\
+		$A_a$ & $40dB$\\
+		$A_p$ & $6dB$\\
+		$G$ & $[-3:3]dB$\\
+		$|Zin(f)|$ & $\geq 50k\Omega$\\	
+		Cantidad de ceros de transmisi\'on & $\geq 2$\\
+		\hline
+	\end{tabular}
+	\caption{Especificaciones del filtro rechaza banda a realizar.}
+	\label{especificaciones2}
+\end{table}
+
+La finalidad de implementar un filtro a partir de una aproximaci\'on es adquirir presici\'on y selectividad, como lo son las especificaciones de la tabla \ref{especificaciones2}. Al aumentar la selectividad de un filtro, el mismo deja de poder ser realizado con un solo filtro de orden 1 \'o 2, y es as\'i como surge la necesidad de usar un filtro de un orden mayor. Para esto, existen distintas aproximaciones que permiten no solo realizar un filtro de orden mayor, si no que adem\'as brindan la posibildiad de realizar un filtro de orden mayor a dos a partir de la conexi\'on en cascada de varios filtros de orden 2 \'o 1, cuya cantidad depende del orden del circuito completo. Se pidi\'o que el filtro fuera obtenido con la aproximaci\'on de Chebychev Inverso (Chebychev II) y que el filtro tuviera por lo menos dos ceros de transmisi\'on. La arpoximaci\'on de Chevychev Inverso exige la presencia de ceros de transmisi\'on, es decir, ceros ubicados sobre el eje imaginario (el eje $j\omega$) de la frecuencia.
+
+
+
+
+Con la finalidad de cumplir la plantilla a partir de los valores de la tabla \ref{especificaciones2}, se tom\'o un margen en el momento de utilizar la aproximaci\'on de Chebychev II. Es as\'i como se obtuvo que el filtro deb\'ia ser de orden 6 con los siguientes ceros, polos y sus respectivos Q:
+
+\begin{table}[H]
+	\centering
+	\begin{tabular}{c c}
+		\hline
+		Polo complejo conjugado& $f_p =50,999kHz, Q=4,52$ \\ 
+		Polo complejo conjugado &  $f_p=46,282kHz, Q=9,08$\\
+		Polo complejo conjugado & $f_p=56,197kHz, Q=9,08$\\
+		Cero complejo conjugado & $f_z= 50,999kHz$, Q=$\infty$\\
+		Cero complejo conjugado & $f_z= 50,224kHz$, Q=$\infty$\\
+		Cero complejo conjugado & $f_z= 51,786kHz$, Q=$\infty$\\
+		\hline
+	\end{tabular}
+	\caption{Polos y ceros desnormalizados de la H(s).}
+	\label{pyc}
+\end{table}
+
+Se obtuvieron tres ceros de transmisi\'on, como era de esperarse al emplear la aproximaci\'on de Chebychev II. Por lo tanto, ya se cumple con la especificaci\'on de tener por lo menos dos ceros de transmisi\'on.
+
+
+
+\subsubsection{Selección de celda}
+
+En la tabla \ref{pyc}, se ve que habr\'an tres polos y tres ceros de transmisi\'on. En cuanto a los polos, al ser tres pares complejos conjugados, implican que habr\'an por lo menos tres etapas, de las cuales cada una tendr\'a un par complejo conjugado de dichos polos. Dado que ninguna celda universal brinda una funci\'on transferencia que contenga \'unicamente ceros de transmisi\'on,
+habr\'ia que distribuir los tres ceros obtenidos en las tres etapas reci\'en mencionadas, y es as\'i como resultan tres etapas rechaza banda (o notch). Esto se debe a que la posibilidad de usar, por ejemplo, una celda doble T para los ceros de transmisi\'on, queda descartada ya que la consigna est\'a acotada al uso de celdas universales.\\
+Previamente fueron mostradas las caracter\'isticas de cada celda. Para obtener un notch, es necesario emplear una celda que tenga una salida de notch, o bien utilizar una salida pasa bajos sumada con una pasa altos. Ya que la celda Tow-Thomas y la Ackerberg-Mossberg presentan únicamente salida pasabajos y pasabanda, no se emplearán dichas celdsa al no tener la posibilidad de formar un notch, debido a que no tienen una salida pasa altos que pueda ser sumada a la pasa bajos. Por lo tanto las opciones son la celda Kerwin-Huelsman-Newcomb y la celda Fleischer-Tow. Como se mencion\'o previamente junto a las caracter\'istucas de la Kerwin-Huelsman-Newcomb, la misma tiene una salida pasa bajos y una pasa altos y al sumarlas se obtendr\'ia la rechaza banda. Todas las celdas constan de tres amplificadores operacionales. Entonces emplear la celda Kerwin-Huelsman-Newcomb implicar\'ia agregar un cuarto amplificador operacional, lo cual no es conveniente debido a los inconvenientes que el mismo podr\'ia traer, como el slew rate, saturaci\'on, y otras limitaciones estudiadas en trabajos pr\'acticos anteriores, agregado al costo de usar m\'as integrados(ya que se agregar\'ia un amplificador operacional por celda: en total 3) y tener entonces una realimentaci\'on m\'as por celda, lo cual no es conveniente si llegara a oscilar la misma, y ser\'ia una realimentaci\'on m\'as a ser chequeada. A diferencia de esta celda, dado que la Fleischer-Tow presenta una salida gen\'erica, permite elegir los componentes de forma que la misma se comporte como rechaza banda. De esta forma se usar\'ian \'unicamente tres amplificadores operacionales por celda. Por lo tanto, luego de este an\'alisis, se decidi\'o emplear tres veces la celda Fleischer-Tow con el comportamiento de notch, para luego ser conectadas en cascada.
+
+
+\subsubsection{Dise\~no de etapas}
+
+Para forar una funci\'on transferencia que ser\'a luego implementada por la conexi\'on en cascada de las celdas, la composici\'on de cada etapa surge de agrupar ceros y polos con el criterio que sigue. Se vuelve a mostrar la tabla \ref{pyc} para comodidad del lector:
+
+\begin{table}[H]
+	\centering
+	\begin{tabular}{c c}
+		\hline
+		Polo complejo conjugado& $f_p =50,999kHz, Q=4,52$ \\ 
+		Polo complejo conjugado &  $f_p=46,282kHz, Q=9,08$\\
+		Polo complejo conjugado & $f_p=56,197kHz, Q=9,08$\\
+		Cero complejo conjugado & $f_z= 50,999kHz$, Q=$\infty$\\
+		Cero complejo conjugado & $f_z= 50,224kHz$, Q=$\infty$\\
+		Cero complejo conjugado & $f_z= 51,786kHz$, Q=$\infty$\\
+		\hline
+	\end{tabular}
+	\caption{Polos y ceros desnormalizados de la H(s).}
+	\label{pyc2}
+\end{table}
+
+Los valores de los Q de los polos obtenidos son altos, pero las celdas universales son capaces de trabajar con ellos; a diferencia de otras celdas, como por ejemplo la Sallen-Key. Hay dos pares de polos complejos conjugados que tienen un $Q=9,08$, mientras que un solo par tiene un $Q=4,52$. Las dos etapas que tengan el mayor Q se colocan al final del filtro, es decir, ser\'an las \'ultimas dos etapas; mientras que aquella del menor Q es la primera etapa del filtro. Esto se debe a que cuanto mayor es el Q, m\'as selectivo es el filtro correspondiente a la etapa y podr\'ia haber un pico de ganancia mayor a aquel de otras etapas. Por lo tanto, si se coloca al principio una etapa que tiene un pico significativo de ganancia, esa tensi\'on amplificada entrar\'ia a la siguiente etapa, posiblemente siendo saturada con la tensi\'on de Vcc de sus amplificadores operacionales, arrastrando este problema en futuras etapas y obteniendo entonces comportamiento no deseados a la salida. Adem\'as, el rango din\'amico disminuir\'ia ya que para evitar que haya saturaci\'on en las primerasa etapas habr\'ia la tensi\'on m\'axima de entrada al circuito baja, y por ende el rango din\'amico tambi\'en. En resumen, la celda que contiene a los polos de $Q=4,52$ se coloca primero, y las del $Q=9,08$ al final, por lo reci\'en explicado. En cuanto a los polos del mayor Q, es indistinto cu\'al va en la segunda o tercera etapa ya que ambos polos tienen el mismo Q.\\ 
+Dado que los ceros son de transmisi\'on y por lo tanto los tres tienen $Q = \infty$, la elecci\'on de cu\'al va en cada etapa no es en base al Q, si no que en funci\'on de sus respectivos $f_z$. En las especificaciones se aclara que la ganancia en bandas pasantes debe estar entre -3 y 3dB. Los valores obtenidos de los polos y ceros fueron especificando una ganancia de 0dB. Para esto, se esperar\'ian tres filtros cuyas transferencias tiendan a las de un notch cuya ganancia antes y despu\'es del pico sea de 0dB. Por lo tanto, para evitar sobrepicos de ganancia positiva, se combinar\'o en cada celda un par de polos y un par de ceros con frecuencias $f_p$ y $f_z$ lo m\'as pr\'oximas posibles. Es as\'i como se obtuvo la siguiente distribuci\'on de polos y ceros en etapas:
+
+\begin{table}[H]
+	\centering
+	\begin{tabular}{c c c c}
+		\hline
+		&Etapa 1 & Etapa 2 & Etapa 3\\
+		\hline
+		Polo complejo conjugado& $f_p =50,999kHz, Q=4,52$ & $f_p=46,282kHz, Q=9,08$&$f_p=56,197kHz, Q=9,08$\\ 
+		Cero complejo conjugado & $f_z= 50,999kHz$, Q=$\infty$ &$f_z= 50,224kHz$, Q=$\infty$& $f_z= 51,786kHz$, Q=$\infty$\\
+		\hline
+	\end{tabular}
+	\caption{Distribuci\'on de polos y ceros en etapas.}
+	\label{etapas}
+\end{table}
+
+\paragraph{M\'etodo de ajuste: Dise\~o  por componentes iguales}
+
+Una vez determinada la composici\'on de polos y ceros de cada etapa, se sigue por el m\'etodo de ajuste de componentes. Dado que las sensibilidades relativas de los par\'ametros de la celda Fleischer-Tow son constantes respecto a todos los componentes, se consider\'o que un dise\~o por componentes iguales estar\'ia bien y que no ser\'ia necesario disen\~ar por alg\'un otro m\'etodo como el de por componentes proporcionales, por ejemplo. A continuaci\'on se muestra neuvamente la figura \ref{fleischer} y parte de la tabla \ref*{f_cars} para comodidad del lector frente al an\'alisis que sigue:
+
+\begin{figure}[H] %!ht
+	\centering
+	\includegraphics[width=12cm,height=12cm,keepaspectratio]{../EJ4/imagenes/FLEISCHER.png}
+	\caption{Celda Fleischer-Tow}
+	\label{fleischer2}
+\end{figure}
+
+\begin{table}[H] %estas son las del libro!
+	\centering
+	\begin{tabular}{c c c c c c c}
+		Salida & Condiciones & $H(s)$ & $G$ & $\omega_p$ & $Q$ & $\omega_z$\\
+		\hline \\
+		BR (notch) &$R_1R_6=R_4R_7$ &\multirow{2}{*}{$- \frac{\frac{R_8}{R_6}s^2+\frac{R_8}{R_3R_5R_7C_1C_2}}{s^2+\frac{1}{R_1C_1}s+\frac{R_8}{R_2R_3R_7C_1C_2}}$}&\multirow{2}{*}{$-\frac{R_2}{R_5}$}& \multirow{2}{*}{$\sqrt{\frac{R_8}{R_2R_3R_7C_1C_2}}$}&
+		\multirow{2}{*}{$R_1C_1\sqrt{\frac{R_8}{R_2R_3R_7C_1C_2}}$}
+		&\multirow{2}{*}{$\sqrt{\frac{R_6}{R_3 R_5 R_7 C_1 C_2}}$}\\ \\ \\
+		\hline
+	\end{tabular}
+	\caption{Caracter\'isticas de la celda Fleischer-Tow.}
+	\label{f_cars}
+\end{table}
+
+Para los capacitores se comenz\'o por definir $C_1 = C_2 = 100nF$ ya que tendr\'ian el mismo valor que los capacitores de desacople. Sin embargo, de esta forma se obten\'ia un valor de $R_3$ muy chico, y dado que $C_1$ y $C_2$ forman parte del denominador de la expresi\'on de $R_3$, se termin\'o modificando sus valores a $1nF$. De esta forma $R_3$ tendr\'ia un valor del orden de los $k\Omega$ y los capacitores seguir\'ian con valores iguales.
+En cuanto a las resistencias, se tuvo en cuenta la ganancia G, la frecuencia $\omega_0$ y el $Q$. Para ganancia unitaria, se eligi\'o: $R_2 = R_5 = 1k\Omega$. Luego se pudo elegir tambi\'en $R_6 = R_7 = R_8 = 1K\Omega$. Teniendo todos estos valores, a partir de la expresi\'on de $\omega_z$, se obtuvo el valor de $R_3$ y a partir de la expresi\'on del Q se obtuvo $R_1$ y se tom\'o $R_4 = R_1$. As\'i es como quedaron los siguientes valores de componentes:
+
+\begin{table}[H] %estas son las del libro!
+	\centering
+	\begin{tabular}{c c c c}
+		& Celda 1& Celda 2 & Celda 3 \\
+		\hline \\
+		$R_1 (\Omega)$ & 14,1k & 31,2k& 25,7k \\
+		$R_2 (\Omega)$ & 1k&1k &1k \\
+		$R_3 (\Omega)$ & 9,35k & 9,4k& 9,35k \\
+		$R_4 (\Omega)$ &14,1k  &31,2k & 25,7k\\
+		$R_5 (\Omega)$ &1k & 1k&1k \\
+		$R_6 (\Omega)$ & 1k& 1k&1k \\
+		$R_7 (\Omega)$ & 1k&1k &1k \\
+		$R_8 (\Omega)$ & 1k& 1k&1k \\
+		$C_1 (F)$ & 1n&1n &1n \\
+		$C_2 (F)$ & 1n&1n &1n \\
+		\hline
+	\end{tabular}
+	\caption{Valores elegidos para los componentes de cada celda.}
+	\label{componentes}
+\end{table}
+
+A continuaci\'on se muestran histogramas que permiten ver la desviaci\'on del valor del Q y de $f_0$ debida a las tolerancias de los componentes que se emplear\'an. Para el caso de resistencias SMD, la desviaci\'on respecto a los valores nominales es del 1\% mientras que la desviaci\'on para los capacitores through hole multicapa es del 10\%.
+
+\begin{figure}[H] %!ht
+	\centering	\includegraphics[width=12cm,height=12cm,keepaspectratio]{../EJ4/graficos/histo_c1.png}
+	\caption{Histogramas para la celda de la primera etapa.}
+	\label{histo_c1}
+\end{figure}
+
+\begin{figure}[H] %!ht
+	\centering	\includegraphics[width=12cm,height=12cm,keepaspectratio]{../EJ4/graficos/histo_c2.png}
+	\caption{Histogramas para la celda de la segunda etapa.}
+	\label{histo_c2}
+\end{figure}
+
+\begin{figure}[H] %!ht
+	\centering	\includegraphics[width=12cm,height=12cm,keepaspectratio]{../EJ4/graficos/histo_c3.png}
+	\caption{Histogramas para la celda de la tercera etapa.}
+	\label{histo_c3}
+\end{figure}
+
+
+
+
+
+\subsubsection{Limitaciones}
+
+La tensi\'on de entrada m\'axima est\'a limitada por el valor de slew rate del amplificador operacional y por la saturaci\'on. 
+\subsubsection*{Influenccia del slew rate en $V_{in_{max}}$}
+
+Partiendo de:
+\begin{equation}
+\begin{cases}
+SR = m\'ax\bigg\{\frac{ dV_{out}}{dt}\bigg\} \\
+V_{in} (f, t) = V_{in_{max}} \cdot sin(2\pi f t) \\
+V_{out} (f, t) = \rvert H(f)\rvert \cdot V_{in_{max}} \cdot sin(2 \pi f t)
+\end{cases}
+\label{srecs}
+\end{equation}
+
+Siendo $SR$ el slew rate, $V_{in}$ y $V_{out}$ las se\~nales de entrada y de salida respectivamente y $\rvert H(f)\rvert = V_{out}/V_{in}$ la ganancia del circuito.
+
+
+\begin{equation}
+\frac{dV_{out}}{dt} = \rvert H(f)\rvert V_{in_{max}} 2 \pi f cos(2 \pi f t)
+\label{deriv}
+\end{equation}
+
+Maximizando la ecuaci\'on \ref{deriv} se obtiene que:
+
+\begin{equation}
+SR = m\'ax\bigg\{\frac{dV_{out}}{dt}\bigg\} = \rvert H(f)\rvert 2 \pi f V_{in_{max}} 
+\label{max}
+\end{equation}
+
+Despejando de la ecuaci\'on \ref{max}:
+
+\begin{equation}
+V_{in_{max}}  = \frac{SR}{\rvert H(f)\rvert 2\pi f}
+\label{vinmax}
+\end{equation}
+
+El valor de SR, para el c\'alculo te\'orico, fue sacado de hojas de datos del amplificador operacional TL084 de Texas Instrument\footnote{Hoja de datos del operacional TL084: https://www.alldatasheet.com/view.jsp?Searchword=Tl084\&gclid=EAIaIQobChMIvtDP0tvb5QIVhYORCh3tDA\_\_EAAYASAAEgKpRPD\_BwE }. Se encontr\'o que $SR = 13 \frac{V}{\mu s}$. 
+
+\subsubsection*{Influenccia de la saturaci\'on en $V_{in_{max}}$}
+La tensi\'on pico a pico m\'axima de salida del amplificador operacional es llamada 
+tensi\'on de saturasi\'on $V_{sat}$. Te\'oricamente, este valor es igual a $V_{CC}$. Dado que $V_{out} = \rvert H(s) \rvert V_{in}$:
+
+\begin{equation}
+V_{in_{max}} = \frac{V_{out_{max}}}{\rvert H(s) \rvert} = \frac{V_{sat}}{\rvert H(s) \rvert} = \frac{V_{CC}}{\rvert H(s) \rvert}
+\end{equation}
+
+Dado que en nuestro caso usamos $V_{CC} = \pm15V$, la expresi\'on que se obtiene es:
+
+\begin{equation}
+V_{in_{max}} = \frac{15V}{\rvert H(s) \rvert} 
+\end{equation}
+
+Considerando tanto la limitaci\'on de la tensi\'on de entrada por slew rate y por saturaci\'on, se obtiene lo siguiente, que coincide con el hecho de que se trate de un filtro notch y en la frecuencia del notch la tensi\'on de entrada puede ser mayor ya que la salida es atenuada.
+
+\begin{figure}[H] %!ht
+	\centering	\includegraphics[width=12cm,height=12cm,keepaspectratio]{../EJ4/graficos/vinmax.png}
+	\caption{Tensi\'on de entrada m\'axima.}
+	\label{vimax}
+\end{figure}
+
+
+\subsubsection*{Rango din\'amico}
+
+El rango din\'amico est\'a definido por el rango de tensiones de entrada para las cuales el circuito funciona correctamente. 
+
+\begin{equation}
+R_D = 20 \cdot log\left( \frac{V_{max}}{V_{min}}\right)
+\end{equation}
+
+La tensi\'on m\'axima del circuito para el rango din\'amico es la m\'inima del gr\'afico \ref{vimax}, la cual se obtuvo nume\'ericamente y es de 5,87V. Para la tensi\'on de entrada m\'inima se toman 100mV considerandolo como el nivel del piso de ruido. Se obtiene entonces que $R_D=35,37dB$.
+
+
+
+\subsubsection{Simulaci\'on y verificaci\'on}
+
+Antes de dise\~nar la placa, se hicieron simulaciones Monte Carlo, teniendo en cuenta las tolerancias de los componentes que se emplear\'ian. Para disminuir el error, se decidi\'o que se usar\'ian resistencias SMD ya que tienen un error del 1\%. Se tom\'o un error del 10\% para los capacitores. A continuaci\'on se muestran los resultados de las simulaciones. 
+
+\begin{figure}[H] %!ht
+	\centering	\includegraphics[width=12cm,height=12cm,keepaspectratio]{../EJ4/graficos/h_montecarlo_malo.png}
+	\caption{Simulaci\'on Monte Carlo: Diagrama de Bode.}
+	\label{sim_bode}
+\end{figure}
+
+\begin{figure}[H] %!ht
+	\centering	\includegraphics[width=12cm,height=12cm,keepaspectratio]{../EJ4/graficos/h_montecarlo_caps.png}
+	\caption{Simulaci\'on Monte Carlo: Detalle del diagrama de Bode sobre el pico del notch.}
+	\label{sim_bode_caps}
+\end{figure}
+
+En el gr\'afico \ref{sim_bode_caps} se puede ver que hay mucha desviaci\'on tanto de la profundidad como de la frecuencia del pico del notch. Dado que los capacitores tienen error del 10\% y las ressitencias SMD del 1\%, se volvi\'o a simular considerando capacitores ideales, para ver si las resistencias tambi\'en cumplen un papel importante en semejantes desv\'ios. El siguiente gr\'afico se obtuvo al simular \'unicamente considerando el error de las resistencias.
+
+\begin{figure}[H] %!ht
+	\centering	\includegraphics[width=12cm,height=12cm,keepaspectratio]{../EJ4/graficos/h_montecarlo_detalle.png}
+	\caption{Simulaci\'on Monte Carlo: Detalle del diagrama de Bode sobre el pico del notch, sin error de capacitores.}
+	\label{sim_bode_detalle}
+\end{figure}
+
+Al observar los gr\'aficos \ref{sim_bode_caps} y \ref{sim_bode_detalle}, se puede notar que en cuanto a la frecuencia del pico del notch los capacitores tienen gran influencia. Considerando el error de los mismos, el pico del notch en el Monte Carlo est\'a ubicado entre -48 y 55Hz; mientras que al considerarlos ideales el pico est\'a entre 50,5 y 51,5Hz aproximadamente. Por otro lado, algo importante que se observ\'o en estas simulaciones es que ning\'un pico llega a los 50dB de atenuaci\'on y la banda atenuante. Considerando la posibilidad de que un redondeo en los valores de componentes tenga tanta influencia, se dejaron fijos todos los valores de los componentes y se hizo, en cada celda, un barrido entre distintos valores para las resistencias R1 y R3 (variando una a la vez). Se eligi\'o estas ya que son las que se tomaron como valores de ajuste luego de haber fijado los valores del resto de los componentes. Al variar R1 cambia la profundidad del pico del notch y al variar R3 cambia la posici\'on en frecuencia. 
+
+\paragraph{Variaci\'on de R1 - Profundidad del pico de notch:} Los gr\'aficos \ref{celda1_r1}, \ref{celda2_r1} y \ref{celda3_r1} corresponden a la influencia de variaciones de R1 sobre la profundidad del pico de notch. Si bien ninguna de las etapas llega as\'i a 50dB de atenuaci\'on, se fue acotando en cada etapa el rango de valores de R1 hasta encontrar con mayor presici\'on la profundidad m\'axima en cada etapa y luego se simul\'o el circuito completo entre esos rangos y se lleg\'o a una atenuaci\'on un poco mayor a 60dB (gr\'afico \ref{sim_total}), para una combinaci\'on de valores muy precisa, lo cual implicar\'ia una gran dificultad al momento de ver el comportamiento real del circuito. Al notar que el cambio es muy grande al modificar levemente uno de estos valores, se decidi\'o colocar un preset en R1, para poder tener un ajuste fino al momento de medir. 
+
+\begin{figure}[H] %!ht
+	\centering	\includegraphics[width=12cm,height=12cm,keepaspectratio]{../EJ4/graficos/etapa1_R1.png}
+	\caption{Simulaci\'on con barrido de valores de R1 en la celda 1.}
+	\label{celda1_r1}
+\end{figure}
+
+\begin{figure}[H] %!ht
+	\centering	\includegraphics[width=12cm,height=12cm,keepaspectratio]{../EJ4/graficos/etapa2_R1cambiada.png}
+	\caption{Simulaci\'on con barrido de valores de R1 en la celda 2.}
+	\label{celda2_r1}
+\end{figure}
+
+\begin{figure}[H] %!ht
+	\centering	\includegraphics[width=12cm,height=12cm,keepaspectratio]{../EJ4/graficos/etapa3_R1.png}
+	\caption{Simulaci\'on con barrido de valores de R1 en la celda 3.}
+	\label{celda3_r1}
+\end{figure}
+
+\paragraph{Variaci\'on de R3 - Posici\'on del pico de notch:} Los gr\'aficos \ref{celda1_r3}, \ref{celda2_r3} y \ref{celda3_r3} corresponden a la influencia de variaciones de R3 sobre la posici\'on del pico de notch. Puede verse que en las tres celdas la variaci\'on de R3 produce un desplazamiento de la frecuencia del pico de notch entre 49,5kHz y 52,5kHz aproximadamente. Dado que se desea que la ubicaci\'on de este pico para el circuito entero est\'e en 51kHz, el desplazamiento observado se considera grande. Al simular el circuito entero, surgi\'o que si las frecuencias de los picos de cada etapa no estaban lo suficientemente cerca, no habr\'ia una banda atenuante por debajo de la cual se econtraran los tres picos, ya que habr\'ia un pico, subir\'ia el m\'odulo a casi 0dB y luego bajar\'ia al siguiente pico. Por lo tanto, se acot\'o el rango de valores de R3 en cada etapa, para asegurarse que la primera estuviera centrada en 51kHz mientras que las dos restantes estuvieran una antes y la otra despu\'es de dicha frecuencia. Para decidir qu\'e tan cerca podr\'ian estar las \'ultimas dos etapas de la frecuencia de 51kHz, se tuvo en cuenta que no est\'en lo suficientemente alejadas tal que disminuyera notablemente la atenuaci\'on entre un pico y el siguiente. Para cumplir esto al momento de medir, se decidi\'o colocar aqu\'i tambi\'en un preset. Sin embargo, ya que solo deb\'iamos usar un preset por celda, se consider\'o m\'as importante poder tener un control fino sobre la profunidad del pico. Por lo tanto, los presets en R3 ser\'ian empleados para posicionar al pico de cada celda en su posici\'on indicada, luego sacarlos y medir el valor de la posici\'on del preset para ser reemplazado por la combinaci\'on serie o paralelo SMD que mejor se aproxime.
+
+\begin{figure}[H] %!ht
+	\centering	\includegraphics[width=12cm,height=12cm,keepaspectratio]{../EJ4/graficos/etapa1_R3.png}
+	\caption{Simulaci\'on con barrido de valores de R3 en la celda 1.}
+	\label{celda1_r3}
+\end{figure}
+
+\begin{figure}[H] %!ht
+	\centering	\includegraphics[width=12cm,height=12cm,keepaspectratio]{../EJ4/graficos/etapa2_R3.png}
+	\caption{Simulaci\'on con barrido de valores de R3 en la celda 2.}
+	\label{celda2_r3}
+\end{figure}
+
+\begin{figure}[H] %!ht
+	\centering	\includegraphics[width=12cm,height=12cm,keepaspectratio]{../EJ4/graficos/etapa3_R3.png}
+	\caption{Simulaci\'on con barrido de valores de R3 en la celda 3.}
+	\label{celda3_r3}
+\end{figure}
+
+\paragraph{Simulaci\'on con presici\'on:}
+Como se mencion\'o, luego de las simulaciones previas se simul\'o el circuito completo, acotando el rango de variaci\'on de valores de R1 y R3 en cada etapa para obtener presici\'on de los valores que cumplir\'ian con la plantilla. En el gr\'afico \ref{sim_total} se puede ver esto (\ref{sim_total_detalle} muestra esto mismo pero ampliado sobre el pico del notch).
+
+\begin{figure}[H] %!ht
+	\centering	\includegraphics[width=12cm,height=12cm,keepaspectratio]{../EJ4/graficos/ATENUACION.png}
+	\caption{Simulaci\'on con presici\'on de R1 y R3 de cada etapa.}
+	\label{sim_total}
+\end{figure}
+
+\begin{figure}[H] %!ht
+	\centering	\includegraphics[width=12cm,height=12cm,keepaspectratio]{../EJ4/graficos/ATENUACION_ZOOM.png}
+	\caption{Detalle de la simulaci\'on con presici\'on de R1 y R3 de cada etapa.}
+	\label{sim_total_detalle}
+\end{figure}
+
+
+\subsubsection{Resultados obtenidos}
+
+En los gr\'aficos \ref{bode_mod} y  \ref{bode_ph} se pueden ver los gr\'aficos de amplitud y fase correspondientes al diagrama de Bode del circuito completo.
+
+\begin{figure}[H] %!ht
+	\centering	\includegraphics[width=12cm,height=12cm,keepaspectratio]{../EJ4/graficos/BODE_BIEN.png}
+	\caption{Diagrama de Bode: Amplitud.}
+	\label{bode_mod}
+\end{figure}
+
+
+\begin{figure}[H] %!ht
+	\centering	\includegraphics[width=12cm,height=12cm,keepaspectratio]{../EJ4/graficos/phase_bode.png}
+	\caption{Diagrama de Bode: Fase.}
+	\label{bode_ph}
+\end{figure}
+
+\begin{figure}[H] %!ht
+	\centering	\includegraphics[width=12cm,height=12cm,keepaspectratio]{../EJ4/graficos/PLANTILLA_BIEN.png}
+	\caption{Comparaci\'on de medici\'on con simulaci\'on Monte Carlo y plantilla.}
+	\label{plantilla}
+\end{figure}
+
+Al observar el gr\'afico \ref{plantilla}, se puede ver que la plantilla se cumple. Sin embargo, la comparaci\'on con la simulaci\'on entre la medici\'on y la simulaci\'on se hizo respecto a aquella que fue obtenida al probar el rango acotado de valores de R1 y R3 en cada celda (simulaci\'on). Es decir, se est\'a comparando con la simulaci\'on hecha con precisi\'on dado que las realizadas anterior a esa presentaban mucha desviaci\'on respecto a lo esperado.
+
+
+\subsection{Conclusiones} 
+Se estudi\'o hizo un an\'alisis sobre cuatro celdas universales diferentes y se not\'o que para realizar un filtro notch solo es posible emplear la Kerwin-Huelsman-Newcomb o la Fleischer-Tow. Debido a la cantidad de amplificadores operacionales que implicar\'ia cada implementaci\'on se decidi\'o utilizar la Fleischer-Tow, tres veces en cascada, para lograr cumplir con la plantilla especificada. Para eso se tom\'o un margen en la aproximaci\'on de Chebychev II dado que variaba mucho el comportamiento con cambios chicos de valores de ciertos componentes. La conclusi\'on importante que se obtiene es que la celda Fleischer-Tow, a pesar de tener sensibilidades relativas de sus par\'ametros respecto a los componentes son fijas, la celda es muy sensible frente a variaciones chicas de componentes. Principalmente, Q var\'ia mucho al cambiar poco R1 y la frecuencia del pico del notch var\'ia mucho al cambiar levemente R3. Fue muy dif\'icil ajustar el circuito completo para que cumpliera la plantilla y se not\'o que aparec\'ian cambios entre mediciones consecutivas. Esto se debe a que se trata de un circuito muy sensible, y puede atribuirse a los Q altos de 9,8. Debido a sus grandes variaciones, se considera que no es una celda cuyo comportamiento sea confiable, y sobre todo al haber m\'as de una de este tipo conectadas en cascada. 
+
+

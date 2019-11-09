@@ -1,23 +1,98 @@
 \babel@toc {spanish}{}
-\contentsline {section}{\numberline {1}Celda Sallen-Key}{3}{section.1}% 
-\contentsline {section}{\numberline {2}Celda Rauch (Deliyannis - Friend modificada)}{4}{section.2}% 
-\contentsline {subsection}{\numberline {2.1}Celda a utilizar y justificaci\'on}{4}{subsection.2.1}% 
-\contentsline {subsection}{\numberline {2.2}Celda Rauch pasabanda: An\'alsis ideal}{5}{subsection.2.2}% 
-\contentsline {subsubsection}{\numberline {2.2.1}Tranferencia y caracter\'isticas}{5}{subsubsection.2.2.1}% 
-\contentsline {subsubsection}{\numberline {2.2.2}Caracter\'isticas de dise\~no}{5}{subsubsection.2.2.2}% 
-\contentsline {subsubsection}{\numberline {2.2.3}Impedancia de entrada}{6}{subsubsection.2.2.3}% 
-\contentsline {subsubsection}{\numberline {2.2.4}Impedancia de salida}{7}{subsubsection.2.2.4}% 
-\contentsline {subsubsection}{\numberline {2.2.5}Sensibilidades}{7}{subsubsection.2.2.5}% 
-\contentsline {subsection}{\numberline {2.3}Celda Rauch pasabanda: An\'alsis real}{8}{subsection.2.3}% 
-\contentsline {subsubsection}{\numberline {2.3.1}Tranferencia y caracter\'isticas}{8}{subsubsection.2.3.1}% 
-\contentsline {subsubsection}{\numberline {2.3.2}Impedancia de entrada}{9}{subsubsection.2.3.2}% 
-\contentsline {subsection}{\numberline {2.4}Dise\~no del filtro con Chebyshev}{9}{subsection.2.4}% 
-\contentsline {subsubsection}{\numberline {2.4.1}Plantilla y transferencia}{9}{subsubsection.2.4.1}% 
-\contentsline {subsubsection}{\numberline {2.4.2}$1^\circ $ etapa}{10}{subsubsection.2.4.2}% 
-\contentsline {subsubsection}{\numberline {2.4.3}$2^\circ $ etapa}{12}{subsubsection.2.4.3}% 
-\contentsline {subsubsection}{\numberline {2.4.4}Simulaciones en cascada}{14}{subsubsection.2.4.4}% 
-\contentsline {subsubsection}{\numberline {2.4.5}Mediciones y comparaciones}{15}{subsubsection.2.4.5}% 
-\contentsline {subsubsection}{\numberline {2.4.6}Rango din\'amico}{17}{subsubsection.2.4.6}% 
-\contentsline {subsection}{\numberline {2.5}Conclusiones}{18}{subsection.2.5}% 
-\contentsline {section}{\numberline {3}Sedra-Ghorab-Martin}{19}{section.3}% 
-\contentsline {section}{\numberline {4}Celda Universal}{20}{section.4}% 
+\contentsline {section}{\numberline {1}Celda Sallen-Key}{4}{section.1}% 
+\contentsline {subsection}{\numberline {1.1}Celda 2do Orden Sallen-Key: An\'alisis ideal}{4}{subsection.1.1}% 
+\contentsline {subsubsection}{\numberline {1.1.1}Funci\'on transferencia y par\'ametros}{4}{subsubsection.1.1.1}% 
+\contentsline {paragraph}{Estabilidad de la $H(s)$:}{5}{section*.2}% 
+\contentsline {subsubsection}{\numberline {1.1.2}Sensibilidades}{5}{subsubsection.1.1.2}% 
+\contentsline {subsubsection}{\numberline {1.1.3}M\'etodos de ajuste}{6}{subsubsection.1.1.3}% 
+\contentsline {paragraph}{Dise\~no por componentes iguales:}{6}{section*.3}% 
+\contentsline {paragraph}{Dise\~no por componentes proporcionales:}{7}{section*.4}% 
+\contentsline {paragraph}{Dise\~no con atenuaci\'on:}{8}{section*.5}% 
+\contentsline {subsubsection}{\numberline {1.1.4}Impedancia de entrada}{9}{subsubsection.1.1.4}% 
+\contentsline {subsubsection}{\numberline {1.1.5}Impedancia de salida}{12}{subsubsection.1.1.5}% 
+\contentsline {subsection}{\numberline {1.2}Celda 2do Orden Sallen-Key: An\'alisis real}{12}{subsection.1.2}% 
+\contentsline {subsubsection}{\numberline {1.2.1}Funci\'on transferencia y par\'ametros}{12}{subsubsection.1.2.1}% 
+\contentsline {subsubsection}{\numberline {1.2.2}Sensibilidades}{13}{subsubsection.1.2.2}% 
+\contentsline {subsubsection}{\numberline {1.2.3}Impedancia de entrada}{13}{subsubsection.1.2.3}% 
+\contentsline {subsubsection}{\numberline {1.2.4}Impedancia de salida}{14}{subsubsection.1.2.4}% 
+\contentsline {subsubsection}{\numberline {1.2.5}Restricciones reales sobre impedancias}{14}{subsubsection.1.2.5}% 
+\contentsline {subsubsection}{\numberline {1.2.6}Rango din\'amico}{15}{subsubsection.1.2.6}% 
+\contentsline {subsection}{\numberline {1.3}Celda 1er Orden pasabajos: An\'alisis ideal}{16}{subsection.1.3}% 
+\contentsline {subsubsection}{\numberline {1.3.1}Funci\'on transferencia}{16}{subsubsection.1.3.1}% 
+\contentsline {subsubsection}{\numberline {1.3.2}Impedancia de entrada}{16}{subsubsection.1.3.2}% 
+\contentsline {subsection}{\numberline {1.4}Dise\~no de un filtro con Legendre}{17}{subsection.1.4}% 
+\contentsline {subsubsection}{\numberline {1.4.1}Especificaciones y funci\'on aproximaci\'on}{17}{subsubsection.1.4.1}% 
+\contentsline {subsubsection}{\numberline {1.4.2}Dise\~no de etapas}{18}{subsubsection.1.4.2}% 
+\contentsline {paragraph}{$1^{\circ }$ etapa:}{18}{section*.6}% 
+\contentsline {paragraph}{$2^{\circ }$ etapa:}{18}{section*.7}% 
+\contentsline {paragraph}{$3^{\circ }$ etapa:}{19}{section*.8}% 
+\contentsline {subsubsection}{\numberline {1.4.3}Rango din\'amico}{19}{subsubsection.1.4.3}% 
+\contentsline {subsubsection}{\numberline {1.4.4}Simulaci\'on y verificaci\'on}{20}{subsubsection.1.4.4}% 
+\contentsline {subsubsection}{\numberline {1.4.5}Resultados pr\'acticos}{21}{subsubsection.1.4.5}% 
+\contentsline {paragraph}{Respuesta en frecuencia:}{21}{section*.9}% 
+\contentsline {paragraph}{Impedancia de entrada:}{23}{section*.10}% 
+\contentsline {subsection}{\numberline {1.5}Dise\~no de un filtro con Bessel}{24}{subsection.1.5}% 
+\contentsline {subsubsection}{\numberline {1.5.1}Especificaciones y funci\'on aproximaci\'on}{24}{subsubsection.1.5.1}% 
+\contentsline {subsubsection}{\numberline {1.5.2}Dise\~no de etapas}{25}{subsubsection.1.5.2}% 
+\contentsline {paragraph}{$1^{\circ } etapa:$}{25}{section*.11}% 
+\contentsline {paragraph}{$2^{\circ } etapa:$}{26}{section*.12}% 
+\contentsline {paragraph}{$3^{\circ } etapa:$}{26}{section*.13}% 
+\contentsline {subsubsection}{\numberline {1.5.3}Rango din\'amico}{27}{subsubsection.1.5.3}% 
+\contentsline {subsubsection}{\numberline {1.5.4}Simulaci\'on y verificaci\'on}{27}{subsubsection.1.5.4}% 
+\contentsline {subsubsection}{\numberline {1.5.5}Resultados pr\'acticos}{29}{subsubsection.1.5.5}% 
+\contentsline {paragraph}{Respuesta en frecuencia:}{29}{section*.14}% 
+\contentsline {paragraph}{Impedancia de entrada:}{30}{section*.15}% 
+\contentsline {paragraph}{Retardo de grupo:}{31}{section*.16}% 
+\contentsline {subsection}{\numberline {1.6}Dise\~no de PCB}{32}{subsection.1.6}% 
+\contentsline {subsection}{\numberline {1.7}Conclusiones}{33}{subsection.1.7}% 
+\contentsline {section}{\numberline {2}Celda Rauch (Deliyannis - Friend modificada)}{34}{section.2}% 
+\contentsline {subsection}{\numberline {2.1}Celda a utilizar y justificaci\'on}{34}{subsection.2.1}% 
+\contentsline {subsection}{\numberline {2.2}Celda Rauch pasabanda: An\'alsis ideal}{35}{subsection.2.2}% 
+\contentsline {subsubsection}{\numberline {2.2.1}Tranferencia y caracter\'isticas}{35}{subsubsection.2.2.1}% 
+\contentsline {subsubsection}{\numberline {2.2.2}Caracter\'isticas de dise\~no}{35}{subsubsection.2.2.2}% 
+\contentsline {subsubsection}{\numberline {2.2.3}Impedancia de entrada}{36}{subsubsection.2.2.3}% 
+\contentsline {subsubsection}{\numberline {2.2.4}Impedancia de salida}{37}{subsubsection.2.2.4}% 
+\contentsline {subsubsection}{\numberline {2.2.5}Sensibilidades}{37}{subsubsection.2.2.5}% 
+\contentsline {subsection}{\numberline {2.3}Celda Rauch pasabanda: An\'alsis real}{38}{subsection.2.3}% 
+\contentsline {subsubsection}{\numberline {2.3.1}Tranferencia y caracter\'isticas}{38}{subsubsection.2.3.1}% 
+\contentsline {subsubsection}{\numberline {2.3.2}Impedancia de entrada}{39}{subsubsection.2.3.2}% 
+\contentsline {subsection}{\numberline {2.4}Dise\~no del filtro con Chebyshev}{39}{subsection.2.4}% 
+\contentsline {subsubsection}{\numberline {2.4.1}Plantilla y transferencia}{39}{subsubsection.2.4.1}% 
+\contentsline {subsubsection}{\numberline {2.4.2}$1^\circ $ etapa}{40}{subsubsection.2.4.2}% 
+\contentsline {subsubsection}{\numberline {2.4.3}$2^\circ $ etapa}{42}{subsubsection.2.4.3}% 
+\contentsline {subsubsection}{\numberline {2.4.4}Simulaciones en cascada}{44}{subsubsection.2.4.4}% 
+\contentsline {subsubsection}{\numberline {2.4.5}Mediciones y comparaciones}{45}{subsubsection.2.4.5}% 
+\contentsline {subsubsection}{\numberline {2.4.6}Rango din\'amico}{47}{subsubsection.2.4.6}% 
+\contentsline {subsection}{\numberline {2.5}Conclusiones}{48}{subsection.2.5}% 
+\contentsline {section}{\numberline {3}Sedra-Ghorab-Martin}{49}{section.3}% 
+\contentsline {section}{\numberline {4}Celdas Universales}{50}{section.4}% 
+\contentsline {subsection}{\numberline {4.1}Configuraciones correspondientes a distintas celdas universales: An\'alisis ideal}{50}{subsection.4.1}% 
+\contentsline {subsection}{\numberline {4.2}Celda 2do orden Kerwin-Huelsman-Newcomb (KHN)}{51}{subsection.4.2}% 
+\contentsline {subsubsection}{\numberline {4.2.1}Funci\'on transferencia y par\'ametros}{51}{subsubsection.4.2.1}% 
+\contentsline {subsubsection}{\numberline {4.2.2}Sensibilidades}{52}{subsubsection.4.2.2}% 
+\contentsline {subsubsection}{\numberline {4.2.3}Impedancias}{52}{subsubsection.4.2.3}% 
+\contentsline {subsection}{\numberline {4.3}Celda 2do orden Tow-Thomas}{52}{subsection.4.3}% 
+\contentsline {subsubsection}{\numberline {4.3.1}Funci\'on transferencia y par\'ametros}{53}{subsubsection.4.3.1}% 
+\contentsline {subsubsection}{\numberline {4.3.2}Sensibilidades}{53}{subsubsection.4.3.2}% 
+\contentsline {subsubsection}{\numberline {4.3.3}Impedancias}{54}{subsubsection.4.3.3}% 
+\contentsline {subsection}{\numberline {4.4}Celda 2do orden Ackerberg-Mossberg}{54}{subsection.4.4}% 
+\contentsline {subsubsection}{\numberline {4.4.1}Funci\'on transferencia y par\'ametros}{54}{subsubsection.4.4.1}% 
+\contentsline {subsubsection}{\numberline {4.4.2}Sensibilidades}{55}{subsubsection.4.4.2}% 
+\contentsline {subsubsection}{\numberline {4.4.3}Impedancias}{55}{subsubsection.4.4.3}% 
+\contentsline {subsection}{\numberline {4.5}Celda 2do orden Fleischer-Tow}{55}{subsection.4.5}% 
+\contentsline {subsubsection}{\numberline {4.5.1}Funci\'on transferencia y par\'ametros}{56}{subsubsection.4.5.1}% 
+\contentsline {subsubsection}{\numberline {4.5.2}Sensibilidades}{56}{subsubsection.4.5.2}% 
+\contentsline {subsubsection}{\numberline {4.5.3}Impedancia de entrada}{57}{subsubsection.4.5.3}% 
+\contentsline {subsubsection}{\numberline {4.5.4}Impedancia de salida}{57}{subsubsection.4.5.4}% 
+\contentsline {subsection}{\numberline {4.6}Dise\~no de filtro rechaza banda mediante la aproximaci\'on Chebychev Inverso}{57}{subsection.4.6}% 
+\contentsline {subsubsection}{\numberline {4.6.1}Especificaciones del filtro y aproximaci\'on}{57}{subsubsection.4.6.1}% 
+\contentsline {subsubsection}{\numberline {4.6.2}Selecci\IeC {\'o}n de celda}{58}{subsubsection.4.6.2}% 
+\contentsline {subsubsection}{\numberline {4.6.3}Dise\~no de etapas}{58}{subsubsection.4.6.3}% 
+\contentsline {paragraph}{M\'etodo de ajuste: Dise\~o por componentes iguales}{59}{section*.17}% 
+\contentsline {subsubsection}{\numberline {4.6.4}Limitaciones}{61}{subsubsection.4.6.4}% 
+\contentsline {subsubsection}{\numberline {4.6.5}Simulaci\'on y verificaci\'on}{63}{subsubsection.4.6.5}% 
+\contentsline {paragraph}{Variaci\'on de R1 - Profundidad del pico de notch:}{64}{section*.21}% 
+\contentsline {paragraph}{Variaci\'on de R3 - Posici\'on del pico de notch:}{64}{section*.22}% 
+\contentsline {paragraph}{Simulaci\'on con presici\'on:}{65}{section*.23}% 
+\contentsline {subsubsection}{\numberline {4.6.6}Resultados obtenidos}{66}{subsubsection.4.6.6}% 
+\contentsline {subsection}{\numberline {4.7}Conclusiones}{68}{subsection.4.7}% 
