@@ -106,6 +106,7 @@ Es posible entonces expresar tanto la transferencia de la celda como $\omega_0 $
             &H(s) = -\frac{1}{1-K}\cdot \frac{\frac{a\cdot s}{R1\cdot C}}{s^2+\frac{2}{R2\cdot C}\cdot \left(1+\frac{K}{K-1}\cdot \frac{R2}{2\cdot R1}\right)\cdot s+\frac{1}{C^2\cdot R1 \cdot R2}}\\
             &{{\it \omega_0}}^2=\frac{1}{C^2\cdot R1 \cdot R2}\\
             &Q=\frac{R2\cdot C\cdot \omega_0}{2\cdot\left(1+\frac{K}{K-1}\cdot \frac{R2}{2\cdot R1}\right)}\\
+           & H_P = -\frac{1}{1-K}\cdot \frac{\frac{a\cdot }{R1\cdot C}}{\frac{2}{R2\cdot C}\cdot \left(1+\frac{K}{K-1}\cdot \frac{R2}{2\cdot R1}\right)}
         \end{split}    
     \label{eq:SOLUC_NEW_DESIGN}
 \end{equation}
@@ -424,7 +425,15 @@ Se muestra en la Figura \ref{fig:1_HIST} un histograma donde se puede observar l
     \caption{Histograma de la primera etapa}
     \label{fig:1_HIST}
 \end{figure}
-
+Por \'ultimo se muestra en la Figura \ref{fig:FIRST_LT_VS_TEO} una comparaci\'on entre los resultados obtenidos en LTSpice por medio del an\'alisis Monte Carlo y la curva te\'orica de la transferencia esperada.
+\begin{figure}[H]
+    \centering
+    \resizebox{0.8\textwidth}{!}{%        
+        \includegraphics{../EJ2/Recursos/FIRST_LT_VS_TEO}       
+    }
+    \caption{Comparaci\'on con simulaciones de la primera etapa}
+    \label{fig:FIRST_LT_VS_TEO}
+\end{figure}
 
 \subsubsection{$2^\circ$ etapa}
 Se dise\~na la etapa para que cumpla con la transferencia que se muestra en \ref{eq:2_TRANFER}
@@ -474,6 +483,18 @@ Se muestra en la Figura \ref{fig:2_HIST} un histograma donde se puede observar l
     \caption{Histograma de la segunda etapa}
     \label{fig:2_HIST}
 \end{figure}
+
+
+Por \'ultimo se muestra en la Figura \ref{fig:FIRST_LT_VS_TEO} una comparaci\'on entre los resultados obtenidos en LTSpice por medio del an\'alisis Monte Carlo y la curva te\'orica de la transferencia esperada.
+\begin{figure}[H]
+    \centering
+    \resizebox{0.8\textwidth}{!}{%        
+        \includegraphics{../EJ2/Recursos/SECOND_LT_VS_TEO}       
+    }
+    \caption{Comparaci\'on con simulaciones de la segunda etapa}
+    \label{fig:FIRST_LT_VS_TEO}
+\end{figure}
+
 \subsubsection{Simulaciones en cascada}
 Se realizan simulaciones Monte Carlo en LTSpice de las 2 etapas anteriores conectadas en cascada para verificar que tanto la la transferencia cumpla con la pantilla, como que la impedancia de entrada se mantenga en los randos especificados, al menos en las simulaciones.
 
@@ -513,11 +534,52 @@ Se puede observar adem\'as, la simulacion de la impedancia de entrada del filtro
         \includegraphics{../EJ2/Recursos/ZIN}       
     }
     \caption{Simulaci\'on de la impedancia de entrada del sistema}
-    \label{fig:VERIFY}
+    \label{fig:ZIN_SIST}
 \end{figure}
 
 \subsubsection{Mediciones y comparaciones}
-\todo[inline]{FALTAAAAAA}
+En esta secci\'on se presenta la comparaci\'on entre las curvas te\'oricas, simuladas y medidas de el m\'odulo de la transferencia de las 2 etapas pasabanda por separado(Figuras \ref{fig:FIRST_LT_VS_TEO_VS_MED} y \ref{fig:SECOND_LT_VS_TEO_VS_MED}), el m\'odulo y la fase de la transferencia del filtro completo(Figura \ref{fig:COMP_BODE}) y la impedancia de entrada del filtro completo (Figura \ref{fig:ZIN}).
+\begin{figure}[H]
+    \centering
+    \resizebox{0.8\textwidth}{!}{%        
+        \includegraphics{../EJ2/Recursos/FIRST_LT_VS_TEO_VS_MED}       
+    }
+    \caption{Comparaci\'on de curvas para la primera etapa}
+    \label{fig:FIRST_LT_VS_TEO_VS_MED}
+\end{figure}
+\begin{figure}[H]
+    \centering
+    \resizebox{0.8\textwidth}{!}{%        
+        \includegraphics{../EJ2/Recursos/SECOND_LT_VS_TEO_VS_MED}       
+    }
+    \caption{Comparaci\'on de curvas para la segunda etapa}
+    \label{fig:SECOND_LT_VS_TEO_VS_MED}
+\end{figure}
+\begin{figure}[H]
+    \centering
+    \resizebox{0.8\textwidth}{!}{% 
+    \begin{tabular}{c c}
+        \includegraphics{../EJ2/Recursos/COMP_MOD} &
+        \includegraphics{../EJ2/Recursos/COMP_PHA} \\        
+    \end{tabular}
+    }
+    \caption{Diagrams de m\'odulo y fase de la transferencia de todo el 
+    filtro}
+    \label{fig:COMP_BODE}
+\end{figure}
+\begin{figure}[H]
+    \centering
+    \resizebox{0.8\textwidth}{!}{%        
+        \includegraphics{../EJ2/Recursos/COMP_ZIN}       
+    }
+    \caption{Comparaci\'on de impedancia de entrada}
+    \label{fig:ZIN}
+\end{figure}
+En todos los casos puede observarse que se corresponden correctamente los valores medidos con los calculados y los te\'oricos exepto por 2 cuestiones principales. La primera, como se menciona anteriormente, se obseva e algunas regiones de la banda pasante una gananacia de hasta 2dB, lo que no es deseable. Pero dado el nivel de variaciones debido a la tolerancia de los componentes y dado de que se encuentra dentro de los resultados esperados, se decide mantener.
+
+El segundo aspecto, y en donde se encuentra la mayor variaci\'on respecto de las simulaciones, es la impedancia de entrada. Se puede observar en el gr\'afico que a partir de aproximadamente 150KHz la impedancia de entrada medida comienza a bajar por debajo de los $50K\Omega$ requeridos en la plantilla. Se atribuye esta diferencia al comportamiento en frecuencia de los componentes utilizados. La forma m\'as efectiva y r\'apida de solucionar este defecto es conectando un buffer a la entrada del filtro.
+
+
 \subsubsection{Rango din\'amico}
 Se calcula el rango din\'amico utlizando la mayor ganancia medida, que es de $G=2.37dB = 1.313 veces$. La tensi\'on m\'axima a la salida ser\'a 13V teniendo en cuenta que la alimentaci\'on $\pm 15V$. Por lo tanto, para hallar la m\'axima tension a la entrada basta con realizar el c\'alculo mostrado a continuaci\'on
 \begin{equation}

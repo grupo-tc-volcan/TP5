@@ -322,12 +322,6 @@ INPUT C:\Users\Carlos\AppData\Local\Programs\MiKTeX 2.9\tex\latex\hyperref\namer
 INPUT C:\Users\Carlos\AppData\Local\Programs\MiKTeX 2.9\tex\latex\hyperref\nameref.sty
 INPUT C:\Users\Carlos\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\gettitlestring.sty
 INPUT C:\Users\Carlos\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\gettitlestring.sty
-INPUT c:\Users\Carlos\Desktop\ITBA\3er año\1er cuatri\TC\TP5\TP5\Informe\informe.out
-INPUT c:\Users\Carlos\Desktop\ITBA\3er año\1er cuatri\TC\TP5\TP5\Informe\informe.out
-INPUT c:\Users\Carlos\Desktop\ITBA\3er año\1er cuatri\TC\TP5\TP5\Informe\informe.out
-INPUT c:\Users\Carlos\Desktop\ITBA\3er año\1er cuatri\TC\TP5\TP5\Informe\informe.out
-INPUT c:\Users\Carlos\Desktop\ITBA\3er año\1er cuatri\TC\TP5\TP5\Informe\informe.out
-INPUT c:\Users\Carlos\Desktop\ITBA\3er año\1er cuatri\TC\TP5\TP5\Informe\informe.out
 OUTPUT c:\Users\Carlos\Desktop\ITBA\3er año\1er cuatri\TC\TP5\TP5\Informe\informe.out
 INPUT C:\Users\Carlos\AppData\Local\Programs\MiKTeX 2.9\tex\latex\translator\translator-basic-dictionary-English.dict
 INPUT C:\Users\Carlos\AppData\Local\Programs\MiKTeX 2.9\tex\latex\translator\translator-basic-dictionary-English.dict
@@ -447,216 +441,18 @@ INPUT C:\Users\Carlos\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\fourier
 INPUT C:\Users\Carlos\AppData\Local\Programs\MiKTeX 2.9\fonts\vf\public\fourier\futr8t.vf
 INPUT C:\Users\Carlos\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\fourier\futb8t.tfm
 INPUT C:\Users\Carlos\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\fourier\futrc8t.tfm
-INPUT c:\Users\Carlos\Desktop\ITBA\3er año\1er cuatri\TC\TP5\TP5\Informe\informe.toc
-INPUT c:\Users\Carlos\Desktop\ITBA\3er año\1er cuatri\TC\TP5\TP5\Informe\informe.toc
-INPUT C:\Users\Carlos\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\fourier\futb8t.tfm
 OUTPUT c:\Users\Carlos\Desktop\ITBA\3er año\1er cuatri\TC\TP5\TP5\Informe\informe.toc
 INPUT C:\Users\Carlos\AppData\Local\Programs\MiKTeX 2.9\fonts\vf\public\fourier\futrc8t.vf
 INPUT C:\Users\Carlos\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\fourier\futr8r.tfm
 INPUT C:\Users\Carlos\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\fourier\fourier-alt.tfm
 INPUT C:\Users\Carlos\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\fourier\fourier-alt.tfm
-INPUT C:\Users\Carlos\AppData\Local\Programs\MiKTeX 2.9\fonts\vf\public\fourier\futb8t.vf
-INPUT C:\Users\Carlos\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\fourier\futb8r.tfm
-INPUT C:\Users\Carlos\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\fourier\fourier-alt-bold.tfm
-INPUT C:\Users\Carlos\AppData\Local\Programs\MiKTeX 2.9\fonts\vf\public\fourier\futsy.vf
-INPUT C:\Users\Carlos\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\fourier\fourier-ms.tfm
-INPUT C:\Users\Carlos\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\fourier\fourier-mcl.tfm
-INPUT C:\Users\Carlos\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\fourier\futr8r.tfm
 INPUT ej1.tex
 INPUT ej1.tex
+INPUT ej2.tex
+INPUT ej2.tex
+INPUT C:\Users\Carlos\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\fourier\futb8t.tfm
 INPUT C:\Users\Carlos\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\fourier\futb8t.tfm
 INPUT C:\Users\Carlos\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\fourier\futrc8t.tfm
-INPUT ..\EJ1\Recursos\circuito_sallen_key_pasabajos.png
-INPUT ..\EJ1\Recursos\circuito_sallen_key_pasabajos.png
-INPUT ..\EJ1\Recursos\circuito_sallen_key_pasabajos.png
-INPUT ..\EJ1\Recursos\circuito_sallen_key_pasabajos.png
-INPUT ..\EJ1\Recursos\circuito_sallen_key_pasabajos.png
-INPUT C:\Users\Carlos\AppData\Local\Programs\MiKTeX 2.9\fonts\vf\public\fourier\futrc8t.vf
-INPUT C:\Users\Carlos\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\fourier\futr8r.tfm
-INPUT C:\Users\Carlos\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\fourier\fourier-alt.tfm
-INPUT C:\Users\Carlos\AppData\Local\Programs\MiKTeX 2.9\fonts\vf\public\fourier\futmii.vf
-INPUT C:\Users\Carlos\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\fourier\fourier-mlit.tfm
-INPUT C:\Users\Carlos\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\fourier\fourier-ml.tfm
-INPUT C:\Users\Carlos\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\fourier\futri8r.tfm
-INPUT C:\Users\Carlos\AppData\Local\Programs\MiKTeX 2.9\fonts\vf\public\fourier\futmii.vf
-INPUT C:\Users\Carlos\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\fourier\fourier-mlit.tfm
-INPUT C:\Users\Carlos\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\fourier\fourier-ml.tfm
-INPUT C:\Users\Carlos\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\fourier\futri8r.tfm
-INPUT C:\Users\Carlos\AppData\Local\Programs\MiKTeX 2.9\fonts\vf\public\fourier\futsy.vf
-INPUT C:\Users\Carlos\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\fourier\fourier-ms.tfm
-INPUT C:\Users\Carlos\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\fourier\fourier-mcl.tfm
-INPUT C:\Users\Carlos\AppData\Local\Programs\MiKTeX 2.9\fonts\vf\public\fourier\futr8t.vf
-INPUT C:\Users\Carlos\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\fourier\fourier-alt.tfm
-INPUT C:\Users\Carlos\AppData\Local\Programs\MiKTeX 2.9\fonts\vf\public\fourier\futr8t.vf
-INPUT C:\Users\Carlos\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\fourier\futr8r.tfm
-INPUT C:\Users\Carlos\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\fourier\fourier-alt.tfm
-INPUT C:\Users\Carlos\AppData\Local\Programs\MiKTeX 2.9\fonts\vf\public\fourier\futmii.vf
-INPUT C:\Users\Carlos\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\fourier\fourier-mlit.tfm
-INPUT C:\Users\Carlos\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\fourier\fourier-ml.tfm
-INPUT C:\Users\Carlos\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\fourier\futri8r.tfm
-INPUT ..\EJ1\Recursos\circuito_sallen_key_pasabajos_atenuado.png
-INPUT ..\EJ1\Recursos\circuito_sallen_key_pasabajos_atenuado.png
-INPUT ..\EJ1\Recursos\circuito_sallen_key_pasabajos_atenuado.png
-INPUT ..\EJ1\Recursos\circuito_sallen_key_pasabajos_atenuado.png
-INPUT ..\EJ1\Recursos\circuito_sallen_key_pasabajos_atenuado.png
-INPUT ..\EJ1\Recursos\circuito_sallen_key_impedancia.png
-INPUT ..\EJ1\Recursos\circuito_sallen_key_impedancia.png
-INPUT ..\EJ1\Recursos\circuito_sallen_key_impedancia.png
-INPUT ..\EJ1\Recursos\circuito_sallen_key_impedancia.png
-INPUT ..\EJ1\Recursos\circuito_sallen_key_impedancia.png
-INPUT ..\EJ1\Recursos\impedancia_entrada_arbitraria.png
-INPUT ..\EJ1\Recursos\impedancia_entrada_arbitraria.png
-INPUT ..\EJ1\Recursos\impedancia_entrada_arbitraria.png
-INPUT ..\EJ1\Recursos\impedancia_entrada_arbitraria.png
-INPUT ..\EJ1\Recursos\impedancia_entrada_arbitraria.png
-INPUT ..\EJ1\Recursos\impedancia_entrada_componentes_iguales.png
-INPUT ..\EJ1\Recursos\impedancia_entrada_componentes_iguales.png
-INPUT ..\EJ1\Recursos\impedancia_entrada_componentes_iguales.png
-INPUT ..\EJ1\Recursos\impedancia_entrada_componentes_iguales.png
-INPUT ..\EJ1\Recursos\impedancia_entrada_componentes_iguales.png
-INPUT ..\EJ1\Recursos\impedancia_entrada_componentes_proporcionales.png
-INPUT ..\EJ1\Recursos\impedancia_entrada_componentes_proporcionales.png
-INPUT ..\EJ1\Recursos\impedancia_entrada_componentes_proporcionales.png
-INPUT ..\EJ1\Recursos\impedancia_entrada_componentes_proporcionales.png
-INPUT ..\EJ1\Recursos\impedancia_entrada_componentes_proporcionales.png
-INPUT ..\EJ1\Recursos\circuito_sallen_key_impedancia_salida.png
-INPUT ..\EJ1\Recursos\circuito_sallen_key_impedancia_salida.png
-INPUT ..\EJ1\Recursos\circuito_sallen_key_impedancia_salida.png
-INPUT ..\EJ1\Recursos\circuito_sallen_key_impedancia_salida.png
-INPUT ..\EJ1\Recursos\circuito_sallen_key_impedancia_salida.png
-INPUT ..\EJ1\Recursos\celda_representacion.png
-INPUT ..\EJ1\Recursos\celda_representacion.png
-INPUT ..\EJ1\Recursos\celda_representacion.png
-INPUT ..\EJ1\Recursos\celda_representacion.png
-INPUT ..\EJ1\Recursos\celda_representacion.png
-INPUT C:\Users\Carlos\AppData\Local\Programs\MiKTeX 2.9\fonts\vf\public\fourier\futmi.vf
-INPUT ..\EJ1\Recursos\circuito_celda_primer_orden.png
-INPUT ..\EJ1\Recursos\circuito_celda_primer_orden.png
-INPUT ..\EJ1\Recursos\circuito_celda_primer_orden.png
-INPUT ..\EJ1\Recursos\circuito_celda_primer_orden.png
-INPUT ..\EJ1\Recursos\circuito_celda_primer_orden.png
-INPUT ..\EJ1\Recursos\legendre_histogram_one.png
-INPUT ..\EJ1\Recursos\legendre_histogram_one.png
-INPUT ..\EJ1\Recursos\legendre_histogram_one.png
-INPUT ..\EJ1\Recursos\legendre_histogram_one.png
-INPUT ..\EJ1\Recursos\legendre_histogram_one.png
-INPUT ..\EJ1\Recursos\legendre_histogram_two.png
-INPUT ..\EJ1\Recursos\legendre_histogram_two.png
-INPUT ..\EJ1\Recursos\legendre_histogram_two.png
-INPUT ..\EJ1\Recursos\legendre_histogram_two.png
-INPUT ..\EJ1\Recursos\legendre_histogram_two.png
-INPUT ..\EJ1\Recursos\legendre_histogram_three.png
-INPUT ..\EJ1\Recursos\legendre_histogram_three.png
-INPUT ..\EJ1\Recursos\legendre_histogram_three.png
-INPUT ..\EJ1\Recursos\legendre_histogram_three.png
-INPUT ..\EJ1\Recursos\legendre_histogram_three.png
-INPUT ..\EJ1\Recursos\legendre_verificacion_magnitud.png
-INPUT ..\EJ1\Recursos\legendre_verificacion_magnitud.png
-INPUT ..\EJ1\Recursos\legendre_verificacion_magnitud.png
-INPUT ..\EJ1\Recursos\legendre_verificacion_magnitud.png
-INPUT ..\EJ1\Recursos\legendre_verificacion_magnitud.png
-INPUT ..\EJ1\Recursos\legendre_verificacion_fase.png
-INPUT ..\EJ1\Recursos\legendre_verificacion_fase.png
-INPUT ..\EJ1\Recursos\legendre_verificacion_fase.png
-INPUT ..\EJ1\Recursos\legendre_verificacion_fase.png
-INPUT ..\EJ1\Recursos\legendre_verificacion_fase.png
-INPUT ..\EJ1\Recursos\legendre_verificacion_fp.png
-INPUT ..\EJ1\Recursos\legendre_verificacion_fp.png
-INPUT ..\EJ1\Recursos\legendre_verificacion_fp.png
-INPUT ..\EJ1\Recursos\legendre_verificacion_fp.png
-INPUT ..\EJ1\Recursos\legendre_verificacion_fp.png
-INPUT ..\EJ1\Recursos\legendre_bode_modulo.png
-INPUT ..\EJ1\Recursos\legendre_bode_modulo.png
-INPUT ..\EJ1\Recursos\legendre_bode_modulo.png
-INPUT ..\EJ1\Recursos\legendre_bode_modulo.png
-INPUT ..\EJ1\Recursos\legendre_bode_modulo.png
-INPUT ..\EJ1\Recursos\legendre_bode_fase.png
-INPUT ..\EJ1\Recursos\legendre_bode_fase.png
-INPUT ..\EJ1\Recursos\legendre_bode_fase.png
-INPUT ..\EJ1\Recursos\legendre_bode_fase.png
-INPUT ..\EJ1\Recursos\legendre_bode_fase.png
-INPUT ..\EJ1\Recursos\legendre_impedancia_entrada.png
-INPUT ..\EJ1\Recursos\legendre_impedancia_entrada.png
-INPUT ..\EJ1\Recursos\legendre_impedancia_entrada.png
-INPUT ..\EJ1\Recursos\legendre_impedancia_entrada.png
-INPUT ..\EJ1\Recursos\legendre_impedancia_entrada.png
-INPUT ..\EJ1\Recursos\bessel_histogram_one.png
-INPUT ..\EJ1\Recursos\bessel_histogram_one.png
-INPUT ..\EJ1\Recursos\bessel_histogram_one.png
-INPUT ..\EJ1\Recursos\bessel_histogram_one.png
-INPUT ..\EJ1\Recursos\bessel_histogram_one.png
-INPUT ..\EJ1\Recursos\bessel_histogram_two.png
-INPUT ..\EJ1\Recursos\bessel_histogram_two.png
-INPUT ..\EJ1\Recursos\bessel_histogram_two.png
-INPUT ..\EJ1\Recursos\bessel_histogram_two.png
-INPUT ..\EJ1\Recursos\bessel_histogram_two.png
-INPUT ..\EJ1\Recursos\bessel_histogram_three.png
-INPUT ..\EJ1\Recursos\bessel_histogram_three.png
-INPUT ..\EJ1\Recursos\bessel_histogram_three.png
-INPUT ..\EJ1\Recursos\bessel_histogram_three.png
-INPUT ..\EJ1\Recursos\bessel_histogram_three.png
-INPUT ..\EJ1\Recursos\bessel_verificacion_magnitud.png
-INPUT ..\EJ1\Recursos\bessel_verificacion_magnitud.png
-INPUT ..\EJ1\Recursos\bessel_verificacion_magnitud.png
-INPUT ..\EJ1\Recursos\bessel_verificacion_magnitud.png
-INPUT ..\EJ1\Recursos\bessel_verificacion_magnitud.png
-INPUT ..\EJ1\Recursos\bessel_verificacion_fase.png
-INPUT ..\EJ1\Recursos\bessel_verificacion_fase.png
-INPUT ..\EJ1\Recursos\bessel_verificacion_fase.png
-INPUT ..\EJ1\Recursos\bessel_verificacion_fase.png
-INPUT ..\EJ1\Recursos\bessel_verificacion_fase.png
-INPUT ..\EJ1\Recursos\bessel_verificacion_fp.png
-INPUT ..\EJ1\Recursos\bessel_verificacion_fp.png
-INPUT ..\EJ1\Recursos\bessel_verificacion_fp.png
-INPUT ..\EJ1\Recursos\bessel_verificacion_fp.png
-INPUT ..\EJ1\Recursos\bessel_verificacion_fp.png
-INPUT ..\EJ1\Recursos\bessel_verificacion_fa.png
-INPUT ..\EJ1\Recursos\bessel_verificacion_fa.png
-INPUT ..\EJ1\Recursos\bessel_verificacion_fa.png
-INPUT ..\EJ1\Recursos\bessel_verificacion_fa.png
-INPUT ..\EJ1\Recursos\bessel_verificacion_fa.png
-INPUT ..\EJ1\Recursos\bessel_bode_modula.png
-INPUT ..\EJ1\Recursos\bessel_bode_modula.png
-INPUT ..\EJ1\Recursos\bessel_bode_modula.png
-INPUT ..\EJ1\Recursos\bessel_bode_modula.png
-INPUT ..\EJ1\Recursos\bessel_bode_modula.png
-INPUT ..\EJ1\Recursos\bessel_bode_fase.png
-INPUT ..\EJ1\Recursos\bessel_bode_fase.png
-INPUT ..\EJ1\Recursos\bessel_bode_fase.png
-INPUT ..\EJ1\Recursos\bessel_bode_fase.png
-INPUT ..\EJ1\Recursos\bessel_bode_fase.png
-INPUT ..\EJ1\Recursos\bessel_impedancia_entrada.png
-INPUT ..\EJ1\Recursos\bessel_impedancia_entrada.png
-INPUT ..\EJ1\Recursos\bessel_impedancia_entrada.png
-INPUT ..\EJ1\Recursos\bessel_impedancia_entrada.png
-INPUT ..\EJ1\Recursos\bessel_impedancia_entrada.png
-INPUT ..\EJ1\Recursos\bessel_group_delay.png
-INPUT ..\EJ1\Recursos\bessel_group_delay.png
-INPUT ..\EJ1\Recursos\bessel_group_delay.png
-INPUT ..\EJ1\Recursos\bessel_group_delay.png
-INPUT ..\EJ1\Recursos\bessel_group_delay.png
-INPUT ..\EJ1\Recursos\legendre_top_3d.PNG
-INPUT ..\EJ1\Recursos\legendre_top_3d.PNG
-INPUT ..\EJ1\Recursos\legendre_top_3d.PNG
-INPUT ..\EJ1\Recursos\legendre_top_3d.PNG
-INPUT ..\EJ1\Recursos\legendre_top_3d.PNG
-INPUT ..\EJ1\Recursos\legendre_bottom_3d.PNG
-INPUT ..\EJ1\Recursos\legendre_bottom_3d.PNG
-INPUT ..\EJ1\Recursos\legendre_bottom_3d.PNG
-INPUT ..\EJ1\Recursos\legendre_bottom_3d.PNG
-INPUT ..\EJ1\Recursos\legendre_bottom_3d.PNG
-INPUT ..\EJ1\Recursos\bessel_top_3d.PNG
-INPUT ..\EJ1\Recursos\bessel_top_3d.PNG
-INPUT ..\EJ1\Recursos\bessel_top_3d.PNG
-INPUT ..\EJ1\Recursos\bessel_top_3d.PNG
-INPUT ..\EJ1\Recursos\bessel_top_3d.PNG
-INPUT ..\EJ1\Recursos\bessel_bottom_3d.PNG
-INPUT ..\EJ1\Recursos\bessel_bottom_3d.PNG
-INPUT ..\EJ1\Recursos\bessel_bottom_3d.PNG
-INPUT ..\EJ1\Recursos\bessel_bottom_3d.PNG
-INPUT ..\EJ1\Recursos\bessel_bottom_3d.PNG
-INPUT ej2.tex
-INPUT ej2.tex
 INPUT ..\EJ2\Recursos\RAUCH_SIMPLE.png
 INPUT ..\EJ2\Recursos\RAUCH_SIMPLE.png
 INPUT ..\EJ2\Recursos\RAUCH_SIMPLE.png
@@ -687,6 +483,27 @@ INPUT ..\EJ2\Recursos\ENHANCED_RAUCH.png
 INPUT ..\EJ2\Recursos\ENHANCED_RAUCH.png
 INPUT ..\EJ2\Recursos\ENHANCED_RAUCH.png
 INPUT ..\EJ2\Recursos\ENHANCED_RAUCH.png
+INPUT C:\Users\Carlos\AppData\Local\Programs\MiKTeX 2.9\fonts\vf\public\fourier\futb8t.vf
+INPUT C:\Users\Carlos\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\fourier\futb8r.tfm
+INPUT C:\Users\Carlos\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\fourier\fourier-alt-bold.tfm
+INPUT C:\Users\Carlos\AppData\Local\Programs\MiKTeX 2.9\fonts\vf\public\fourier\futmii.vf
+INPUT C:\Users\Carlos\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\fourier\fourier-mlit.tfm
+INPUT C:\Users\Carlos\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\fourier\fourier-ml.tfm
+INPUT C:\Users\Carlos\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\fourier\futri8r.tfm
+INPUT C:\Users\Carlos\AppData\Local\Programs\MiKTeX 2.9\fonts\vf\public\fourier\futmii.vf
+INPUT C:\Users\Carlos\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\fourier\fourier-mlit.tfm
+INPUT C:\Users\Carlos\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\fourier\fourier-ml.tfm
+INPUT C:\Users\Carlos\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\fourier\futr8r.tfm
+INPUT C:\Users\Carlos\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\fourier\futri8r.tfm
+INPUT C:\Users\Carlos\AppData\Local\Programs\MiKTeX 2.9\fonts\vf\public\fourier\futsy.vf
+INPUT C:\Users\Carlos\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\fourier\fourier-ms.tfm
+INPUT C:\Users\Carlos\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\fourier\fourier-mcl.tfm
+INPUT C:\Users\Carlos\AppData\Local\Programs\MiKTeX 2.9\fonts\vf\public\fourier\futmi.vf
+INPUT C:\Users\Carlos\AppData\Local\Programs\MiKTeX 2.9\fonts\vf\public\fourier\futrc8t.vf
+INPUT C:\Users\Carlos\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\fourier\futr8r.tfm
+INPUT C:\Users\Carlos\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\fourier\fourier-alt.tfm
+INPUT C:\Users\Carlos\AppData\Local\Programs\MiKTeX 2.9\fonts\vf\public\fourier\futr8t.vf
+INPUT C:\Users\Carlos\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\fourier\fourier-alt.tfm
 INPUT C:\Users\Carlos\AppData\Local\Programs\MiKTeX 2.9\fonts\vf\public\fourier\futr8t.vf
 INPUT C:\Users\Carlos\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\fourier\futr8r.tfm
 INPUT C:\Users\Carlos\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\fourier\fourier-alt.tfm
@@ -694,6 +511,8 @@ INPUT C:\Users\Carlos\AppData\Local\Programs\MiKTeX 2.9\fonts\vf\public\fourier\
 INPUT C:\Users\Carlos\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\fourier\futri8t.tfm
 INPUT C:\Users\Carlos\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\fourier\futri8t.tfm
 INPUT C:\Users\Carlos\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\fourier\futri8t.tfm
+INPUT C:\Users\Carlos\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\fourier\futb8t.tfm
+INPUT C:\Users\Carlos\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\fourier\futb8t.tfm
 INPUT ..\EJ2\Recursos\RAUCH_VALUES.png
 INPUT ..\EJ2\Recursos\RAUCH_VALUES.png
 INPUT ..\EJ2\Recursos\RAUCH_VALUES.png
@@ -703,6 +522,19 @@ INPUT C:\Users\Carlos\AppData\Local\Programs\MiKTeX 2.9\fonts\vf\public\fourier\
 INPUT C:\Users\Carlos\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\fourier\fourier-alt-ita.tfm
 INPUT C:\Users\Carlos\AppData\Local\Programs\MiKTeX 2.9\fonts\vf\public\fourier\futri8t.vf
 INPUT C:\Users\Carlos\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\fourier\fourier-alt-ita.tfm
+INPUT C:\Users\Carlos\AppData\Local\Programs\MiKTeX 2.9\fonts\vf\public\fourier\futsy.vf
+INPUT C:\Users\Carlos\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\fourier\fourier-ms.tfm
+INPUT C:\Users\Carlos\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\fourier\fourier-mcl.tfm
+INPUT C:\Users\Carlos\AppData\Local\Programs\MiKTeX 2.9\fonts\vf\public\fourier\futb8t.vf
+INPUT C:\Users\Carlos\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\fourier\futb8r.tfm
+INPUT C:\Users\Carlos\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\fourier\fourier-alt-bold.tfm
+INPUT C:\Users\Carlos\AppData\Local\Programs\MiKTeX 2.9\fonts\vf\public\fourier\futr8t.vf
+INPUT C:\Users\Carlos\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\fourier\futr8r.tfm
+INPUT C:\Users\Carlos\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\fourier\fourier-alt.tfm
+INPUT C:\Users\Carlos\AppData\Local\Programs\MiKTeX 2.9\fonts\vf\public\fourier\futmii.vf
+INPUT C:\Users\Carlos\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\fourier\fourier-mlit.tfm
+INPUT C:\Users\Carlos\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\fourier\fourier-ml.tfm
+INPUT C:\Users\Carlos\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\fourier\futri8r.tfm
 INPUT ..\EJ2\Recursos\CIRC_SENS.png
 INPUT ..\EJ2\Recursos\CIRC_SENS.png
 INPUT ..\EJ2\Recursos\CIRC_SENS.png
@@ -781,11 +613,21 @@ INPUT ..\EJ2\Recursos\HIST_FIRST.png
 INPUT ..\EJ2\Recursos\HIST_FIRST.png
 INPUT ..\EJ2\Recursos\HIST_FIRST.png
 INPUT ..\EJ2\Recursos\HIST_FIRST.png
+INPUT ..\EJ2\Recursos\FIRST_LT_VS_TEO.png
+INPUT ..\EJ2\Recursos\FIRST_LT_VS_TEO.png
+INPUT ..\EJ2\Recursos\FIRST_LT_VS_TEO.png
+INPUT ..\EJ2\Recursos\FIRST_LT_VS_TEO.png
+INPUT ..\EJ2\Recursos\FIRST_LT_VS_TEO.png
 INPUT ..\EJ2\Recursos\HIST_SECOND.png
 INPUT ..\EJ2\Recursos\HIST_SECOND.png
 INPUT ..\EJ2\Recursos\HIST_SECOND.png
 INPUT ..\EJ2\Recursos\HIST_SECOND.png
 INPUT ..\EJ2\Recursos\HIST_SECOND.png
+INPUT ..\EJ2\Recursos\SECOND_LT_VS_TEO.png
+INPUT ..\EJ2\Recursos\SECOND_LT_VS_TEO.png
+INPUT ..\EJ2\Recursos\SECOND_LT_VS_TEO.png
+INPUT ..\EJ2\Recursos\SECOND_LT_VS_TEO.png
+INPUT ..\EJ2\Recursos\SECOND_LT_VS_TEO.png
 INPUT ..\EJ2\Recursos\MC_MOD.png
 INPUT ..\EJ2\Recursos\MC_MOD.png
 INPUT ..\EJ2\Recursos\MC_MOD.png
@@ -806,6 +648,31 @@ INPUT ..\EJ2\Recursos\ZIN.png
 INPUT ..\EJ2\Recursos\ZIN.png
 INPUT ..\EJ2\Recursos\ZIN.png
 INPUT ..\EJ2\Recursos\ZIN.png
+INPUT ..\EJ2\Recursos\FIRST_LT_VS_TEO_VS_MED.png
+INPUT ..\EJ2\Recursos\FIRST_LT_VS_TEO_VS_MED.png
+INPUT ..\EJ2\Recursos\FIRST_LT_VS_TEO_VS_MED.png
+INPUT ..\EJ2\Recursos\FIRST_LT_VS_TEO_VS_MED.png
+INPUT ..\EJ2\Recursos\FIRST_LT_VS_TEO_VS_MED.png
+INPUT ..\EJ2\Recursos\SECOND_LT_VS_TEO_VS_MED.png
+INPUT ..\EJ2\Recursos\SECOND_LT_VS_TEO_VS_MED.png
+INPUT ..\EJ2\Recursos\SECOND_LT_VS_TEO_VS_MED.png
+INPUT ..\EJ2\Recursos\SECOND_LT_VS_TEO_VS_MED.png
+INPUT ..\EJ2\Recursos\SECOND_LT_VS_TEO_VS_MED.png
+INPUT ..\EJ2\Recursos\COMP_MOD.png
+INPUT ..\EJ2\Recursos\COMP_MOD.png
+INPUT ..\EJ2\Recursos\COMP_MOD.png
+INPUT ..\EJ2\Recursos\COMP_MOD.png
+INPUT ..\EJ2\Recursos\COMP_MOD.png
+INPUT ..\EJ2\Recursos\COMP_PHA.png
+INPUT ..\EJ2\Recursos\COMP_PHA.png
+INPUT ..\EJ2\Recursos\COMP_PHA.png
+INPUT ..\EJ2\Recursos\COMP_PHA.png
+INPUT ..\EJ2\Recursos\COMP_PHA.png
+INPUT ..\EJ2\Recursos\COMP_ZIN.png
+INPUT ..\EJ2\Recursos\COMP_ZIN.png
+INPUT ..\EJ2\Recursos\COMP_ZIN.png
+INPUT ..\EJ2\Recursos\COMP_ZIN.png
+INPUT ..\EJ2\Recursos\COMP_ZIN.png
 INPUT ej3.tex
 INPUT ej3.tex
 INPUT ej4.tex
